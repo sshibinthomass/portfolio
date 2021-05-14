@@ -13,7 +13,11 @@
       integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0"
       crossorigin="anonymous"
     />
-
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{% static 'styles/style.css' %}"
+    />
     <title>{% block title%} {% endblock %}</title>
   </head>
   <body>
@@ -37,7 +41,7 @@
               <a
                 class="nav-link {% block homeactive %}{% endblock %}"
                 aria-current="page"
-                href="#"
+                href="/"
                 >Home</a
               >
             </li>
@@ -51,16 +55,13 @@
             <li class="nav-item {% block participationActive%} {% endblock %}">
               <a class="nav-link" href="#">Participation</a>
             </li>
-            <li class="nav-item {% block hobbiesActive%} {% endblock %}">
-              <a class="nav-link" href="#">Hobbies</a>
-            </li>
             <li class="nav-item {% block contactActive%} {% endblock %}">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="/hobby">Contact</a>
             </li>
             <li class="nav-item dropdown">
               <a
                 class="nav-link dropdown-toggle"
-                href="#"
+                href="/project"
                 id="navbarDropdown"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -69,7 +70,7 @@
                 Projects
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Augmented Reality</a></li>
+                <li><a class="dropdown-item" href="/project">Augmented Reality</a></li>
                 <li><a class="dropdown-item" href="#">Virtual Reality</a></li>
                 <li><a class="dropdown-item" href="#">Machine Learning</a></li>
                 <li><a class="dropdown-item" href="#">Web Development</a></li>

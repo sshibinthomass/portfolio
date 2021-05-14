@@ -1,0 +1,13 @@
+body{
+    color: rgb(44, 82, 82);
+}
+
+.carous{
+    width:70%; /* or whatever width you want. */
+    max-width:70%; /* or whatever width you want. */
+    display: inline-block;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 20px;
+    border: 10px solid rgba(95, 75, 75, 0.39);
+ }
