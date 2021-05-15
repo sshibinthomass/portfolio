@@ -1,5 +1,6 @@
 body{
     color: rgb(44, 82, 82);
+    background-color: aquamarine;
 }
 
 .carous{
@@ -9,5 +10,17 @@ body{
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 20px;
-    border: 10px solid rgba(95, 75, 75, 0.39);
+    border: 10px solid rgba(32, 17, 238, 0.39);
+ }
+
+ .progbar{
+     width: 50%;
+     margin-left: 25%;
+ }
+
+ 
+ .progbar:after{
+    content: "";
+    display: table;
+    clear: both;
  }
