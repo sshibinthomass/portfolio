@@ -1,0 +1,88 @@
+{
+    "en": [
+        {
+            "id": 1,
+            "title": "E-Commerce Platform",
+            "description": "A full-stack e-commerce platform with React, Node.js, and MongoDB",
+            "image": "/portfolio/images/project.png",
+            "technologies": [
+                "React",
+                "Node.js",
+                "MongoDB",
+                "Express"
+            ],
+            "link": "https://example.com/project1",
+            "detailedDescription": "Built a comprehensive e-commerce platform featuring user authentication, product catalog, shopping cart, payment integration with Stripe, and an admin dashboard for inventory management. Implemented real-time order tracking and email notifications."
+        },
+        {
+            "id": 2,
+            "title": "Task Management App",
+            "description": "A collaborative task management application with real-time updates",
+            "image": "/portfolio/images/project.png",
+            "technologies": [
+                "Vue.js",
+                "Firebase",
+                "Tailwind CSS"
+            ],
+            "link": "https://example.com/project2",
+            "detailedDescription": "Developed a real-time task management system allowing teams to collaborate efficiently. Features include drag-and-drop task boards, deadline notifications, file attachments, and activity logs. Integrated Firebase for real-time synchronization across devices."
+        },
+        {
+            "id": 3,
+            "title": "AI-Powered Analytics Dashboard",
+            "description": "Analytics dashboard with machine learning predictions",
+            "image": "/portfolio/images/project.png",
+            "technologies": [
+                "React",
+                "Python",
+                "TensorFlow",
+                "D3.js"
+            ],
+            "link": "https://example.com/project3",
+            "detailedDescription": "Created an advanced analytics platform that uses machine learning to predict trends and patterns. Integrated TensorFlow models for data analysis, implemented interactive visualizations with D3.js, and built a responsive React frontend with real-time data updates."
+        }
+    ],
+    "de": [
+        {
+            "id": 1,
+            "title": "E-Commerce-Plattform",
+            "description": "Eine Full-Stack E-Commerce-Plattform mit React, Node.js und MongoDB",
+            "image": "/portfolio/images/project.png",
+            "technologies": [
+                "React",
+                "Node.js",
+                "MongoDB",
+                "Express"
+            ],
+            "link": "https://example.com/project1",
+            "detailedDescription": "Entwicklung einer umfassenden E-Commerce-Plattform mit Benutzerauthentifizierung, Produktkatalog, Warenkorb, Stripe-Zahlungsintegration und einem Admin-Dashboard für die Bestandsverwaltung. Implementierung von Echtzeit-Bestellverfolgung und E-Mail-Benachrichtigungen."
+        },
+        {
+            "id": 2,
+            "title": "Aufgabenverwaltungs-App",
+            "description": "Eine kollaborative Aufgabenverwaltungsanwendung mit Echtzeit-Updates",
+            "image": "/portfolio/images/project.png",
+            "technologies": [
+                "Vue.js",
+                "Firebase",
+                "Tailwind CSS"
+            ],
+            "link": "https://example.com/project2",
+            "detailedDescription": "Entwicklung eines Echtzeit-Aufgabenverwaltungssystems, das Teams eine effiziente Zusammenarbeit ermöglicht. Funktionen umfassen Drag-and-Drop-Aufgabentafeln, Fristbenachrichtigungen, Dateianhänge und Aktivitätsprotokolle. Firebase-Integration für Echtzeit-Synchronisation auf allen Geräten."
+        },
+        {
+            "id": 3,
+            "title": "KI-gestütztes Analytics-Dashboard",
+            "description": "Analytics-Dashboard mit maschinellen Lernvorhersagen",
+            "image": "/portfolio/images/project.png",
+            "technologies": [
+                "React",
+                "Python",
+                "TensorFlow",
+                "D3.js"
+            ],
+            "link": "https://example.com/project3",
+            "detailedDescription": "Erstellung einer fortschrittlichen Analyseplattform, die maschinelles Lernen zur Vorhersage von Trends und Mustern nutzt. Integration von TensorFlow-Modellen für Datenanalyse, Implementierung interaktiver Visualisierungen mit D3.js und Aufbau eines responsiven React-Frontends mit Echtzeit-Datenaktualisierungen."
+        }
+    ]
+}

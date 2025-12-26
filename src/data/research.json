@@ -1,0 +1,126 @@
+{
+    "en": [
+        {
+            "id": 1,
+            "title": "Machine Learning Approach to Web Performance Optimization",
+            "authors": "Research Team",
+            "journal": "International Journal of Computer Science",
+            "year": 2024,
+            "image": "/portfolio/images/research.png",
+            "abstract": "This paper presents a novel approach using machine learning algorithms to predict and optimize web application performance. Our methodology achieved a 45% improvement in load times across diverse web platforms.",
+            "link": "https://example.com/research1"
+        },
+        {
+            "id": 2,
+            "title": "Blockchain-Based Authentication Systems: A Comparative Study",
+            "authors": "Security Research Lab",
+            "journal": "Journal of Cybersecurity Research",
+            "year": 2023,
+            "image": "/portfolio/images/research.png",
+            "abstract": "We analyze various blockchain-based authentication mechanisms and compare their security, performance, and scalability. The study provides guidelines for selecting appropriate authentication methods for different use cases.",
+            "link": "https://example.com/research2"
+        },
+        {
+            "id": 3,
+            "title": "Real-Time Data Processing in Distributed Systems",
+            "authors": "Distributed Systems Group",
+            "journal": "ACM Transactions on Computer Systems",
+            "year": 2023,
+            "image": "/portfolio/images/research.png",
+            "abstract": "This research explores efficient algorithms for real-time data processing in large-scale distributed systems. We propose a new algorithm that reduces latency by 60% while maintaining data consistency.",
+            "link": "https://example.com/research3"
+        },
+        {
+            "id": 4,
+            "title": "Accessibility in Modern Web Applications",
+            "authors": "Human-Computer Interaction Lab",
+            "journal": "Conference on Human Factors in Computing",
+            "year": 2023,
+            "image": "/portfolio/images/research.png",
+            "abstract": "An empirical study examining accessibility challenges in single-page applications and progressive web apps. We provide practical recommendations for improving accessibility in modern web frameworks.",
+            "link": "https://example.com/research4"
+        },
+        {
+            "id": 5,
+            "title": "Energy-Efficient Cloud Computing Architectures",
+            "authors": "Green Computing Research Group",
+            "journal": "IEEE Transactions on Sustainable Computing",
+            "year": 2022,
+            "image": "/portfolio/images/research.png",
+            "abstract": "This work investigates energy consumption patterns in cloud infrastructures and proposes optimized architectures that reduce energy usage by 40% without compromising performance.",
+            "link": "https://example.com/research5"
+        },
+        {
+            "id": 6,
+            "title": "Quantum Computing Applications in Cryptography",
+            "authors": "Advanced Computing Institute",
+            "journal": "Nature Computing",
+            "year": 2022,
+            "image": "/portfolio/images/research.png",
+            "abstract": "We explore the implications of quantum computing on current cryptographic systems and propose quantum-resistant algorithms. Our findings suggest new directions for secure communication in the quantum era.",
+            "link": "https://example.com/research6"
+        }
+    ],
+    "de": [
+        {
+            "id": 1,
+            "title": "Machine-Learning-Ansatz zur Web-Performance-Optimierung",
+            "authors": "Forschungsteam",
+            "journal": "International Journal of Computer Science",
+            "year": 2024,
+            "image": "/portfolio/images/research.png",
+            "abstract": "Diese Arbeit präsentiert einen neuartigen Ansatz mit Machine-Learning-Algorithmen zur Vorhersage und Optimierung der Leistung von Webanwendungen. Unsere Methodik erzielte eine 45%ige Verbesserung der Ladezeiten auf verschiedenen Web-Plattformen.",
+            "link": "https://example.com/research1"
+        },
+        {
+            "id": 2,
+            "title": "Blockchain-basierte Authentifizierungssysteme: Eine vergleichende Studie",
+            "authors": "Sicherheitsforschungslabor",
+            "journal": "Journal of Cybersecurity Research",
+            "year": 2023,
+            "image": "/portfolio/images/research.png",
+            "abstract": "Wir analysieren verschiedene Blockchain-basierte Authentifizierungsmechanismen und vergleichen ihre Sicherheit, Leistung und Skalierbarkeit. Die Studie bietet Richtlinien für die Auswahl geeigneter Authentifizierungsmethoden für verschiedene Anwendungsfälle.",
+            "link": "https://example.com/research2"
+        },
+        {
+            "id": 3,
+            "title": "Echtzeit-Datenverarbeitung in verteilten Systemen",
+            "authors": "Verteilte-Systeme-Gruppe",
+            "journal": "ACM Transactions on Computer Systems",
+            "year": 2023,
+            "image": "/portfolio/images/research.png",
+            "abstract": "Diese Forschung untersucht effiziente Algorithmen für die Echtzeit-Datenverarbeitung in großen verteilten Systemen. Wir schlagen einen neuen Algorithmus vor, der die Latenz um 60% reduziert und gleichzeitig die Datenkonsistenz beibehält.",
+            "link": "https://example.com/research3"
+        },
+        {
+            "id": 4,
+            "title": "Barrierefreiheit in modernen Webanwendungen",
+            "authors": "Mensch-Computer-Interaktionslabor",
+            "journal": "Conference on Human Factors in Computing",
+            "year": 2023,
+            "image": "/portfolio/images/research.png",
+            "abstract": "Eine empirische Studie, die Barrierefreiheitsherausforderungen in Single-Page-Anwendungen und progressiven Web-Apps untersucht. Wir bieten praktische Empfehlungen zur Verbesserung der Barrierefreiheit in modernen Web-Frameworks.",
+            "link": "https://example.com/research4"
+        },
+        {
+            "id": 5,
+            "title": "Energieeffiziente Cloud-Computing-Architekturen",
+            "authors": "Green-Computing-Forschungsgruppe",
+            "journal": "IEEE Transactions on Sustainable Computing",
+            "year": 2022,
+            "image": "/portfolio/images/research.png",
+            "abstract": "Diese Arbeit untersucht Energieverbrauchsmuster in Cloud-Infrastrukturen und schlägt optimierte Architekturen vor, die den Energieverbrauch um 40% reduzieren, ohne die Leistung zu beeinträchtigen.",
+            "link": "https://example.com/research5"
+        },
+        {
+            "id": 6,
+            "title": "Quantencomputing-Anwendungen in der Kryptographie",
+            "authors": "Institut für fortgeschrittenes Computing",
+            "journal": "Nature Computing",
+            "year": 2022,
+            "image": "/portfolio/images/research.png",
+            "abstract": "Wir erforschen die Auswirkungen des Quantencomputings auf aktuelle kryptographische Systeme und schlagen quantenresistente Algorithmen vor. Unsere Erkenntnisse deuten auf neue Richtungen für sichere Kommunikation im Quantenzeitalter hin.",
+            "link": "https://example.com/research6"
+        }
+    ]
+}

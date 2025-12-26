@@ -1,0 +1,70 @@
+{
+    "nav": {
+        "home": "Home",
+        "skills": "Skills",
+        "resume": "Resume",
+        "projects": "Projects",
+        "hobbyProjects": "Hobby Projects",
+        "achievements": "Achievements",
+        "research": "Research",
+        "hobbies": "Hobbies"
+    },
+    "hobbies": {
+        "coinCollection": "Coin Collection",
+        "stampCollection": "Stamp Collection",
+        "reading": "Reading",
+        "gardening": "Gardening",
+        "travel": "Travel"
+    },
+    "home": {
+        "title": "Hello, I'm",
+        "subtitle": "Full Stack Developer & Technology Enthusiast",
+        "about": "About Me",
+        "description": "I'm a passionate developer with expertise in building modern web applications. I love solving complex problems and creating elegant solutions.",
+        "contact": "Get in Touch",
+        "viewResume": "View Resume"
+    },
+    "skills": {
+        "title": "My Skills",
+        "description": "Here are some of the technologies and tools I work with"
+    },
+    "resume": {
+        "title": "Resume",
+        "experience": "Work Experience",
+        "education": "Education",
+        "download": "Download Resume"
+    },
+    "projects": {
+        "title": "Projects",
+        "description": "Some of my recent work",
+        "viewDetails": "View Details",
+        "technologies": "Technologies",
+        "liveDemo": "Live Demo",
+        "sourceCode": "Source Code"
+    },
+    "hobbyProjects": {
+        "title": "Hobby Projects",
+        "description": "Personal projects I've built for fun and learning"
+    },
+    "achievements": {
+        "title": "Achievements",
+        "description": "Recognitions and accomplishments",
+        "date": "Date"
+    },
+    "research": {
+        "title": "Research",
+        "description": "My research work and publications",
+        "readMore": "Read More",
+        "abstract": "Abstract"
+    },
+    "common": {
+        "close": "Close",
+        "learnMore": "Learn More",
+        "backToTop": "Back to Top",
+        "loading": "Loading..."
+    },
+    "footer": {
+        "rights": "All rights reserved",
+        "followMe": "Follow me on"
+    }
+}

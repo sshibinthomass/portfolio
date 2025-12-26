@@ -1,0 +1,182 @@
+{
+    "en": [
+        {
+            "id": 1,
+            "title": "Best Innovation Award 2024",
+            "description": "Received for developing an innovative AI solution",
+            "date": "2024-03-15",
+            "image": "/portfolio/images/achievement.png",
+            "detailedDescription": "Awarded for creating a groundbreaking AI-powered application that revolutionized data analysis in the healthcare sector. The solution reduced processing time by 70% and improved accuracy by 45%."
+        },
+        {
+            "id": 2,
+            "title": "Hackathon Winner",
+            "description": "First place at TechVenture Hackathon 2023",
+            "date": "2023-11-20",
+            "image": "/portfolio/images/achievement.png",
+            "detailedDescription": "Led a team of 4 developers to victory by building a sustainable energy monitoring platform in 48 hours. The project impressed judges with its technical innovation and social impact potential."
+        },
+        {
+            "id": 3,
+            "title": "Google Developer Expert",
+            "description": "Recognized as GDE for Web Technologies",
+            "date": "2023-09-10",
+            "image": "/portfolio/images/achievement.png",
+            "detailedDescription": "Awarded Google Developer Expert status for exceptional contributions to the web development community through open-source projects, technical writing, and speaking engagements."
+        },
+        {
+            "id": 4,
+            "title": "Open Source Contributor",
+            "description": "100+ contributions to major open source projects",
+            "date": "2023-06-01",
+            "image": "/portfolio/images/achievement.png",
+            "detailedDescription": "Achieved milestone of contributing to over 100 open source projects including React, Vue.js, and Node.js. Contributions include bug fixes, new features, and documentation improvements."
+        },
+        {
+            "id": 5,
+            "title": "AWS Certified Solutions Architect",
+            "description": "Professional level certification",
+            "date": "2023-04-15",
+            "image": "/portfolio/images/achievement.png",
+            "detailedDescription": "Earned AWS Solutions Architect Professional certification demonstrating expertise in designing distributed systems and applications on AWS platform with best practices for security and scalability."
+        },
+        {
+            "id": 6,
+            "title": "Tech Conference Speaker",
+            "description": "Keynote speaker at DevCon 2023",
+            "date": "2023-02-28",
+            "image": "/portfolio/images/achievement.png",
+            "detailedDescription": "Delivered keynote presentation on 'The Future of Web Development' to an audience of 500+ developers. Talk covered emerging trends in web technologies and best practices for building modern applications."
+        },
+        {
+            "id": 7,
+            "title": "Patent Granted",
+            "description": "US Patent for novel caching algorithm",
+            "date": "2022-12-10",
+            "image": "/portfolio/images/achievement.png",
+            "detailedDescription": "Granted US patent for innovative distributed caching algorithm that improves performance by 60% in high-traffic web applications. The algorithm is now being used in production systems."
+        },
+        {
+            "id": 8,
+            "title": "Employee of the Year",
+            "description": "Company-wide recognition for outstanding performance",
+            "date": "2022-11-01",
+            "image": "/portfolio/images/achievement.png",
+            "detailedDescription": "Selected as Employee of the Year from 200+ employees for exceptional technical leadership, project delivery, and mentorship of junior developers. Led 3 major projects to successful completion."
+        },
+        {
+            "id": 9,
+            "title": "Published Author",
+            "description": "Technical book on modern web development",
+            "date": "2022-08-15",
+            "image": "/portfolio/images/achievement.png",
+            "detailedDescription": "Published comprehensive guide on modern web development covering React, Node.js, and Cloud deployment. The book has sold over 5,000 copies and received 4.8/5 rating on Amazon."
+        },
+        {
+            "id": 10,
+            "title": "Mentorship Excellence",
+            "description": "Recognized for mentoring 20+ junior developers",
+            "date": "2022-05-20",
+            "image": "/portfolio/images/achievement.png",
+            "detailedDescription": "Received mentorship award for successfully guiding 20+ junior developers in their career growth. Many mentees have advanced to senior positions and contributed significantly to their teams."
+        },
+        {
+            "id": 11,
+            "title": "Community Builder Award",
+            "description": "For founding local developer community",
+            "date": "2022-03-10",
+            "image": "/portfolio/images/achievement.png",
+            "detailedDescription": "Recognized for establishing and growing a local developer community from 0 to 500+ members. Organized monthly meetups, workshops, and hackathons that fostered collaboration and learning."
+        }
+    ],
+    "de": [
+        {
+            "id": 1,
+            "title": "Bester Innovationspreis 2024",
+            "description": "Erhalten für die Entwicklung einer innovativen KI-Lösung",
+            "date": "2024-03-15",
+            "image": "/portfolio/images/achievement.png",
+            "detailedDescription": "Ausgezeichnet für die Entwicklung einer bahnbrechenden KI-gestützten Anwendung, die die Datenanalyse im Gesundheitssektor revolutionierte. Die Lösung reduzierte die Verarbeitungszeit um 70% und verbesserte die Genauigkeit um 45%."
+        },
+        {
+            "id": 2,
+            "title": "Hackathon-Gewinner",
+            "description": "Erster Platz beim TechVenture Hackathon 2023",
+            "date": "2023-11-20",
+            "image": "/portfolio/images/achievement.png",
+            "detailedDescription": "Führte ein Team von 4 Entwicklern zum Sieg durch den Aufbau einer nachhaltigen Energieüberwachungsplattform in 48 Stunden. Das Projekt beeindruckte die Jury mit seiner technischen Innovation und seinem sozialen Wirkungspotenzial."
+        },
+        {
+            "id": 3,
+            "title": "Google Developer Expert",
+            "description": "Als GDE für Web-Technologien anerkannt",
+            "date": "2023-09-10",
+            "image": "/portfolio/images/achievement.png",
+            "detailedDescription": "Google Developer Expert-Status für außergewöhnliche Beiträge zur Web-Entwicklungs-Community durch Open-Source-Projekte, technisches Schreiben und Vorträge verliehen."
+        },
+        {
+            "id": 4,
+            "title": "Open-Source-Mitwirkender",
+            "description": "100+ Beiträge zu großen Open-Source-Projekten",
+            "date": "2023-06-01",
+            "image": "/portfolio/images/achievement.png",
+            "detailedDescription": "Meilenstein von über 100 Beiträgen zu Open-Source-Projekten einschließlich React, Vue.js und Node.js erreicht. Beiträge umfassen Fehlerbehebungen, neue Funktionen und Dokumentationsverbesserungen."
+        },
+        {
+            "id": 5,
+            "title": "AWS Certified Solutions Architect",
+            "description": "Zertifizierung auf Professional-Ebene",
+            "date": "2023-04-15",
+            "image": "/portfolio/images/achievement.png",
+            "detailedDescription": "AWS Solutions Architect Professional-Zertifizierung erworben, die Expertise im Entwurf verteilter Systeme und Anwendungen auf der AWS-Plattform mit Best Practices für Sicherheit und Skalierbarkeit demonstriert."
+        },
+        {
+            "id": 6,
+            "title": "Tech-Konferenz-Redner",
+            "description": "Hauptredner bei DevCon 2023",
+            "date": "2023-02-28",
+            "image": "/portfolio/images/achievement.png",
+            "detailedDescription": "Keynote-Präsentation über 'Die Zukunft der Webentwicklung' vor einem Publikum von über 500 Entwicklern gehalten. Der Vortrag behandelte aufkommende Trends in Web-Technologien und Best Practices für den Aufbau moderner Anwendungen."
+        },
+        {
+            "id": 7,
+            "title": "Patent erteilt",
+            "description": "US-Patent für neuartigen Caching-Algorithmus",
+            "date": "2022-12-10",
+            "image": "/portfolio/images/achievement.png",
+            "detailedDescription": "US-Patent für innovativen verteilten Caching-Algorithmus erteilt, der die Leistung in hochfrequentierten Webanwendungen um 60% verbessert. Der Algorithmus wird jetzt in Produktionssystemen verwendet."
+        },
+        {
+            "id": 8,
+            "title": "Mitarbeiter des Jahres",
+            "description": "Unternehmensweite Anerkennung für herausragende Leistung",
+            "date": "2022-11-01",
+            "image": "/portfolio/images/achievement.png",
+            "detailedDescription": "Als Mitarbeiter des Jahres aus über 200 Mitarbeitern für außergewöhnliche technische Führung, Projektdurchführung und Mentoring von Junior-Entwicklern ausgewählt. Führte 3 große Projekte zum erfolgreichen Abschluss."
+        },
+        {
+            "id": 9,
+            "title": "Veröffentlichter Autor",
+            "description": "Technisches Buch über moderne Webentwicklung",
+            "date": "2022-08-15",
+            "image": "/portfolio/images/achievement.png",
+            "detailedDescription": "Umfassender Leitfaden zur modernen Webentwicklung mit React, Node.js und Cloud-Deployment veröffentlicht. Das Buch wurde über 5.000 Mal verkauft und erhielt eine 4,8/5 Bewertung auf Amazon."
+        },
+        {
+            "id": 10,
+            "title": "Mentoring-Exzellenz",
+            "description": "Anerkannt für Mentoring von über 20 Junior-Entwicklern",
+            "date": "2022-05-20",
+            "image": "/portfolio/images/achievement.png",
+            "detailedDescription": "Mentoring-Auszeichnung für die erfolgreiche Begleitung von über 20 Junior-Entwicklern in ihrer Karriereentwicklung erhalten. Viele Mentees sind zu Senior-Positionen aufgestiegen und haben erheblich zu ihren Teams beigetragen."
+        },
+        {
+            "id": 11,
+            "title": "Community-Builder-Preis",
+            "description": "Für die Gründung einer lokalen Entwickler-Community",
+            "date": "2022-03-10",
+            "image": "/portfolio/images/achievement.png",
+            "detailedDescription": "Anerkannt für die Gründung und das Wachstum einer lokalen Entwickler-Community von 0 auf über 500 Mitglieder. Organisierte monatliche Treffen, Workshops und Hackathons, die Zusammenarbeit und Lernen förderten."
+        }
+    ]
+}

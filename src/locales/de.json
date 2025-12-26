@@ -1,0 +1,70 @@
+{
+    "nav": {
+        "home": "Startseite",
+        "skills": "Fähigkeiten",
+        "resume": "Lebenslauf",
+        "projects": "Projekte",
+        "hobbyProjects": "Hobbyprojekte",
+        "achievements": "Erfolge",
+        "research": "Forschung",
+        "hobbies": "Hobbys"
+    },
+    "hobbies": {
+        "coinCollection": "Münzsammlung",
+        "stampCollection": "Briefmarkensammlung",
+        "reading": "Lesen",
+        "gardening": "Gärtnern",
+        "travel": "Reisen"
+    },
+    "home": {
+        "title": "Hallo, ich bin",
+        "subtitle": "Full-Stack-Entwickler & Technologie-Enthusiast",
+        "about": "Über mich",
+        "description": "Ich bin ein leidenschaftlicher Entwickler mit Expertise im Erstellen moderner Webanwendungen. Ich liebe es, komplexe Probleme zu lösen und elegante Lösungen zu schaffen.",
+        "contact": "Kontakt aufnehmen",
+        "viewResume": "Lebenslauf ansehen"
+    },
+    "skills": {
+        "title": "Meine Fähigkeiten",
+        "description": "Hier sind einige der Technologien und Tools, mit denen ich arbeite"
+    },
+    "resume": {
+        "title": "Lebenslauf",
+        "experience": "Berufserfahrung",
+        "education": "Bildung",
+        "download": "Lebenslauf herunterladen"
+    },
+    "projects": {
+        "title": "Projekte",
+        "description": "Einige meiner neuesten Arbeiten",
+        "viewDetails": "Details anzeigen",
+        "technologies": "Technologien",
+        "liveDemo": "Live-Demo",
+        "sourceCode": "Quellcode"
+    },
+    "hobbyProjects": {
+        "title": "Hobbyprojekte",
+        "description": "Persönliche Projekte, die ich zum Spaß und zum Lernen erstellt habe"
+    },
+    "achievements": {
+        "title": "Erfolge",
+        "description": "Anerkennungen und Errungenschaften",
+        "date": "Datum"
+    },
+    "research": {
+        "title": "Forschung",
+        "description": "Meine Forschungsarbeit und Veröffentlichungen",
+        "readMore": "Mehr lesen",
+        "abstract": "Zusammenfassung"
+    },
+    "common": {
+        "close": "Schließen",
+        "learnMore": "Mehr erfahren",
+        "backToTop": "Nach oben",
+        "loading": "Laden..."
+    },
+    "footer": {
+        "rights": "Alle Rechte vorbehalten",
+        "followMe": "Folge mir auf"
+    }
+}

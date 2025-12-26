@@ -1,0 +1,78 @@
+.skill-bar {
+    margin-bottom: 2rem;
+}
+
+.skill-bar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+
+.skill-name {
+    font-weight: 600;
+    color: var(--text-primary);
+    font-size: 1rem;
+}
+
+.skill-percentage {
+    font-weight: 600;
+    color: var(--accent-primary);
+    font-size: 1rem;
+}
+
+.skill-bar-track {
+    height: 10px;
+    background-color: var(--bg-tertiary);
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.skill-bar-fill {
+    height: 100%;
+    background: var(--accent-gradient);
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 0 10px rgba(99, 102, 241, 0.3);
+}
+
+.skill-bar-fill::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-image: linear-gradient(90deg,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(255, 255, 255, 0.3) 50%,
+            rgba(255, 255, 255, 0) 100%);
+    animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    100% {
+        transform: translateX(100%);
+    }
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .skill-bar {
+        margin-bottom: 1.5rem;
+    }
+
+    .skill-name,
+    .skill-percentage {
+        font-size: 0.9rem;
+    }
+
+    .skill-bar-track {
+        height: 8px;
+    }
+}

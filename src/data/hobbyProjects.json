@@ -1,0 +1,172 @@
+{
+    "en": [
+        {
+            "id": 1,
+            "title": "Personal Blog Engine",
+            "description": "A lightweight static site generator built with Python",
+            "image": "/portfolio/images/hobby-project.png",
+            "technologies": [
+                "Python",
+                "Markdown",
+                "Jinja2"
+            ],
+            "detailedDescription": "Created a custom static site generator that converts Markdown files to HTML with templating support. Features include automatic social media cards, RSS feed generation, and a simple CLI for managing posts."
+        },
+        {
+            "id": 2,
+            "title": "Weather Widget",
+            "description": "Minimalist weather dashboard with beautiful UI",
+            "image": "/portfolio/images/hobby-project.png",
+            "technologies": [
+                "JavaScript",
+                "CSS",
+                "Weather API"
+            ],
+            "detailedDescription": "Designed and built a clean weather widget that displays current conditions and forecasts. Includes location detection, multiple unit systems, and smooth animations for weather transitions."
+        },
+        {
+            "id": 3,
+            "title": "Recipe Organizer",
+            "description": "Digital cookbook for managing personal recipes",
+            "image": "/portfolio/images/hobby-project.png",
+            "technologies": [
+                "React",
+                "LocalStorage",
+                "PWA"
+            ],
+            "detailedDescription": "Developed a progressive web app for organizing recipes with features like ingredient scaling, shopping list generation, and offline support. Includes search and filtering capabilities."
+        },
+        {
+            "id": 4,
+            "title": "Pomodoro Timer",
+            "description": "Productivity timer with custom intervals",
+            "image": "/portfolio/images/hobby-project.png",
+            "technologies": [
+                "Vue.js",
+                "Web Audio API"
+            ],
+            "detailedDescription": "Built a customizable Pomodoro timer with sound notifications, statistics tracking, and theme customization. Includes pre-defined work/break cycles and historical productivity data."
+        },
+        {
+            "id": 5,
+            "title": "Color Palette Generator",
+            "description": "Tool for generating harmonious color schemes",
+            "image": "/portfolio/images/hobby-project.png",
+            "technologies": [
+                "JavaScript",
+                "Canvas API",
+                "CSS"
+            ],
+            "detailedDescription": "Created a web tool for generating color palettes based on color theory. Features include palette export in various formats (CSS, JSON, Adobe ASE), and accessibility contrast checking."
+        },
+        {
+            "id": 6,
+            "title": "Markdown Editor",
+            "description": "Real-time markdown editor with live preview",
+            "image": "/portfolio/images/hobby-project.png",
+            "technologies": [
+                "React",
+                "Marked.js",
+                "CodeMirror"
+            ],
+            "detailedDescription": "Developed a split-pane markdown editor with syntax highlighting, live preview, and export options. Supports GitHub Flavored Markdown and includes keyboard shortcuts for common formatting."
+        },
+        {
+            "id": 7,
+            "title": "Guitar Chord Library",
+            "description": "Interactive chord diagram library for guitarists",
+            "image": "/portfolio/images/hobby-project.png",
+            "technologies": [
+                "SVG",
+                "JavaScript",
+                "IndexedDB"
+            ],
+            "detailedDescription": "Built an interactive guitar chord reference with visual diagrams. Features include chord variations, finger position indicators, and the ability to save favorite chords locally."
+        }
+    ],
+    "de": [
+        {
+            "id": 1,
+            "title": "Persönliche Blog-Engine",
+            "description": "Ein leichtgewichtiger statischer Site-Generator mit Python",
+            "image": "/portfolio/images/hobby-project.png",
+            "technologies": [
+                "Python",
+                "Markdown",
+                "Jinja2"
+            ],
+            "detailedDescription": "Erstellung eines benutzerdefinierten statischen Site-Generators, der Markdown-Dateien mit Vorlagenunterstützung in HTML konvertiert. Funktionen umfassen automatische Social-Media-Karten, RSS-Feed-Generierung und eine einfache CLI zur Verwaltung von Beiträgen."
+        },
+        {
+            "id": 2,
+            "title": "Wetter-Widget",
+            "description": "Minimalistisches Wetter-Dashboard mit schöner UI",
+            "image": "/portfolio/images/hobby-project.png",
+            "technologies": [
+                "JavaScript",
+                "CSS",
+                "Weather API"
+            ],
+            "detailedDescription": "Design und Entwicklung eines sauberen Wetter-Widgets, das aktuelle Bedingungen und Vorhersagen anzeigt. Beinhaltet Standorterkennung, mehrere Einheitensysteme und sanfte Animationen für Wetterübergänge."
+        },
+        {
+            "id": 3,
+            "title": "Rezept-Organizer",
+            "description": "Digitales Kochbuch zur Verwaltung persönlicher Rezepte",
+            "image": "/portfolio/images/hobby-project.png",
+            "technologies": [
+                "React",
+                "LocalStorage",
+                "PWA"
+            ],
+            "detailedDescription": "Entwicklung einer progressiven Web-App zur Organisation von Rezepten mit Funktionen wie Zutatenskalierung, Einkaufslistenerstellung und Offline-Unterstützung. Beinhaltet Such- und Filterfunktionen."
+        },
+        {
+            "id": 4,
+            "title": "Pomodoro-Timer",
+            "description": "Produktivitäts-Timer mit benutzerdefinierten Intervallen",
+            "image": "/portfolio/images/hobby-project.png",
+            "technologies": [
+                "Vue.js",
+                "Web Audio API"
+            ],
+            "detailedDescription": "Entwicklung eines anpassbaren Pomodoro-Timers mit Soundbenachrichtigungen, Statistikverfolgung und Theme-Anpassung. Beinhaltet vordefinierte Arbeits-/Pausenzyklen und historische Produktivitätsdaten."
+        },
+        {
+            "id": 5,
+            "title": "Farbpaletten-Generator",
+            "description": "Werkzeug zur Generierung harmonischer Farbschemata",
+            "image": "/portfolio/images/hobby-project.png",
+            "technologies": [
+                "JavaScript",
+                "Canvas API",
+                "CSS"
+            ],
+            "detailedDescription": "Erstellung eines Web-Tools zur Generierung von Farbpaletten basierend auf Farbtheorie. Funktionen umfassen Palettenexport in verschiedenen Formaten (CSS, JSON, Adobe ASE) und Barrierefreiheits-Kontrastprüfung."
+        },
+        {
+            "id": 6,
+            "title": "Markdown-Editor",
+            "description": "Echtzeit-Markdown-Editor mit Live-Vorschau",
+            "image": "/portfolio/images/hobby-project.png",
+            "technologies": [
+                "React",
+                "Marked.js",
+                "CodeMirror"
+            ],
+            "detailedDescription": "Entwicklung eines geteilten Markdown-Editors mit Syntaxhervorhebung, Live-Vorschau und Exportoptionen. Unterstützt GitHub Flavored Markdown und beinhaltet Tastaturkürzel für gängige Formatierungen."
+        },
+        {
+            "id": 7,
+            "title": "Gitarrenakkord-Bibliothek",
+            "description": "Interaktive Akkorddiagramm-Bibliothek für Gitarristen",
+            "image": "/portfolio/images/hobby-project.png",
+            "technologies": [
+                "SVG",
+                "JavaScript",
+                "IndexedDB"
+            ],
+            "detailedDescription": "Entwicklung einer interaktiven Gitarrenakkord-Referenz mit visuellen Diagrammen. Funktionen umfassen Akkordvariationen, Fingerpositionsindikatoren und die Möglichkeit, Lieblingsakkorde lokal zu speichern."
+        }
+    ]
+}

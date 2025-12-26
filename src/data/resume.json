@@ -1,0 +1,124 @@
+{
+    "en": {
+        "experience": [
+            {
+                "id": 1,
+                "title": "Senior Full Stack Developer",
+                "company": "TechCorp Solutions",
+                "location": "San Francisco, CA",
+                "period": "2021 - Present",
+                "description": "Leading development of enterprise web applications using React, Node.js, and AWS. Mentoring junior developers and architecting scalable solutions.",
+                "achievements": [
+                    "Improved application performance by 65% through optimization",
+                    "Led migration to microservices architecture serving 1M+ users",
+                    "Mentored 8 junior developers to senior positions"
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Full Stack Developer",
+                "company": "Innovation Labs",
+                "location": "New York, NY",
+                "period": "2019 - 2021",
+                "description": "Developed and maintained multiple client projects using modern web technologies. Collaborated with cross-functional teams to deliver high-quality solutions.",
+                "achievements": [
+                    "Built 12+ successful client projects from scratch",
+                    "Reduced deployment time by 50% through CI/CD automation",
+                    "Improved code quality with comprehensive testing practices"
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Junior Web Developer",
+                "company": "StartUp Inc",
+                "location": "Austin, TX",
+                "period": "2017 - 2019",
+                "description": "Created responsive web applications and worked on both frontend and backend features. Gained expertise in modern JavaScript frameworks and RESTful APIs.",
+                "achievements": [
+                    "Developed key features for company's main product",
+                    "Participated in agile development process",
+                    "Contributed to open source projects used by the company"
+                ]
+            }
+        ],
+        "education": [
+            {
+                "id": 1,
+                "degree": "Master of Science in Computer Science",
+                "school": "Stanford University",
+                "location": "Stanford, CA",
+                "period": "2015 - 2017",
+                "description": "Specialized in Web Technologies and Distributed Systems. Thesis on real-time data processing algorithms."
+            },
+            {
+                "id": 2,
+                "degree": "Bachelor of Science in Software Engineering",
+                "school": "University of California, Berkeley",
+                "location": "Berkeley, CA",
+                "period": "2011 - 2015",
+                "description": "Graduated with honors. Focus on software architecture and algorithm design."
+            }
+        ]
+    },
+    "de": {
+        "experience": [
+            {
+                "id": 1,
+                "title": "Senior Full-Stack-Entwickler",
+                "company": "TechCorp Solutions",
+                "location": "San Francisco, CA",
+                "period": "2021 - Heute",
+                "description": "Leitung der Entwicklung von Unternehmenswebanwendungen mit React, Node.js und AWS. Mentoring von Junior-Entwicklern und Architektur skalierbarer Lösungen.",
+                "achievements": [
+                    "Verbesserung der Anwendungsleistung um 65% durch Optimierung",
+                    "Leitung der Migration zur Microservices-Architektur für über 1 Mio. Benutzer",
+                    "Mentoring von 8 Junior-Entwicklern zu Senior-Positionen"
+                ]
+            },
+            {
+                "id": 2,
+                "title": "Full-Stack-Entwickler",
+                "company": "Innovation Labs",
+                "location": "New York, NY",
+                "period": "2019 - 2021",
+                "description": "Entwicklung und Wartung mehrerer Kundenprojekte mit modernen Web-Technologien. Zusammenarbeit mit funktionsübergreifenden Teams zur Bereitstellung hochwertiger Lösungen.",
+                "achievements": [
+                    "Aufbau von über 12 erfolgreichen Kundenprojekten von Grund auf",
+                    "Reduzierung der Deployment-Zeit um 50% durch CI/CD-Automatisierung",
+                    "Verbesserung der Code-Qualität durch umfassende Testpraktiken"
+                ]
+            },
+            {
+                "id": 3,
+                "title": "Junior-Webentwickler",
+                "company": "StartUp Inc",
+                "location": "Austin, TX",
+                "period": "2017 - 2019",
+                "description": "Erstellung responsiver Webanwendungen und Arbeit an Frontend- und Backend-Funktionen. Erwerb von Expertise in modernen JavaScript-Frameworks und RESTful APIs.",
+                "achievements": [
+                    "Entwicklung wichtiger Funktionen für das Hauptprodukt des Unternehmens",
+                    "Teilnahme am agilen Entwicklungsprozess",
+                    "Beiträge zu vom Unternehmen verwendeten Open-Source-Projekten"
+                ]
+            }
+        ],
+        "education": [
+            {
+                "id": 1,
+                "degree": "Master of Science in Informatik",
+                "school": "Stanford University",
+                "location": "Stanford, CA",
+                "period": "2015 - 2017",
+                "description": "Spezialisierung auf Web-Technologien und verteilte Systeme. Abschlussarbeit über Echtzeit-Datenverarbeitungsalgorithmen."
+            },
+            {
+                "id": 2,
+                "degree": "Bachelor of Science in Software-Engineering",
+                "school": "University of California, Berkeley",
+                "location": "Berkeley, CA",
+                "period": "2011 - 2015",
+                "description": "Abschluss mit Auszeichnung. Schwerpunkt auf Softwarearchitektur und Algorithmendesign."
+            }
+        ]
+    }
+}
