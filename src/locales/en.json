@@ -17,10 +17,10 @@
         "travel": "Travel"
     },
     "home": {
-        "title": "Hello, I'm",
-        "subtitle": "Full Stack Developer & Technology Enthusiast",
+        "title": "Hi, I'm",
+        "subtitle": "AGI Aspiration & AI Enthusiast | Building new things every day",
         "about": "About Me",
-        "description": "I'm a passionate developer with expertise in building modern web applications. I love solving complex problems and creating elegant solutions.",
+        "description": "I'm passionate about building intelligent systems that push the boundaries of what's possible. My work spans LLMs, Agentic AI, RAG, NLP, Computer Vision, and Reinforcement Learning. I combine cutting-edge AI with AR/VR and web interfaces to create innovative solutions.",
         "contact": "Get in Touch",
         "viewResume": "View Resume"
     },

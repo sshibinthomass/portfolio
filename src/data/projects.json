@@ -2,87 +2,95 @@
     "en": [
         {
             "id": 1,
-            "title": "E-Commerce Platform",
-            "description": "A full-stack e-commerce platform with React, Node.js, and MongoDB",
+            "title": "LLM-based Customer Support Chatbot",
+            "description": "AI-powered chatbot using DialoGPT for automated customer support",
             "image": "/portfolio/images/project.png",
             "technologies": [
-                "React",
-                "Node.js",
-                "MongoDB",
-                "Express"
+                "Python",
+                "DialoGPT",
+                "NLP",
+                "TensorFlow",
+                "FastAPI"
             ],
-            "link": "https://example.com/project1",
-            "detailedDescription": "Built a comprehensive e-commerce platform featuring user authentication, product catalog, shopping cart, payment integration with Stripe, and an admin dashboard for inventory management. Implemented real-time order tracking and email notifications."
+            "link": "",
+            "detailedDescription": "Developed and fine-tuned DialoGPT model to create an intelligent customer support chatbot at Vuram Technologies. The system reduced human intervention in support tickets from 70% to 35% and cut response time by approximately 40%. Implemented advanced NLP techniques for intent recognition and context-aware responses, handling thousands of customer queries daily with high accuracy."
         },
         {
             "id": 2,
-            "title": "Task Management App",
-            "description": "A collaborative task management application with real-time updates",
+            "title": "Intelligent Document Processing System",
+            "description": "AI-powered IDP solution for automated form processing",
             "image": "/portfolio/images/project.png",
             "technologies": [
-                "Vue.js",
-                "Firebase",
-                "Tailwind CSS"
+                "Python",
+                "OCR",
+                "Machine Learning",
+                "Computer Vision",
+                "Azure AI"
             ],
-            "link": "https://example.com/project2",
-            "detailedDescription": "Developed a real-time task management system allowing teams to collaborate efficiently. Features include drag-and-drop task boards, deadline notifications, file attachments, and activity logs. Integrated Firebase for real-time synchronization across devices."
+            "link": "",
+            "detailedDescription": "Led the development of an Intelligent Document Processing (IDP) system that automated manual form processing workflows. Reduced processing time from 2 hours to just 30 minutes per batch. Integrated advanced OCR, computer vision, and machine learning models to extract, validate, and process information from various document formats with 95%+ accuracy."
         },
         {
             "id": 3,
-            "title": "AI-Powered Analytics Dashboard",
-            "description": "Analytics dashboard with machine learning predictions",
+            "title": "Self-Balancing Electric Two-Wheeler",
+            "description": "Gyroscope-based self-balancing vehicle system with AI control",
             "image": "/portfolio/images/project.png",
             "technologies": [
-                "React",
-                "Python",
-                "TensorFlow",
-                "D3.js"
+                "Embedded C",
+                "Arduino",
+                "Gyroscope",
+                "PID Control",
+                "IoT"
             ],
-            "link": "https://example.com/project3",
-            "detailedDescription": "Created an advanced analytics platform that uses machine learning to predict trends and patterns. Integrated TensorFlow models for data analysis, implemented interactive visualizations with D3.js, and built a responsive React frontend with real-time data updates."
+            "link": "https://drive.google.com/file/d/1RvnB1hGGzvoJsApCSkzQEMVv_Gmb3XWN/view?usp=sharing",
+            "detailedDescription": "Designed and developed a self-balancing electric two-wheeler using gyroscopic stabilization and advanced control algorithms. Implemented PID controllers for real-time balance adjustment and created a patent for the innovative gyroscopic design. The project demonstrates expertise in robotics, control systems, and embedded programming."
         }
     ],
     "de": [
         {
             "id": 1,
-            "title": "E-Commerce-Plattform",
-            "description": "Eine Full-Stack E-Commerce-Plattform mit React, Node.js und MongoDB",
+            "title": "LLM-basierter Kundensupport-Chatbot",
+            "description": "KI-gestützter Chatbot mit DialoGPT für automatisierten Kundensupport",
             "image": "/portfolio/images/project.png",
             "technologies": [
-                "React",
-                "Node.js",
-                "MongoDB",
-                "Express"
+                "Python",
+                "DialoGPT",
+                "NLP",
+                "TensorFlow",
+                "FastAPI"
             ],
-            "link": "https://example.com/project1",
-            "detailedDescription": "Entwicklung einer umfassenden E-Commerce-Plattform mit Benutzerauthentifizierung, Produktkatalog, Warenkorb, Stripe-Zahlungsintegration und einem Admin-Dashboard für die Bestandsverwaltung. Implementierung von Echtzeit-Bestellverfolgung und E-Mail-Benachrichtigungen."
+            "link": "",
+            "detailedDescription": "Entwicklung und Feinabstimmung des DialoGPT-Modells zur Erstellung eines intelligenten Kundensupport-Chatbots bei Vuram Technologies. Das System reduzierte die menschliche Intervention bei Support-Tickets von 70% auf 35% und verkürzte die Antwortzeit um etwa 40%. Implementierte fortschrittliche NLP-Techniken für Intent-Erkennung und kontextbewusste Antworten, die täglich Tausende von Kundenanfragen mit hoher Genauigkeit bearbeiten."
         },
         {
             "id": 2,
-            "title": "Aufgabenverwaltungs-App",
-            "description": "Eine kollaborative Aufgabenverwaltungsanwendung mit Echtzeit-Updates",
+            "title": "Intelligentes Dokumentenverarbeitungssystem",
+            "description": "KI-gestützte IDP-Lösung für automatisierte Formularverarbeitung",
             "image": "/portfolio/images/project.png",
             "technologies": [
-                "Vue.js",
-                "Firebase",
-                "Tailwind CSS"
+                "Python",
+                "OCR",
+                "Machine Learning",
+                "Computer Vision",
+                "Azure AI"
             ],
-            "link": "https://example.com/project2",
-            "detailedDescription": "Entwicklung eines Echtzeit-Aufgabenverwaltungssystems, das Teams eine effiziente Zusammenarbeit ermöglicht. Funktionen umfassen Drag-and-Drop-Aufgabentafeln, Fristbenachrichtigungen, Dateianhänge und Aktivitätsprotokolle. Firebase-Integration für Echtzeit-Synchronisation auf allen Geräten."
+            "link": "",
+            "detailedDescription": "Leitete die Entwicklung eines intelligenten Dokumentenverarbeitungssystems (IDP), das manuelle Formularverarbeitungs-Workflows automatisierte. Reduzierte die Verarbeitungszeit von 2 Stunden auf nur 30 Minuten pro Batch. Integrierte fortschrittliche OCR-, Computer Vision- und Machine Learning-Modelle, um Informationen aus verschiedenen Dokumentenformaten mit über 95% Genauigkeit zu extrahieren, zu validieren und zu verarbeiten."
         },
         {
             "id": 3,
-            "title": "KI-gestütztes Analytics-Dashboard",
-            "description": "Analytics-Dashboard mit maschinellen Lernvorhersagen",
+            "title": "Selbstbalancierendes Elektro-Zweirad",
+            "description": "Gyroskop-basiertes selbstbalancierendes Fahrzeugsystem mit KI-Steuerung",
             "image": "/portfolio/images/project.png",
             "technologies": [
-                "React",
-                "Python",
-                "TensorFlow",
-                "D3.js"
+                "Embedded C",
+                "Arduino",
+                "Gyroskop",
+                "PID-Regelung",
+                "IoT"
             ],
-            "link": "https://example.com/project3",
-            "detailedDescription": "Erstellung einer fortschrittlichen Analyseplattform, die maschinelles Lernen zur Vorhersage von Trends und Mustern nutzt. Integration von TensorFlow-Modellen für Datenanalyse, Implementierung interaktiver Visualisierungen mit D3.js und Aufbau eines responsiven React-Frontends mit Echtzeit-Datenaktualisierungen."
+            "link": "https://drive.google.com/file/d/1RvnB1hGGzvoJsApCSkzQEMVv_Gmb3XWN/view?usp=sharing",
+            "detailedDescription": "Entwurf und Entwicklung eines selbstbalancierenden Elektro-Zweirads mit gyroskopischer Stabilisierung und fortschrittlichen Steuerungsalgorithmen. Implementierte PID-Regler für Echtzeit-Balance-Anpassung und erstellte ein Patent für das innovative gyroskopische Design. Das Projekt demonstriert Expertise in Robotik, Steuerungssystemen und Embedded-Programmierung."
         }
     ]
 }

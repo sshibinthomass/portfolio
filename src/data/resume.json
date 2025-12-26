@@ -3,60 +3,62 @@
         "experience": [
             {
                 "id": 1,
-                "title": "Senior Full Stack Developer",
-                "company": "TechCorp Solutions",
-                "location": "San Francisco, CA",
-                "period": "2021 - Present",
-                "description": "Leading development of enterprise web applications using React, Node.js, and AWS. Mentoring junior developers and architecting scalable solutions.",
+                "title": "Research Intern (Generative AI)",
+                "company": "BMW Group",
+                "location": "Germany",
+                "period": "August 2025 - Present",
+                "description": "Part of Research team working on LLMs and AI Agents",
                 "achievements": [
-                    "Improved application performance by 65% through optimization",
-                    "Led migration to microservices architecture serving 1M+ users",
-                    "Mentored 8 junior developers to senior positions"
+                    "Working on cutting-edge LLM research",
+                    "Developing AI agents for automotive applications",
+                    "Collaborating with international research team"
                 ]
             },
             {
                 "id": 2,
-                "title": "Full Stack Developer",
-                "company": "Innovation Labs",
-                "location": "New York, NY",
-                "period": "2019 - 2021",
-                "description": "Developed and maintained multiple client projects using modern web technologies. Collaborated with cross-functional teams to deliver high-quality solutions.",
+                "title": "Associate Technical Consultant",
+                "company": "Vuram Technologies",
+                "location": "India",
+                "period": "June 2022 - October 2023",
+                "description": "Led AI automation projects and customer support AI solutions",
                 "achievements": [
-                    "Built 12+ successful client projects from scratch",
-                    "Reduced deployment time by 50% through CI/CD automation",
-                    "Improved code quality with comprehensive testing practices"
+                    "Fine-tuned DialoGPT, improving customer query response speed",
+                    "Reduced human intervention in support tickets from 70% to 35%",
+                    "Cut response time by about 40%",
+                    "Led AI automation projects integrating Intelligent Document Processing (IDP)",
+                    "Reduced manual form processing from 2 hours to 30 minutes",
+                    "Achieved Spotlight of the Month (twice) for AI innovation"
                 ]
             },
             {
                 "id": 3,
-                "title": "Junior Web Developer",
-                "company": "StartUp Inc",
-                "location": "Austin, TX",
-                "period": "2017 - 2019",
-                "description": "Created responsive web applications and worked on both frontend and backend features. Gained expertise in modern JavaScript frameworks and RESTful APIs.",
+                "title": "Machine Learning Intern",
+                "company": "DeepVisionTech.AI",
+                "location": "Bangalore, India",
+                "period": "February 2021 - August 2021",
+                "description": "Crop Health Monitoring using Remote Sensing",
                 "achievements": [
-                    "Developed key features for company's main product",
-                    "Participated in agile development process",
-                    "Contributed to open source projects used by the company"
+                    "Developed a CNN Deep learning model for Crop Health Monitoring",
+                    "Hands-on experience in TensorFlow, Keras, OpenCV"
                 ]
             }
         ],
         "education": [
             {
                 "id": 1,
-                "degree": "Master of Science in Computer Science",
-                "school": "Stanford University",
-                "location": "Stanford, CA",
-                "period": "2015 - 2017",
-                "description": "Specialized in Web Technologies and Distributed Systems. Thesis on real-time data processing algorithms."
+                "degree": "M.S. Automation and Robotics (Specialization in AI)",
+                "school": "TU Dortmund",
+                "location": "Dortmund, Germany",
+                "period": "2023 - Present",
+                "description": "Master's degree focusing on Automation, Robotics, and Artificial Intelligence"
             },
             {
                 "id": 2,
-                "degree": "Bachelor of Science in Software Engineering",
-                "school": "University of California, Berkeley",
-                "location": "Berkeley, CA",
-                "period": "2011 - 2015",
-                "description": "Graduated with honors. Focus on software architecture and algorithm design."
+                "degree": "B.E. Mechatronics",
+                "school": "Sri Krishna College of Engineering and Technology",
+                "location": "Coimbatore, India",
+                "period": "2018 - 2022",
+                "description": "Bachelor's degree in Mechatronics Engineering with CGPA 9.40"
             }
         ]
     },
@@ -64,60 +66,62 @@
         "experience": [
             {
                 "id": 1,
-                "title": "Senior Full-Stack-Entwickler",
-                "company": "TechCorp Solutions",
-                "location": "San Francisco, CA",
-                "period": "2021 - Heute",
-                "description": "Leitung der Entwicklung von Unternehmenswebanwendungen mit React, Node.js und AWS. Mentoring von Junior-Entwicklern und Architektur skalierbarer Lösungen.",
+                "title": "Forschungspraktikant (Generative KI)",
+                "company": "BMW Group",
+                "location": "Deutschland",
+                "period": "August 2025 - Heute",
+                "description": "Teil des Forschungsteams, das an LLMs und KI-Agenten arbeitet",
                 "achievements": [
-                    "Verbesserung der Anwendungsleistung um 65% durch Optimierung",
-                    "Leitung der Migration zur Microservices-Architektur für über 1 Mio. Benutzer",
-                    "Mentoring von 8 Junior-Entwicklern zu Senior-Positionen"
+                    "Arbeit an modernster LLM-Forschung",
+                    "Entwicklung von KI-Agenten für Automobilanwendungen",
+                    "Zusammenarbeit mit internationalem Forschungsteam"
                 ]
             },
             {
                 "id": 2,
-                "title": "Full-Stack-Entwickler",
-                "company": "Innovation Labs",
-                "location": "New York, NY",
-                "period": "2019 - 2021",
-                "description": "Entwicklung und Wartung mehrerer Kundenprojekte mit modernen Web-Technologien. Zusammenarbeit mit funktionsübergreifenden Teams zur Bereitstellung hochwertiger Lösungen.",
+                "title": "Associate Technical Consultant",
+                "company": "Vuram Technologies",
+                "location": "Indien",
+                "period": "Juni 2022 - Oktober 2023",
+                "description": "Leitung von KI-Automatisierungsprojekten und Kundensupport-KI-Lösungen",
                 "achievements": [
-                    "Aufbau von über 12 erfolgreichen Kundenprojekten von Grund auf",
-                    "Reduzierung der Deployment-Zeit um 50% durch CI/CD-Automatisierung",
-                    "Verbesserung der Code-Qualität durch umfassende Testpraktiken"
+                    "Feinabstimmung von DialoGPT, Verbesserung der Antwortgeschwindigkeit bei Kundenanfragen",
+                    "Reduzierung der menschlichen Intervention bei Support-Tickets von 70% auf 35%",
+                    "Verkürzung der Antwortzeit um etwa 40%",
+                    "Leitung von KI-Automatisierungsprojekten mit intelligenter Dokumentenverarbeitung (IDP)",
+                    "Reduzierung der manuellen Formularverarbeitung von 2 Stunden auf 30 Minuten",
+                    "Zweimal Spotlight of the Month für KI-Innovation"
                 ]
             },
             {
                 "id": 3,
-                "title": "Junior-Webentwickler",
-                "company": "StartUp Inc",
-                "location": "Austin, TX",
-                "period": "2017 - 2019",
-                "description": "Erstellung responsiver Webanwendungen und Arbeit an Frontend- und Backend-Funktionen. Erwerb von Expertise in modernen JavaScript-Frameworks und RESTful APIs.",
+                "title": "Machine Learning Praktikant",
+                "company": "DeepVisionTech.AI",
+                "location": "Bangalore, Indien",
+                "period": "Februar 2021 - August 2021",
+                "description": "Überwachung der Erntegesundheit mittels Fernerkundung",
                 "achievements": [
-                    "Entwicklung wichtiger Funktionen für das Hauptprodukt des Unternehmens",
-                    "Teilnahme am agilen Entwicklungsprozess",
-                    "Beiträge zu vom Unternehmen verwendeten Open-Source-Projekten"
+                    "Entwicklung eines CNN-Deep-Learning-Modells zur Überwachung der Pflanzengesundheit",
+                    "Praktische Erfahrung mit TensorFlow, Keras, OpenCV"
                 ]
             }
         ],
         "education": [
             {
                 "id": 1,
-                "degree": "Master of Science in Informatik",
-                "school": "Stanford University",
-                "location": "Stanford, CA",
-                "period": "2015 - 2017",
-                "description": "Spezialisierung auf Web-Technologien und verteilte Systeme. Abschlussarbeit über Echtzeit-Datenverarbeitungsalgorithmen."
+                "degree": "M.S. Automatisierung und Robotik (Spezialisierung auf KI)",
+                "school": "TU Dortmund",
+                "location": "Dortmund, Deutschland",
+                "period": "2023 - Heute",
+                "description": "Masterstudium mit Schwerpunkt Automatisierung, Robotik und Künstliche Intelligenz"
             },
             {
                 "id": 2,
-                "degree": "Bachelor of Science in Software-Engineering",
-                "school": "University of California, Berkeley",
-                "location": "Berkeley, CA",
-                "period": "2011 - 2015",
-                "description": "Abschluss mit Auszeichnung. Schwerpunkt auf Softwarearchitektur und Algorithmendesign."
+                "degree": "B.E. Mechatronik",
+                "school": "Sri Krishna College of Engineering and Technology",
+                "location": "Coimbatore, Indien",
+                "period": "2018 - 2022",
+                "description": "Bachelor-Abschluss in Mechatronik-Ingenieurwesen mit CGPA 9.40"
             }
         ]
     }

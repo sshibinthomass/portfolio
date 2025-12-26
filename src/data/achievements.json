@@ -2,181 +2,181 @@
     "en": [
         {
             "id": 1,
-            "title": "Best Innovation Award 2024",
-            "description": "Received for developing an innovative AI solution",
-            "date": "2024-03-15",
+            "title": "Spotlight of the Month Award (2x)",
+            "description": "Recognized twice for AI innovation at Vuram Technologies",
             "image": "/portfolio/images/achievement.png",
-            "detailedDescription": "Awarded for creating a groundbreaking AI-powered application that revolutionized data analysis in the healthcare sector. The solution reduced processing time by 70% and improved accuracy by 45%."
+            "date": "2023-06-15",
+            "detailedDescription": "Received the prestigious Spotlight of the Month award twice during tenure at Vuram Technologies for exceptional contributions to AI innovation. The recognition came from successfully implementing LLM-based customer support automation and leading intelligent document processing projects that significantly improved operational efficiency."
         },
         {
             "id": 2,
-            "title": "Hackathon Winner",
-            "description": "First place at TechVenture Hackathon 2023",
-            "date": "2023-11-20",
+            "title": "CGPA 9.40 - B.E. Mechatronics",
+            "description": "Graduated with distinction from SKCET, Coimbatore",
             "image": "/portfolio/images/achievement.png",
-            "detailedDescription": "Led a team of 4 developers to victory by building a sustainable energy monitoring platform in 48 hours. The project impressed judges with its technical innovation and social impact potential."
+            "date": "2022-05-01",
+            "detailedDescription": "Achieved an outstanding CGPA of 9.40 out of 10 in Bachelor of Engineering (Mechatronics) from Sri Krishna College of Engineering and Technology, Coimbatore. Consistently ranked among the top performers in the class while actively participating in research and project work."
         },
         {
             "id": 3,
-            "title": "Google Developer Expert",
-            "description": "Recognized as GDE for Web Technologies",
-            "date": "2023-09-10",
+            "title": "Patent: Self-Balance Electric Two-Wheeler",
+            "description": "Awarded patent for innovative gyroscopic vehicle design",
             "image": "/portfolio/images/achievement.png",
-            "detailedDescription": "Awarded Google Developer Expert status for exceptional contributions to the web development community through open-source projects, technical writing, and speaking engagements."
+            "date": "2022-03-10",
+            "detailedDescription": "Successfully obtained a patent for the development of a gyroscopic design for a self-balancing two-wheeled electric vehicle system. The invention demonstrates novel application of control systems and robotics in sustainable transportation."
         },
         {
             "id": 4,
-            "title": "Open Source Contributor",
-            "description": "100+ contributions to major open source projects",
-            "date": "2023-06-01",
+            "title": "Patent: Egg Quality Detection Device",
+            "description": "Patented handheld device for egg freshness assessment",
             "image": "/portfolio/images/achievement.png",
-            "detailedDescription": "Achieved milestone of contributing to over 100 open source projects including React, Vue.js, and Node.js. Contributions include bug fixes, new features, and documentation improvements."
+            "date": "2022-04-20",
+            "detailedDescription": "Received patent for inventing a handheld device that forecasts and detects egg quality using weight and temperature measurements. The device helps consumers make informed purchasing decisions and reduces food waste."
         },
         {
             "id": 5,
-            "title": "AWS Certified Solutions Architect",
-            "description": "Professional level certification",
-            "date": "2023-04-15",
+            "title": "IEEE Published Research Paper",
+            "description": "Published in IEEE - BIN Bot Robot Technology",
             "image": "/portfolio/images/achievement.png",
-            "detailedDescription": "Earned AWS Solutions Architect Professional certification demonstrating expertise in designing distributed systems and applications on AWS platform with best practices for security and scalability."
+            "date": "2021-11-15",
+            "detailedDescription": "Published research paper in IEEE conference proceedings on 'Technology in Design Aspect of BIN Bot Robot'. The paper discusses the innovative design of an autonomous robot aimed at reducing disease spread in institutional and industrial environments."
         },
         {
             "id": 6,
-            "title": "Tech Conference Speaker",
-            "description": "Keynote speaker at DevCon 2023",
-            "date": "2023-02-28",
+            "title": "IOP Science Publication",
+            "description": "AR for E-education and Training (ICMMM)",
             "image": "/portfolio/images/achievement.png",
-            "detailedDescription": "Delivered keynote presentation on 'The Future of Web Development' to an audience of 500+ developers. Talk covered emerging trends in web technologies and best practices for building modern applications."
+            "date": "2021-09-05",
+            "detailedDescription": "Published research in IOP Science Materials Science and Engineering journal on 'Development of App Incorporating AR for E-edu and Training'. The work presents a visual platform using 3D visuals and Augmented Reality to enhance learning experiences."
         },
         {
             "id": 7,
-            "title": "Patent Granted",
-            "description": "US Patent for novel caching algorithm",
-            "date": "2022-12-10",
+            "title": "IEEE Published - Hose Cutting Machine",
+            "description": "Automatic hose cutting machine research publication",
             "image": "/portfolio/images/achievement.png",
-            "detailedDescription": "Granted US patent for innovative distributed caching algorithm that improves performance by 60% in high-traffic web applications. The algorithm is now being used in production systems."
+            "date": "2022-06-10",
+            "detailedDescription": "Published research paper in IEEE on 'Design and Fabrication of Automatic Hose Cutting Machine'. The study offers an innovative solution to precise hose cutting in industrial applications, improving efficiency and reducing waste."
         },
         {
             "id": 8,
-            "title": "Employee of the Year",
-            "description": "Company-wide recognition for outstanding performance",
-            "date": "2022-11-01",
+            "title": "JCREVIEW Publication",
+            "description": "Self-balancing vehicle research published",
             "image": "/portfolio/images/achievement.png",
-            "detailedDescription": "Selected as Employee of the Year from 200+ employees for exceptional technical leadership, project delivery, and mentorship of junior developers. Led 3 major projects to successful completion."
+            "date": "2022-02-20",
+            "detailedDescription": "Published comprehensive research paper in JCREVIEW journal on 'Design of Self Balance Electric 2-Wheeler Using Gyroscope'. The paper discusses the concept, simulation, and construction of an innovative self-balancing vehicle system."
         },
         {
             "id": 9,
-            "title": "Published Author",
-            "description": "Technical book on modern web development",
-            "date": "2022-08-15",
+            "title": "HSC - 93.7% Achievement",
+            "description": "Stanes Anglo Indian Higher Secondary School",
             "image": "/portfolio/images/achievement.png",
-            "detailedDescription": "Published comprehensive guide on modern web development covering React, Node.js, and Cloud deployment. The book has sold over 5,000 copies and received 4.8/5 rating on Amazon."
+            "date": "2018-04-01",
+            "detailedDescription": "Secured 93.7% in Higher Secondary Certificate (HSC) examination from Stanes Anglo Indian Higher Secondary School, Coonoor. Demonstrated strong academic performance across science and mathematics subjects."
         },
         {
             "id": 10,
-            "title": "Mentorship Excellence",
-            "description": "Recognized for mentoring 20+ junior developers",
-            "date": "2022-05-20",
+            "title": "SSLC - 93.2% Achievement",
+            "description": "Secondary School Leaving Certificate excellence",
             "image": "/portfolio/images/achievement.png",
-            "detailedDescription": "Received mentorship award for successfully guiding 20+ junior developers in their career growth. Many mentees have advanced to senior positions and contributed significantly to their teams."
+            "date": "2016-04-01",
+            "detailedDescription": "Achieved 93.2% in Secondary School Leaving Certificate (SSLC) examination from Stanes Anglo Indian Higher Secondary School, Coonoor. Laid a strong foundation for future academic pursuits in engineering and technology."
         },
         {
             "id": 11,
-            "title": "Community Builder Award",
-            "description": "For founding local developer community",
-            "date": "2022-03-10",
+            "title": "Selected for TU Dortmund M.S. Program",
+            "description": "Admitted to prestigious AI specialization program",
             "image": "/portfolio/images/achievement.png",
-            "detailedDescription": "Recognized for establishing and growing a local developer community from 0 to 500+ members. Organized monthly meetups, workshops, and hackathons that fostered collaboration and learning."
+            "date": "2023-09-01",
+            "detailedDescription": "Selected for the highly competitive Master of Science in Automation and Robotics program with specialization in Artificial Intelligence at TU Dortmund, Germany. The program focuses on advanced AI, robotics, and automation technologies."
         }
     ],
     "de": [
         {
             "id": 1,
-            "title": "Bester Innovationspreis 2024",
-            "description": "Erhalten für die Entwicklung einer innovativen KI-Lösung",
-            "date": "2024-03-15",
+            "title": "Spotlight of the Month Award (2x)",
+            "description": "Zweimal für KI-Innovation bei Vuram Technologies ausgezeichnet",
             "image": "/portfolio/images/achievement.png",
-            "detailedDescription": "Ausgezeichnet für die Entwicklung einer bahnbrechenden KI-gestützten Anwendung, die die Datenanalyse im Gesundheitssektor revolutionierte. Die Lösung reduzierte die Verarbeitungszeit um 70% und verbesserte die Genauigkeit um 45%."
+            "date": "2023-06-15",
+            "detailedDescription": "Erhielt zweimal während der Tätigkeit bei Vuram Technologies den prestigeträchtigen Spotlight of the Month Award für außergewöhnliche Beiträge zur KI-Innovation. Die Anerkennung kam von der erfolgreichen Implementierung LLM-basierter Kundensupport-Automatisierung und der Leitung intelligenter Dokumentenverarbeitungsprojekte, die die operative Effizienz erheblich verbesserten."
         },
         {
             "id": 2,
-            "title": "Hackathon-Gewinner",
-            "description": "Erster Platz beim TechVenture Hackathon 2023",
-            "date": "2023-11-20",
+            "title": "CGPA 9.40 - B.E. Mechatronik",
+            "description": "Mit Auszeichnung von SKCET, Coimbatore, absolviert",
             "image": "/portfolio/images/achievement.png",
-            "detailedDescription": "Führte ein Team von 4 Entwicklern zum Sieg durch den Aufbau einer nachhaltigen Energieüberwachungsplattform in 48 Stunden. Das Projekt beeindruckte die Jury mit seiner technischen Innovation und seinem sozialen Wirkungspotenzial."
+            "date": "2022-05-01",
+            "detailedDescription": "Erreichte einen herausragenden CGPA von 9,40 von 10 im Bachelor of Engineering (Mechatronik) am Sri Krishna College of Engineering and Technology, Coimbatore. Gehörte durchweg zu den besten Absolventen der Klasse und beteiligte sich aktiv an Forschung und Projektarbeit."
         },
         {
             "id": 3,
-            "title": "Google Developer Expert",
-            "description": "Als GDE für Web-Technologien anerkannt",
-            "date": "2023-09-10",
+            "title": "Patent: Selbstbalancierendes Elektro-Zweirad",
+            "description": "Patent für innovatives gyroskopisches Fahrzeugdesign erhalten",
             "image": "/portfolio/images/achievement.png",
-            "detailedDescription": "Google Developer Expert-Status für außergewöhnliche Beiträge zur Web-Entwicklungs-Community durch Open-Source-Projekte, technisches Schreiben und Vorträge verliehen."
+            "date": "2022-03-10",
+            "detailedDescription": "Erfolgreich ein Patent für die Entwicklung eines gyroskopischen Designs für ein selbstbalancierendes zweirädriges Elektrofahrzeugsystem erhalten. Die Erfindung demonstriert neuartige Anwendung von Steuerungssystemen und Robotik in nachhaltiger Mobilität."
         },
         {
             "id": 4,
-            "title": "Open-Source-Mitwirkender",
-            "description": "100+ Beiträge zu großen Open-Source-Projekten",
-            "date": "2023-06-01",
+            "title": "Patent: Eierqualitäts-Erkennungsgerät",
+            "description": "Patentiertes Handgerät zur Eierfrische-Bewertung",
             "image": "/portfolio/images/achievement.png",
-            "detailedDescription": "Meilenstein von über 100 Beiträgen zu Open-Source-Projekten einschließlich React, Vue.js und Node.js erreicht. Beiträge umfassen Fehlerbehebungen, neue Funktionen und Dokumentationsverbesserungen."
+            "date": "2022-04-20",
+            "detailedDescription": "Erhielt Patent für die Erfindung eines Handgeräts, das Eierqualität mithilfe von Gewichts- und Temperaturmessungen vorhersagt und erkennt. Das Gerät hilft Verbrauchern, fundierte Kaufentscheidungen zu treffen und Lebensmittelverschwendung zu reduzieren."
         },
         {
             "id": 5,
-            "title": "AWS Certified Solutions Architect",
-            "description": "Zertifizierung auf Professional-Ebene",
-            "date": "2023-04-15",
+            "title": "IEEE Veröffentlichtes Forschungspapier",
+            "description": "Veröffentlicht in IEEE - BIN Bot Robotertechnologie",
             "image": "/portfolio/images/achievement.png",
-            "detailedDescription": "AWS Solutions Architect Professional-Zertifizierung erworben, die Expertise im Entwurf verteilter Systeme und Anwendungen auf der AWS-Plattform mit Best Practices für Sicherheit und Skalierbarkeit demonstriert."
+            "date": "2021-11-15",
+            "detailedDescription": "Veröffentlichte Forschungsarbeit in IEEE-Konferenzberichten über 'Technologie im Designaspekt des BIN Bot Roboters'. Das Papier diskutiert das innovative Design eines autonomen Roboters zur Reduzierung der Krankheitsausbreitung in institutionellen und industriellen Umgebungen."
         },
         {
             "id": 6,
-            "title": "Tech-Konferenz-Redner",
-            "description": "Hauptredner bei DevCon 2023",
-            "date": "2023-02-28",
+            "title": "IOP Science Publikation",
+            "description": "AR für E-Bildung und Training (ICMMM)",
             "image": "/portfolio/images/achievement.png",
-            "detailedDescription": "Keynote-Präsentation über 'Die Zukunft der Webentwicklung' vor einem Publikum von über 500 Entwicklern gehalten. Der Vortrag behandelte aufkommende Trends in Web-Technologien und Best Practices für den Aufbau moderner Anwendungen."
+            "date": "2021-09-05",
+            "detailedDescription": "Veröffentlichte Forschung im IOP Science Materials Science and Engineering Journal über 'Entwicklung einer App mit AR für E-Bildung und Training'. Die Arbeit präsentiert eine visuelle Plattform mit 3D-Visualisierungen und Augmented Reality zur Verbesserung von Lernerfahrungen."
         },
         {
             "id": 7,
-            "title": "Patent erteilt",
-            "description": "US-Patent für neuartigen Caching-Algorithmus",
-            "date": "2022-12-10",
+            "title": "IEEE Veröffentlicht - Schlauchschneidemaschine",
+            "description": "Forschungspublikation zur automatischen Schlauchschneidemaschine",
             "image": "/portfolio/images/achievement.png",
-            "detailedDescription": "US-Patent für innovativen verteilten Caching-Algorithmus erteilt, der die Leistung in hochfrequentierten Webanwendungen um 60% verbessert. Der Algorithmus wird jetzt in Produktionssystemen verwendet."
+            "date": "2022-06-10",
+            "detailedDescription": "Veröffentlichte Forschungsarbeit in IEEE über 'Design und Herstellung einer automatischen Schlauchschneidemaschine'. Die Studie bietet eine innovative Lösung für präzises Schlauchschneiden in industriellen Anwendungen, verbessert Effizienz und reduziert Abfall."
         },
         {
             "id": 8,
-            "title": "Mitarbeiter des Jahres",
-            "description": "Unternehmensweite Anerkennung für herausragende Leistung",
-            "date": "2022-11-01",
+            "title": "JCREVIEW Publikation",
+            "description": "Selbstbalancierendes Fahrzeug Forschung veröffentlicht",
             "image": "/portfolio/images/achievement.png",
-            "detailedDescription": "Als Mitarbeiter des Jahres aus über 200 Mitarbeitern für außergewöhnliche technische Führung, Projektdurchführung und Mentoring von Junior-Entwicklern ausgewählt. Führte 3 große Projekte zum erfolgreichen Abschluss."
+            "date": "2022-02-20",
+            "detailedDescription": "Veröffentlichte umfassende Forschungsarbeit im JCREVIEW Journal über 'Design eines selbstbalancierenden Elektro-Zweirads mit Gyroskop'. Das Papier diskutiert das Konzept, die Simulation und den Bau eines innovativen selbstbalancierenden Fahrzeugsystems."
         },
         {
             "id": 9,
-            "title": "Veröffentlichter Autor",
-            "description": "Technisches Buch über moderne Webentwicklung",
-            "date": "2022-08-15",
+            "title": "HSC - 93,7% Leistung",
+            "description": "Stanes Anglo Indian Higher Secondary School",
             "image": "/portfolio/images/achievement.png",
-            "detailedDescription": "Umfassender Leitfaden zur modernen Webentwicklung mit React, Node.js und Cloud-Deployment veröffentlicht. Das Buch wurde über 5.000 Mal verkauft und erhielt eine 4,8/5 Bewertung auf Amazon."
+            "date": "2018-04-01",
+            "detailedDescription": "Erreichte 93,7% in der Higher Secondary Certificate (HSC) Prüfung der Stanes Anglo Indian Higher Secondary School, Coonoor. Zeigte starke akademische Leistung in Naturwissenschaften und Mathematik."
         },
         {
             "id": 10,
-            "title": "Mentoring-Exzellenz",
-            "description": "Anerkannt für Mentoring von über 20 Junior-Entwicklern",
-            "date": "2022-05-20",
+            "title": "SSLC - 93,2% Leistung",
+            "description": "Secondary School Leaving Certificate Exzellenz",
             "image": "/portfolio/images/achievement.png",
-            "detailedDescription": "Mentoring-Auszeichnung für die erfolgreiche Begleitung von über 20 Junior-Entwicklern in ihrer Karriereentwicklung erhalten. Viele Mentees sind zu Senior-Positionen aufgestiegen und haben erheblich zu ihren Teams beigetragen."
+            "date": "2016-04-01",
+            "detailedDescription": "Erreichte 93,2% in der Secondary School Leaving Certificate (SSLC) Prüfung der Stanes Anglo Indian Higher Secondary School, Coonoor. Legte eine starke Grundlage für zukünftige akademische Bestrebungen in Ingenieurwesen und Technologie."
         },
         {
             "id": 11,
-            "title": "Community-Builder-Preis",
-            "description": "Für die Gründung einer lokalen Entwickler-Community",
-            "date": "2022-03-10",
+            "title": "Ausgewählt für TU Dortmund M.S. Programm",
+            "description": "Zugelassen zu prestigeträchtigem KI-Spezialisierungsprogramm",
             "image": "/portfolio/images/achievement.png",
-            "detailedDescription": "Anerkannt für die Gründung und das Wachstum einer lokalen Entwickler-Community von 0 auf über 500 Mitglieder. Organisierte monatliche Treffen, Workshops und Hackathons, die Zusammenarbeit und Lernen förderten."
+            "date": "2023-09-01",
+            "detailedDescription": "Ausgewählt für das hochkompetitive Master of Science Programm in Automatisierung und Robotik mit Spezialisierung auf Künstliche Intelligenz an der TU Dortmund, Deutschland. Das Programm konzentriert sich auf fortgeschrittene KI, Robotik und Automatisierungstechnologien."
         }
     ]
 }

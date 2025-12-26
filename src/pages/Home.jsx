@@ -36,7 +36,7 @@ const Home = () => {
                             transition={{ duration: 0.6 }}
                         >
                             <h1 className="hero-title">
-                                {t('home.title')} <span className="gradient-text">John Doe</span>
+                                {t('home.title')} <span className="gradient-text">Shibin Thomas</span>
                             </h1>
                             <p className="hero-subtitle">{t('home.subtitle')}</p>
                             <div className="hero-buttons">

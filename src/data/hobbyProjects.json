@@ -2,171 +2,193 @@
     "en": [
         {
             "id": 1,
-            "title": "Personal Blog Engine",
-            "description": "A lightweight static site generator built with Python",
+            "title": "AR Education Platform",
+            "description": "Augmented Reality app for interactive learning",
             "image": "/portfolio/images/hobby-project.png",
             "technologies": [
-                "Python",
-                "Markdown",
-                "Jinja2"
+                "Unity",
+                "AR Foundation",
+                "C#",
+                "3D Modeling"
             ],
-            "detailedDescription": "Created a custom static site generator that converts Markdown files to HTML with templating support. Features include automatic social media cards, RSS feed generation, and a simple CLI for managing posts."
+            "detailedDescription": "Developed an Augmented Reality educational platform that helps learners enhance their understanding using 3D visuals and AR technology. The app transforms traditional learning materials into interactive 3D experiences, making complex concepts easier to grasp through immersive visualization."
         },
         {
             "id": 2,
-            "title": "Weather Widget",
-            "description": "Minimalist weather dashboard with beautiful UI",
+            "title": "Crop Health Monitoring System",
+            "description": "CNN-based deep learning model for agriculture",
             "image": "/portfolio/images/hobby-project.png",
             "technologies": [
-                "JavaScript",
-                "CSS",
-                "Weather API"
+                "Python",
+                "TensorFlow",
+                "Keras",
+                "OpenCV",
+                "Remote Sensing"
             ],
-            "detailedDescription": "Designed and built a clean weather widget that displays current conditions and forecasts. Includes location detection, multiple unit systems, and smooth animations for weather transitions."
+            "detailedDescription": "Created a CNN deep learning model for crop health monitoring using remote sensing data. The system analyzes satellite and drone imagery to detect plant diseases, nutrient deficiencies, and optimize irrigation schedules. Achieved 92% accuracy in disease detection across multiple crop types."
         },
         {
             "id": 3,
-            "title": "Recipe Organizer",
-            "description": "Digital cookbook for managing personal recipes",
+            "title": "BIN Bot - COVID Safety Robot",
+            "description": "Autonomous robot for waste management and safety",
             "image": "/portfolio/images/hobby-project.png",
             "technologies": [
-                "React",
-                "LocalStorage",
-                "PWA"
+                "ROS",
+                "Python",
+                "Computer Vision",
+                "Arduino",
+                "Sensors"
             ],
-            "detailedDescription": "Developed a progressive web app for organizing recipes with features like ingredient scaling, shopping list generation, and offline support. Includes search and filtering capabilities."
+            "detailedDescription": "Designed and built an autonomous robot aimed at reducing disease spread in institutions and workplaces. The BIN Bot incorporates computer vision for navigation, automatic waste collection capabilities, and COVID-19 safety protocol enforcement through contactless operations."
         },
         {
             "id": 4,
-            "title": "Pomodoro Timer",
-            "description": "Productivity timer with custom intervals",
+            "title": "Automatic Hose Cutting Machine",
+            "description": "Precision automated cutting system for industrial use",
             "image": "/portfolio/images/hobby-project.png",
             "technologies": [
-                "Vue.js",
-                "Web Audio API"
+                "PLC",
+                "HMI",
+                "Automation",
+                "Mechanical Design"
             ],
-            "detailedDescription": "Built a customizable Pomodoro timer with sound notifications, statistics tracking, and theme customization. Includes pre-defined work/break cycles and historical productivity data."
+            "detailedDescription": "Designed and fabricated an automatic hose cutting machine that provides a solution to the time-consuming process of precise hose cutting in industrial settings. The system uses PLC programming for accurate length measurement and cutting, reducing waste and improving production efficiency by 60%."
         },
         {
             "id": 5,
-            "title": "Color Palette Generator",
-            "description": "Tool for generating harmonious color schemes",
+            "title": "Egg Quality Detection Device",
+            "description": "IoT device for smart egg quality assessment",
             "image": "/portfolio/images/hobby-project.png",
             "technologies": [
-                "JavaScript",
-                "Canvas API",
-                "CSS"
+                "Arduino",
+                "Sensors",
+                "IoT",
+                "Mobile App"
             ],
-            "detailedDescription": "Created a web tool for generating color palettes based on color theory. Features include palette export in various formats (CSS, JSON, Adobe ASE), and accessibility contrast checking."
+            "detailedDescription": "Invented a handheld device that forecasts and detects egg quality for consumers. The device measures weight and temperature, using these parameters to determine egg freshness and predict expiration dates. The accompanying mobile app displays quality scores and freshness indicators."
         },
         {
             "id": 6,
-            "title": "Markdown Editor",
-            "description": "Real-time markdown editor with live preview",
+            "title": "Humanoid Employee Tracking Bot",
+            "description": "AI-powered robot for workplace automation",
             "image": "/portfolio/images/hobby-project.png",
             "technologies": [
-                "React",
-                "Marked.js",
-                "CodeMirror"
+                "Python",
+                "Computer Vision",
+                "Deep Learning",
+                "ROS",
+                "Face Recognition"
             ],
-            "detailedDescription": "Developed a split-pane markdown editor with syntax highlighting, live preview, and export options. Supports GitHub Flavored Markdown and includes keyboard shortcuts for common formatting."
+            "detailedDescription": "Developed as a final year project at ELGI R&D, this humanoid bot automates employee tracking and ensures COVID SOP compliance. Implemented deep learning models for face recognition, social distancing detection, and mask detection with real-time alerts and reporting capabilities."
         },
         {
             "id": 7,
-            "title": "Guitar Chord Library",
-            "description": "Interactive chord diagram library for guitarists",
+            "title": "AI Code Assistant",
+            "description": "LLM-powered coding companion",
             "image": "/portfolio/images/hobby-project.png",
             "technologies": [
-                "SVG",
-                "JavaScript",
-                "IndexedDB"
+                "Python",
+                "GPT",
+                "VS Code Extension",
+                "TypeScript"
             ],
-            "detailedDescription": "Built an interactive guitar chord reference with visual diagrams. Features include chord variations, finger position indicators, and the ability to save favorite chords locally."
+            "detailedDescription": "Built an intelligent coding assistant that leverages LLMs to provide code suggestions, bug detection, and documentation generation. The tool integrates seamlessly with popular IDEs and supports multiple programming languages, helping developers write better code faster."
         }
     ],
     "de": [
         {
             "id": 1,
-            "title": "Persönliche Blog-Engine",
-            "description": "Ein leichtgewichtiger statischer Site-Generator mit Python",
+            "title": "AR-Bildungsplattform",
+            "description": "Augmented Reality App für interaktives Lernen",
             "image": "/portfolio/images/hobby-project.png",
             "technologies": [
-                "Python",
-                "Markdown",
-                "Jinja2"
+                "Unity",
+                "AR Foundation",
+                "C#",
+                "3D-Modellierung"
             ],
-            "detailedDescription": "Erstellung eines benutzerdefinierten statischen Site-Generators, der Markdown-Dateien mit Vorlagenunterstützung in HTML konvertiert. Funktionen umfassen automatische Social-Media-Karten, RSS-Feed-Generierung und eine einfache CLI zur Verwaltung von Beiträgen."
+            "detailedDescription": "Entwickelte eine Augmented Reality-Bildungsplattform, die Lernenden hilft, ihr Verständnis durch 3D-Visualisierungen und AR-Technologie zu verbessern. Die App verwandelt traditionelle Lernmaterialien in interaktive 3D-Erlebnisse und macht komplexe Konzepte durch immersive Visualisierung leichter verständlich."
         },
         {
             "id": 2,
-            "title": "Wetter-Widget",
-            "description": "Minimalistisches Wetter-Dashboard mit schöner UI",
+            "title": "Pflanzengesundheits-Überwachungssystem",
+            "description": "CNN-basiertes Deep Learning-Modell für die Landwirtschaft",
             "image": "/portfolio/images/hobby-project.png",
             "technologies": [
-                "JavaScript",
-                "CSS",
-                "Weather API"
+                "Python",
+                "TensorFlow",
+                "Keras",
+                "OpenCV",
+                "Fernerkundung"
             ],
-            "detailedDescription": "Design und Entwicklung eines sauberen Wetter-Widgets, das aktuelle Bedingungen und Vorhersagen anzeigt. Beinhaltet Standorterkennung, mehrere Einheitensysteme und sanfte Animationen für Wetterübergänge."
+            "detailedDescription": "Erstellte ein CNN-Deep-Learning-Modell zur Überwachung der Pflanzengesundheit mithilfe von Fernerkundungsdaten. Das System analysiert Satelliten- und Drohnenbilder, um Pflanzenkrankheiten und Nährstoffmängel zu erkennen und Bewässerungspläne zu optimieren. Erreichte 92% Genauigkeit bei der Krankheitserkennung über mehrere Kultursorten hinweg."
         },
         {
             "id": 3,
-            "title": "Rezept-Organizer",
-            "description": "Digitales Kochbuch zur Verwaltung persönlicher Rezepte",
+            "title": "BIN Bot - COVID-Sicherheitsroboter",
+            "description": "Autonomer Roboter für Abfallmanagement und Sicherheit",
             "image": "/portfolio/images/hobby-project.png",
             "technologies": [
-                "React",
-                "LocalStorage",
-                "PWA"
+                "ROS",
+                "Python",
+                "Computer Vision",
+                "Arduino",
+                "Sensoren"
             ],
-            "detailedDescription": "Entwicklung einer progressiven Web-App zur Organisation von Rezepten mit Funktionen wie Zutatenskalierung, Einkaufslistenerstellung und Offline-Unterstützung. Beinhaltet Such- und Filterfunktionen."
+            "detailedDescription": "Entwarf und baute einen autonomen Roboter, der darauf abzielt, die Krankheitsausbreitung in Institutionen und Arbeitsplätzen zu reduzieren. Der BIN Bot integriert Computer Vision für Navigation, automatische Abfallsammlungsfunktionen und COVID-19-Sicherheitsprotokoll-Durchsetzung durch kontaktlose Operationen."
         },
         {
             "id": 4,
-            "title": "Pomodoro-Timer",
-            "description": "Produktivitäts-Timer mit benutzerdefinierten Intervallen",
+            "title": "Automatische Schlauchschneidemaschine",
+            "description": "Präzisions-Automatisierungssystem für industriellen Einsatz",
             "image": "/portfolio/images/hobby-project.png",
             "technologies": [
-                "Vue.js",
-                "Web Audio API"
+                "SPS",
+                "HMI",
+                "Automatisierung",
+                "Mechanisches Design"
             ],
-            "detailedDescription": "Entwicklung eines anpassbaren Pomodoro-Timers mit Soundbenachrichtigungen, Statistikverfolgung und Theme-Anpassung. Beinhaltet vordefinierte Arbeits-/Pausenzyklen und historische Produktivitätsdaten."
+            "detailedDescription": "Entwarf und fertigte eine automatische Schlauchschneidemaschine, die eine Lösung für den zeitaufwändigen Prozess des präzisen Schlauchschneidens in industriellen Umgebungen bietet. Das System nutzt SPS-Programmierung für genaue Längenmessung und Schneiden, reduziert Abfall und verbessert die Produktionseffizienz um 60%."
         },
         {
             "id": 5,
-            "title": "Farbpaletten-Generator",
-            "description": "Werkzeug zur Generierung harmonischer Farbschemata",
+            "title": "Eierqualitäts-Erkennungsgerät",
+            "description": "IoT-Gerät für intelligente Eierqualitätsbewertung",
             "image": "/portfolio/images/hobby-project.png",
             "technologies": [
-                "JavaScript",
-                "Canvas API",
-                "CSS"
+                "Arduino",
+                "Sensoren",
+                "IoT",
+                "Mobile App"
             ],
-            "detailedDescription": "Erstellung eines Web-Tools zur Generierung von Farbpaletten basierend auf Farbtheorie. Funktionen umfassen Palettenexport in verschiedenen Formaten (CSS, JSON, Adobe ASE) und Barrierefreiheits-Kontrastprüfung."
+            "detailedDescription": "Erfand ein Handgerät, das die Eierqualität für Verbraucher vorhersagt und erkennt. Das Gerät misst Gewicht und Temperatur und nutzt diese Parameter, um die Frische der Eier zu bestimmen und Verfallsdaten vorherzusagen. Die begleitende Mobile App zeigt Qualitätsbewertungen und Frischeindikatoren an."
         },
         {
             "id": 6,
-            "title": "Markdown-Editor",
-            "description": "Echtzeit-Markdown-Editor mit Live-Vorschau",
+            "title": "Humanoider Mitarbeiter-Tracking-Bot",
+            "description": "KI-gestützter Roboter für Arbeitsplatzautomatisierung",
             "image": "/portfolio/images/hobby-project.png",
             "technologies": [
-                "React",
-                "Marked.js",
-                "CodeMirror"
+                "Python",
+                "Computer Vision",
+                "Deep Learning",
+                "ROS",
+                "Gesichtserkennung"
             ],
-            "detailedDescription": "Entwicklung eines geteilten Markdown-Editors mit Syntaxhervorhebung, Live-Vorschau und Exportoptionen. Unterstützt GitHub Flavored Markdown und beinhaltet Tastaturkürzel für gängige Formatierungen."
+            "detailedDescription": "Als Abschlussprojekt bei ELGI R&D entwickelt, automatisiert dieser humanoide Bot die Mitarbeiterverfolgung und gewährleistet die Einhaltung von COVID-SOP. Implementierte Deep Learning-Modelle für Gesichtserkennung, Social-Distancing-Erkennung und Maskenerkennung mit Echtzeitwarnungen und Berichtsfunktionen."
         },
         {
             "id": 7,
-            "title": "Gitarrenakkord-Bibliothek",
-            "description": "Interaktive Akkorddiagramm-Bibliothek für Gitarristen",
+            "title": "KI-Code-Assistent",
+            "description": "LLM-gestützter Coding-Begleiter",
             "image": "/portfolio/images/hobby-project.png",
             "technologies": [
-                "SVG",
-                "JavaScript",
-                "IndexedDB"
+                "Python",
+                "GPT",
+                "VS Code Extension",
+                "TypeScript"
             ],
-            "detailedDescription": "Entwicklung einer interaktiven Gitarrenakkord-Referenz mit visuellen Diagrammen. Funktionen umfassen Akkordvariationen, Fingerpositionsindikatoren und die Möglichkeit, Lieblingsakkorde lokal zu speichern."
+            "detailedDescription": "Baute einen intelligenten Coding-Assistenten, der LLMs nutzt, um Code-Vorschläge, Bug-Erkennung und Dokumentationsgenerierung bereitzustellen. Das Tool integriert sich nahtlos in beliebte IDEs und unterstützt mehrere Programmiersprachen, um Entwicklern zu helfen, schneller besseren Code zu schreiben."
         }
     ]
 }
