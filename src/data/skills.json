@@ -1,177 +1,81 @@
 {
     "en": {
-        "categories": [
+        "skills": [
             {
-                "name": "AI & Machine Learning",
-                "skills": [
-                    {
-                        "name": "LLMs & Agentic AI",
-                        "percentage": 95
-                    },
-                    {
-                        "name": "RAG & NLP",
-                        "percentage": 92
-                    },
-                    {
-                        "name": "Computer Vision (CNNs)",
-                        "percentage": 88
-                    },
-                    {
-                        "name": "Reinforcement Learning",
-                        "percentage": 85
-                    },
-                    {
-                        "name": "TensorFlow & Keras",
-                        "percentage": 90
-                    }
-                ]
+                "name": "Python",
+                "percentage": 95
             },
             {
-                "name": "Robotics & IoT",
-                "skills": [
-                    {
-                        "name": "Automation & Control Systems",
-                        "percentage": 90
-                    },
-                    {
-                        "name": "PLC Programming",
-                        "percentage": 85
-                    },
-                    {
-                        "name": "Embedded Systems",
-                        "percentage": 87
-                    },
-                    {
-                        "name": "Sensor Integration",
-                        "percentage": 88
-                    }
-                ]
+                "name": "LLM Fine-Tuning",
+                "percentage": 70
             },
             {
-                "name": "Web & AR/VR",
-                "skills": [
-                    {
-                        "name": "Web Development",
-                        "percentage": 85
-                    },
-                    {
-                        "name": "AR/VR Interfaces",
-                        "percentage": 80
-                    },
-                    {
-                        "name": "Full Stack Development",
-                        "percentage": 82
-                    }
-                ]
+                "name": "RAG and Graph RAG",
+                "percentage": 80
             },
             {
-                "name": "Tools & Technologies",
-                "skills": [
-                    {
-                        "name": "Python",
-                        "percentage": 95
-                    },
-                    {
-                        "name": "OpenCV",
-                        "percentage": 88
-                    },
-                    {
-                        "name": "MATLAB",
-                        "percentage": 85
-                    },
-                    {
-                        "name": "Git & Version Control",
-                        "percentage": 90
-                    }
-                ]
+                "name": "ADKs (LangChain, LangGraph, Google ADK, Claude SDK)",
+                "percentage": 90
+            },
+            {
+                "name": "Deep Learning, Neural Networks and NLP",
+                "percentage": 90
+            },
+            {
+                "name": "MCP, A2A, and Tools",
+                "percentage": 80
+            },
+            {
+                "name": "PyTorch / TensorFlow",
+                "percentage": 80
+            },
+            {
+                "name": "MLOps & LLMOps",
+                "percentage": 80
+            },
+            {
+                "name": "Agentic AI & AI Agents",
+                "percentage": 95
             }
         ]
     },
     "de": {
-        "categories": [
+        "skills": [
             {
-                "name": "KI & Maschinelles Lernen",
-                "skills": [
-                    {
-                        "name": "LLMs & Agentic AI",
-                        "percentage": 95
-                    },
-                    {
-                        "name": "RAG & NLP",
-                        "percentage": 92
-                    },
-                    {
-                        "name": "Computer Vision (CNNs)",
-                        "percentage": 88
-                    },
-                    {
-                        "name": "Reinforcement Learning",
-                        "percentage": 85
-                    },
-                    {
-                        "name": "TensorFlow & Keras",
-                        "percentage": 90
-                    }
-                ]
+                "name": "Python",
+                "percentage": 95
             },
             {
-                "name": "Robotik & IoT",
-                "skills": [
-                    {
-                        "name": "Automatisierung & Steuerungssysteme",
-                        "percentage": 90
-                    },
-                    {
-                        "name": "SPS-Programmierung",
-                        "percentage": 85
-                    },
-                    {
-                        "name": "Eingebettete Systeme",
-                        "percentage": 87
-                    },
-                    {
-                        "name": "Sensorintegration",
-                        "percentage": 88
-                    }
-                ]
+                "name": "LLM Fine-Tuning",
+                "percentage": 70
             },
             {
-                "name": "Web & AR/VR",
-                "skills": [
-                    {
-                        "name": "Webentwicklung",
-                        "percentage": 85
-                    },
-                    {
-                        "name": "AR/VR-Schnittstellen",
-                        "percentage": 80
-                    },
-                    {
-                        "name": "Full Stack Entwicklung",
-                        "percentage": 82
-                    }
-                ]
+                "name": "RAG and Graph RAG",
+                "percentage": 80
             },
             {
-                "name": "Werkzeuge & Technologien",
-                "skills": [
-                    {
-                        "name": "Python",
-                        "percentage": 95
-                    },
-                    {
-                        "name": "OpenCV",
-                        "percentage": 88
-                    },
-                    {
-                        "name": "MATLAB",
-                        "percentage": 85
-                    },
-                    {
-                        "name": "Git & Versionskontrolle",
-                        "percentage": 90
-                    }
-                ]
+                "name": "ADKs (LangChain, LangGraph, Google ADK, Claude SDK)",
+                "percentage": 90
+            },
+            {
+                "name": "Deep Learning, Neural Networks and NLP",
+                "percentage": 90
+            },
+            {
+                "name": "MCP, A2A, and Tools",
+                "percentage": 80
+            },
+            {
+                "name": "PyTorch / TensorFlow",
+                "percentage": 80
+            },
+            {
+                "name": "MLOps & LLMOps",
+                "percentage": 80
+            },
+            {
+                "name": "Agentic AI & AI Agents",
+                "percentage": 95
             }
         ]
     }

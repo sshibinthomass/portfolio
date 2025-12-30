@@ -2,6 +2,7 @@ import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
+import ImageCarousel from '../components/ImageCarousel/ImageCarousel';
 import achievementsData from '../data/achievements.json';
 
 const AchievementDetail = () => {
@@ -11,6 +12,29 @@ const AchievementDetail = () => {
 
     const achievements = achievementsData[currentLang] || achievementsData.en;
     const achievement = achievements.find(a => a.id === parseInt(id));
+
+    // Fallback to English achievement
+    const enAchievement = achievementsData.en.find(a => a.id === parseInt(id));
+    const achievementImages = achievement?.images || enAchievement?.images || ['/portfolio/images/achievement.png'];
+
+    // New metadata fields with fallback
+    const achievementYoutubeLink = achievement?.youtubeLink || enAchievement?.youtubeLink || '';
+    const achievementPurpose = achievement?.purpose || enAchievement?.purpose || '';
+    const achievementDuration = achievement?.duration || enAchievement?.duration || '';
+    const achievementGithub = achievement?.github || enAchievement?.github || '';
+    const achievementAppLink = achievement?.appLink || enAchievement?.appLink || '';
+
+    // Date handling (format if valid date string)
+    const rawDate = achievement?.date || enAchievement?.date;
+    const achievementDate = rawDate ? new Date(rawDate).toLocaleDateString(currentLang === 'de' ? 'de-DE' : 'en-US') : '';
+
+    // Helper to extract YouTube ID
+    const getYoutubeId = (url) => {
+        if (!url) return null;
+        const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/;
+        const match = url.match(regExp);
+        return (match && match[2].length === 11) ? match[2] : null;
+    };
 
     if (!achievement) {
         return (
@@ -60,35 +84,120 @@ const AchievementDetail = () => {
                         <span style={{ color: 'var(--text-secondary)' }}>{achievement.title}</span>
                     </div>
 
-                    <img
-                        src={achievement.image}
+                    <ImageCarousel
+                        images={achievementImages}
                         alt={achievement.title}
-                        style={{
-                            width: '100%',
-                            borderRadius: '12px',
-                            marginBottom: '2rem',
-                            boxShadow: 'var(--shadow-lg)'
-                        }}
                     />
 
                     <h1 className="section-title">{achievement.title}</h1>
 
-                    <p style={{
-                        marginBottom: '1.5rem',
-                        fontWeight: '600',
-                        color: 'var(--accent-primary)',
-                        fontSize: '1.1rem'
-                    }}>
-                        {t('achievements.date')}: {new Date(achievement.date).toLocaleDateString(currentLang === 'de' ? 'de-DE' : 'en-US')}
-                    </p>
+                    {/* Metadata Section */}
+                    {(achievementPurpose || achievementDuration || achievementDate) && (
+                        <div style={{
+                            display: 'grid',
+                            gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
+                            gap: '1.5rem',
+                            marginBottom: '2rem',
+                            padding: '1.5rem',
+                            background: 'rgba(255, 255, 255, 0.03)',
+                            borderRadius: '12px',
+                            border: '1px solid rgba(255, 255, 255, 0.05)'
+                        }}>
+                            {achievementPurpose && (
+                                <div>
+                                    <h4 style={{ color: 'var(--accent-primary)', marginBottom: '0.5rem', fontSize: '0.9rem' }}>{t('projects.purpose')}</h4>
+                                    <p style={{ margin: 0, color: 'var(--text-secondary)', fontSize: '0.95rem' }}>{achievementPurpose}</p>
+                                </div>
+                            )}
+                            {achievementDuration && (
+                                <div>
+                                    <h4 style={{ color: 'var(--accent-primary)', marginBottom: '0.5rem', fontSize: '0.9rem' }}>{t('projects.duration')}</h4>
+                                    <p style={{ margin: 0, color: 'var(--text-secondary)', fontSize: '0.95rem' }}>{achievementDuration}</p>
+                                </div>
+                            )}
+                            {achievementDate && (
+                                <div>
+                                    <h4 style={{ color: 'var(--accent-primary)', marginBottom: '0.5rem', fontSize: '0.9rem' }}>{t('achievements.date')}</h4>
+                                    <p style={{ margin: 0, color: 'var(--text-secondary)', fontSize: '0.95rem' }}>{achievementDate}</p>
+                                </div>
+                            )}
+                        </div>
+                    )}
 
-                    <p style={{
-                        fontSize: '1.125rem',
-                        lineHeight: '1.8',
-                        color: 'var(--text-secondary)'
-                    }}>
-                        {achievement.detailedDescription}
-                    </p>
+                    <div
+                        style={{
+                            fontSize: '1.125rem',
+                            lineHeight: '1.8',
+                            color: 'var(--text-secondary)',
+                            marginBottom: '2rem'
+                        }}
+                        dangerouslySetInnerHTML={{ __html: achievement.detailedDescription }}
+                    />
+
+                    <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginBottom: '3rem' }}>
+                        {achievementAppLink && (
+                            <a
+                                href={achievementAppLink}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="btn btn-primary"
+                                style={{ background: 'var(--accent-secondary)' }}
+                            >
+                                {t('projects.appLink')}
+                            </a>
+                        )}
+
+                        {achievementGithub && (
+                            <a
+                                href={achievementGithub}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="btn btn-outline"
+                                style={{
+                                    border: '1px solid var(--accent-primary)',
+                                    color: 'var(--accent-primary)',
+                                    padding: '0.8rem 2rem',
+                                    borderRadius: '50px',
+                                    textDecoration: 'none',
+                                    fontWeight: '500',
+                                    transition: 'all 0.3s ease'
+                                }}
+                            >
+                                {t('projects.github')}
+                            </a>
+                        )}
+                    </div>
+
+                    {/* YouTube Video Embed */}
+                    {achievementYoutubeLink && getYoutubeId(achievementYoutubeLink) && (
+                        <div style={{ marginTop: '2rem', marginBottom: '2rem' }}>
+                            <h3 style={{ marginBottom: '1rem', color: 'var(--accent-primary)' }}>Demo Video</h3>
+                            <div style={{
+                                position: 'relative',
+                                paddingBottom: '56.25%',
+                                height: 0,
+                                overflow: 'hidden',
+                                borderRadius: '12px',
+                                border: '1px solid rgba(255, 255, 255, 0.1)',
+                                boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)'
+                            }}>
+                                <iframe
+                                    src={`https://www.youtube.com/embed/${getYoutubeId(achievementYoutubeLink)}`}
+                                    title="YouTube video player"
+                                    frameBorder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowFullScreen
+                                    style={{
+                                        position: 'absolute',
+                                        top: 0,
+                                        left: 0,
+                                        width: '100%',
+                                        height: '100%'
+                                    }}
+                                ></iframe>
+                            </div>
+                        </div>
+                    )}
                 </motion.div>
             </div>
         </div>

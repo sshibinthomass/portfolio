@@ -1,182 +1,257 @@
 {
     "en": [
         {
-            "id": 1,
-            "title": "Spotlight of the Month Award (2x)",
-            "description": "Recognized twice for AI innovation at Vuram Technologies",
-            "image": "/portfolio/images/achievement.png",
-            "date": "2023-06-15",
-            "detailedDescription": "Received the prestigious Spotlight of the Month award twice during tenure at Vuram Technologies for exceptional contributions to AI innovation. The recognition came from successfully implementing LLM-based customer support automation and leading intelligent document processing projects that significantly improved operational efficiency."
-        },
-        {
-            "id": 2,
-            "title": "CGPA 9.40 - B.E. Mechatronics",
-            "description": "Graduated with distinction from SKCET, Coimbatore",
-            "image": "/portfolio/images/achievement.png",
-            "date": "2022-05-01",
-            "detailedDescription": "Achieved an outstanding CGPA of 9.40 out of 10 in Bachelor of Engineering (Mechatronics) from Sri Krishna College of Engineering and Technology, Coimbatore. Consistently ranked among the top performers in the class while actively participating in research and project work."
-        },
-        {
-            "id": 3,
-            "title": "Patent: Self-Balance Electric Two-Wheeler",
-            "description": "Awarded patent for innovative gyroscopic vehicle design",
-            "image": "/portfolio/images/achievement.png",
-            "date": "2022-03-10",
-            "detailedDescription": "Successfully obtained a patent for the development of a gyroscopic design for a self-balancing two-wheeled electric vehicle system. The invention demonstrates novel application of control systems and robotics in sustainable transportation."
-        },
-        {
-            "id": 4,
-            "title": "Patent: Egg Quality Detection Device",
-            "description": "Patented handheld device for egg freshness assessment",
-            "image": "/portfolio/images/achievement.png",
-            "date": "2022-04-20",
-            "detailedDescription": "Received patent for inventing a handheld device that forecasts and detects egg quality using weight and temperature measurements. The device helps consumers make informed purchasing decisions and reduces food waste."
-        },
-        {
-            "id": 5,
-            "title": "IEEE Published Research Paper",
-            "description": "Published in IEEE - BIN Bot Robot Technology",
-            "image": "/portfolio/images/achievement.png",
-            "date": "2021-11-15",
-            "detailedDescription": "Published research paper in IEEE conference proceedings on 'Technology in Design Aspect of BIN Bot Robot'. The paper discusses the innovative design of an autonomous robot aimed at reducing disease spread in institutional and industrial environments."
-        },
-        {
-            "id": 6,
-            "title": "IOP Science Publication",
-            "description": "AR for E-education and Training (ICMMM)",
-            "image": "/portfolio/images/achievement.png",
-            "date": "2021-09-05",
-            "detailedDescription": "Published research in IOP Science Materials Science and Engineering journal on 'Development of App Incorporating AR for E-edu and Training'. The work presents a visual platform using 3D visuals and Augmented Reality to enhance learning experiences."
-        },
-        {
-            "id": 7,
-            "title": "IEEE Published - Hose Cutting Machine",
-            "description": "Automatic hose cutting machine research publication",
-            "image": "/portfolio/images/achievement.png",
-            "date": "2022-06-10",
-            "detailedDescription": "Published research paper in IEEE on 'Design and Fabrication of Automatic Hose Cutting Machine'. The study offers an innovative solution to precise hose cutting in industrial applications, improving efficiency and reducing waste."
+            "id": 9,
+            "title": "TUM Venture Hackathon",
+            "description": "1st Place in TUM Venture Hackathon conducted by TUM VENTURE (Nov 2025)",
+            "images": [
+                "/portfolio/images/achievements/TUM_Venture1.jpg",
+                "/portfolio/images/achievements/TUM_Venture2.jpg",
+                "/portfolio/images/achievements/TUM_Venture3.jpg"
+            ],
+            "youtubeLink": "",
+            "github": "",
+            "appLink": "",
+            "purpose": "",
+            "duration": "48 Hours",
+            "date": "2025-11-23",
+            "detailedDescription": "<p><strong>1st Place</strong> in TUM Venture Hackathon conducted by TUM VENTURE.</p><p>Built during the Nemetschek AECO Hackathon, a fast-paced 48-hour competition focused on creating and evaluating next-generation RAG systems for AEC knowledge. Teams were challenged to work with complex real-world technical documents and demonstrate measurable improvements using defined metrics such as faithfulness, contextual precision, and recall.</p><h3>Solution: Hybrid Agentic Graph RAG for AEC</h3><p>Our solution is an AI-driven retrieval system designed to help AEC professionals navigate massive multimodal technical documents with high precision and zero-hallucination guarantees. It targets information overload and the need for trustworthy AI by transforming complex PDFs into a structured, queryable knowledge space tailored to standards, manuals, and regulations in the AEC domain.</p>"
         },
         {
             "id": 8,
-            "title": "JCREVIEW Publication",
-            "description": "Self-balancing vehicle research published",
-            "image": "/portfolio/images/achievement.png",
-            "date": "2022-02-20",
-            "detailedDescription": "Published comprehensive research paper in JCREVIEW journal on 'Design of Self Balance Electric 2-Wheeler Using Gyroscope'. The paper discusses the concept, simulation, and construction of an innovative self-balancing vehicle system."
+            "title": "BMW Hackathon",
+            "description": "1st Place in BMW Hackathon conducted by BMW (Oct 2025)",
+            "images": [
+                "/portfolio/images/achievements/BMW1.jpg",
+                "/portfolio/images/achievements/BMW2.jpg",
+                "/portfolio/images/achievements/BMW3.jpg",
+                "/portfolio/images/achievements/BMW4.jpg",
+                "/portfolio/images/achievements/BMW5.jpg"
+            ],
+            "youtubeLink": "",
+            "github": "",
+            "appLink": "",
+            "purpose": "",
+            "duration": "48 Hours",
+            "date": "2025-10-24",
+            "detailedDescription": "<p><strong>1st Place</strong> in BMW Hackathon conducted by BMW.</p><ul><li><strong>Category:</strong> Contact Retrieval</li><li><strong>Location:</strong> BMW Startup Garage, München</li><li><strong>Team:</strong> 3 Members</li><li><strong>Prize:</strong> 500€</li></ul><p>The BMW Group x TUM.ai Hackathon is an intense 48-hour event organized by BMW Group and TUM.ai. This competition brings together talented participants to develop cutting-edge AI solutions for real-world applications at BMW.</p><h3>Solution</h3><p>Our winning solution for the Contact Retrieval Challenge represents a sophisticated AI-driven system designed to intelligently analyze and extract information from complex data sets. The AI framework is specifically engineered to make sense of unstructured and semi-structured data, transforming raw information into actionable insights that can support BMW's real-world applications and business processes.</p>"
         },
         {
-            "id": 9,
-            "title": "HSC - 93.7% Achievement",
-            "description": "Stanes Anglo Indian Higher Secondary School",
-            "image": "/portfolio/images/achievement.png",
-            "date": "2018-04-01",
-            "detailedDescription": "Secured 93.7% in Higher Secondary Certificate (HSC) examination from Stanes Anglo Indian Higher Secondary School, Coonoor. Demonstrated strong academic performance across science and mathematics subjects."
+            "id": 7,
+            "title": "BKW Hackathon",
+            "description": "2nd Place in BKW Hackathon conducted by BKW Engineering (Oct 2025)",
+            "images": [
+                "/portfolio/images/achievements/BKW1.jpg",
+                "/portfolio/images/achievements/BKW2.jpg",
+                "/portfolio/images/achievements/BKW3.jpg"
+            ],
+            "youtubeLink": "",
+            "github": "",
+            "appLink": "",
+            "purpose": "",
+            "duration": "24 Hours",
+            "date": "2025-10-18",
+            "detailedDescription": "<p><strong>2nd Place</strong> in BKW Hackathon conducted by BKW Engineering.</p><p>The BKW Engineering x TUM.ai Makeathon is an intensive competition that focuses on solving engineering challenges and applying AI to address on-ground industrial problems.</p><h3>Solution: GenDesign</h3><p>GenDesign represents an innovative AI-driven solution that transforms historical engineering design data into actionable knowledge for design optimization and faster decision-making. Developed during the intense 24-hour makeathon, this groundbreaking system addresses critical pain points in engineering workflows while showcasing how Agentic AI can empower engineers rather than replace them.</p>"
         },
         {
-            "id": 10,
-            "title": "SSLC - 93.2% Achievement",
-            "description": "Secondary School Leaving Certificate excellence",
-            "image": "/portfolio/images/achievement.png",
-            "date": "2016-04-01",
-            "detailedDescription": "Achieved 93.2% in Secondary School Leaving Certificate (SSLC) examination from Stanes Anglo Indian Higher Secondary School, Coonoor. Laid a strong foundation for future academic pursuits in engineering and technology."
+            "id": 6,
+            "title": "TNSCST Best Project Award",
+            "description": "1st Place in Student Project Scheme (TNSCST) conducted by Gov of TamilNadu (Nov 2022)",
+            "images": [
+                "/portfolio/images/achievements/TNSCST1.jpg",
+                "/portfolio/images/achievements/TNSCST2.jpg",
+                "/portfolio/images/achievements/TNSCST3.jpg",
+                "/portfolio/images/achievements/TNSCST4.jpg",
+                "/portfolio/images/achievements/TNSCST5.jpg"
+            ],
+            "youtubeLink": "",
+            "github": "",
+            "appLink": "",
+            "purpose": "",
+            "duration": "1 Day",
+            "date": "2022-11-26",
+            "detailedDescription": "<p><strong>1st Place</strong> in Student Project Scheme (TNSCST) conducted by Gov of TamilNadu.</p><p>Under this Scheme Government of Tamilnadu provides financial support to students to take up research projects. Prizes are given to selected projects and models.</p><h3>Project</h3><p>Designed and Fabricated a Humanoid Bot integrated with Company Ready Features including Customer welcome to Employee Log. The system integrates contactless temperature sensing, face detection, and mask detection capabilities to minimize virus transmission within institutions and workplaces.</p>"
         },
         {
-            "id": 11,
-            "title": "Selected for TU Dortmund M.S. Program",
-            "description": "Admitted to prestigious AI specialization program",
-            "image": "/portfolio/images/achievement.png",
-            "date": "2023-09-01",
-            "detailedDescription": "Selected for the highly competitive Master of Science in Automation and Robotics program with specialization in Artificial Intelligence at TU Dortmund, Germany. The program focuses on advanced AI, robotics, and automation technologies."
+            "id": 5,
+            "title": "Smart India Hackathon",
+            "description": "1st Place in Smart India Hackathon(W) conducted by SIH [Gov of India] Ministry of Ayush (Dec 2020)",
+            "images": [
+                "/portfolio/images/achievements/SIH1.jpg",
+                "/portfolio/images/achievements/SIH2.jpg",
+                "/portfolio/images/achievements/SIH3.jpg",
+                "/portfolio/images/achievements/SIH4.jpg",
+                "/portfolio/images/achievements/SIH5.jpg"
+            ],
+            "youtubeLink": "https://www.youtube.com/embed/F9xCMl1qXHo",
+            "github": "",
+            "appLink": "",
+            "purpose": "",
+            "duration": "3 Days",
+            "date": "2020-12-21",
+            "detailedDescription": "<p><strong>1st Place</strong> in Smart India Hackathon(W) conducted by SIH [Gov of India] Ministry of Ayush.</p><p>Smart India Hackathon is a nationwide initiative to provide students a platform to solve some of pressing problems we face in our daily lives.</p><h3>Solution: VR Yoga</h3><p>An innovative Virtual Reality (VR) apparatus has been ingeniously crafted to enhance focus during yoga sessions. The device operates in conjunction with a smartphone and an inventive VR application, meticulously developed utilizing the UNITY software framework. This application introduces a groundbreaking facet where a mere gaze for a fleeting span of seconds can usher in a transformation of the VR environment.</p>"
+        },
+        {
+            "id": 4,
+            "title": "SAR Tier 2",
+            "description": "1st Place in SAE Tier 2 conducted by SAE (Feb 2020)",
+            "images": [
+                "/portfolio/images/achievements/SAR_Tire21.jpg",
+                "/portfolio/images/achievements/SAR_Tire22.jpg",
+                "/portfolio/images/achievements/SAR_Tire23.jpg",
+                "/portfolio/images/achievements/SAR_Tire24.jpg"
+            ],
+            "youtubeLink": "",
+            "github": "",
+            "appLink": "",
+            "purpose": "",
+            "duration": "1 Day",
+            "date": "2020-02-25",
+            "detailedDescription": "<p><strong>1st Place</strong> in SAE Tier 2 conducted by SAE.</p><p>SAE International is the leader in connecting and educating mobility professionals to enable safe, clean, and accessible mobility solutions. Won 1st place in App development and Cloud computing category.</p>"
+        },
+        {
+            "id": 3,
+            "title": "IFA Hackathon (IOT for All)",
+            "description": "3rd Place in IFA Hackathon (IOT for All) conducted by MakersTribe (Dec 2019)",
+            "images": [
+                "/portfolio/images/achievements/IFA1.jpg",
+                "/portfolio/images/achievements/IFA2.jpg",
+                "/portfolio/images/achievements/IFA3.jpg",
+                "/portfolio/images/achievements/IFA4.jpg",
+                "/portfolio/images/achievements/IFA5.jpg"
+            ],
+            "youtubeLink": "",
+            "github": "",
+            "appLink": "",
+            "purpose": "",
+            "duration": "2 Days",
+            "date": "2019-12-07",
+            "detailedDescription": "<p><strong>3rd Place</strong> in IFA Hackathon (IOT for All) conducted by MakersTribe.</p><p>The theme of the hackathon was “IoT for Smart Cities” and the participants had to come up with innovative solutions using IoT devices and sensors to solve real-world problems.</p><h3>Solution: AR in Education</h3><p>Enhancing Educational Endeavors: Augmented Reality's Dynamic Role in Facilitating Student Learning. The integration of AR as a pedagogical tool presents an opportunity to revolutionize the learning experience, not just as a tool for gamified learning but also as a motivational asset that unlocks a plethora of possibilities across various disciplines.</p>"
+        },
+        {
+            "id": 2,
+            "title": "TCS XR Pro Hackathon",
+            "description": "3rd Place in TCS XR Pro Hackathon conducted by Gov of TamilNadu/ CII Connect/TCS (Oct 2019)",
+            "images": [
+                "/portfolio/images/achievements/TCS_XR_Pro1.jpg",
+                "/portfolio/images/achievements/TCS_XR_Pro2.jpg",
+                "/portfolio/images/achievements/TCS_XR_Pro3.jpg",
+                "/portfolio/images/achievements/TCS_XR_Pro4.jpg",
+                "/portfolio/images/achievements/TCS_XR_Pro5.jpg",
+                "/portfolio/images/achievements/TCS_XR_Pro6.jpg",
+                "/portfolio/images/achievements/TCS_XR_Pro7.jpg",
+                "/portfolio/images/achievements/TCS_XR_Pro8.jpg",
+                "/portfolio/images/achievements/TCS_XR_Pro9.jpg",
+                "/portfolio/images/achievements/TCS_XR_Pro10.jpg"
+            ],
+            "youtubeLink": "https://www.youtube.com/embed/CR38xj9NQ3Q?si=Y8d_j39T-agV6Rdk",
+            "github": "",
+            "appLink": "",
+            "purpose": "",
+            "duration": "1 Day",
+            "date": "2019-10-17",
+            "detailedDescription": "<p><strong>3rd Place</strong> in TCS XR Pro Hackathon conducted by Gov of TamilNadu/ CII Connect/TCS.</p><p>TCS XR Pro is organized to design and develop experiences to solve contextual business problems using Virtual reality, augmented reality and mixed reality.</p><h3>Solution: Integration of AR</h3><p>Integration of Augmented Reality (AR) into Student Training, Virtual Laboratory, and Inspection. By leveraging the power of AR, institutions can bridge the gap between theoretical knowledge and practical exposure, propelling students towards proficiency through immersive learning experiences.</p>"
+        },
+        {
+            "id": 1,
+            "title": "Project expo’19 & 22",
+            "description": "1st Place in Project expo’19 & 22 conducted by SKCET (Sep 2019)",
+            "images": [
+                "/portfolio/images/achievements/EXPO_191.jpg",
+                "/portfolio/images/achievements/EXPO_192.jpg",
+                "/portfolio/images/achievements/EXPO_193.jpg",
+                "/portfolio/images/achievements/EXPO_221.jpg"
+            ],
+            "youtubeLink": "",
+            "github": "",
+            "appLink": "",
+            "purpose": "",
+            "duration": "1 Day",
+            "date": "2019-09-16",
+            "detailedDescription": "<p><strong>1st Place</strong> in Project expo’19 & 22 conducted by SKCET.</p><p>Conducted by Sri Krishna College of Engineering and Technology, Coimbatore, Department of mechatronics for Engineers day 2019.</p>"
         }
     ],
     "de": [
         {
-            "id": 1,
-            "title": "Spotlight of the Month Award (2x)",
-            "description": "Zweimal für KI-Innovation bei Vuram Technologies ausgezeichnet",
-            "image": "/portfolio/images/achievement.png",
-            "date": "2023-06-15",
-            "detailedDescription": "Erhielt zweimal während der Tätigkeit bei Vuram Technologies den prestigeträchtigen Spotlight of the Month Award für außergewöhnliche Beiträge zur KI-Innovation. Die Anerkennung kam von der erfolgreichen Implementierung LLM-basierter Kundensupport-Automatisierung und der Leitung intelligenter Dokumentenverarbeitungsprojekte, die die operative Effizienz erheblich verbesserten."
-        },
-        {
-            "id": 2,
-            "title": "CGPA 9.40 - B.E. Mechatronik",
-            "description": "Mit Auszeichnung von SKCET, Coimbatore, absolviert",
-            "image": "/portfolio/images/achievement.png",
-            "date": "2022-05-01",
-            "detailedDescription": "Erreichte einen herausragenden CGPA von 9,40 von 10 im Bachelor of Engineering (Mechatronik) am Sri Krishna College of Engineering and Technology, Coimbatore. Gehörte durchweg zu den besten Absolventen der Klasse und beteiligte sich aktiv an Forschung und Projektarbeit."
-        },
-        {
-            "id": 3,
-            "title": "Patent: Selbstbalancierendes Elektro-Zweirad",
-            "description": "Patent für innovatives gyroskopisches Fahrzeugdesign erhalten",
-            "image": "/portfolio/images/achievement.png",
-            "date": "2022-03-10",
-            "detailedDescription": "Erfolgreich ein Patent für die Entwicklung eines gyroskopischen Designs für ein selbstbalancierendes zweirädriges Elektrofahrzeugsystem erhalten. Die Erfindung demonstriert neuartige Anwendung von Steuerungssystemen und Robotik in nachhaltiger Mobilität."
-        },
-        {
-            "id": 4,
-            "title": "Patent: Eierqualitäts-Erkennungsgerät",
-            "description": "Patentiertes Handgerät zur Eierfrische-Bewertung",
-            "image": "/portfolio/images/achievement.png",
-            "date": "2022-04-20",
-            "detailedDescription": "Erhielt Patent für die Erfindung eines Handgeräts, das Eierqualität mithilfe von Gewichts- und Temperaturmessungen vorhersagt und erkennt. Das Gerät hilft Verbrauchern, fundierte Kaufentscheidungen zu treffen und Lebensmittelverschwendung zu reduzieren."
-        },
-        {
-            "id": 5,
-            "title": "IEEE Veröffentlichtes Forschungspapier",
-            "description": "Veröffentlicht in IEEE - BIN Bot Robotertechnologie",
-            "image": "/portfolio/images/achievement.png",
-            "date": "2021-11-15",
-            "detailedDescription": "Veröffentlichte Forschungsarbeit in IEEE-Konferenzberichten über 'Technologie im Designaspekt des BIN Bot Roboters'. Das Papier diskutiert das innovative Design eines autonomen Roboters zur Reduzierung der Krankheitsausbreitung in institutionellen und industriellen Umgebungen."
-        },
-        {
-            "id": 6,
-            "title": "IOP Science Publikation",
-            "description": "AR für E-Bildung und Training (ICMMM)",
-            "image": "/portfolio/images/achievement.png",
-            "date": "2021-09-05",
-            "detailedDescription": "Veröffentlichte Forschung im IOP Science Materials Science and Engineering Journal über 'Entwicklung einer App mit AR für E-Bildung und Training'. Die Arbeit präsentiert eine visuelle Plattform mit 3D-Visualisierungen und Augmented Reality zur Verbesserung von Lernerfahrungen."
-        },
-        {
-            "id": 7,
-            "title": "IEEE Veröffentlicht - Schlauchschneidemaschine",
-            "description": "Forschungspublikation zur automatischen Schlauchschneidemaschine",
-            "image": "/portfolio/images/achievement.png",
-            "date": "2022-06-10",
-            "detailedDescription": "Veröffentlichte Forschungsarbeit in IEEE über 'Design und Herstellung einer automatischen Schlauchschneidemaschine'. Die Studie bietet eine innovative Lösung für präzises Schlauchschneiden in industriellen Anwendungen, verbessert Effizienz und reduziert Abfall."
+            "id": 9,
+            "title": "TUM Venture Hackathon",
+            "description": "1st Place in TUM Venture Hackathon conducted by TUM VENTURE (Nov 2025)",
+            "purpose": "",
+            "duration": "48 Hours",
+            "date": "2025-11-23",
+            "detailedDescription": "<p><strong>1st Place</strong> in TUM Venture Hackathon conducted by TUM VENTURE.</p><p>Built during the Nemetschek AECO Hackathon, a fast-paced 48-hour competition focused on creating and evaluating next-generation RAG systems for AEC knowledge. Teams were challenged to work with complex real-world technical documents and demonstrate measurable improvements using defined metrics such as faithfulness, contextual precision, and recall.</p><h3>Solution: Hybrid Agentic Graph RAG for AEC</h3><p>Our solution is an AI-driven retrieval system designed to help AEC professionals navigate massive multimodal technical documents with high precision and zero-hallucination guarantees. It targets information overload and the need for trustworthy AI by transforming complex PDFs into a structured, queryable knowledge space tailored to standards, manuals, and regulations in the AEC domain.</p>"
         },
         {
             "id": 8,
-            "title": "JCREVIEW Publikation",
-            "description": "Selbstbalancierendes Fahrzeug Forschung veröffentlicht",
-            "image": "/portfolio/images/achievement.png",
-            "date": "2022-02-20",
-            "detailedDescription": "Veröffentlichte umfassende Forschungsarbeit im JCREVIEW Journal über 'Design eines selbstbalancierenden Elektro-Zweirads mit Gyroskop'. Das Papier diskutiert das Konzept, die Simulation und den Bau eines innovativen selbstbalancierenden Fahrzeugsystems."
+            "title": "BMW Hackathon",
+            "description": "1st Place in BMW Hackathon conducted by BMW (Oct 2025)",
+            "purpose": "",
+            "duration": "48 Hours",
+            "date": "2025-10-24",
+            "detailedDescription": "<p><strong>1st Place</strong> in BMW Hackathon conducted by BMW.</p><ul><li><strong>Category:</strong> Contact Retrieval</li><li><strong>Location:</strong> BMW Startup Garage, München</li><li><strong>Team:</strong> 3 Members</li><li><strong>Prize:</strong> 500€</li></ul><p>The BMW Group x TUM.ai Hackathon is an intense 48-hour event organized by BMW Group and TUM.ai. This competition brings together talented participants to develop cutting-edge AI solutions for real-world applications at BMW.</p><h3>Solution</h3><p>Our winning solution for the Contact Retrieval Challenge represents a sophisticated AI-driven system designed to intelligently analyze and extract information from complex data sets. The AI framework is specifically engineered to make sense of unstructured and semi-structured data, transforming raw information into actionable insights that can support BMW's real-world applications and business processes.</p>"
         },
         {
-            "id": 9,
-            "title": "HSC - 93,7% Leistung",
-            "description": "Stanes Anglo Indian Higher Secondary School",
-            "image": "/portfolio/images/achievement.png",
-            "date": "2018-04-01",
-            "detailedDescription": "Erreichte 93,7% in der Higher Secondary Certificate (HSC) Prüfung der Stanes Anglo Indian Higher Secondary School, Coonoor. Zeigte starke akademische Leistung in Naturwissenschaften und Mathematik."
+            "id": 7,
+            "title": "BKW Hackathon",
+            "description": "2nd Place in BKW Hackathon conducted by BKW Engineering (Oct 2025)",
+            "purpose": "",
+            "duration": "24 Hours",
+            "date": "2025-10-18",
+            "detailedDescription": "<p><strong>2nd Place</strong> in BKW Hackathon conducted by BKW Engineering.</p><p>The BKW Engineering x TUM.ai Makeathon is an intensive competition that focuses on solving engineering challenges and applying AI to address on-ground industrial problems.</p><h3>Solution: GenDesign</h3><p>GenDesign represents an innovative AI-driven solution that transforms historical engineering design data into actionable knowledge for design optimization and faster decision-making. Developed during the intense 24-hour makeathon, this groundbreaking system addresses critical pain points in engineering workflows while showcasing how Agentic AI can empower engineers rather than replace them.</p>"
         },
         {
-            "id": 10,
-            "title": "SSLC - 93,2% Leistung",
-            "description": "Secondary School Leaving Certificate Exzellenz",
-            "image": "/portfolio/images/achievement.png",
-            "date": "2016-04-01",
-            "detailedDescription": "Erreichte 93,2% in der Secondary School Leaving Certificate (SSLC) Prüfung der Stanes Anglo Indian Higher Secondary School, Coonoor. Legte eine starke Grundlage für zukünftige akademische Bestrebungen in Ingenieurwesen und Technologie."
+            "id": 6,
+            "title": "TNSCST Best Project Award",
+            "description": "1st Place in Student Project Scheme (TNSCST) conducted by Gov of TamilNadu (Nov 2022)",
+            "purpose": "",
+            "duration": "1 Day",
+            "date": "2022-11-26",
+            "detailedDescription": "<p><strong>1st Place</strong> in Student Project Scheme (TNSCST) conducted by Gov of TamilNadu.</p><p>Under this Scheme Government of Tamilnadu provides financial support to students to take up research projects. Prizes are given to selected projects and models.</p><h3>Project</h3><p>Designed and Fabricated a Humanoid Bot integrated with Company Ready Features including Customer welcome to Employee Log. The system integrates contactless temperature sensing, face detection, and mask detection capabilities to minimize virus transmission within institutions and workplaces.</p>"
         },
         {
-            "id": 11,
-            "title": "Ausgewählt für TU Dortmund M.S. Programm",
-            "description": "Zugelassen zu prestigeträchtigem KI-Spezialisierungsprogramm",
-            "image": "/portfolio/images/achievement.png",
-            "date": "2023-09-01",
-            "detailedDescription": "Ausgewählt für das hochkompetitive Master of Science Programm in Automatisierung und Robotik mit Spezialisierung auf Künstliche Intelligenz an der TU Dortmund, Deutschland. Das Programm konzentriert sich auf fortgeschrittene KI, Robotik und Automatisierungstechnologien."
+            "id": 5,
+            "title": "Smart India Hackathon",
+            "description": "1st Place in Smart India Hackathon(W) conducted by SIH [Gov of India] Ministry of Ayush (Dec 2020)",
+            "purpose": "",
+            "duration": "3 Days",
+            "date": "2020-12-21",
+            "detailedDescription": "<p><strong>1st Place</strong> in Smart India Hackathon(W) conducted by SIH [Gov of India] Ministry of Ayush.</p><p>Smart India Hackathon is a nationwide initiative to provide students a platform to solve some of pressing problems we face in our daily lives.</p><h3>Solution: VR Yoga</h3><p>An innovative Virtual Reality (VR) apparatus has been ingeniously crafted to enhance focus during yoga sessions. The device operates in conjunction with a smartphone and an inventive VR application, meticulously developed utilizing the UNITY software framework. This application introduces a groundbreaking facet where a mere gaze for a fleeting span of seconds can usher in a transformation of the VR environment.</p>"
+        },
+        {
+            "id": 4,
+            "title": "SAR Tier 2",
+            "description": "1st Place in SAE Tier 2 conducted by SAE (Feb 2020)",
+            "purpose": "",
+            "duration": "1 Day",
+            "date": "2020-02-25",
+            "detailedDescription": "<p><strong>1st Place</strong> in SAE Tier 2 conducted by SAE.</p><p>SAE International is the leader in connecting and educating mobility professionals to enable safe, clean, and accessible mobility solutions. Won 1st place in App development and Cloud computing category.</p>"
+        },
+        {
+            "id": 3,
+            "title": "IFA Hackathon (IOT for All)",
+            "description": "3rd Place in IFA Hackathon (IOT for All) conducted by MakersTribe (Dec 2019)",
+            "purpose": "",
+            "duration": "2 Days",
+            "date": "2019-12-07",
+            "detailedDescription": "<p><strong>3rd Place</strong> in IFA Hackathon (IOT for All) conducted by MakersTribe.</p><p>The theme of the hackathon was “IoT for Smart Cities” and the participants had to come up with innovative solutions using IoT devices and sensors to solve real-world problems.</p><h3>Solution: AR in Education</h3><p>Enhancing Educational Endeavors: Augmented Reality's Dynamic Role in Facilitating Student Learning. The integration of AR as a pedagogical tool presents an opportunity to revolutionize the learning experience, not just as a tool for gamified learning but also as a motivational asset that unlocks a plethora of possibilities across various disciplines.</p>"
+        },
+        {
+            "id": 2,
+            "title": "TCS XR Pro Hackathon",
+            "description": "3rd Place in TCS XR Pro Hackathon conducted by Gov of TamilNadu/ CII Connect/TCS (Oct 2019)",
+            "purpose": "",
+            "duration": "1 Day",
+            "date": "2019-10-17",
+            "detailedDescription": "<p><strong>3rd Place</strong> in TCS XR Pro Hackathon conducted by Gov of TamilNadu/ CII Connect/TCS.</p><p>TCS XR Pro is organized to design and develop experiences to solve contextual business problems using Virtual reality, augmented reality and mixed reality.</p><h3>Solution: Integration of AR</h3><p>Integration of Augmented Reality (AR) into Student Training, Virtual Laboratory, and Inspection. By leveraging the power of AR, institutions can bridge the gap between theoretical knowledge and practical exposure, propelling students towards proficiency through immersive learning experiences.</p>"
+        },
+        {
+            "id": 1,
+            "title": "Project expo’19 & 22",
+            "description": "1st Place in Project expo’19 & 22 conducted by SKCET (Sep 2019)",
+            "purpose": "",
+            "duration": "1 Day",
+            "date": "2019-09-16",
+            "detailedDescription": "<p><strong>1st Place</strong> in Project expo’19 & 22 conducted by SKCET.</p><p>Conducted by Sri Krishna College of Engineering and Technology, Coimbatore, Department of mechatronics for Engineers day 2019.</p>"
         }
     ]
 }

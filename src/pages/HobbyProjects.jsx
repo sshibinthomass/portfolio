@@ -34,7 +34,7 @@ const HobbyProjects = () => {
                             >
                                 <Link to={`/${lang}/hobby-projects/${project.id}`} style={{ textDecoration: 'none' }}>
                                     <Card
-                                        image={project.image}
+                                        image={(project.images && project.images.length > 0) ? project.images[0] : (hobbyProjectsData.en.find(p => p.id === project.id)?.images?.[0] || '')}
                                         title={project.title}
                                         description={project.description}
                                         tags={project.technologies}

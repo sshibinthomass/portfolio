@@ -101,7 +101,23 @@
     font-size: 1.125rem;
     line-height: 1.8;
     color: var(--text-secondary);
+    white-space: pre-line;
 }
+
+/* Skills Grid */
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+
 
 /* Resume Styles */
 .resume-section {

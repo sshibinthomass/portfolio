@@ -4,7 +4,15 @@
             "id": 1,
             "title": "AR Education Platform",
             "description": "Augmented Reality app for interactive learning",
-            "image": "/portfolio/images/hobby-project.png",
+            "images": [
+                "/portfolio/images/hobby-project.png"
+            ],
+            "youtubeLink": "",
+            "github": "",
+            "appLink": "",
+            "purpose": "",
+            "duration": "",
+            "date": "",
             "technologies": [
                 "Unity",
                 "AR Foundation",
@@ -17,7 +25,15 @@
             "id": 2,
             "title": "Crop Health Monitoring System",
             "description": "CNN-based deep learning model for agriculture",
-            "image": "/portfolio/images/hobby-project.png",
+            "images": [
+                "/portfolio/images/hobby-project.png"
+            ],
+            "youtubeLink": "",
+            "github": "",
+            "appLink": "",
+            "purpose": "",
+            "duration": "",
+            "date": "",
             "technologies": [
                 "Python",
                 "TensorFlow",
@@ -31,7 +47,15 @@
             "id": 3,
             "title": "BIN Bot - COVID Safety Robot",
             "description": "Autonomous robot for waste management and safety",
-            "image": "/portfolio/images/hobby-project.png",
+            "images": [
+                "/portfolio/images/hobby-project.png"
+            ],
+            "youtubeLink": "",
+            "github": "",
+            "appLink": "",
+            "purpose": "",
+            "duration": "",
+            "date": "",
             "technologies": [
                 "ROS",
                 "Python",
@@ -45,7 +69,15 @@
             "id": 4,
             "title": "Automatic Hose Cutting Machine",
             "description": "Precision automated cutting system for industrial use",
-            "image": "/portfolio/images/hobby-project.png",
+            "images": [
+                "/portfolio/images/hobby-project.png"
+            ],
+            "youtubeLink": "",
+            "github": "",
+            "appLink": "",
+            "purpose": "",
+            "duration": "",
+            "date": "",
             "technologies": [
                 "PLC",
                 "HMI",
@@ -58,7 +90,15 @@
             "id": 5,
             "title": "Egg Quality Detection Device",
             "description": "IoT device for smart egg quality assessment",
-            "image": "/portfolio/images/hobby-project.png",
+            "images": [
+                "/portfolio/images/hobby-project.png"
+            ],
+            "youtubeLink": "",
+            "github": "",
+            "appLink": "",
+            "purpose": "",
+            "duration": "",
+            "date": "",
             "technologies": [
                 "Arduino",
                 "Sensors",
@@ -71,7 +111,15 @@
             "id": 6,
             "title": "Humanoid Employee Tracking Bot",
             "description": "AI-powered robot for workplace automation",
-            "image": "/portfolio/images/hobby-project.png",
+            "images": [
+                "/portfolio/images/hobby-project.png"
+            ],
+            "youtubeLink": "",
+            "github": "",
+            "appLink": "",
+            "purpose": "",
+            "duration": "",
+            "date": "",
             "technologies": [
                 "Python",
                 "Computer Vision",
@@ -85,7 +133,15 @@
             "id": 7,
             "title": "AI Code Assistant",
             "description": "LLM-powered coding companion",
-            "image": "/portfolio/images/hobby-project.png",
+            "images": [
+                "/portfolio/images/hobby-project.png"
+            ],
+            "youtubeLink": "",
+            "github": "",
+            "appLink": "",
+            "purpose": "",
+            "duration": "",
+            "date": "",
             "technologies": [
                 "Python",
                 "GPT",
@@ -100,7 +156,15 @@
             "id": 1,
             "title": "AR-Bildungsplattform",
             "description": "Augmented Reality App für interaktives Lernen",
-            "image": "/portfolio/images/hobby-project.png",
+            "images": [
+                "/portfolio/images/hobby-project.png"
+            ],
+            "youtubeLink": "",
+            "github": "",
+            "appLink": "",
+            "purpose": "",
+            "duration": "",
+            "date": "",
             "technologies": [
                 "Unity",
                 "AR Foundation",
@@ -113,7 +177,15 @@
             "id": 2,
             "title": "Pflanzengesundheits-Überwachungssystem",
             "description": "CNN-basiertes Deep Learning-Modell für die Landwirtschaft",
-            "image": "/portfolio/images/hobby-project.png",
+            "images": [
+                "/portfolio/images/hobby-project.png"
+            ],
+            "youtubeLink": "",
+            "github": "",
+            "appLink": "",
+            "purpose": "",
+            "duration": "",
+            "date": "",
             "technologies": [
                 "Python",
                 "TensorFlow",
@@ -127,7 +199,15 @@
             "id": 3,
             "title": "BIN Bot - COVID-Sicherheitsroboter",
             "description": "Autonomer Roboter für Abfallmanagement und Sicherheit",
-            "image": "/portfolio/images/hobby-project.png",
+            "images": [
+                "/portfolio/images/hobby-project.png"
+            ],
+            "youtubeLink": "",
+            "github": "",
+            "appLink": "",
+            "purpose": "",
+            "duration": "",
+            "date": "",
             "technologies": [
                 "ROS",
                 "Python",
@@ -141,7 +221,15 @@
             "id": 4,
             "title": "Automatische Schlauchschneidemaschine",
             "description": "Präzisions-Automatisierungssystem für industriellen Einsatz",
-            "image": "/portfolio/images/hobby-project.png",
+            "images": [
+                "/portfolio/images/hobby-project.png"
+            ],
+            "youtubeLink": "",
+            "github": "",
+            "appLink": "",
+            "purpose": "",
+            "duration": "",
+            "date": "",
             "technologies": [
                 "SPS",
                 "HMI",
@@ -154,7 +242,15 @@
             "id": 5,
             "title": "Eierqualitäts-Erkennungsgerät",
             "description": "IoT-Gerät für intelligente Eierqualitätsbewertung",
-            "image": "/portfolio/images/hobby-project.png",
+            "images": [
+                "/portfolio/images/hobby-project.png"
+            ],
+            "youtubeLink": "",
+            "github": "",
+            "appLink": "",
+            "purpose": "",
+            "duration": "",
+            "date": "",
             "technologies": [
                 "Arduino",
                 "Sensoren",
@@ -167,7 +263,15 @@
             "id": 6,
             "title": "Humanoider Mitarbeiter-Tracking-Bot",
             "description": "KI-gestützter Roboter für Arbeitsplatzautomatisierung",
-            "image": "/portfolio/images/hobby-project.png",
+            "images": [
+                "/portfolio/images/hobby-project.png"
+            ],
+            "youtubeLink": "",
+            "github": "",
+            "appLink": "",
+            "purpose": "",
+            "duration": "",
+            "date": "",
             "technologies": [
                 "Python",
                 "Computer Vision",
@@ -181,7 +285,15 @@
             "id": 7,
             "title": "KI-Code-Assistent",
             "description": "LLM-gestützter Coding-Begleiter",
-            "image": "/portfolio/images/hobby-project.png",
+            "images": [
+                "/portfolio/images/hobby-project.png"
+            ],
+            "youtubeLink": "",
+            "github": "",
+            "appLink": "",
+            "purpose": "",
+            "duration": "",
+            "date": "",
             "technologies": [
                 "Python",
                 "GPT",

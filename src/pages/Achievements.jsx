@@ -34,7 +34,7 @@ const Achievements = () => {
                             >
                                 <Link to={`/${lang}/achievements/${achievement.id}`} style={{ textDecoration: 'none' }}>
                                     <Card
-                                        image={achievement.image}
+                                        image={(achievement.images && achievement.images.length > 0) ? achievement.images[0] : (achievementsData.en.find(a => a.id === achievement.id)?.images?.[0] || '')}
                                         title={achievement.title}
                                         description={achievement.description}
                                         onClick={() => { }}

@@ -3,15 +3,15 @@
         "experience": [
             {
                 "id": 1,
-                "title": "Research Intern (Generative AI)",
+                "title": "Generative AI Intern",
                 "company": "BMW Group",
-                "location": "Germany",
+                "location": "Munich, Germany",
                 "period": "August 2025 - Present",
                 "description": "Part of Research team working on LLMs and AI Agents",
                 "achievements": [
-                    "Working on cutting-edge LLM research",
-                    "Developing AI agents for automotive applications",
-                    "Collaborating with international research team"
+                    "Optimized multi-turn and complex query handling with multi-tool interactions, cutting tool processing time by 50% for BMW infotainment systems",
+                    "Integrated traditional text-based agentic AI with real-time voice models (GPT-realtime) to enhance user experience and accelerate response times",
+                    "Migrated an Anthropic-based LLM application to a pure Python architecture using LiteLLM, enabling seamless support for Gemini, Anthropic, Ollama, and OpenAI models"
                 ]
             },
             {
@@ -19,14 +19,12 @@
                 "title": "Associate Technical Consultant",
                 "company": "Vuram Technologies",
                 "location": "India",
-                "period": "June 2022 - October 2023",
+                "period": "June 2021 - October 2023",
                 "description": "Led AI automation projects and customer support AI solutions",
                 "achievements": [
-                    "Fine-tuned DialoGPT, improving customer query response speed",
-                    "Reduced human intervention in support tickets from 70% to 35%",
-                    "Cut response time by about 40%",
-                    "Led AI automation projects integrating Intelligent Document Processing (IDP)",
-                    "Reduced manual form processing from 2 hours to 30 minutes",
+                    "Fine-tuned DialoGPT, improving customer query response speed reducing human intervention in support tickets from 70% to 35% and cutting response time by about 40%",
+                    "Collaborated with clients to gain understanding of products and improve their usability",
+                    "Led AI automation projects integrating Intelligent Document Processing (IDP), reducing manual form processing from 2 hours to 30 minutes",
                     "Achieved Spotlight of the Month (twice) for AI innovation"
                 ]
             },
@@ -35,11 +33,12 @@
                 "title": "Machine Learning Intern",
                 "company": "DeepVisionTech.AI",
                 "location": "Bangalore, India",
-                "period": "February 2021 - August 2021",
+                "period": "January 2021 - July 2021",
                 "description": "Crop Health Monitoring using Remote Sensing",
                 "achievements": [
-                    "Developed a CNN Deep learning model for Crop Health Monitoring",
-                    "Hands-on experience in TensorFlow, Keras, OpenCV"
+                    "Procured and pre-processed Sentinel and Landsat data, improving feature extraction by 30% using radiometric correction, cloud masking, and vegetation index computation",
+                    "Trained a CNN model with data augmentation and segmentation, achieving about 80% accuracy in detecting vegetation stress and soil conditions",
+                    "Deployed the CNN model in a Flask-based web app, enabling real-time segmented crop health monitoring with interactive visualization"
                 ]
             }
         ],
@@ -66,15 +65,15 @@
         "experience": [
             {
                 "id": 1,
-                "title": "Forschungspraktikant (Generative KI)",
+                "title": "Praktikant im Bereich Generative KI",
                 "company": "BMW Group",
-                "location": "Deutschland",
+                "location": "München, Deutschland",
                 "period": "August 2025 - Heute",
                 "description": "Teil des Forschungsteams, das an LLMs und KI-Agenten arbeitet",
                 "achievements": [
-                    "Arbeit an modernster LLM-Forschung",
-                    "Entwicklung von KI-Agenten für Automobilanwendungen",
-                    "Zusammenarbeit mit internationalem Forschungsteam"
+                    "Optimierung der Multi-Turn- und komplexen Abfragebearbeitung mit Multi-Tool-Interaktionen, Reduzierung der Tool-Verarbeitungszeit um 50% für BMW-Infotainmentsysteme",
+                    "Integration von traditioneller textbasierter Agentic AI mit Echtzeit-Sprachmodellen (GPT-realtime) zur Verbesserung der Benutzererfahrung und Beschleunigung der Antwortzeiten",
+                    "Migration einer Anthropic-basierten LLM-Anwendung zu einer reinen Python-Architektur mit LiteLLM, die nahtlose Unterstützung für Gemini, Anthropic, Ollama und OpenAI-Modelle ermöglicht"
                 ]
             },
             {
@@ -82,14 +81,12 @@
                 "title": "Associate Technical Consultant",
                 "company": "Vuram Technologies",
                 "location": "Indien",
-                "period": "Juni 2022 - Oktober 2023",
+                "period": "Juni 2021 - Oktober 2023",
                 "description": "Leitung von KI-Automatisierungsprojekten und Kundensupport-KI-Lösungen",
                 "achievements": [
-                    "Feinabstimmung von DialoGPT, Verbesserung der Antwortgeschwindigkeit bei Kundenanfragen",
-                    "Reduzierung der menschlichen Intervention bei Support-Tickets von 70% auf 35%",
-                    "Verkürzung der Antwortzeit um etwa 40%",
-                    "Leitung von KI-Automatisierungsprojekten mit intelligenter Dokumentenverarbeitung (IDP)",
-                    "Reduzierung der manuellen Formularverarbeitung von 2 Stunden auf 30 Minuten",
+                    "Feinabstimmung von DialoGPT, Verbesserung der Antwortgeschwindigkeit bei Kundenanfragen, Reduzierung der menschlichen Intervention bei Support-Tickets von 70% auf 35% und Verkürzung der Antwortzeit um etwa 40%",
+                    "Zusammenarbeit mit Kunden zur Verbesserung des Produktverständnisses und der Benutzerfreundlichkeit",
+                    "Leitung von KI-Automatisierungsprojekten mit intelligenter Dokumentenverarbeitung (IDP), Reduzierung der manuellen Formularverarbeitung von 2 Stunden auf 30 Minuten",
                     "Zweimal Spotlight of the Month für KI-Innovation"
                 ]
             },
@@ -98,11 +95,12 @@
                 "title": "Machine Learning Praktikant",
                 "company": "DeepVisionTech.AI",
                 "location": "Bangalore, Indien",
-                "period": "Februar 2021 - August 2021",
+                "period": "Januar 2021 - Juli 2021",
                 "description": "Überwachung der Erntegesundheit mittels Fernerkundung",
                 "achievements": [
-                    "Entwicklung eines CNN-Deep-Learning-Modells zur Überwachung der Pflanzengesundheit",
-                    "Praktische Erfahrung mit TensorFlow, Keras, OpenCV"
+                    "Beschaffung und Vorverarbeitung von Sentinel- und Landsat-Daten, Verbesserung der Merkmalsextraktion um 30% durch radiometrische Korrektur, Cloud-Masking und Vegetationsindex-Berechnung",
+                    "Training eines CNN-Modells mit Datenaugmentierung und Segmentierung, Erreichen von etwa 80% Genauigkeit bei der Erkennung von Vegetationsstress und Bodenbedingungen",
+                    "Bereitstellung des CNN-Modells in einer Flask-basierten Web-App, Ermöglichung der Echtzeit-segmentierten Überwachung der Pflanzengesundheit mit interaktiver Visualisierung"
                 ]
             }
         ],

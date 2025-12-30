@@ -1,0 +1,356 @@
+{
+  "items": [
+    {
+      "sys": {
+        "id": "1"
+      },
+      "fields": {
+        "name": "BMW",
+        "competition": "BMW Hackathon",
+        "place": "1st Place",
+        "organizers": "BMW",
+        "projectDate": "24th October 2025",
+        "duration": "48 Hours",
+        "preparationTime": "",
+        "category": "Contact Retrival",
+        "location": "BMW Startup Garage, München",
+        "team": "3 Members",
+        "prize": "500€",
+        "problemStatement": "<ul>\n                <li>Develop cutting-edge AI solutions for real-world applications at BMW.</li>\n                <li>Address the Contact Retrieval Challenge through intelligent data analysis and extraction.</li>\n                <li>Build systems capable of intelligently analyzing and extracting information from complex data sets.</li>\n                <li>Transform raw data into actionable insights for BMW's operations and decision-making processes.</li>\n                </ul>",
+        "aboutCompetition": "The BMW Group x TUM.ai Hackathon is an intense 48-hour event organized by BMW Group and TUM.ai, held at the BMW Group Startup Garage in München. This competition brings together talented participants to develop cutting-edge AI solutions for real-world applications at BMW. The hackathon is co-sponsored by Vercel and OpenAI, providing participants with access to state-of-the-art AI tools and platforms. Participants work under the guidance of industry experts and mentors, including BMW professionals, to create innovative solutions that address real business challenges.",
+        "solution": "<p align=\"justify\">&emsp;\r\n\r\n    Our winning solution for the Contact Retrieval Challenge at the BMW Group x TUM.ai Hackathon represents a sophisticated AI-driven system designed to intelligently analyze and extract information from complex data sets. This solution was the result of a massive collaborative effort, successfully built and demoed during the intense 48-hour hackathon event.\r\n\r\n    <br><br>&emsp;At its core, the system leverages advanced artificial intelligence to process, analyze, and extract meaningful information from diverse data sources. The AI framework is specifically engineered to make sense of unstructured and semi-structured data, transforming raw information into actionable insights that can support BMW's real-world applications and business processes.\r\n    \r\n    <br><br>&emsp;The intelligent analysis capabilities of the system enable it to identify patterns, relationships, and key information points within large volumes of data. This functionality is particularly crucial for contact retrieval, where the system must efficiently locate and extract relevant contact information from various sources while maintaining accuracy and context.\r\n    \r\n    <br><br>&emsp;The development process, condensed into just 48 hours, required exceptional teamwork and coordination. Working alongside teammates Dennis Hermann and Theresa Geber, we successfully integrated cutting-edge AI technologies to create a robust solution. The collaboration involved rapid prototyping, iterative development, and continuous refinement under the guidance of our mentor, Michal Kuemmel.\r\n    \r\n    <br><br>&emsp;The solution demonstrates the practical application of AI agents and modern machine learning techniques in solving real-world business challenges. By leveraging the resources provided by co-sponsors Vercel and OpenAI, we were able to build upon state-of-the-art AI infrastructure and deploy a working prototype within the tight timeframe.\r\n    \r\n    <br><br>&emsp;While specific technical details and business applications remain confidential due to proprietary considerations, the system's architecture focuses on scalability, accuracy, and practical utility for BMW's operational needs. The AI-powered approach enables automated information extraction that would otherwise require significant manual effort and time.\r\n    \r\n    <br><br>&emsp;Securing 1st place in this prestigious hackathon validates the solution's innovation and effectiveness in addressing the Contact Retrieval Challenge. The achievement reflects not only technical excellence but also the ability to rapidly develop and demonstrate a working AI solution that meets real-world business requirements. The experience of working with BMW Group and TUM.ai provided invaluable insights into the practical challenges and opportunities in applying AI to enterprise-level problems.\r\n\r\n</p>",
+        "image1": "BMW1",
+        "image2": "BMW2",
+        "image3": "BMW3",
+        "image4": "BMW4",
+        "image5": "BMW5",
+        "image6": "Empty",
+        "image7": "Empty",
+        "image8": "Empty",
+        "image9": "Empty",
+        "image10": "Empty",
+        "video": "Empty"
+      }
+    },
+    {
+      "sys": {
+        "id": "1"
+      },
+      "fields": {
+        "name": "TUM_VENUTURE",
+        "competition": "TUM Venture Hackathon",
+        "place": "1st Place",
+        "organizers": "TUM VENTURE",
+        "projectDate": "23rd November 2025",
+        "duration": "48 Hours",
+        "preparationTime": "",
+        "category": "Document Retrieval",
+        "location": "Technical Universität München, München",
+        "team": "4 Members",
+        "prize": "400€",
+        "problemStatement": "<ul> <li>AEC/O companies work with extremely large and complex technical documents, including BIM standards, construction manuals, regulations, specifications, safety documents, and product documentation.</li> <li>These documents are long, dense, and frequently updated, making it time-consuming for architects, engineers, planners, and site managers to manually find the right information.</li> <li>As AI adoption increases, Retrieval-Augmented Generation (RAG) is emerging as a key approach to deliver trustworthy, context-grounded answers based on internal documentation.</li> <li>RAG systems behave very differently depending on retrieval strategy (e.g., keyword-based, semantic vector search, hybrid), and their quality is difficult to evaluate.</li> <li>Specialized metrics, tools, and datasets are often missing, making it hard to measure hallucinations, relevancy, recall, and overall RAG performance.</li> <li>The challenge is to build and rigorously evaluate a next-generation RAG prototype for AEC knowledge under tight constraints, using real-world technical documents.</li> <li>Solving this problem can reduce costly mistakes, speed up decision-making, and help AEC/O professionals interact with complex technical content more effectively.</li> </ul>",
+        "aboutCompetition": "This solution was built during the Nemetschek AECO Hackathon, a fast-paced 48-hour competition focused on creating and evaluating next-generation RAG systems for AEC knowledge. Teams were challenged to work with complex real-world technical documents and demonstrate measurable improvements using defined metrics such as faithfulness, contextual precision, and recall. The event emphasized innovation, experimentation, and practical impact, pushing participants to move beyond standard RAG approaches and develop robust, reliable systems capable of supporting professionals in high-stakes architectural and construction workflows.",
+        "solution": "<p align=\"justify\">&emsp; Our solution, <b>Hybrid Agentic Graph RAG for AEC</b>, is an AI-driven retrieval system designed to help AEC professionals navigate massive multimodal technical documents with high precision and zero-hallucination guarantees. It targets information overload and the need for trustworthy AI by transforming complex PDFs into a structured, queryable knowledge space tailored to standards, manuals, and regulations in the AEC domain. <br><br>&emsp; The pipeline begins by parsing multi-modal PDFs using MinerU, preserving document structure while extracting text, images, tables, and equations into a clean contextual representation. These elements are then enriched using a combination of VLMs (for images and diagrams) and LLMs (for text and metadata), enabling the system to capture both semantic meaning and layout-driven relationships across the document. <br><br>&emsp; Enriched chunks and entities are embedded and organized into a <b>unified dual knowledge graph</b>, where one layer captures textual chunks and the other models entities and relationships across the document. This graph is stored locally (GraphML/Neo4j) alongside vector stores for embeddings, providing a robust backbone for graph-based reasoning, entity-centric navigation, and fine-grained retrieval over thousands of nodes and edges. <br><br>&emsp; At query time, the system performs <b>multimodal retrieval</b> by combining graph-based search and embedding-based search with modality-aware encoding. Retrieved candidates from both channels are ranked and unified via an LLM, producing grounded, context-rich answers that can reference the correct sections, figures, and tables instead of hallucinating unsupported content. <br><br>&emsp; The stack is fully open-source and capable of running locally, integrating LangChain for agent orchestration, Ollama for local inference, OpenAI and Hugging Face models for reasoning and embeddings, and Neo4j plus vector databases for storage. Tested with models such as Qwen 2.5 (7B) Vision and gpt-4o-mini, the system already supports flexible model swapping and is designed for future expansion with React-based agents, web search, MCP, A2A architectures, and additional VectorDB integrations. <br><br>&emsp; Overall, Hybrid Agentic Graph RAG demonstrates how next-generation RAG systems—grounded in graphs, multimodality, and agentic workflows—can make AEC knowledge reliably accessible, reduce manual search effort, and improve decision-making on real-world construction and design tasks. </p>",
+        "image1": "TUM_Venture1",
+        "image2": "TUM_Venture2",
+        "image3": "TUM_Venture3",
+        "image4": "TUM_Venture4",
+        "image5": "TUM_Venture5",
+        "image6": "TUM_Venture6",
+        "image7": "TUM_Venture7",
+        "image8": "TUM_Venture8",
+        "image9": "TUM_Venture9",
+        "image10": "TUM_Venture10",
+        "video": "Empty"
+      }
+    },
+    {
+      "sys": {
+        "id": "1"
+      },
+      "fields": {
+        "name": "BKW",
+        "competition": "BKW Hackathon",
+        "place": "2nd Place",
+        "organizers": "BKW Engineering",
+        "projectDate": "18th October 2025",
+        "duration": "24 Hours",
+        "preparationTime": "",
+        "category": "Open Innovation in Civil Engineering",
+        "location": "BKW, MARK München",
+        "team": "5 Members",
+        "prize": "500€",
+        "problemStatement": "<ul>\n                <li>Solving engineering challenges and applying AI to address on-ground industrial problems.</li>\n                <li>Transforming historical engineering design data into actionable knowledge for design optimization.</li>\n                <li>Enabling faster decision-making in engineering workflows through AI-driven solutions.</li>\n                <li>Addressing transparency and efficiency in engineering design processes.</li>\n                </ul>",
+        "aboutCompetition": "The BKW Engineering x TUM.ai Makeathon is an intensive competition that focuses on solving engineering challenges and applying AI to address on-ground industrial problems. Unlike typical hackathons, this makeathon emphasizes practical solutions for real-world engineering challenges, bringing together students and industry experts to create innovative AI-driven solutions within a 24-hour timeframe.",
+        "solution": "<p align=\"justify\">&emsp;\r\n\r\n    GenDesign represents an innovative AI-driven solution that transforms historical engineering design data into actionable knowledge for design optimization and faster decision-making. Developed during the intense 24-hour makeathon, this groundbreaking system addresses critical pain points in engineering workflows while showcasing how Agentic AI can empower engineers rather than replace them.\r\n\r\n    <br><br>&emsp;At the core of GenDesign lies a sophisticated AI agent framework integrated with an intelligent chatbot interface. This system excels at explaining how and why design changes improve performance, providing engineers with clear, actionable insights derived from historical design data. The AI agents analyze patterns, identify optimization opportunities, and communicate these findings in an intuitive, understandable manner.\r\n    \r\n    <br><br>&emsp;One of the platform's standout features is its ability to generate optimized 3D designs automatically. By leveraging machine learning algorithms trained on historical engineering data, GenDesign can propose design modifications that enhance performance, reduce material usage, or improve structural integrity. This capability significantly accelerates the design iteration process, enabling engineers to explore more design alternatives in less time.\r\n    \r\n    <br><br>&emsp;To ensure transparency and efficiency in engineering workflows, GenDesign incorporates comprehensive task and leave approval systems. These integrated management features provide clear visibility into project timelines, resource allocation, and team availability. This transparency helps prevent bottlenecks and enables better coordination across engineering teams.\r\n    \r\n    <br><br>&emsp;The entire solution was designed, built, and demoed within the challenging 24-hour timeframe of the makeathon, demonstrating exceptional teamwork and technical capability. The experience of working under industry experts provided invaluable insights into real-world engineering challenges and the potential impact of AI solutions in industrial settings.\r\n    \r\n    <br><br>&emsp;GenDesign's philosophy centers on empowerment rather than replacement. The solution removes engineering pain points by automating routine analyses and optimizations while keeping engineers in control of critical decisions. This human-AI collaboration model ensures that the expertise and intuition of experienced engineers are enhanced rather than supplanted by artificial intelligence.\r\n    \r\n    <br><br>&emsp;In summary, GenDesign showcases the transformative potential of Agentic AI in engineering contexts. By combining intelligent data analysis, automated design optimization, and workflow transparency, this solution addresses both immediate challenges and long-term needs in engineering design processes. The achievement of securing 2nd place in the Open Track at the BKW Engineering x TUM.ai Makeathon validates the solution's innovation and practical applicability in real-world industrial settings.\r\n\r\n</p>",
+        "image1": "BKW1", 
+        "image2": "BKW2",
+        "image3": "BKW3",
+        "image4": "Empty",
+        "image5": "Empty",
+        "image6": "Empty",
+        "image7": "Empty",
+        "image8": "Empty",
+        "image9": "Empty",
+        "image10": "Empty",
+        "video": "Empty"
+      }
+    },
+    {
+      "sys": {
+        "id": "1"
+      },
+      "fields": {
+        "name": "SIH",
+        "competition": "Smart India Hackathon(W)",
+        "place": "1st Place",
+        "organizers": "SIH [Gov of India] Ministry of Ayush",
+        "projectDate": "21 December 2020",
+        "duration": "3 Days",
+        "preparationTime": "6 Months",
+        "category": "Healthcare & Biomedical Devices (IOT-VR)",
+        "location": "Online, Supported by College",
+        "team": "6 Members",
+        "prize": "1 lakh",
+        "problemStatement": "<ul>\n                <li>Need Instructor & Calm environment Solution: A virtual reality device can be made which features different modes of Tratak like spot, candle etc. </li>\n                <li>This device will help in better concentration as it provides soothing environment.</li>\n                <li>Yogasana can be performed well in this environment. The VR Experience should be smooth.</li>\n                <li>VR software requirement: The VR Experience should be able to provide the virtual tour inside the yoga hall. The participant should be able to move around and do Yogasana. </li>\n                </u>",
+        "aboutCompetition": "Smart India Hackathon is a nationwide initiative to provide students a platform to solve some of pressing problems we face in our daily lives, and thus inculcate a culture of product innovation and a mindset of problem solving.",
+        "solution": "<p align=\"justify\">&emsp;\r\n\r\n    An innovative Virtual Reality (VR) apparatus has been ingeniously crafted to enhance focus during yoga sessions. This pioneering VR wearable, created through the process of 3D printing, boasts a unique biconvex lens along with an integrated headphone component. The device operates in conjunction with a smartphone, which is securely affixed to the wearable unit, thereby orchestrating a seamless VR encounter.\r\n\r\n    <br><br>&emsp;Integral to this device is an inventive VR application, meticulously developed utilizing the UNITY software framework. This application introduces a groundbreaking facet where a mere gaze for a fleeting span of seconds can usher in a transformation of the VR environment.\r\n    \r\n    <br><br>&emsp;In the realm of advanced VR methodologies, the concept of Total Virtual Reality takes center stage. This approach grants users the unprecedented liberty to traverse the virtual expanse sans the constraints of physical locomotion. The ingenious device, when aligned with the human visual angle, permits users to navigate the VR realm by minimizing reliance on external controllers. Instead, users are empowered to orchestrate their virtual milieu through intuitive gestures.\r\n    \r\n    <br><br>&emsp;The crux of the application's allure lies in its user-centric design, catering seamlessly to individuals seeking to engage in yoga with virtual tutelage. The application seamlessly ushers users through yoga sessions with interactive guidance. Whether one prefers the natural serenity of the outdoors or the comfort of their abode, this app caters to all preferences. Four distinct environmental settings beckon the practitioner: the Yoga hall, Natural environment, Gymnasium, and Home. This affords practitioners the latitude to engage in Yogasana within their favored backdrop, be it the Yoga hall's ambiance, the tranquil outdoors, the invigorating gymnasium, or the cozy confines of their own dwelling.\r\n    \r\n    <br><br>&emsp;Immersing practitioners even deeper, the VR application encapsulates diverse variations of the ancient tratak meditation technique, including focal point fixation and candle gazing. Bolstering user engagement, the application integrates virtual buttons that serve as conduits for interaction with the VR realm. These tactile buttons endow users with the agency to regulate their extent of engagement with the virtual domain while remaining anchored to the external world.\r\n    \r\n    <br><br>&emsp;In summary, the innovative VR contrivance, hewn from avant-garde principles, stands poised to revolutionize yoga practice. Through the amalgamation of cutting-edge technology, ergonomic design, and user-friendly interfaces, this device emerges as a conduit for heightened concentration during yoga sessions. Its symbiotic relationship with the accompanying VR application, crafted with finesse on the UNITY software platform, propels users into an immersive world where the gaze becomes the harbinger of dynamic environmental metamorphosis.\r\n    \r\n    <br><br>&emsp;The concept of Total Virtual Reality, a testament to the device's forward-looking design, eradicates the need for physical locomotion within the VR landscape. By synergizing with users' innate gestures and accommodating the human visual angle, the device transcends traditional paradigms, entrusting users with unparalleled control over their virtual domain.\r\n    \r\n    <br><br>&emsp;At its core, the application serves as a faithful guide, enriching yoga practice through interactive virtual instruction. The diverse array of settings, spanning the serene outdoors to familiar personal spaces, ensures that each individual's preferences are not just acknowledged but exalted. Within the Yoga hall's reverent ambiance, the open embrace of nature, the vibrant gymnasium setting, or the intimate warmth of one's home, Yogasana takes on new life.\r\n    \r\n    <br><br>&emsp;Delving further into the nuances of meditation, the VR application encapsulates the revered tratak technique in its manifold forms, nurturing not only the body but also the mind and soul. The integration of tactile virtual buttons empowers users to orchestrate their engagement levels, deftly bridging the gap between the tangible and the virtual.\r\n    \r\n    <br><br>&emsp;In summation, this groundbreaking VR innovation transcends the mundane, offering a profound yogic expedition through uncharted technological vistas. Its form marries seamlessly with function, promising enriched focus and holistic engagement. Together with the companion VR application, it beckons users to partake in an experiential journey where the very act of gazing becomes a transformative bridge, connecting the palpable with the illimitable.\r\n\r\n</p>",
+        "image1": "SIH1",
+        "image2": "SIH2",
+        "image3": "SIH3",
+        "image4": "SIH4",
+        "image5": "SIH5",
+        "image6": "Empty",
+        "image7": "Empty",
+        "image8": "Empty",
+        "image9": "Empty",
+        "image10": "Empty",
+        "video": "https://www.youtube.com/embed/F9xCMl1qXHo"
+      }
+    },
+    {
+      "sys": {
+        "id": "2"
+      },
+      "fields": {
+        "name": "TCS_XR_Pro",
+        "competition": "TCS XR Pro Hackathon",
+        "place": "3rd Place",
+        "organizers": "Gov of TamilNadu/ CII Connect/TCS",
+        "projectDate": "17 October 2019",
+        "duration": "1 Day",
+        "preparationTime": "2 Months",
+        "category": "XR",
+        "location": "TCS, Siruseri, Chennai",
+        "team": "2 Members",
+        "prize": "2 Lakh",
+        "problemStatement": "    TCS XR Pro is organized as the <b>Virtual reality, augmented reality and mixed reality</b> are the new media that are changing existing ways of consuming and using information and knowledge. Deep experiences are described to create new business models / markets and disrupt existing ones. Seeing the immense potential of these new technological approaches, TCS is organizing Extended Reality Challenge (XR) aimed at getting the best minds to design and develop experiences to solve contextual business problems.     \n    <dl>\n        <dt><b>Categories:</b></dt><br>\n        <dd>Healthcare</dd>\n        <dd>Education</dd>\n        <dd>Agriculture</dd>\n        <dd>Automotive / Mobility</dd>\n        <dd>Tourism</dd>\n        <dd>Banking</dd>\n        <dd>Geriatric Care</dd>\n    </dl>",
+        "aboutCompetition": "Connect is the flagship event of CII supported by the Gov of Tamil Nadu and Software Technology Parks of India, Ministry of Electronics and Telecommunications, and Gov of India.   <br>\nThe PRO Extended Reality (XR) Challenge will consist of three parts: Team Registration and Training, the Prototype Submission Phase and the Grand Final Phase. The top 5 teams selected will be invited to make a show and say at the Grand Finale the first three coveted awards. This contest is organized as part of the CII Connect 2019.",
+        "solution": "<p align=\"justify\">\r\n\r\n    <b>Integration of Augmented Reality (AR) into Student Training, Virtual Laboratory, and Inspection:</b>\r\n\r\n    <br>&emsp;The realm of education has been significantly transformed with the advent of Augmented Reality (AR). In particular, this technology stands poised to revolutionize the training of novices in various fields, offering an innovative solution for students stepping into the unknown territory of complex machinery and intricate systems. By leveraging the power of AR, institutions can bridge the gap between theoretical knowledge and practical exposure, propelling students towards proficiency through immersive learning experiences.\r\n    \r\n    <br><br>&emsp;Imagine a scenario where a new student, devoid of any prior experience, enters a domain laden with advanced and specialized machines. Often, these machines are enigmatic to the uninitiated eye, rendering the learning curve steep and challenging. However, AR emerges as a beacon of enlightenment, illuminating the path of understanding with its transformative capabilities.\r\n    \r\n    <br><br>&emsp; As a student embarks on this journey, AR acts as a facilitator, creating an augmented environment where machines come to life, stripped down to their elemental components. Disassembly, though reserved for the seasoned technician, is now within the grasp of the novice, virtually. Through the lens of AR, a student can intricately explore the various parts of a machine, acquainting themselves with its intricacies and nuances, all without laying a physical hand on it.\r\n    \r\n    <br><br>&emsp;This digital dissection transpires in the augmented realm, rendering the need for external guidance obsolete. The student, armed with a mobile device, can delve into the mechanics of the machine from the comfort of their own home. The ubiquitous nature of mobile technology eliminates the need for constant physical presence near the machine to quell doubts or seek clarification. This empowerment offers a unique and personalized learning experience, nurturing a sense of autonomy in the student's educational journey.\r\n    \r\n    <br><br>&emsp; As AR technology progresses, its capabilities burgeon, venturing into realms beyond mere mobile-based interaction. In the context of hardware advancement, the potential applications become even more tantalizing. AR, in conjunction with the burgeoning Internet of Things (IoT), addresses a perennial issue in education - broken experimental equipment. With AR's guidance, students can conduct experiments within a virtual environment, thus circumventing the risks posed by faulty or damaged apparatus. This convergence of AR and IoT cultivates a safer and more controlled setting for experimentation, enhancing both learning outcomes and student safety.\r\n    \r\n    <br><br>&emsp;Moreover, the temporal and spatial confines that traditionally bound educational experiences are dismantled by the magic of AR. Complex subjects and objects of study materialize before the student's eyes, breaking free from the shackles of space and time. This redefines the pedagogical landscape, transforming abstract concepts into tangible realities. AR not only augments learning but amplifies it, transmuting dormant knowledge into vivid encounters.\r\n    \r\n    <br><br>&emsp; Within the realm of inspection, AR finds another poignant application: Virtual Inspection. This process unfolds as a digital ballet, where automatically delineated boundaries of detected defects synchronize with point cloud data, meticulously describing the real-time attributes of an object. The ensuing assessment culminates in the creation of a comprehensive digital model, cataloging each defect with precision. The most remarkable aspect is the absence of human-object interaction; the entire evaluation transpires based on the model, heralding a new era of accuracy and efficiency.\r\n    \r\n    <br><br>&emsp;In the context of assembly processes, AR assumes the role of a seasoned guide, ushering workers through intricate tasks. Maintenance routines often demand a symphony of manual interventions, especially when dealing with intricate machinery and small-scale operations. Here, AR serves as an orchestra conductor, imparting critical information to workers in real-time. Optimal strategies, machine parameters, and procedural cues dance before the eyes of the worker, enhancing both productivity and precision.\r\n    \r\n    <br><br>&emsp;The beauty of this interaction lies in its bidirectional nature, a dialogue between the worker and the physical realm. The worker, with their hands engaged in assembly, receives continuous feedback from AR, resulting in a choreographed harmony of human and object. The worker's actions align with AR's guidance, transforming a laborious process into a ballet of precision.\r\n    \r\n    <br><br>&emsp; In sum, Augmented Reality emerges as a transformative force in education, infusing traditional paradigms with immersive experiences. It nurtures novice learners by unraveling the intricacies of complex machinery, breaking down barriers of space and time, and breathing life into the inspection and assembly processes. This technological tapestry weaves a future where learning becomes an intimate dance between the tangible and the virtual, fostering proficiency and understanding in equal measure.\r\n</p>\r\n<div class=\"row project-container project section-bg\" data-aos=\"fade-up\" data-aos-delay=\"100\">\r\n    <div class=\"col-lg-4 col-md-6 project-item\">\r\n        <div class=\"project-wrap\">\r\n          <img src=\"assets/img/acheivements/TCS_XR_Pro6.jpg\" class=\"img-fluid\" alt=\"\">\r\n          <div class=\"project-links\">\r\n            <a href=\"assets/img/acheivements/TCS_XR_Pro6.jpg\" data-gallery=\"portfolioGallery\" target=\"_blank\" class=\"project-lightbox\" title=\"\"><i class=\"bx bx-plus\"></i></a>\r\n          </div>\r\n        </div>\r\n      </div>\r\n      <div class=\"col-lg-4 col-md-6 project-item\">\r\n        <div class=\"project-wrap\">\r\n          <img src=\"assets/img/acheivements/TCS_XR_Pro7.jpg\" class=\"img-fluid\" alt=\"\">\r\n          <div class=\"project-links\">\r\n            <a href=\"assets/img/acheivements/TCS_XR_Pro7.jpg\" data-gallery=\"portfolioGallery\" target=\"_blank\" class=\"project-lightbox\" title=\"\"><i class=\"bx bx-plus\"></i></a>\r\n          </div>\r\n        </div>\r\n      </div>\r\n      <div class=\"col-lg-4 col-md-6 project-item\">\r\n        <div class=\"project-wrap\">\r\n          <img src=\"assets/img/acheivements/TCS_XR_Pro8.jpg\" class=\"img-fluid\" alt=\"\">\r\n          <div class=\"project-links\">\r\n            <a href=\"assets/img/acheivements/TCS_XR_Pro8.jpg\" data-gallery=\"portfolioGallery\" target=\"_blank\" class=\"project-lightbox\" title=\"\"><i class=\"bx bx-plus\"></i></a>\r\n          </div>\r\n        </div>\r\n      </div>\r\n      <div class=\"col-lg-4 col-md-6 project-item\">\r\n        <div class=\"project-wrap\">\r\n          <img src=\"assets/img/acheivements/TCS_XR_Pro9.jpg\" class=\"img-fluid\" alt=\"\">\r\n          <div class=\"project-links\">\r\n            <a href=\"assets/img/acheivements/TCS_XR_Pro9.jpg\" data-gallery=\"portfolioGallery\" target=\"_blank\" class=\"project-lightbox\" title=\"\"><i class=\"bx bx-plus\"></i></a>\r\n          </div>\r\n        </div>\r\n      </div>\r\n      <div class=\"col-lg-4 col-md-6 project-item\">\r\n        <div class=\"project-wrap\">\r\n          <img src=\"assets/img/acheivements/TCS_XR_Pro10.jpg\" class=\"img-fluid\" alt=\"\">\r\n          <div class=\"project-links\">\r\n            <a href=\"assets/img/acheivements/TCS_XR_Pro10.jpg\" data-gallery=\"portfolioGallery\" target=\"_blank\" class=\"project-lightbox\" title=\"\"><i class=\"bx bx-plus\"></i></a>\r\n          </div>\r\n        </div>\r\n      </div>\r\n      <div class=\"col-lg-4 col-md-6 project-item\">\r\n        <div class=\"project-wrap\">\r\n          <img src=\"assets/img/acheivements/TCS_XR_Pro1.jpg\" class=\"img-fluid\" alt=\"\">\r\n          <div class=\"project-links\">\r\n            <a href=\"assets/img/acheivements/TCS_XR_Pro1.jpg\" data-gallery=\"portfolioGallery\" target=\"_blank\" class=\"project-lightbox\" title=\"\"><i class=\"bx bx-plus\"></i></a>\r\n          </div>\r\n        </div>\r\n      </div>\r\n</div>",
+        "image1": "TCS_XR_Pro1",
+        "image2": "TCS_XR_Pro2",
+        "image3": "TCS_XR_Pro3",
+        "image4": "TCS_XR_Pro4",
+        "image5": "TCS_XR_Pro5",
+        "image6": "TCS_XR_Pro6",
+        "image7": "TCS_XR_Pro7",
+        "image8": "TCS_XR_Pro8",
+        "image9": "TCS_XR_Pro9",
+        "image10": "TCS_XR_Pro10",
+        "video": "https://www.youtube.com/embed/CR38xj9NQ3Q?si=Y8d_j39T-agV6Rdk"
+      }
+    },
+    {
+      "sys": {
+        "id": "3"
+      },
+      "fields": {
+        "name": "IFA",
+        "competition": "IFA Hackathon (IOT for All)",
+        "place": "3rd Place",
+        "organizers": "MakersTribe",
+        "projectDate": "7 December 2019",
+        "duration": "2 Days",
+        "preparationTime": "- (On site)",
+        "category": "IOT",
+        "location": "Altimetrik, International Tech Park Chennai",
+        "team": "4 Members",
+        "prize": "5 Thousand",
+        "problemStatement": "    <p align=\"justify\">&emsp; IFA HACKATHON - 18 was a hackathon event organized by Altimetrik India Pvt Ltd, Chennai in collaboration with IoT For All, a community of IoT enthusiasts and makers. The hackathon took place on December 9, 2018 at Altimetrik, Ascendas IT Park. The theme of the hackathon was “IoT for Smart Cities” and the participants had to come up with innovative solutions using IoT devices and sensors to solve real-world problems faced by urban dwellers. The hackathon was open to students, professionals, hobbyists, and anyone who had a passion for IoT.<br><br>\n        &emsp;The hackathon was a great opportunity for the participants to showcase their skills, network with like-minded people, and win exciting prizes. The hackathon was also featured in various media outlets such as Medium, Facebook, and Hackathon.com. IFA HACKATHON - 18 was one of the biggest and most innovative hackathon events in Chennai that showcased the potential of IoT for creating smart solutions for smart cities. </p>\n        <dl>\n            <dt><b>THEME:</b></dt><br>\n            <dd>Social cause</dd>\n            <dd>Sustainability</dd>\n            <dd>Smart City</dd>\n            <dd>Disaster Management</dd>\n            <dd>and other on site problem statements</dd>\n        </dl>",
+        "aboutCompetition": "Makers Tribe is a community of makers, anyone interested in exploring technologies, those are helpful in making innovative & disruptive solutions and products which make an impact to the world1. They have a studio in Chennai, where they offer co-working space, workshops, meetups, and events for both tech and non-tech freelancers2. They also have a Facebook page where they share their projects and updates",
+        "solution": "<p align=\"justify\">\r\n    <b> Enhancing Educational Endeavors: Augmented Reality's Dynamic Role in Facilitating Student Learning</b>\r\n\r\n    <br>&emsp;Augmented Reality (AR), a beacon of innovation in the realm of education, stands poised to redefine the educational landscape for school and college students. The integration of AR as a pedagogical tool presents an opportunity to revolutionize the learning experience, not just as a tool for gamified learning but also as a motivational asset that unlocks a plethora of possibilities across various disciplines. This versatile technology transcends the traditional confines of instruction, promising a holistic and engaging approach that is both customizable and immersive.\r\n    \r\n    <br><br>&emsp;The expansive potential of AR extends to every facet of the educational journey, from the earliest stages of elementary schooling to the complex realms of Engineering. By harnessing the capabilities of platforms like Vuforia, AR can be seamlessly integrated into the very fabric of textbooks and physical spaces, effectively bridging the gap between theory and practice. The journey begins with the placement of a target—whether it's a textbook page or a real-world surface. This target serves as a portal, a window into a three-dimensional realm waiting to be unveiled.\r\n    \r\n    <br><br>&emsp; Through the synergy of AR and 3D modeling, students are offered a transformative learning experience. As they gaze through the lens of their AR-equipped devices, the pages of their textbooks spring to life with animated 3D models. These dynamic models transcend the limitations of conventional media, enabling students to explore their intricacies from multiple angles and dimensions. Unlike static videos, which are bound to a single perspective, AR animations empower students to examine every nuance, every facet, from any vantage point.\r\n    \r\n    <br><br>&emsp;The integration of audio, a pivotal component of this augmented narrative, transforms the learning encounter into an audiovisual symphony. The synchronized audio narration enhances comprehension, providing a guided tour through the inner workings of complex concepts. Importantly, the audio layer can be adapted to accommodate various languages, ensuring accessibility and inclusivity across diverse student demographics. This pragmatic design not only enriches the learning experience but also optimizes the application's footprint, ensuring efficient usage of storage resources.\r\n    \r\n    <br><br>&emsp;Imagine a student, engrossed in their textbook, as the pages spring to life through the magic of augmented reality. Scenes unfold before their eyes, narrated by the author's own voice, intricately layered with audio accompaniments that resonate with the subject matter. This synergy of visual and auditory stimulation cultivates an immersive learning environment that transcends the boundaries of traditional education.\r\n    \r\n    <br><br>&emsp;However, the true essence of augmented reality in education goes beyond mere engagement. It encapsulates three pivotal elements that underpin effective learning: Fun, Challenge, and Curiosity. Augmented reality imbues the learning process with an element of enjoyment, infusing the journey with a sense of playfulness. The interactive nature of AR gamification challenges students to actively participate, setting objectives to achieve within the digital realm. This intrinsic motivation fosters a thirst for knowledge and accomplishment, nurturing a growth mindset that permeates the entire learning journey.\r\n    \r\n    <br><br>&emsp;Perhaps most profoundly, AR ignites curiosity—a powerful catalyst for exploration and inquiry. By presenting information in an interactive and visually captivating manner, AR stimulates students to delve deeper into the subject matter. The very act of exploration becomes a delightful endeavor, an expedition fueled by a hunger for understanding. This curiosity-driven approach propels students towards self-directed learning, empowering them to seek out answers, delve into intricacies, and truly internalize the knowledge.\r\n    \r\n    <br><br>&emsp; In essence, Augmented Reality is more than just a technological tool; it's a gateway to a transformed educational landscape. It unlocks the potential to transform textbooks into interactive guides, pages into gateways, and learning into an exhilarating journey. From its animated 3D models to its adaptive audio layer, AR envelops students in an all-encompassing narrative that transcends language barriers and offers an immersive experience. Yet, its true power lies in its ability to spark joy, challenge the mind, and awaken curiosity—core elements that invigorate learning and pave the way for a future of empowered education.\r\n</p>",
+        "image1": "IFA1",
+        "image2": "IFA2",
+        "image3": "IFA3",
+        "image4": "IFA4",
+        "image5": "IFA5",
+        "image6": "Empty",
+        "image7": "Empty",
+        "image8": "Empty",
+        "image9": "Empty",
+        "image10": "Empty",
+        "video": "Empty"
+      }
+    },
+    {
+      "sys": {
+        "id": "4"
+      },
+      "fields": {
+        "name": "EXPO_19",
+        "competition": "Project expo’19 & 22",
+        "place": "1st Place",
+        "organizers": "SKCET",
+        "projectDate": "16 September 2019",
+        "duration": "1 Day",
+        "preparationTime": "1 Month",
+        "category": "AR",
+        "location": "Sri Krishna College of Engineering and Technology, Coimbatore",
+        "team": "2 Members",
+        "prize": "2 Thousand",
+        "problemStatement": "",
+        "aboutCompetition": "Conducted by Sri Krishna College of Engineering and Technology, Coimbatore, Department of mechatronics for Engineers day 2019",
+        "solution": "",
+        "image1": "EXPO_191",
+        "image2": "EXPO_192",
+        "image3": "EXPO_193",
+        "image4": "Empty",
+        "image5": "Empty",
+        "image6": "Empty",
+        "image7": "Empty",
+        "image8": "Empty",
+        "image9": "Empty",
+        "image10": "Empty",
+        "video": "Empty"
+      }
+    },
+    {
+      "sys": {
+        "id": "5"
+      },
+      "fields": {
+        "name": "TNSCST",
+        "competition": "Student Project Scheme (TNSCST)",
+        "place": "1st Place",
+        "organizers": "Gov of TamilNadu",
+        "projectDate": "26 November 2022",
+        "duration": "1 Day",
+        "preparationTime": "1 Year",
+        "category": "Robotics",
+        "location": "Excel Engineering College, Komarapalayam",
+        "team": "4 Members",
+        "prize": "10 Thousand",
+        "problemStatement": "To Design and Fabrication of Humanoid Bot integrated With Company Ready Features including Customer welcome to Employee Log.",
+        "aboutCompetition": "Under this Scheme Government of Tamilnadu provides financial support of Rs.5000/- to Rs.10000/- to students to take up research projects. Prizes are given to selected projects and models.",
+        "solution": "\"<p align=\"\"justify\"\">&emsp;\n    In recent times, the world has been grappling with the unprecedented challenges posed by the COVID-19 pandemic. As the virus continues to impact millions of lives globally, the necessity of innovative solutions to mitigate its spread has become paramount. One such remarkable innovation is a cutting-edge technology designed to curb the transmission of the virus within institutions and workplaces. This revolutionary system is meticulously programmed and constructed with the primary objective of reducing the spread of COVID-19, a highly contagious respiratory illness that has left an indelible mark on populations worldwide.\n\n    <br><br>&emsp;At the core of this technology's functionality lies a sophisticated framework aimed at preventing and minimizing the transmission of the virus within enclosed environments. The significance of such measures cannot be overstated, especially in high-density areas where people congregate, such as workplaces and institutions. By incorporating advanced strategies, this system plays a pivotal role in ensuring the safety and well-being of individuals within these spaces.\n\n    <br><br>&emsp;Central to its operation is the integration of contactless temperature sensing, face detection, and mask detection capabilities. These features collectively empower the system to swiftly and accurately assess the health status of individuals without any physical contact. Leveraging state-of-the-art infrared sensors and computer vision algorithms, the system can gauge body temperature without necessitating direct skin contact, thereby minimizing the risk of transmission through surface contact.\n\n    <br><br>&emsp;Additionally, the system's prowess extends to its ability to detect the presence of face masks on individuals. In the context of a respiratory virus like COVID-19, wearing masks has been established as a key preventive measure. The incorporation of mask detection technology reinforces adherence to this vital protocol. By swiftly identifying individuals not wearing masks, the system aids in enforcing compliance with safety measures, contributing significantly to the overall reduction of potential infections.\n\n    <br><br>&emsp;However, the system's utility is not confined solely to disease prevention. It emerges as a multifunctional tool designed to streamline various aspects of daily operations within workplaces. This is achieved through integration with platforms such as Wolfram Alpha, Open Weather, and Wiki-Powered databases. By harnessing the power of these resources, the system transforms into a personal assistant capable of delivering a range of services and information to users.\n\n    <br><br>&emsp;In essence, this smart system becomes an indispensable asset for addressing diverse needs within the workplace. Employees can seamlessly access answers to queries, stay updated on weather forecasts, retrieve factual information, and perform calculations—all through a single interface. The integration of these capabilities significantly enhances productivity and efficiency, as employees can expediently access pertinent information without navigating through multiple platforms.\n\n    <br><br>&emsp;In conclusion, the advent of this state-of-the-art disease prevention system marks a pivotal juncture in the battle against COVID-19. Its intricate programming and design underscore its dedication to minimizing virus transmission within institutions and workplaces. By amalgamating contactless temperature sensing, face detection, and mask detection, the system operates as a formidable defense against potential outbreaks. Simultaneously, its role as a versatile personal assistant, facilitated by its integration with prominent online resources, amplifies its value in enhancing workplace functionality.\n\n    <br><br>&emsp;As the world continues to navigate the complexities of the pandemic, such innovative solutions stand as testament to human ingenuity and resilience. The smart disease prevention system not only exemplifies technological advancement but also reflects a collective commitment to safeguarding public health. In the ever-evolving landscape of challenges, it is innovations like these that serve as beacons of hope, illuminating a path towards a safer and healthier future.\n</p>\"",
+        "image1": "TNSCST1",
+        "image2": "TNSCST2",
+        "image3": "TNSCST3",
+        "image4": "TNSCST4",
+        "image5": "TNSCST5",
+        "image6": "Empty",
+        "image7": "Empty",
+        "image8": "Empty",
+        "image9": "Empty",
+        "image10": "Empty",
+        "video": "Empty"
+      }
+    },
+    {
+      "sys": {
+        "id": "6"
+      },
+      "fields": {
+        "name": "SAR_Tire2",
+        "competition": "SAE Tier 2",
+        "place": "1st Place",
+        "organizers": "SAE",
+        "projectDate": "25 February 2020",
+        "duration": "1 Day",
+        "preparationTime": "6 Months",
+        "category": "Application Development/ Web Development",
+        "location": "Sri Sakthi Institute of Engineering and Technology, Coimbatore",
+        "team": "2 Members",
+        "prize": "",
+        "problemStatement": "",
+        "aboutCompetition": "SAE International is the leader in connecting and educating mobility professionals to enable safe, clean, and accessible mobility solutions.",
+        "solution": "",
+        "image1": "SAR_Tire21",
+        "image2": "SAR_Tire22",
+        "image3": "SAR_Tire23",
+        "image4": "SAR_Tire24",
+        "image5": "Empty",
+        "image6": "Empty",
+        "image7": "Empty",
+        "image8": "Empty",
+        "image9": "Empty",
+        "image10": "Empty",
+        "video": "Empty"
+      }
+    },
+    {
+      "sys": {
+        "id": "7"
+      },
+      "fields": {
+        "name": "AcademicExcellence",
+        "competition": "Academic Excellence Award",
+        "place": "2nd Place",
+        "organizers": "SKCET",
+        "projectDate": "10 March 2019",
+        "duration": "",
+        "preparationTime": "",
+        "category": "Academic",
+        "location": "Sri Krishna College of Engineering and Technology, Coimbatore",
+        "team": "",
+        "prize": "",
+        "problemStatement": "",
+        "aboutCompetition": "It is an autonomous Institution, accredited by NBA and has been offered ‘A’ Grade (3.42 out of 4 scale) by NAAC for its academic excellence.",
+        "solution": "",
+        "image1": "AcademicExcellence1",
+        "image2": "AcademicExcellence2",
+        "image3": "Empty",
+        "image4": "Empty",
+        "image5": "Empty",
+        "image6": "Empty",
+        "image7": "Empty",
+        "image8": "Empty",
+        "image9": "Empty",
+        "image10": "Empty",
+        "video": "Empty"
+      }
+    },
+    {
+      "sys": {
+        "id": "8"
+      },
+      "fields": {
+        "name": "StarPerformance",
+        "competition": "Certificate of Merit-Star Performace Award",
+        "place": "1st Place",
+        "organizers": "SKCET",
+        "projectDate": "14 October 2018",
+        "duration": "",
+        "preparationTime": "",
+        "category": "Academic",
+        "location": "Sri Krishna College of Engineering and Technology, Coimbatore",
+        "team": "",
+        "prize": "",
+        "problemStatement": "",
+        "aboutCompetition": "It is an autonomous Institution, accredited by NBA and has been offered ‘A’ Grade (3.42 out of 4 scale) by NAAC for its academic excellence.",
+        "solution": "",
+        "image1": "StarPerformance1",
+        "image2": "StarPerformance2",
+        "image3": "Empty",
+        "image4": "Empty",
+        "image5": "Empty",
+        "image6": "Empty",
+        "image7": "Empty",
+        "image8": "Empty",
+        "image9": "Empty",
+        "image10": "Empty",
+        "video": "Empty"
+      }
+    }
+  ]
+}

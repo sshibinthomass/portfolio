@@ -23,6 +23,23 @@ const Home = () => {
     const achievements = achievementsData[currentLang] || achievementsData.en;
     const research = researchData[currentLang] || researchData.en;
 
+    // Helper function to get project image with English fallback
+    const getProjectImage = (project) => {
+        if (project.images && project.images.length > 0) {
+            return project.images[0];
+        }
+        if (project.image) {
+            return project.image;
+        }
+        // Fallback to English project
+        if (currentLang !== 'en') {
+            const enProject = projectsData.en.find(p => p.id === project.id);
+            if (enProject?.images) return enProject.images[0];
+            if (enProject?.image) return enProject.image;
+        }
+        return '/portfolio/images/project.png'; // Default fallback
+    };
+
     return (
         <div className="home">
             {/* Hero Section */}
@@ -54,7 +71,7 @@ const Home = () => {
                             animate={{ opacity: 1, scale: 1 }}
                             transition={{ duration: 0.6, delay: 0.2 }}
                         >
-                            <img src="/portfolio/images/profile.png" alt="Profile" />
+                            <img src="/portfolio/images/profile.jpg" alt="Profile" />
                         </motion.div>
                     </div>
                 </div>
@@ -89,21 +106,16 @@ const Home = () => {
                             {t('skills.description')}
                         </p>
 
-                        {skills.categories.map((category, categoryIndex) => (
-                            <div key={categoryIndex} style={{ marginBottom: '3rem' }}>
-                                <h3 style={{ marginBottom: '1.5rem', color: 'var(--accent-primary)' }}>
-                                    {category.name}
-                                </h3>
-                                {category.skills.map((skill, skillIndex) => (
-                                    <SkillBar
-                                        key={skillIndex}
-                                        name={skill.name}
-                                        percentage={skill.percentage}
-                                        delay={skillIndex * 100}
-                                    />
-                                ))}
-                            </div>
-                        ))}
+                        <div className="skills-grid">
+                            {skills.skills.map((skill, skillIndex) => (
+                                <SkillBar
+                                    key={skillIndex}
+                                    name={skill.name}
+                                    percentage={skill.percentage}
+                                    delay={skillIndex * 100}
+                                />
+                            ))}
+                        </div>
                     </motion.div>
                 </div>
             </section>
@@ -182,7 +194,7 @@ const Home = () => {
                     <div className="link-grid">
                         {projects.map((project) => (
                             <Link key={project.id} to={`/${lang}/projects/${project.id}`} className="link-card">
-                                <img src={project.image} alt={project.title} className="link-card-image" />
+                                <img src={getProjectImage(project)} alt={project.title} className="link-card-image" />
                                 <h4 className="link-card-title">{project.title}</h4>
                                 <p className="link-card-desc">{project.description}</p>
                             </Link>
@@ -198,7 +210,11 @@ const Home = () => {
                     <div className="link-grid">
                         {hobbyProjects.slice(0, 6).map((project) => (
                             <Link key={project.id} to={`/${lang}/hobby-projects/${project.id}`} className="link-card">
-                                <img src={project.image} alt={project.title} className="link-card-image" />
+                                <img
+                                    src={(project.images && project.images.length > 0) ? project.images[0] : (hobbyProjectsData.en.find(p => p.id === project.id)?.images?.[0] || '')}
+                                    alt={project.title}
+                                    className="link-card-image"
+                                />
                                 <h4 className="link-card-title">{project.title}</h4>
                                 <p className="link-card-desc">{project.description}</p>
                             </Link>
@@ -214,7 +230,11 @@ const Home = () => {
                     <div className="link-grid">
                         {achievements.slice(0, 6).map((achievement) => (
                             <Link key={achievement.id} to={`/${lang}/achievements/${achievement.id}`} className="link-card">
-                                <img src={achievement.image} alt={achievement.title} className="link-card-image" />
+                                <img
+                                    src={(achievement.images && achievement.images.length > 0) ? achievement.images[0] : (achievementsData.en.find(a => a.id === achievement.id)?.images?.[0] || '')}
+                                    alt={achievement.title}
+                                    className="link-card-image"
+                                />
                                 <h4 className="link-card-title">{achievement.title}</h4>
                                 <p className="link-card-desc">{achievement.description}</p>
                             </Link>

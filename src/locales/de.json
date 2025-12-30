@@ -20,7 +20,7 @@
         "title": "Hallo, ich bin",
         "subtitle": "AGI-Aspiration & KI-Enthusiast | Baue jeden Tag neue Dinge",
         "about": "Über mich",
-        "description": "Ich bin leidenschaftlich daran interessiert, intelligente Systeme zu entwickeln, die die Grenzen des Möglichen erweitern. Meine Arbeit umfasst LLMs, Agentic AI, RAG, NLP, Computer Vision und Reinforcement Learning. Ich kombiniere modernste KI mit AR/VR und Web-Schnittstellen, um innovative Lösungen zu schaffen.",
+        "description": "Gen KI-Ingenieur mit Erfahrung im Aufbau von End-to-End Agentic AI-Anwendungen mit LangGraph, LangChain, Google ADK, Claude Agent SDK und auch in der Entwicklung maßgeschneiderter Agenten von Grund auf mit reinem Python. Starke Expertise in Python für ML/LLM, Parallelismus, Pydantic und CI/CD-Pipelines, mit praktischer Erfahrung in ReAct, Planning, Deep, Sub und Orchestrator Agenten. Nachgewiesene Erfahrung in RAG- und Graph-RAG-Architekturen, MCP, Agent-to-Agent-Protokoll und Tool-Integration, unter Verwendung von Modellen von OpenAI (einschließlich GPT real-time), Gemini, Anthropic, Groq, Grok, Ollama und Hugging Face. Kompetent in der Bereitstellung von KI-Anwendungen mit Fast API, Flask, Streamlit, React und Gradio, mit Frontend-Fähigkeiten in HTML, CSS, JavaScript.",
         "contact": "Kontakt aufnehmen",
         "viewResume": "Lebenslauf ansehen"
     },
@@ -39,8 +39,12 @@
         "description": "Einige meiner neuesten Arbeiten",
         "viewDetails": "Details anzeigen",
         "technologies": "Technologien",
-        "liveDemo": "Live-Demo",
-        "sourceCode": "Quellcode"
+        "sourceCode": "Quellcode",
+        "purpose": "Zweck",
+        "duration": "Dauer",
+        "date": "Datum",
+        "github": "GitHub",
+        "appLink": "Live-App"
     },
     "hobbyProjects": {
         "title": "Hobbyprojekte",

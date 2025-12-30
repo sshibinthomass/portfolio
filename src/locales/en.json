@@ -20,7 +20,7 @@
         "title": "Hi, I'm",
         "subtitle": "AGI Aspiration & AI Enthusiast | Building new things every day",
         "about": "About Me",
-        "description": "I'm passionate about building intelligent systems that push the boundaries of what's possible. My work spans LLMs, Agentic AI, RAG, NLP, Computer Vision, and Reinforcement Learning. I combine cutting-edge AI with AR/VR and web interfaces to create innovative solutions.",
+        "description": "Gen AI Engineer experienced in building end to end Agentic AI applications using LangGraph, LangChain, Google ADK, Claude Agent SDK, and also developing custom agents from scratch with pure Python. Strong expertise in Python for ML/LLM, parallelism, Pydantic, and CI/CD pipelines, with hands-on work across ReAct, planning, deep, sub, and orchestrator agents. Proven experience in RAG and Graph RAG architectures, MCP, Agent-to-Agent protocol, and tool integration, leveraging models from OpenAI (including GPT real-time), Gemini, Anthropic, Groq, Grok, Ollama, and Hugging Face. Skilled in deploying AI applications using Fast API, Flask, Streamlit, React and Gradio, with frontend capabilities in HTML, CSS, JavaScript.",
         "contact": "Get in Touch",
         "viewResume": "View Resume"
     },
@@ -39,8 +39,12 @@
         "description": "Some of my recent work",
         "viewDetails": "View Details",
         "technologies": "Technologies",
-        "liveDemo": "Live Demo",
-        "sourceCode": "Source Code"
+        "sourceCode": "Source Code",
+        "purpose": "Purpose",
+        "duration": "Duration",
+        "date": "Date",
+        "github": "GitHub",
+        "appLink": "Live App"
     },
     "hobbyProjects": {
         "title": "Hobby Projects",

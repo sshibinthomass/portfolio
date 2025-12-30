@@ -11,6 +11,36 @@ const Projects = () => {
     const currentLang = i18n.language;
     const projects = projectsData[currentLang] || projectsData.en;
 
+    // Helper function to get project image with English fallback
+    const getProjectImage = (project) => {
+        if (project.images && project.images.length > 0) {
+            return project.images[0];
+        }
+        if (project.image) {
+            return project.image;
+        }
+        // Fallback to English project
+        if (currentLang !== 'en') {
+            const enProject = projectsData.en.find(p => p.id === project.id);
+            if (enProject?.images && enProject.images.length > 0) return enProject.images[0];
+            if (enProject?.image) return enProject.image;
+        }
+        return '/portfolio/images/project.png'; // Default fallback
+    };
+
+    // Helper function to get project technologies with English fallback
+    const getProjectTechnologies = (project) => {
+        if (project.technologies && project.technologies.length > 0) {
+            return project.technologies;
+        }
+        // Fallback to English project
+        if (currentLang !== 'en') {
+            const enProject = projectsData.en.find(p => p.id === project.id);
+            if (enProject?.technologies) return enProject.technologies;
+        }
+        return [];
+    };
+
     return (
         <div className="section">
             <div className="container">
@@ -34,10 +64,10 @@ const Projects = () => {
                             >
                                 <Link to={`/${lang}/projects/${project.id}`} style={{ textDecoration: 'none' }}>
                                     <Card
-                                        image={project.image}
+                                        image={getProjectImage(project)}
                                         title={project.title}
                                         description={project.description}
-                                        tags={project.technologies}
+                                        tags={getProjectTechnologies(project)}
                                         onClick={() => { }}
                                     />
                                 </Link>
