@@ -32,10 +32,13 @@ const LanguageWrapper = ({ children }) => {
   return children;
 };
 
+import ScrollToTop from './components/ScrollToTop';
+
 function App() {
   return (
     <ThemeProvider>
       <BrowserRouter basename="/portfolio">
+        <ScrollToTop />
         <Routes>
           {/* Redirect root to /en */}
           <Route path="/" element={<Navigate to="/en" replace />} />
