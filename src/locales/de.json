@@ -53,7 +53,12 @@
     "achievements": {
         "title": "Erfolge",
         "description": "Anerkennungen und Errungenschaften",
-        "date": "Datum"
+        "date": "Datum",
+        "team": "Team",
+        "references": "Referenzen",
+        "livePreview": "Live-Vorschau",
+        "demoVideo": "Demo-Video",
+        "linkedinPost": "LinkedIn-Beitrag"
     },
     "research": {
         "title": "Forschung",

@@ -10,8 +10,53 @@
                 "/portfolio/images/achievements/TUM_Venture3.jpg"
             ],
             "youtubeLink": "",
-            "github": "",
-            "appLink": "",
+            "github": "https://github.com/sshibinthomass/tum-hackathon.git",
+            "linkedinPost": "https://www.linkedin.com/posts/sshibinthomass_graphrag-aec-generativeai-activity-7398610073494913025-XO94?utm_source=share&utm_medium=member_desktop&rcm=ACoAAClGAzgBUsfU199X4kCQZx46zqqAx0DpqDA",
+            "teamMembers": [
+                {
+                    "name": "Shibin Thomas",
+                    "qualification": "MS, Automation & Robotics, TU Dortmund",
+                    "linkedin": "https://www.linkedin.com/in/shibinthomas/",
+                    "email": "sshibinthomass@gmail.com"
+                },
+                {
+                    "name": "Alyssa Queener",
+                    "qualification": "MS, Information Technologies for the Built Environment, TUM",
+                    "linkedin": "https://www.linkedin.com/in/alyssa-queener-8932b2318/"
+                },
+                {
+                    "name": "Anna Radová",
+                    "qualification": "Bachelor's degree, Management and Technology",
+                    "linkedin": "https://www.linkedin.com/in/annaradov%C3%A1/"
+                },
+                {
+                    "name": "Pierre Wehbi",
+                    "qualification": "BIM Specialist, Scherr+Klimke AG",
+                    "linkedin": "https://www.linkedin.com/in/pierre-wehbi/"
+                }
+            ],
+            "references": [
+                {
+                    "name": "Dr. Máté Péntek",
+                    "qualification": "Event Host,Director | Built Environment @ TUM Venture Labs",
+                    "linkedin": "https://www.linkedin.com/in/mpentek/",
+                    "email": ""
+                },
+                {
+                    "name": "Dr. Alexander Vosseler",
+                    "qualification": "Jury Member, Principal Data Scientist @ Nemetschek Group",
+                    "linkedin": "https://www.linkedin.com/in/alexander-vosseler-047148bb/",
+                    "email": ""
+                },
+                {
+                    "name": "Dr. Mansour Mehranfar ",
+                    "qualification": "Jury Member, AI | Digital Twin | BIM | AEC/O Digitalization Nemetschek Group",
+                    "linkedin": "https://www.linkedin.com/in/dr-mansour-mehranfar-aa7621211/",
+                    "email": ""
+                }
+            ],
+            "appLink": "https://sshibinthomass.github.io/tum_hack_html_host/",
+            "renderApp": true,
             "purpose": "",
             "duration": "48 Hours",
             "date": "2025-11-23",
@@ -28,8 +73,35 @@
                 "/portfolio/images/achievements/BMW4.jpg",
                 "/portfolio/images/achievements/BMW5.jpg"
             ],
-            "youtubeLink": "",
-            "github": "",
+            "youtubeLink": "https://youtu.be/eKjWmrbp9wE?si=6yuaQwZtV4MkLjel",
+            "github": "https://github.com/sshibinthomass/No-Expert-Agent",
+            "linkedinPost": "https://www.linkedin.com/posts/sshibinthomass_bmw-tumai-hackathon-activity-7388553987920179200-e1rP?utm_source=share&utm_medium=member_desktop&rcm=ACoAAClGAzgBUsfU199X4kCQZx46zqqAx0DpqDA",
+            "teamMembers": [
+                {
+                    "name": "Shibin Thomas",
+                    "qualification": "MS, Automation & Robotics, TU Dortmund",
+                    "linkedin": "https://www.linkedin.com/in/shibinthomas/",
+                    "email": "sshibinthomass@gmail.com"
+                },
+                {
+                    "name": "Dennis Hermann",
+                    "qualification": "MS, Informatik, TUM",
+                    "linkedin": "https://www.linkedin.com/in/dennis-hermann-7a0aab175/"
+                },
+                {
+                    "name": "Theresa Geber",
+                    "qualification": "MS, Computer Science, TUM",
+                    "linkedin": "https://www.linkedin.com/in/theresa-geber-5027a7248/"
+                }
+            ],
+            "references": [
+                {
+                    "name": "Dr. Michal Kuemmel ",
+                    "qualification": "Event Host, New Product Development Specialist, BMW Group",
+                    "linkedin": "https://www.linkedin.com/in/michal-kuemmel/",
+                    "email": ""
+                }
+            ],
             "appLink": "",
             "purpose": "",
             "duration": "48 Hours",
@@ -45,8 +117,6 @@
                 "/portfolio/images/achievements/BKW2.jpg",
                 "/portfolio/images/achievements/BKW3.jpg"
             ],
-            "youtubeLink": "",
-            "github": "",
             "appLink": "",
             "purpose": "",
             "duration": "24 Hours",
@@ -175,83 +245,83 @@
         {
             "id": 9,
             "title": "TUM Venture Hackathon",
-            "description": "1st Place in TUM Venture Hackathon conducted by TUM VENTURE (Nov 2025)",
+            "description": "1. Platz beim TUM Venture Hackathon, durchgeführt von TUM VENTURE (Nov 2025)",
             "purpose": "",
-            "duration": "48 Hours",
-            "date": "2025-11-23",
-            "detailedDescription": "<p><strong>1st Place</strong> in TUM Venture Hackathon conducted by TUM VENTURE.</p><p>Built during the Nemetschek AECO Hackathon, a fast-paced 48-hour competition focused on creating and evaluating next-generation RAG systems for AEC knowledge. Teams were challenged to work with complex real-world technical documents and demonstrate measurable improvements using defined metrics such as faithfulness, contextual precision, and recall.</p><h3>Solution: Hybrid Agentic Graph RAG for AEC</h3><p>Our solution is an AI-driven retrieval system designed to help AEC professionals navigate massive multimodal technical documents with high precision and zero-hallucination guarantees. It targets information overload and the need for trustworthy AI by transforming complex PDFs into a structured, queryable knowledge space tailored to standards, manuals, and regulations in the AEC domain.</p>"
+            "duration": "48 Stunden",
+            "date": "23.11.2025",
+            "detailedDescription": "<p><strong>1. Platz</strong> beim TUM Venture Hackathon, durchgeführt von TUM VENTURE.</p><p>Entwickelt während des Nemetschek AECO Hackathons, einem 48-stündigen Wettbewerb mit Fokus auf die Erstellung und Bewertung von RAG-Systemen der nächsten Generation für AEC-Wissen. Teams wurden herausgefordert, mit komplexen technischen Dokumenten aus der realen Welt zu arbeiten und messbare Verbesserungen anhand definierter Metriken wie Treue, kontextbezogene Präzision und Recall zu demonstrieren.</p><h3>Lösung: Hybrid Agentic Graph RAG für AEC</h3><p>Unsere Lösung ist ein KI-gesteuertes Abrufsystem, das Fachleuten aus dem AEC-Bereich hilft, massive multimodale technische Dokumente mit hoher Präzision und ohne Halluzinationen zu navigieren. Es zielt auf Informationsüberflutung und den Bedarf an vertrauenswürdiger KI ab, indem es komplexe PDFs in einen strukturierten, abfragbaren Wissensraum umwandelt, der auf Standards, Handbücher und Vorschriften im AEC-Bereich zugeschnitten ist.</p>"
         },
         {
             "id": 8,
             "title": "BMW Hackathon",
-            "description": "1st Place in BMW Hackathon conducted by BMW (Oct 2025)",
+            "description": "1. Platz beim BMW Hackathon, durchgeführt von BMW (Okt 2025)",
             "purpose": "",
-            "duration": "48 Hours",
-            "date": "2025-10-24",
-            "detailedDescription": "<p><strong>1st Place</strong> in BMW Hackathon conducted by BMW.</p><ul><li><strong>Category:</strong> Contact Retrieval</li><li><strong>Location:</strong> BMW Startup Garage, München</li><li><strong>Team:</strong> 3 Members</li><li><strong>Prize:</strong> 500€</li></ul><p>The BMW Group x TUM.ai Hackathon is an intense 48-hour event organized by BMW Group and TUM.ai. This competition brings together talented participants to develop cutting-edge AI solutions for real-world applications at BMW.</p><h3>Solution</h3><p>Our winning solution for the Contact Retrieval Challenge represents a sophisticated AI-driven system designed to intelligently analyze and extract information from complex data sets. The AI framework is specifically engineered to make sense of unstructured and semi-structured data, transforming raw information into actionable insights that can support BMW's real-world applications and business processes.</p>"
+            "duration": "48 Stunden",
+            "date": "24.10.2025",
+            "detailedDescription": "<p><strong>1. Platz</strong> beim BMW Hackathon, durchgeführt von BMW.</p><ul><li><strong>Kategorie:</strong> Kontakte-Abruf</li><li><strong>Ort:</strong> BMW Startup Garage, München</li><li><strong>Team:</strong> 3 Mitglieder</li><li><strong>Preis:</strong> 500€</li></ul><p>Der BMW Group x TUM.ai Hackathon ist ein intensives 48-stunden-Event, das von der BMW Group und TUM.ai organisiert wird. Dieser Wettbewerb bringt talentierte Teilnehmer zusammen, um modernste KI-Lösungen für reale Anwendungen bei BMW zu entwickeln.</p><h3>Lösung</h3><p>Unsere Gewinnerlösung für die Contact Retrieval Challenge stellt ein ausgeklügeltes KI-gesteuertes System dar, das entwickelt wurde, um komplexe Datensätze intelligent zu analysieren und Informationen daraus zu extrahieren. Das KI-Framework ist speziell darauf ausgelegt, unstrukturierte und teilstrukturierte Daten zu verstehen und Rohdaten in umsetzbare Erkenntnisse umzuwandeln, die die realen Anwendungen und Geschäftsprozesse von BMW unterstützen können.</p>"
         },
         {
             "id": 7,
             "title": "BKW Hackathon",
-            "description": "2nd Place in BKW Hackathon conducted by BKW Engineering (Oct 2025)",
+            "description": "2. Platz beim BKW Hackathon, durchgeführt von BKW Engineering (Okt 2025)",
             "purpose": "",
-            "duration": "24 Hours",
-            "date": "2025-10-18",
-            "detailedDescription": "<p><strong>2nd Place</strong> in BKW Hackathon conducted by BKW Engineering.</p><p>The BKW Engineering x TUM.ai Makeathon is an intensive competition that focuses on solving engineering challenges and applying AI to address on-ground industrial problems.</p><h3>Solution: GenDesign</h3><p>GenDesign represents an innovative AI-driven solution that transforms historical engineering design data into actionable knowledge for design optimization and faster decision-making. Developed during the intense 24-hour makeathon, this groundbreaking system addresses critical pain points in engineering workflows while showcasing how Agentic AI can empower engineers rather than replace them.</p>"
+            "duration": "24 Stunden",
+            "date": "18.10.2025",
+            "detailedDescription": "<p><strong>2. Platz</strong> beim BKW Hackathon, durchgeführt von BKW Engineering.</p><p>Der BKW Engineering x TUM.ai Makeathon ist ein intensiver Wettbewerb, der sich auf die Lösung technischer Herausforderungen und die Anwendung von KI zur Bewältigung industrieller Probleme vor Ort konzentriert.</p><h3>Lösung: GenDesign</h3><p>GenDesign ist eine innovative KI-gesteuerte Lösung, die historische Konstruktionsdaten in umsetzbares Wissen für Designoptimierung und schnellere Entscheidungsfindung umwandelt. Dieses bahnbrechende System, das während des intensiven 24-Stunden-Makeathons entwickelt wurde, adressiert kritische Probleme in technischen Arbeitsabläufen und zeigt gleichzeitig, wie Agentic AI Ingenieure unterstützen kann, anstatt sie zu ersetzen.</p>"
         },
         {
             "id": 6,
             "title": "TNSCST Best Project Award",
-            "description": "1st Place in Student Project Scheme (TNSCST) conducted by Gov of TamilNadu (Nov 2022)",
+            "description": "1. Platz im Student Project Scheme (TNSCST), durchgeführt von der Regierung von Tamil Nadu (Nov 2022)",
             "purpose": "",
-            "duration": "1 Day",
-            "date": "2022-11-26",
-            "detailedDescription": "<p><strong>1st Place</strong> in Student Project Scheme (TNSCST) conducted by Gov of TamilNadu.</p><p>Under this Scheme Government of Tamilnadu provides financial support to students to take up research projects. Prizes are given to selected projects and models.</p><h3>Project</h3><p>Designed and Fabricated a Humanoid Bot integrated with Company Ready Features including Customer welcome to Employee Log. The system integrates contactless temperature sensing, face detection, and mask detection capabilities to minimize virus transmission within institutions and workplaces.</p>"
+            "duration": "1 Tag",
+            "date": "26.11.2022",
+            "detailedDescription": "<p><strong>1. Platz</strong> im Student Project Scheme (TNSCST), durchgeführt von der Regierung von Tamil Nadu.</p><p>Im Rahmen dieses Programms bietet die Regierung von Tamil Nadu finanzielle Unterstützung für Studenten, die Forschungsprojekte durchführen. Preise werden an ausgewählte Projekte und Modelle vergeben.</p><h3>Projekt</h3><p>Entwicklung und Fertigung eines humanoiden Roboters mit unternehmensreifen Funktionen, einschließlich Kundenbegrüßung und Mitarbeiterprotokollierung. Das System integriert kontaktlose Temperaturmessung, Gesichtserkennung und Maskenerkennung, um die Virusübertragung in Institutionen und am Arbeitsplatz zu minimieren.</p>"
         },
         {
             "id": 5,
             "title": "Smart India Hackathon",
-            "description": "1st Place in Smart India Hackathon(W) conducted by SIH [Gov of India] Ministry of Ayush (Dec 2020)",
+            "description": "1. Platz beim Smart India Hackathon (W), durchgeführt von SIH [Regierung von Indien] Ministerium für Ayush (Dez 2020)",
             "purpose": "",
-            "duration": "3 Days",
-            "date": "2020-12-21",
-            "detailedDescription": "<p><strong>1st Place</strong> in Smart India Hackathon(W) conducted by SIH [Gov of India] Ministry of Ayush.</p><p>Smart India Hackathon is a nationwide initiative to provide students a platform to solve some of pressing problems we face in our daily lives.</p><h3>Solution: VR Yoga</h3><p>An innovative Virtual Reality (VR) apparatus has been ingeniously crafted to enhance focus during yoga sessions. The device operates in conjunction with a smartphone and an inventive VR application, meticulously developed utilizing the UNITY software framework. This application introduces a groundbreaking facet where a mere gaze for a fleeting span of seconds can usher in a transformation of the VR environment.</p>"
+            "duration": "3 Tage",
+            "date": "21.12.2020",
+            "detailedDescription": "<p><strong>1. Platz</strong> beim Smart India Hackathon (W), durchgeführt von SIH [Regierung von Indien] Ministerium für Ayush.</p><p>Smart India Hackathon ist eine landesweite Initiative, um Studenten eine Plattform zu bieten, um einige der drängenden Probleme zu lösen, mit denen wir in unserem täglichen Leben konfrontiert sind.</p><h3>Lösung: VR Yoga</h3><p>Ein innovatives Virtual-Reality-Gerät (VR) wurde genial entwickelt, um die Konzentration während Yoga-Sitzungen zu verbessern. Das Gerät arbeitet in Verbindung mit einem Smartphone und einer erfinderischen VR-Anwendung, die mithilfe des UNITY-Software-Frameworks sorgfältig entwickelt wurde. Diese Anwendung führt einen bahnbrechenden Aspekt ein, bei dem ein bloßer Blick für wenige Sekunden eine Veränderung der VR-Umgebung einleiten kann.</p>"
         },
         {
             "id": 4,
             "title": "SAR Tier 2",
-            "description": "1st Place in SAE Tier 2 conducted by SAE (Feb 2020)",
+            "description": "1. Platz beim SAE Tier 2, durchgeführt von SAE (Feb 2020)",
             "purpose": "",
-            "duration": "1 Day",
-            "date": "2020-02-25",
-            "detailedDescription": "<p><strong>1st Place</strong> in SAE Tier 2 conducted by SAE.</p><p>SAE International is the leader in connecting and educating mobility professionals to enable safe, clean, and accessible mobility solutions. Won 1st place in App development and Cloud computing category.</p>"
+            "duration": "1 Tag",
+            "date": "25.02.2020",
+            "detailedDescription": "<p><strong>1. Platz</strong> beim SAE Tier 2, durchgeführt von SAE.</p><p>SAE International ist führend bei der Verbindung und Ausbildung von Mobilitätsfachleuten, um sichere, saubere und zugängliche Mobilitätslösungen zu ermöglichen. Gewann den 1. Platz in der Kategorie App-Entwicklung und Cloud Computing.</p>"
         },
         {
             "id": 3,
             "title": "IFA Hackathon (IOT for All)",
-            "description": "3rd Place in IFA Hackathon (IOT for All) conducted by MakersTribe (Dec 2019)",
+            "description": "3. Platz beim IFA Hackathon (IOT for All), durchgeführt von MakersTribe (Dez 2019)",
             "purpose": "",
-            "duration": "2 Days",
-            "date": "2019-12-07",
-            "detailedDescription": "<p><strong>3rd Place</strong> in IFA Hackathon (IOT for All) conducted by MakersTribe.</p><p>The theme of the hackathon was “IoT for Smart Cities” and the participants had to come up with innovative solutions using IoT devices and sensors to solve real-world problems.</p><h3>Solution: AR in Education</h3><p>Enhancing Educational Endeavors: Augmented Reality's Dynamic Role in Facilitating Student Learning. The integration of AR as a pedagogical tool presents an opportunity to revolutionize the learning experience, not just as a tool for gamified learning but also as a motivational asset that unlocks a plethora of possibilities across various disciplines.</p>"
+            "duration": "2 Tage",
+            "date": "07.12.2019",
+            "detailedDescription": "<p><strong>3. Platz</strong> beim IFA Hackathon (IOT for All), durchgeführt von MakersTribe.</p><p>Das Thema des Hackathons war „IoT für Smart Cities“ und die Teilnehmer mussten innovative Lösungen unter Verwendung von IoT-Geräten und Sensoren entwickeln, um reale Probleme zu lösen.</p><h3>Lösung: AR in der Bildung</h3><p>Verbesserung bildungsbezogener Bestrebungen: Die dynamische Rolle von Augmented Reality bei der Förderung des Lernens von Schülern. Die Integration von AR als pädagogisches Werkzeug bietet die Möglichkeit, das Lernerlebnis zu revolutionieren, nicht nur als Werkzeug für spielerisches Lernen, sondern auch als motivierender Vorteil, der eine Vielzahl von Möglichkeiten in verschiedenen Disziplinen erschließt.</p>"
         },
         {
             "id": 2,
             "title": "TCS XR Pro Hackathon",
-            "description": "3rd Place in TCS XR Pro Hackathon conducted by Gov of TamilNadu/ CII Connect/TCS (Oct 2019)",
+            "description": "3. Platz beim TCS XR Pro Hackathon, durchgeführt von der Regierung von Tamil Nadu / CII Connect / TCS (Okt 2019)",
             "purpose": "",
-            "duration": "1 Day",
-            "date": "2019-10-17",
-            "detailedDescription": "<p><strong>3rd Place</strong> in TCS XR Pro Hackathon conducted by Gov of TamilNadu/ CII Connect/TCS.</p><p>TCS XR Pro is organized to design and develop experiences to solve contextual business problems using Virtual reality, augmented reality and mixed reality.</p><h3>Solution: Integration of AR</h3><p>Integration of Augmented Reality (AR) into Student Training, Virtual Laboratory, and Inspection. By leveraging the power of AR, institutions can bridge the gap between theoretical knowledge and practical exposure, propelling students towards proficiency through immersive learning experiences.</p>"
+            "duration": "1 Tag",
+            "date": "17.10.2019",
+            "detailedDescription": "<p><strong>3. Platz</strong> beim TCS XR Pro Hackathon, durchgeführt von der Regierung von Tamil Nadu / CII Connect / TCS.</p><p>TCS XR Pro wird organisiert, um Erlebnisse zur Lösung kontextbezogener Geschäftsprobleme mithilfe von Virtual Reality, Augmented Reality und Mixed Reality zu entwerfen und zu entwickeln.</p><h3>Lösung: Integration von AR</h3><p>Integration von Augmented Reality (AR) in Studentenausbildung, virtuelles Labor und Inspektion. Durch die Nutzung der Leistungsfähigkeit von AR können Institutionen die Lücke zwischen theoretischem Wissen und praktischer Erfahrung schließen und Studenten durch immersive Lernerfahrungen zur Kompetenz führen.</p>"
         },
         {
             "id": 1,
             "title": "Project expo’19 & 22",
-            "description": "1st Place in Project expo’19 & 22 conducted by SKCET (Sep 2019)",
+            "description": "1. Platz bei der Project expo’19 & 22, durchgeführt von SKCET (Sep 2019)",
             "purpose": "",
-            "duration": "1 Day",
-            "date": "2019-09-16",
-            "detailedDescription": "<p><strong>1st Place</strong> in Project expo’19 & 22 conducted by SKCET.</p><p>Conducted by Sri Krishna College of Engineering and Technology, Coimbatore, Department of mechatronics for Engineers day 2019.</p>"
+            "duration": "1 Tag",
+            "date": "16.09.2019",
+            "detailedDescription": "<p><strong>1. Platz</strong> bei der Project expo’19 & 22, durchgeführt von SKCET.</p><p>Durchgeführt vom Sri Krishna College of Engineering and Technology, Coimbatore, Abteilung für Mechatronik zum Ingenieurtag 2019.</p>"
         }
     ]
 }

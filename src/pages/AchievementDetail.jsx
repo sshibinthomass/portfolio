@@ -23,10 +23,15 @@ const AchievementDetail = () => {
     const achievementDuration = achievement?.duration || enAchievement?.duration || '';
     const achievementGithub = achievement?.github || enAchievement?.github || '';
     const achievementAppLink = achievement?.appLink || enAchievement?.appLink || '';
+    const achievementRenderApp = achievement?.renderApp || enAchievement?.renderApp || false;
+    const achievementLinkedinPost = achievement?.linkedinPost || enAchievement?.linkedinPost || '';
+    const achievementReferences = achievement?.references || enAchievement?.references || [];
+    const achievementTeamMembers = achievement?.teamMembers || enAchievement?.teamMembers || [];
 
     // Date handling (format if valid date string)
     const rawDate = achievement?.date || enAchievement?.date;
     const achievementDate = rawDate ? new Date(rawDate).toLocaleDateString(currentLang === 'de' ? 'de-DE' : 'en-US') : '';
+
 
     // Helper to extract YouTube ID
     const getYoutubeId = (url) => {
@@ -166,12 +171,128 @@ const AchievementDetail = () => {
                                 {t('projects.github')}
                             </a>
                         )}
+
+                        {achievementLinkedinPost && (
+                            <a
+                                href={achievementLinkedinPost}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="btn btn-outline"
+                                style={{
+                                    border: '1px solid #0077b5',
+                                    color: '#0077b5',
+                                    padding: '0.8rem 2rem',
+                                    borderRadius: '50px',
+                                    textDecoration: 'none',
+                                    fontWeight: '500',
+                                    display: 'inline-flex',
+                                    alignItems: 'center',
+                                    gap: '0.5rem',
+                                    transition: 'all 0.3s ease'
+                                }}
+                            >
+                                <span>{t('achievements.linkedinPost')}</span>
+                            </a>
+                        )}
                     </div>
+
+                    {/* Team Members Section */}
+                    {achievementTeamMembers && achievementTeamMembers.length > 0 && (
+                        <div style={{ marginBottom: '3rem' }}>
+                            <h3 style={{ marginBottom: '1.5rem', color: 'var(--accent-primary)' }}>{t('achievements.team')}</h3>
+                            <div style={{
+                                display: 'grid',
+                                gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))',
+                                gap: '1.5rem'
+                            }}>
+                                {achievementTeamMembers.map((member, index) => (
+                                    <div key={index} style={{
+                                        background: 'rgba(255, 255, 255, 0.03)',
+                                        borderRadius: '12px',
+                                        padding: '1.5rem',
+                                        border: '1px solid rgba(255, 255, 255, 0.05)'
+                                    }}>
+                                        <h4 style={{ margin: '0 0 0.5rem 0', color: 'var(--text-primary)', fontSize: '1.1rem' }}>{member.name}</h4>
+                                        <p style={{ margin: '0 0 1rem 0', color: 'var(--text-secondary)', fontSize: '0.9rem' }}>{member.qualification}</p>
+                                        <div style={{ display: 'flex', gap: '1rem', fontSize: '0.9rem' }}>
+                                            {member.linkedin && (
+                                                <a href={member.linkedin} target="_blank" rel="noopener noreferrer" style={{ color: '#0a66c2', textDecoration: 'none', fontWeight: '500' }}>LinkedIn</a>
+                                            )}
+                                            {member.email && (
+                                                <a href={`mailto:${member.email}`} style={{ color: 'var(--accent-secondary)', textDecoration: 'none', fontWeight: '500' }}>Email</a>
+                                            )}
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    )}
+
+                    {/* References Section */}
+                    {achievementReferences && achievementReferences.length > 0 && (
+                        <div style={{ marginBottom: '3rem' }}>
+                            <h3 style={{ marginBottom: '1.5rem', color: 'var(--accent-primary)' }}>{t('achievements.references')}</h3>
+                            <div style={{
+                                display: 'grid',
+                                gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))',
+                                gap: '1.5rem'
+                            }}>
+                                {achievementReferences.map((member, index) => (
+                                    <div key={index} style={{
+                                        background: 'rgba(255, 255, 255, 0.03)',
+                                        borderRadius: '12px',
+                                        padding: '1.5rem',
+                                        border: '1px solid rgba(255, 255, 255, 0.05)'
+                                    }}>
+                                        <h4 style={{ margin: '0 0 0.5rem 0', color: 'var(--text-primary)', fontSize: '1.1rem' }}>{member.name}</h4>
+                                        <p style={{ margin: '0 0 1rem 0', color: 'var(--text-secondary)', fontSize: '0.9rem' }}>{member.qualification}</p>
+                                        <div style={{ display: 'flex', gap: '1rem', fontSize: '0.9rem' }}>
+                                            {member.linkedin && (
+                                                <a href={member.linkedin} target="_blank" rel="noopener noreferrer" style={{ color: '#0a66c2', textDecoration: 'none', fontWeight: '500' }}>LinkedIn</a>
+                                            )}
+                                            {member.email && (
+                                                <a href={`mailto:${member.email}`} style={{ color: 'var(--accent-secondary)', textDecoration: 'none', fontWeight: '500' }}>Email</a>
+                                            )}
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+                        </div>
+                    )}
+
+                    {/* App Link Embed */}
+                    {achievementRenderApp && achievementAppLink && (
+                        <div style={{ marginTop: '2rem', marginBottom: '2rem' }}>
+                            <h3 style={{ marginBottom: '1rem', color: 'var(--accent-primary)' }}>{t('achievements.livePreview')}</h3>
+                            <div style={{
+                                position: 'relative',
+                                height: '600px',
+                                overflow: 'hidden',
+                                borderRadius: '12px',
+                                border: '1px solid rgba(255, 255, 255, 0.1)',
+                                boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+                                background: '#fff'
+                            }}>
+                                <iframe
+                                    src={achievementAppLink}
+                                    title="App Preview"
+                                    frameBorder="0"
+                                    style={{
+                                        position: 'absolute',
+                                        top: 0,
+                                        left: 0,
+                                        width: '100%',
+                                        height: '100%'
+                                    }}
+                                ></iframe>
+                            </div>
+                        </div>
+                    )}
 
                     {/* YouTube Video Embed */}
                     {achievementYoutubeLink && getYoutubeId(achievementYoutubeLink) && (
                         <div style={{ marginTop: '2rem', marginBottom: '2rem' }}>
-                            <h3 style={{ marginBottom: '1rem', color: 'var(--accent-primary)' }}>Demo Video</h3>
+                            <h3 style={{ marginBottom: '1rem', color: 'var(--accent-primary)' }}>{t('achievements.demoVideo')}</h3>
                             <div style={{
                                 position: 'relative',
                                 paddingBottom: '56.25%',
