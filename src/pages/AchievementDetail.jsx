@@ -15,7 +15,7 @@ const AchievementDetail = () => {
 
     // Fallback to English achievement
     const enAchievement = achievementsData.en.find(a => a.id === parseInt(id));
-    const achievementImages = achievement?.images || enAchievement?.images || ['/portfolio/images/achievement.png'];
+    const achievementImages = achievement?.images || enAchievement?.images || ['/images/achievement.png'];
 
     // New metadata fields with fallback
     const achievementYoutubeLink = achievement?.youtubeLink || enAchievement?.youtubeLink || '';

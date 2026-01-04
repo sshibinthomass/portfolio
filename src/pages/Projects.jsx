@@ -25,7 +25,7 @@ const Projects = () => {
             if (enProject?.images && enProject.images.length > 0) return enProject.images[0];
             if (enProject?.image) return enProject.image;
         }
-        return '/portfolio/images/project.png'; // Default fallback
+        return '/images/project.png'; // Default fallback
     };
 
     // Helper function to get project technologies with English fallback

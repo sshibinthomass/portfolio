@@ -39,7 +39,7 @@ const Home = () => {
             if (enProject?.images) return enProject.images[0];
             if (enProject?.image) return enProject.image;
         }
-        return '/portfolio/images/project.png'; // Default fallback
+        return '/images/project.png'; // Default fallback
     };
 
     return (
@@ -73,7 +73,7 @@ const Home = () => {
                             animate={{ opacity: 1, scale: 1 }}
                             transition={{ duration: 0.6, delay: 0.2 }}
                         >
-                            <img src="/portfolio/images/profile.jpg" alt="Profile" />
+                            <img src="/images/profile.jpg" alt="Profile" />
                         </motion.div>
                     </div>
                 </div>

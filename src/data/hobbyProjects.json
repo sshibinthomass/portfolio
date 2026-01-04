@@ -6,7 +6,7 @@
             "description": "Data-based Modeling of Slug Flow Crystallization with Uncertainty Quantification",
             "category": "agentic-llm",
             "images": [
-                "/portfolio/images/project/Slug_Flow_Crystallization1.jpeg"
+                "/images/project/Slug_Flow_Crystallization1.jpeg"
             ],
             "youtubeLink": "",
             "github": "https://github.com/sshibinthomass/MLME_SFC_13",
@@ -30,7 +30,7 @@
             "description": "Open-source LangGraph implementation patterns and examples",
             "category": "agentic-llm",
             "images": [
-                "/portfolio/images/project/Langgraph-Core1.jpeg"
+                "/images/project/Langgraph-Core1.jpeg"
             ],
             "youtubeLink": "",
             "github": "https://github.com/sshibinthomass/Langgraph-Core",
@@ -55,7 +55,7 @@
             "description": "AI chatbot for finding sushi restaurants in Munich with parking assistance",
             "category": "agentic-llm",
             "images": [
-                "/portfolio/images/project/Munich-Sushi1.jpeg"
+                "/images/project/Munich-Sushi1.jpeg"
             ],
             "youtubeLink": "https://www.youtube.com/embed/8AhdfVI-oU8?si=_zJ6zAP9A762ZIFO",
             "github": "https://github.com/sshibinthomass/Munich-sushi-Chatbot",
@@ -82,11 +82,11 @@
             "description": "DRO-CO Bot - AI-powered Humanoid Robot for COVID SOP Compliance",
             "category": "robotics-iot",
             "images": [
-                "/portfolio/images/project/NaviBot1.jpeg",
-                "/portfolio/images/project/NaviBot2.jpeg",
-                "/portfolio/images/project/NaviBot3.jpeg",
-                "/portfolio/images/project/NaviBot4.jpeg",
-                "/portfolio/images/project/NaviBot5.jpeg"
+                "/images/project/NaviBot1.jpeg",
+                "/images/project/NaviBot2.jpeg",
+                "/images/project/NaviBot3.jpeg",
+                "/images/project/NaviBot4.jpeg",
+                "/images/project/NaviBot5.jpeg"
             ],
             "youtubeLink": "https://www.youtube.com/embed/QqrCg2vfLW0",
             "github": "",
@@ -109,9 +109,9 @@
             "description": "IOTAR Application - AR and IoT for Enhanced Learning",
             "category": "web-app",
             "images": [
-                "/portfolio/images/project/ARcadium1.jpeg",
-                "/portfolio/images/project/ARcadium2.jpeg",
-                "/portfolio/images/project/ARcadium3.jpeg"
+                "/images/project/ARcadium1.jpeg",
+                "/images/project/ARcadium2.jpeg",
+                "/images/project/ARcadium3.jpeg"
             ],
             "youtubeLink": "https://www.youtube.com/embed/KQdLGSpzPxI",
             "github": "",
@@ -132,8 +132,8 @@
             "description": "Exploring the Aquatic Wonders - A Virtual Reality Underwater Museum",
             "category": "web-app",
             "images": [
-                "/portfolio/images/project/SubMerge1.jpeg",
-                "/portfolio/images/project/SubMerge2.jpeg"
+                "/images/project/SubMerge1.jpeg",
+                "/images/project/SubMerge2.jpeg"
             ],
             "youtubeLink": "https://www.youtube.com/embed/9ubWJePQCwg",
             "github": "",
@@ -154,8 +154,8 @@
             "description": "RosaryPlantHouse.com – E-commerce Web Application for Plant Lovers",
             "category": "web-app",
             "images": [
-                "/portfolio/images/project/Spikora1.jpeg",
-                "/portfolio/images/project/Spikora2.jpeg"
+                "/images/project/Spikora1.jpeg",
+                "/images/project/Spikora2.jpeg"
             ],
             "youtubeLink": "",
             "github": "",
@@ -179,7 +179,7 @@
             "description": "Datenbasierte Modellierung der Slug-Flow-Kristallisation mit Unsicherheitsquantifizierung",
             "category": "agentic-llm",
             "images": [
-                "/portfolio/images/hobby-project.png"
+                "/images/hobby-project.png"
             ],
             "youtubeLink": "",
             "github": "https://github.com/sshibinthomass/MLME_SFC_13",
@@ -203,7 +203,7 @@
             "description": "Open-Source LangGraph-Implementierungsmuster und Beispiele",
             "category": "agentic-llm",
             "images": [
-                "/portfolio/images/hobby-project.png"
+                "/images/hobby-project.png"
             ],
             "youtubeLink": "",
             "github": "https://github.com/sshibinthomass/Langgraph-Core",
@@ -228,7 +228,7 @@
             "description": "KI-Chatbot zum Finden von Sushi-Restaurants in München mit Parkunterstützung",
             "category": "agentic-llm",
             "images": [
-                "/portfolio/images/hobby-project.png"
+                "/images/hobby-project.png"
             ],
             "youtubeLink": "https://www.youtube.com/embed/8AhdfVI-oU8?si=_zJ6zAP9A762ZIFO",
             "github": "https://github.com/sshibinthomass/Munich-sushi-Chatbot",
@@ -255,7 +255,7 @@
             "description": "DRO-CO Bot - KI-gesteuerter humanoider Roboter für COVID SOP Compliance",
             "category": "robotics-iot",
             "images": [
-                "/portfolio/images/hobby-project.png"
+                "/images/hobby-project.png"
             ],
             "youtubeLink": "https://www.youtube.com/embed/QqrCg2vfLW0",
             "github": "",
@@ -278,7 +278,7 @@
             "description": "IOTAR-Anwendung - AR und IoT für verbessertes Lernen",
             "category": "web-app",
             "images": [
-                "/portfolio/images/hobby-project.png"
+                "/images/hobby-project.png"
             ],
             "youtubeLink": "https://www.youtube.com/embed/KQdLGSpzPxI",
             "github": "",
@@ -299,7 +299,7 @@
             "description": "VR Unterwasser-Museum - Virtuelle Realität Unterwassererlebnis",
             "category": "web-app",
             "images": [
-                "/portfolio/images/hobby-project.png"
+                "/images/hobby-project.png"
             ],
             "youtubeLink": "https://www.youtube.com/embed/9ubWJePQCwg",
             "github": "",
@@ -320,7 +320,7 @@
             "description": "RosaryPlantHouse.com – E-Commerce-Webanwendung für Pflanzenliebhaber",
             "category": "web-app",
             "images": [
-                "/portfolio/images/hobby-project.png"
+                "/images/hobby-project.png"
             ],
             "youtubeLink": "",
             "github": "",

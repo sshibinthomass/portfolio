@@ -5,9 +5,9 @@
             "title": "TUM Venture Hackathon",
             "description": "1st Place in TUM Venture Hackathon conducted by TUM VENTURE (Nov 2025)",
             "images": [
-                "/portfolio/images/achievements/TUM_Venture1.jpg",
-                "/portfolio/images/achievements/TUM_Venture2.jpg",
-                "/portfolio/images/achievements/TUM_Venture3.jpg"
+                "/images/achievements/TUM_Venture1.jpg",
+                "/images/achievements/TUM_Venture2.jpg",
+                "/images/achievements/TUM_Venture3.jpg"
             ],
             "youtubeLink": "",
             "github": "https://github.com/sshibinthomass/tum-hackathon.git",
@@ -67,11 +67,11 @@
             "title": "BMW Hackathon",
             "description": "1st Place in BMW Hackathon conducted by BMW (Oct 2025)",
             "images": [
-                "/portfolio/images/achievements/BMW1.jpg",
-                "/portfolio/images/achievements/BMW2.jpg",
-                "/portfolio/images/achievements/BMW3.jpg",
-                "/portfolio/images/achievements/BMW4.jpg",
-                "/portfolio/images/achievements/BMW5.jpg"
+                "/images/achievements/BMW1.jpg",
+                "/images/achievements/BMW2.jpg",
+                "/images/achievements/BMW3.jpg",
+                "/images/achievements/BMW4.jpg",
+                "/images/achievements/BMW5.jpg"
             ],
             "youtubeLink": "https://youtu.be/eKjWmrbp9wE?si=6yuaQwZtV4MkLjel",
             "github": "https://github.com/sshibinthomass/No-Expert-Agent",
@@ -113,9 +113,9 @@
             "title": "BKW Hackathon",
             "description": "2nd Place in BKW Hackathon conducted by BKW Engineering (Oct 2025)",
             "images": [
-                "/portfolio/images/achievements/BKW1.jpg",
-                "/portfolio/images/achievements/BKW2.jpg",
-                "/portfolio/images/achievements/BKW3.jpg"
+                "/images/achievements/BKW1.jpg",
+                "/images/achievements/BKW2.jpg",
+                "/images/achievements/BKW3.jpg"
             ],
             "appLink": "",
             "purpose": "",
@@ -128,11 +128,11 @@
             "title": "TNSCST Best Project Award",
             "description": "1st Place in Student Project Scheme (TNSCST) conducted by Gov of TamilNadu (Nov 2022)",
             "images": [
-                "/portfolio/images/achievements/TNSCST1.jpg",
-                "/portfolio/images/achievements/TNSCST2.jpg",
-                "/portfolio/images/achievements/TNSCST3.jpg",
-                "/portfolio/images/achievements/TNSCST4.jpg",
-                "/portfolio/images/achievements/TNSCST5.jpg"
+                "/images/achievements/TNSCST1.jpg",
+                "/images/achievements/TNSCST2.jpg",
+                "/images/achievements/TNSCST3.jpg",
+                "/images/achievements/TNSCST4.jpg",
+                "/images/achievements/TNSCST5.jpg"
             ],
             "teamMembers": [
                 {
@@ -182,11 +182,11 @@
             "title": "Smart India Hackathon",
             "description": "1st Place in Smart India Hackathon(W) conducted by SIH [Gov of India] Ministry of Ayush (Dec 2020)",
             "images": [
-                "/portfolio/images/achievements/SIH1.jpg",
-                "/portfolio/images/achievements/SIH2.jpg",
-                "/portfolio/images/achievements/SIH3.jpg",
-                "/portfolio/images/achievements/SIH4.jpg",
-                "/portfolio/images/achievements/SIH5.jpg"
+                "/images/achievements/SIH1.jpg",
+                "/images/achievements/SIH2.jpg",
+                "/images/achievements/SIH3.jpg",
+                "/images/achievements/SIH4.jpg",
+                "/images/achievements/SIH5.jpg"
             ],
             "teamMembers": [
                 {
@@ -246,16 +246,16 @@
             "title": "TCS XR Pro Hackathon",
             "description": "3rd Place in TCS XR Pro Hackathon conducted by Gov of TamilNadu/ CII Connect/TCS (Oct 2019)",
             "images": [
-                "/portfolio/images/achievements/TCS_XR_Pro1.jpg",
-                "/portfolio/images/achievements/TCS_XR_Pro2.jpg",
-                "/portfolio/images/achievements/TCS_XR_Pro3.jpg",
-                "/portfolio/images/achievements/TCS_XR_Pro4.jpg",
-                "/portfolio/images/achievements/TCS_XR_Pro5.jpg",
-                "/portfolio/images/achievements/TCS_XR_Pro6.jpg",
-                "/portfolio/images/achievements/TCS_XR_Pro7.jpg",
-                "/portfolio/images/achievements/TCS_XR_Pro8.jpg",
-                "/portfolio/images/achievements/TCS_XR_Pro9.jpg",
-                "/portfolio/images/achievements/TCS_XR_Pro10.jpg"
+                "/images/achievements/TCS_XR_Pro1.jpg",
+                "/images/achievements/TCS_XR_Pro2.jpg",
+                "/images/achievements/TCS_XR_Pro3.jpg",
+                "/images/achievements/TCS_XR_Pro4.jpg",
+                "/images/achievements/TCS_XR_Pro5.jpg",
+                "/images/achievements/TCS_XR_Pro6.jpg",
+                "/images/achievements/TCS_XR_Pro7.jpg",
+                "/images/achievements/TCS_XR_Pro8.jpg",
+                "/images/achievements/TCS_XR_Pro9.jpg",
+                "/images/achievements/TCS_XR_Pro10.jpg"
             ],
             "teamMembers": [
                 {
@@ -295,11 +295,11 @@
             "title": "IFA Hackathon (IOT for All)",
             "description": "3rd Place in IFA Hackathon (IOT for All) conducted by MakersTribe (Dec 2019)",
             "images": [
-                "/portfolio/images/achievements/IFA1.jpg",
-                "/portfolio/images/achievements/IFA2.jpg",
-                "/portfolio/images/achievements/IFA3.jpg",
-                "/portfolio/images/achievements/IFA4.jpg",
-                "/portfolio/images/achievements/IFA5.jpg"
+                "/images/achievements/IFA1.jpg",
+                "/images/achievements/IFA2.jpg",
+                "/images/achievements/IFA3.jpg",
+                "/images/achievements/IFA4.jpg",
+                "/images/achievements/IFA5.jpg"
             ],
             "teamMembers": [
                 {
@@ -339,10 +339,10 @@
             "title": "SAR Tier 2",
             "description": "1st Place in SAE Tier 2 conducted by SAE (Feb 2020)",
             "images": [
-                "/portfolio/images/achievements/SAR_Tire21.jpg",
-                "/portfolio/images/achievements/SAR_Tire22.jpg",
-                "/portfolio/images/achievements/SAR_Tire23.jpg",
-                "/portfolio/images/achievements/SAR_Tire24.jpg"
+                "/images/achievements/SAR_Tire21.jpg",
+                "/images/achievements/SAR_Tire22.jpg",
+                "/images/achievements/SAR_Tire23.jpg",
+                "/images/achievements/SAR_Tire24.jpg"
             ],
             "teamMembers": [
                 {
@@ -382,10 +382,10 @@
             "title": "Project expo’19 & 22",
             "description": "1st Place in Project expo’19 & 22 conducted by SKCET (Sep 2019)",
             "images": [
-                "/portfolio/images/achievements/EXPO_191.jpg",
-                "/portfolio/images/achievements/EXPO_192.jpg",
-                "/portfolio/images/achievements/EXPO_193.jpg",
-                "/portfolio/images/achievements/EXPO_221.jpg"
+                "/images/achievements/EXPO_191.jpg",
+                "/images/achievements/EXPO_192.jpg",
+                "/images/achievements/EXPO_193.jpg",
+                "/images/achievements/EXPO_221.jpg"
             ],
             "teamMembers": [
                 {
@@ -425,10 +425,10 @@
             "title": "Star Performance & Academic Excellence",
             "description": "Star Performance & Academic Excellence in department of Mechatronics in B.Tech at Sri Krishna College of Engineering and Technology, Coimbatore",
             "images": [
-                "/portfolio/images/achievements/StarPerformance1.jpg",
-                "/portfolio/images/achievements/AcademicExcellence1.jpg",
-                "/portfolio/images/achievements/StarPerformance2.jpg",
-                "/portfolio/images/achievements/AcademicExcellence2.jpg"
+                "/images/achievements/StarPerformance1.jpg",
+                "/images/achievements/AcademicExcellence1.jpg",
+                "/images/achievements/StarPerformance2.jpg",
+                "/images/achievements/AcademicExcellence2.jpg"
             ],
             "references": [
                 {

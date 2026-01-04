@@ -18,7 +18,7 @@ const Header = () => {
         i18n.changeLanguage(newLang);
         // Get current path relative to the language, considering the base path
         const fullPath = window.location.pathname;
-        const basePath = '/portfolio/';
+        const basePath = '/';
         // Remove base path and language prefix
         const pathWithoutBase = fullPath.replace(basePath, '/');
         const currentPath = pathWithoutBase.replace(`/${currentLang}`, '').replace(/^\//, '');

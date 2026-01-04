@@ -15,7 +15,7 @@ const HobbyProjectDetail = () => {
 
     // Fallback to English project for images, link, and technologies
     const enProject = hobbyProjectsData.en.find(p => p.id === parseInt(id));
-    const projectImages = project?.images || enProject?.images || ['/portfolio/images/hobby-project.png'];
+    const projectImages = project?.images || enProject?.images || ['/images/hobby-project.png'];
     const projectTechnologies = project?.technologies || enProject?.technologies || [];
 
     // New metadata fields with fallback

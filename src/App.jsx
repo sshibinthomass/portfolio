@@ -37,7 +37,7 @@ import ScrollToTop from './components/ScrollToTop';
 function App() {
   return (
     <ThemeProvider>
-      <BrowserRouter basename="/portfolio">
+      <BrowserRouter basename="/">
         <ScrollToTop />
         <Routes>
           {/* Redirect root to /en */}
