@@ -3,124 +3,88 @@
         {
             "id": 1,
             "title": "Design of Self Balance Electric 2-Wheeler Using Gyroscope",
-            "authors": "Shibin Thomas et al.",
             "journal": "JCREVIEW",
-            "year": "2022",
             "abstract": "It discusses the concept of gyroscopic design and simulation of a constructed two-wheeled self-balancing vehicle system.",
-            "link": "https://drive.google.com/file/d/1RvnB1hGGzvoJsApCSkzQEMVv_Gmb3XWN/view?usp=sharing",
-            "image": "/portfolio/images/research.png"
+            "link": "https://drive.google.com/file/d/1RvnB1hGGzvoJsApCSkzQEMVv_Gmb3XWN/view?usp=sharing"
         },
         {
             "id": 2,
             "title": "Technology in Design Aspect of BIN Bot Robot",
-            "authors": "Shibin Thomas et al.",
             "journal": "IEEE",
-            "year": "2021",
             "abstract": "Robot is designed with the goal of reducing the spread of this disease in institutions, workplaces, and industrial environments.",
-            "link": "https://ieeexplore.ieee.org/document/9588923",
-            "image": "/portfolio/images/research.png"
+            "link": "https://ieeexplore.ieee.org/document/9588923"
         },
         {
             "id": 3,
             "title": "Development of App Incorporating AR for E-edu and Training",
-            "authors": "Shibin Thomas et al.",
             "journal": "ICMMM (IOP Science)",
-            "year": "2021",
             "abstract": "A visual platform to help the learners to enhance their knowledge of understanding using 3D visuals and Augmented Reality.",
-            "link": "https://iopscience.iop.org/article/10.1088/1757-899X/1059/1/012016",
-            "image": "/portfolio/images/research.png"
+            "link": "https://iopscience.iop.org/article/10.1088/1757-899X/1059/1/012016"
         },
         {
             "id": 4,
             "title": "Design and Fabrication of Automatic Hose Cutting Machine",
-            "authors": "Shibin Thomas et al.",
             "journal": "IEEE",
-            "year": "2022",
             "abstract": "This study offers a solution to one of the time-consuming processes of hose cutting precisely.",
-            "link": "https://ieeexplore.ieee.org/document/9785362",
-            "image": "/portfolio/images/research.png"
+            "link": "https://ieeexplore.ieee.org/document/9785362"
         },
         {
             "id": 5,
             "title": "Self-Balance Electric Two-Wheeler Using Gyroscope",
-            "authors": "Shibin Thomas et al.",
             "journal": "Patent",
-            "year": "2022",
             "abstract": "The development of gyroscopic design of a constructed two-wheeled self-balancing vehicle system is the focus of this invention.",
-            "link": "https://drive.google.com/file/d/1mA-Wr1DTiWep9OK3HC-VGtSYen0urQKX/view?usp=sharing",
-            "image": "/portfolio/images/research.png"
+            "link": "https://drive.google.com/file/d/1mA-Wr1DTiWep9OK3HC-VGtSYen0urQKX/view?usp=sharing"
         },
         {
             "id": 6,
             "title": "Handheld Device for Forecasting and Detecting Quality of Eggs",
-            "authors": "Shibin Thomas et al.",
             "journal": "Patent",
-            "year": "2022",
             "abstract": "Weight and temperature are measured using which the quality of the egg and its expiring day will be displayed for consumers.",
-            "link": "https://drive.google.com/file/d/1oNB2MksdsfigPI3EtlwaucCuj2GiZIdX/view?usp=drive_link",
-            "image": "/portfolio/images/research.png"
+            "link": "https://drive.google.com/file/d/1oNB2MksdsfigPI3EtlwaucCuj2GiZIdX/view?usp=drive_link"
         }
     ],
     "de": [
         {
             "id": 1,
             "title": "Design eines selbstbalancierenden Elektro-Zweirads mit Gyroskop",
-            "authors": "Shibin Thomas et al.",
             "journal": "JCREVIEW",
-            "year": "2022",
             "abstract": "Es diskutiert das Konzept des gyroskopischen Designs und der Simulation eines konstruierten zweirädrigen selbstbalancierenden Fahrzeugsystems.",
-            "link": "https://drive.google.com/file/d/1RvnB1hGGzvoJsApCSkzQEMVv_Gmb3XWN/view?usp=sharing",
-            "image": "/portfolio/images/research.png"
+            "link": "https://drive.google.com/file/d/1RvnB1hGGzvoJsApCSkzQEMVv_Gmb3XWN/view?usp=sharing"
         },
         {
             "id": 2,
             "title": "Technologie im Designaspekt des BIN Bot Roboters",
-            "authors": "Shibin Thomas et al.",
             "journal": "IEEE",
-            "year": "2021",
             "abstract": "Der Roboter wurde mit dem Ziel entwickelt, die Ausbreitung dieser Krankheit in Institutionen, Arbeitsplätzen und industriellen Umgebungen zu reduzieren.",
-            "link": "https://ieeexplore.ieee.org/document/9588923",
-            "image": "/portfolio/images/research.png"
+            "link": "https://ieeexplore.ieee.org/document/9588923"
         },
         {
             "id": 3,
             "title": "Entwicklung einer App mit AR für E-Learning und Training",
-            "authors": "Shibin Thomas et al.",
             "journal": "ICMMM (IOP Science)",
-            "year": "2021",
             "abstract": "Eine visuelle Plattform, um Lernenden zu helfen, ihr Verständnis durch 3D-Visualisierungen und Augmented Reality zu verbessern.",
-            "link": "https://iopscience.iop.org/article/10.1088/1757-899X/1059/1/012016",
-            "image": "/portfolio/images/research.png"
+            "link": "https://iopscience.iop.org/article/10.1088/1757-899X/1059/1/012016"
         },
         {
             "id": 4,
             "title": "Design und Herstellung einer automatischen Schlauchschneidemaschine",
-            "authors": "Shibin Thomas et al.",
             "journal": "IEEE",
-            "year": "2022",
             "abstract": "Diese Studie bietet eine Lösung für einen der zeitaufwändigen Prozesse des präzisen Schlauchschneidens.",
-            "link": "https://ieeexplore.ieee.org/document/9785362",
-            "image": "/portfolio/images/research.png"
+            "link": "https://ieeexplore.ieee.org/document/9785362"
         },
         {
             "id": 5,
             "title": "Selbstbalancierendes Elektro-Zweirad mit Gyroskop",
-            "authors": "Shibin Thomas et al.",
             "journal": "Patent",
-            "year": "2022",
             "abstract": "Die Entwicklung des gyroskopischen Designs eines konstruierten zweirädrigen selbstbalancierenden Fahrzeugsystems steht im Mittelpunkt dieser Erfindung.",
-            "link": "https://drive.google.com/file/d/1mA-Wr1DTiWep9OK3HC-VGtSYen0urQKX/view?usp=sharing",
-            "image": "/portfolio/images/research.png"
+            "link": "https://drive.google.com/file/d/1mA-Wr1DTiWep9OK3HC-VGtSYen0urQKX/view?usp=sharing"
         },
         {
             "id": 6,
             "title": "Handgerät zur Vorhersage und Erkennung der Eierqualität",
-            "authors": "Shibin Thomas et al.",
             "journal": "Patent",
-            "year": "2022",
             "abstract": "Gewicht und Temperatur werden gemessen, anhand derer die Qualität des Eies und sein Verfallstag für Verbraucher angezeigt werden.",
-            "link": "https://drive.google.com/file/d/1oNB2MksdsfigPI3EtlwaucCuj2GiZIdX/view?usp=drive_link",
-            "image": "/portfolio/images/research.png"
+            "link": "https://drive.google.com/file/d/1oNB2MksdsfigPI3EtlwaucCuj2GiZIdX/view?usp=drive_link"
         }
     ]
 }

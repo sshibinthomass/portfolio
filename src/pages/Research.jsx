@@ -32,11 +32,9 @@ const Research = () => {
                                 viewport={{ once: true }}
                                 transition={{ duration: 0.5, delay: index * 0.1 }}
                             >
-                                <img src={paper.image} alt={paper.title} className="research-image" />
                                 <div className="research-content">
                                     <h3 className="research-title">{paper.title}</h3>
-                                    <p className="research-authors">{paper.authors}</p>
-                                    <p className="research-journal">{paper.journal}, {paper.year}</p>
+                                    <p className="research-journal">{paper.journal}</p>
                                     <p className="research-abstract">
                                         <strong>{t('research.abstract')}:</strong> {paper.abstract}
                                     </p>

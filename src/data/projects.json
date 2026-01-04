@@ -54,7 +54,9 @@
             "title": "YogaVision (AI-powered IOT-based VR box with Application)",
             "description": "VR yoga application with AI-driven biometric monitoring and adaptive environments",
             "images": [
-                "/portfolio/images/project_3_1.jpg"
+                "/portfolio/images/achievements/YogaVision1.jpg",
+                "/portfolio/images/achievements/YogaVision3.jpg",
+                "/portfolio/images/achievements/YogaVision4.jpg"
             ],
             "technologies": [
                 "VR",

@@ -134,7 +134,42 @@
                 "/portfolio/images/achievements/TNSCST4.jpg",
                 "/portfolio/images/achievements/TNSCST5.jpg"
             ],
-            "youtubeLink": "",
+            "teamMembers": [
+                {
+                    "name": "Shibin Thomas",
+                    "qualification": "B. Tech, Mechatronics, SKCET",
+                    "linkedin": "https://www.linkedin.com/in/shibinthomas/",
+                    "email": "sshibinthomass@gmail.com"
+                },
+                {
+                    "name": "Saktheeswaran Govindarajan",
+                    "qualification": "B. Tech, Mechatronics, SKCET",
+                    "linkedin": "https://www.linkedin.com/in/saktheeswaran-govindarajan-2608/"
+                },
+                {
+                    "name": "Vibunesh N T",
+                    "qualification": "B. Tech, Mechatronics, SKCET",
+                    "linkedin": "https://www.linkedin.com/in/vibuneshnt/"
+                },
+                {
+                    "name": "Theerthana T",
+                    "qualification": "B. Tech, Mechatronics, SKCET",
+                    "linkedin": "https://www.linkedin.com/in/theerthana/"
+                }
+            ],
+            "references": [
+                {
+                    "name": "VIGNESH T",
+                    "qualification": "Assistant Professor MCT, SKCET",
+                    "linkedin": "https://www.linkedin.com/in/vignesh-t-6712739b/"
+                },
+                {
+                    "name": "Prof. (Dr.) Lydia Edwin",
+                    "qualification": "Professor & Head MCT, SKCET",
+                    "linkedin": "https://www.linkedin.com/in/prof-dr-lydia-edwin-0607072a/"
+                }
+            ],
+            "youtubeLink": "https://youtu.be/QqrCg2vfLW0?si=nYAGLKHYramX1SbS",
             "github": "",
             "appLink": "",
             "purpose": "",
@@ -153,6 +188,51 @@
                 "/portfolio/images/achievements/SIH4.jpg",
                 "/portfolio/images/achievements/SIH5.jpg"
             ],
+            "teamMembers": [
+                {
+                    "name": "Shibin Thomas",
+                    "qualification": "B. Tech, Mechatronics, SKCET",
+                    "linkedin": "https://www.linkedin.com/in/shibinthomas/",
+                    "email": "sshibinthomass@gmail.com"
+                },
+                {
+                    "name": "Prawin Sankar",
+                    "qualification": "B. Tech, Mechatronics, SKCET",
+                    "linkedin": "https://www.linkedin.com/in/prawin-sankarta/"
+                },
+                {
+                    "name": "Ramya Harikrishnan",
+                    "qualification": "B. Tech, ECE, SKCET",
+                    "linkedin": "https://www.linkedin.com/in/ramyahk/"
+                },
+                {
+                    "name": "Srinithi Boopathy",
+                    "qualification": "B. Tech, Mechanical, SKCET",
+                    "linkedin": "https://www.linkedin.com/in/srinithiboopathy/"
+                },
+                {
+                    "name": "Monissha Dhandapani",
+                    "qualification": "B. Tech, Computer Science, SKCET",
+                    "linkedin": "https://www.linkedin.com/in/monissha-d-65627510a/"
+                },
+                {
+                    "name": "Shridhar Elango",
+                    "qualification": "B. Tech, Mechanical, SKCET",
+                    "linkedin": "https://www.linkedin.com/in/shridharke/"
+                }
+            ],
+            "references": [
+                {
+                    "name": "Ajay Singh Rajawat",
+                    "qualification": "MINISTRY OF EDUCATION, GOVERNMENT OF INDIA",
+                    "linkedin": "https://www.linkedin.com/in/ajayplusinnovation/"
+                },
+                {
+                    "name": "Ramachandran Natarajan",
+                    "qualification": "Professor Mechanical, SKCET",
+                    "linkedin": "https://www.linkedin.com/in/ramachandran-natarajan-bb6456135/"
+                }
+            ],
             "youtubeLink": "https://www.youtube.com/embed/F9xCMl1qXHo",
             "github": "",
             "appLink": "",
@@ -163,43 +243,6 @@
         },
         {
             "id": 4,
-            "title": "SAR Tier 2",
-            "description": "1st Place in SAE Tier 2 conducted by SAE (Feb 2020)",
-            "images": [
-                "/portfolio/images/achievements/SAR_Tire21.jpg",
-                "/portfolio/images/achievements/SAR_Tire22.jpg",
-                "/portfolio/images/achievements/SAR_Tire23.jpg",
-                "/portfolio/images/achievements/SAR_Tire24.jpg"
-            ],
-            "youtubeLink": "",
-            "github": "",
-            "appLink": "",
-            "purpose": "",
-            "duration": "1 Day",
-            "date": "2020-02-25",
-            "detailedDescription": "<p><strong>1st Place</strong> in SAE Tier 2 conducted by SAE.</p><p>SAE International is the leader in connecting and educating mobility professionals to enable safe, clean, and accessible mobility solutions. Won 1st place in App development and Cloud computing category.</p>"
-        },
-        {
-            "id": 3,
-            "title": "IFA Hackathon (IOT for All)",
-            "description": "3rd Place in IFA Hackathon (IOT for All) conducted by MakersTribe (Dec 2019)",
-            "images": [
-                "/portfolio/images/achievements/IFA1.jpg",
-                "/portfolio/images/achievements/IFA2.jpg",
-                "/portfolio/images/achievements/IFA3.jpg",
-                "/portfolio/images/achievements/IFA4.jpg",
-                "/portfolio/images/achievements/IFA5.jpg"
-            ],
-            "youtubeLink": "",
-            "github": "",
-            "appLink": "",
-            "purpose": "",
-            "duration": "2 Days",
-            "date": "2019-12-07",
-            "detailedDescription": "<p><strong>3rd Place</strong> in IFA Hackathon (IOT for All) conducted by MakersTribe.</p><p>The theme of the hackathon was “IoT for Smart Cities” and the participants had to come up with innovative solutions using IoT devices and sensors to solve real-world problems.</p><h3>Solution: AR in Education</h3><p>Enhancing Educational Endeavors: Augmented Reality's Dynamic Role in Facilitating Student Learning. The integration of AR as a pedagogical tool presents an opportunity to revolutionize the learning experience, not just as a tool for gamified learning but also as a motivational asset that unlocks a plethora of possibilities across various disciplines.</p>"
-        },
-        {
-            "id": 2,
             "title": "TCS XR Pro Hackathon",
             "description": "3rd Place in TCS XR Pro Hackathon conducted by Gov of TamilNadu/ CII Connect/TCS (Oct 2019)",
             "images": [
@@ -214,13 +257,125 @@
                 "/portfolio/images/achievements/TCS_XR_Pro9.jpg",
                 "/portfolio/images/achievements/TCS_XR_Pro10.jpg"
             ],
-            "youtubeLink": "https://www.youtube.com/embed/CR38xj9NQ3Q?si=Y8d_j39T-agV6Rdk",
+            "teamMembers": [
+                {
+                    "name": "Shibin Thomas",
+                    "qualification": "B. Tech, Mechatronics, SKCET",
+                    "linkedin": "https://www.linkedin.com/in/shibinthomas/",
+                    "email": "sshibinthomass@gmail.com"
+                },
+                {
+                    "name": "Prawin Sankar",
+                    "qualification": "B. Tech, Mechatronics, SKCET",
+                    "linkedin": "https://www.linkedin.com/in/prawin-sankarta/"
+                }
+            ],
+            "references": [
+                {
+                    "name": "VIGNESH T",
+                    "qualification": "Assistant Professor MCT, SKCET",
+                    "linkedin": "https://www.linkedin.com/in/vignesh-t-6712739b/"
+                },
+                {
+                    "name": "Prof. (Dr.) Lydia Edwin",
+                    "qualification": "Professor & Head MCT, SKCET",
+                    "linkedin": "https://www.linkedin.com/in/prof-dr-lydia-edwin-0607072a/"
+                }
+            ],
+            "youtubeLink": "https://youtu.be/CR38xj9NQ3Q?si=emZ-7FcsQVIA37vF",
             "github": "",
             "appLink": "",
             "purpose": "",
             "duration": "1 Day",
             "date": "2019-10-17",
             "detailedDescription": "<p><strong>3rd Place</strong> in TCS XR Pro Hackathon conducted by Gov of TamilNadu/ CII Connect/TCS.</p><p>TCS XR Pro is organized to design and develop experiences to solve contextual business problems using Virtual reality, augmented reality and mixed reality.</p><h3>Solution: Integration of AR</h3><p>Integration of Augmented Reality (AR) into Student Training, Virtual Laboratory, and Inspection. By leveraging the power of AR, institutions can bridge the gap between theoretical knowledge and practical exposure, propelling students towards proficiency through immersive learning experiences.</p>"
+        },
+        {
+            "id": 3,
+            "title": "IFA Hackathon (IOT for All)",
+            "description": "3rd Place in IFA Hackathon (IOT for All) conducted by MakersTribe (Dec 2019)",
+            "images": [
+                "/portfolio/images/achievements/IFA1.jpg",
+                "/portfolio/images/achievements/IFA2.jpg",
+                "/portfolio/images/achievements/IFA3.jpg",
+                "/portfolio/images/achievements/IFA4.jpg",
+                "/portfolio/images/achievements/IFA5.jpg"
+            ],
+            "teamMembers": [
+                {
+                    "name": "Shibin Thomas",
+                    "qualification": "B. Tech, Mechatronics, SKCET",
+                    "linkedin": "https://www.linkedin.com/in/shibinthomas/",
+                    "email": "sshibinthomass@gmail.com"
+                },
+                {
+                    "name": "Prawin Sankar",
+                    "qualification": "B. Tech, Mechatronics, SKCET",
+                    "linkedin": "https://www.linkedin.com/in/prawin-sankarta/"
+                }
+            ],
+            "references": [
+                {
+                    "name": "VIGNESH T",
+                    "qualification": "Assistant Professor MCT, SKCET",
+                    "linkedin": "https://www.linkedin.com/in/vignesh-t-6712739b/"
+                },
+                {
+                    "name": "Prof. (Dr.) Lydia Edwin",
+                    "qualification": "Professor & Head MCT, SKCET",
+                    "linkedin": "https://www.linkedin.com/in/prof-dr-lydia-edwin-0607072a/"
+                }
+            ],
+            "youtubeLink": "https://youtu.be/daY2-oQMpBA?si=AYLC34kZnfN-fNQb",
+            "github": "",
+            "appLink": "",
+            "purpose": "",
+            "duration": "2 Days",
+            "date": "2019-12-07",
+            "detailedDescription": "<p><strong>3rd Place</strong> in IFA Hackathon (IOT for All) conducted by MakersTribe.</p><p>The theme of the hackathon was “IoT for Smart Cities” and the participants had to come up with innovative solutions using IoT devices and sensors to solve real-world problems.</p><h3>Solution: AR in Education</h3><p>Enhancing Educational Endeavors: Augmented Reality's Dynamic Role in Facilitating Student Learning. The integration of AR as a pedagogical tool presents an opportunity to revolutionize the learning experience, not just as a tool for gamified learning but also as a motivational asset that unlocks a plethora of possibilities across various disciplines.</p>"
+        },
+        {
+            "id": 2,
+            "title": "SAR Tier 2",
+            "description": "1st Place in SAE Tier 2 conducted by SAE (Feb 2020)",
+            "images": [
+                "/portfolio/images/achievements/SAR_Tire21.jpg",
+                "/portfolio/images/achievements/SAR_Tire22.jpg",
+                "/portfolio/images/achievements/SAR_Tire23.jpg",
+                "/portfolio/images/achievements/SAR_Tire24.jpg"
+            ],
+            "teamMembers": [
+                {
+                    "name": "Shibin Thomas",
+                    "qualification": "B. Tech, Mechatronics, SKCET",
+                    "linkedin": "https://www.linkedin.com/in/shibinthomas/",
+                    "email": "sshibinthomass@gmail.com"
+                },
+                {
+                    "name": "Prawin Sankar",
+                    "qualification": "B. Tech, Mechatronics, SKCET",
+                    "linkedin": "https://www.linkedin.com/in/prawin-sankarta/"
+                }
+            ],
+            "references": [
+                {
+                    "name": "VIGNESH T",
+                    "qualification": "Assistant Professor MCT, SKCET",
+                    "linkedin": "https://www.linkedin.com/in/vignesh-t-6712739b/"
+                },
+                {
+                    "name": "Prof. (Dr.) Lydia Edwin",
+                    "qualification": "Professor & Head MCT, SKCET",
+                    "linkedin": "https://www.linkedin.com/in/prof-dr-lydia-edwin-0607072a/"
+                }
+            ],
+            "youtubeLink": "",
+            "github": "",
+            "appLink": "",
+            "purpose": "",
+            "duration": "1 Day",
+            "date": "2020-02-25",
+            "detailedDescription": "<p><strong>1st Place</strong> in SAE Tier 2 conducted by SAE.</p><p>SAE International is the leader in connecting and educating mobility professionals to enable safe, clean, and accessible mobility solutions. Won 1st place in App development and Cloud computing category.</p>"
         },
         {
             "id": 1,
@@ -232,6 +387,31 @@
                 "/portfolio/images/achievements/EXPO_193.jpg",
                 "/portfolio/images/achievements/EXPO_221.jpg"
             ],
+            "teamMembers": [
+                {
+                    "name": "Shibin Thomas",
+                    "qualification": "B. Tech, Mechatronics, SKCET",
+                    "linkedin": "https://www.linkedin.com/in/shibinthomas/",
+                    "email": "sshibinthomass@gmail.com"
+                },
+                {
+                    "name": "Prawin Sankar",
+                    "qualification": "B. Tech, Mechatronics, SKCET",
+                    "linkedin": "https://www.linkedin.com/in/prawin-sankarta/"
+                }
+            ],
+            "references": [
+                {
+                    "name": "VIGNESH T",
+                    "qualification": "Assistant Professor MCT, SKCET",
+                    "linkedin": "https://www.linkedin.com/in/vignesh-t-6712739b/"
+                },
+                {
+                    "name": "Prof. (Dr.) Lydia Edwin",
+                    "qualification": "Professor & Head MCT, SKCET",
+                    "linkedin": "https://www.linkedin.com/in/prof-dr-lydia-edwin-0607072a/"
+                }
+            ],
             "youtubeLink": "",
             "github": "",
             "appLink": "",
@@ -239,6 +419,36 @@
             "duration": "1 Day",
             "date": "2019-09-16",
             "detailedDescription": "<p><strong>1st Place</strong> in Project expo’19 & 22 conducted by SKCET.</p><p>Conducted by Sri Krishna College of Engineering and Technology, Coimbatore, Department of mechatronics for Engineers day 2019.</p>"
+        },
+        {
+            "id": 0,
+            "title": "Star Performance & Academic Excellence",
+            "description": "Star Performance & Academic Excellence in department of Mechatronics in B.Tech at Sri Krishna College of Engineering and Technology, Coimbatore",
+            "images": [
+                "/portfolio/images/achievements/StarPerformance1.jpg",
+                "/portfolio/images/achievements/AcademicExcellence1.jpg",
+                "/portfolio/images/achievements/StarPerformance2.jpg",
+                "/portfolio/images/achievements/AcademicExcellence2.jpg"
+            ],
+            "references": [
+                {
+                    "name": "VIGNESH T",
+                    "qualification": "Assistant Professor MCT, SKCET",
+                    "linkedin": "https://www.linkedin.com/in/vignesh-t-6712739b/"
+                },
+                {
+                    "name": "Prof. (Dr.) Lydia Edwin",
+                    "qualification": "Professor & Head MCT, SKCET",
+                    "linkedin": "https://www.linkedin.com/in/prof-dr-lydia-edwin-0607072a/"
+                }
+            ],
+            "youtubeLink": "",
+            "github": "",
+            "appLink": "",
+            "purpose": "",
+            "duration": "1 Day",
+            "date": "",
+            "detailedDescription": "<p>Star Performance & Academic Excellence in department of Mechatronics in B.Tech at Sri Krishna College of Engineering and Technology, Coimbatore for academic excellence.</p>"
         }
     ],
     "de": [
@@ -289,12 +499,12 @@
         },
         {
             "id": 4,
-            "title": "SAR Tier 2",
-            "description": "1. Platz beim SAE Tier 2, durchgeführt von SAE (Feb 2020)",
+            "title": "TCS XR Pro Hackathon",
+            "description": "3. Platz beim TCS XR Pro Hackathon, durchgeführt von der Regierung von Tamil Nadu / CII Connect / TCS (Okt 2019)",
             "purpose": "",
             "duration": "1 Tag",
-            "date": "25.02.2020",
-            "detailedDescription": "<p><strong>1. Platz</strong> beim SAE Tier 2, durchgeführt von SAE.</p><p>SAE International ist führend bei der Verbindung und Ausbildung von Mobilitätsfachleuten, um sichere, saubere und zugängliche Mobilitätslösungen zu ermöglichen. Gewann den 1. Platz in der Kategorie App-Entwicklung und Cloud Computing.</p>"
+            "date": "17.10.2019",
+            "detailedDescription": "<p><strong>3. Platz</strong> beim TCS XR Pro Hackathon, durchgeführt von der Regierung von Tamil Nadu / CII Connect / TCS.</p><p>TCS XR Pro wird organisiert, um Erlebnisse zur Lösung kontextbezogener Geschäftsprobleme mithilfe von Virtual Reality, Augmented Reality und Mixed Reality zu entwerfen und zu entwickeln.</p><h3>Lösung: Integration von AR</h3><p>Integration von Augmented Reality (AR) in Studentenausbildung, virtuelles Labor und Inspektion. Durch die Nutzung der Leistungsfähigkeit von AR können Institutionen die Lücke zwischen theoretischem Wissen und praktischer Erfahrung schließen und Studenten durch immersive Lernerfahrungen zur Kompetenz führen.</p>"
         },
         {
             "id": 3,
@@ -307,12 +517,12 @@
         },
         {
             "id": 2,
-            "title": "TCS XR Pro Hackathon",
-            "description": "3. Platz beim TCS XR Pro Hackathon, durchgeführt von der Regierung von Tamil Nadu / CII Connect / TCS (Okt 2019)",
+            "title": "SAR Tier 2",
+            "description": "1. Platz beim SAE Tier 2, durchgeführt von SAE (Feb 2020)",
             "purpose": "",
             "duration": "1 Tag",
-            "date": "17.10.2019",
-            "detailedDescription": "<p><strong>3. Platz</strong> beim TCS XR Pro Hackathon, durchgeführt von der Regierung von Tamil Nadu / CII Connect / TCS.</p><p>TCS XR Pro wird organisiert, um Erlebnisse zur Lösung kontextbezogener Geschäftsprobleme mithilfe von Virtual Reality, Augmented Reality und Mixed Reality zu entwerfen und zu entwickeln.</p><h3>Lösung: Integration von AR</h3><p>Integration von Augmented Reality (AR) in Studentenausbildung, virtuelles Labor und Inspektion. Durch die Nutzung der Leistungsfähigkeit von AR können Institutionen die Lücke zwischen theoretischem Wissen und praktischer Erfahrung schließen und Studenten durch immersive Lernerfahrungen zur Kompetenz führen.</p>"
+            "date": "25.02.2020",
+            "detailedDescription": "<p><strong>1. Platz</strong> beim SAE Tier 2, durchgeführt von SAE.</p><p>SAE International ist führend bei der Verbindung und Ausbildung von Mobilitätsfachleuten, um sichere, saubere und zugängliche Mobilitätslösungen zu ermöglichen. Gewann den 1. Platz in der Kategorie App-Entwicklung und Cloud Computing.</p>"
         },
         {
             "id": 1,
@@ -322,6 +532,15 @@
             "duration": "1 Tag",
             "date": "16.09.2019",
             "detailedDescription": "<p><strong>1. Platz</strong> bei der Project expo’19 & 22, durchgeführt von SKCET.</p><p>Durchgeführt vom Sri Krishna College of Engineering and Technology, Coimbatore, Abteilung für Mechatronik zum Ingenieurtag 2019.</p>"
+        },
+        {
+            "id": 0,
+            "title": "Sternenleistung & Akademische Exzellenz",
+            "description": "Sternenleistung & Akademische Exzellenz in der Abteilung Mechatronik im B.Tech am Sri Krishna College of Engineering and Technology, Coimbatore",
+            "purpose": "",
+            "duration": "1 Tag",
+            "date": "",
+            "detailedDescription": "<p><strong>Sternenleistung & Akademische Exzellenz</strong> in der Abteilung Mechatronik im B.Tech am Sri Krishna College of Engineering and Technology, Coimbatore.</p><p>Für akademische Exzellenz.</p>"
         }
     ]
 }

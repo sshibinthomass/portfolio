@@ -1,15 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link, useParams } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import Card from '../components/Card/Card';
 import hobbyProjectsData from '../data/hobbyProjects.json';
+import './HobbyProjects.css';
+
+const CATEGORIES = ['all', 'agentic-llm', 'robotics-iot', 'web-app'];
 
 const HobbyProjects = () => {
     const { t, i18n } = useTranslation();
     const { lang } = useParams();
     const currentLang = i18n.language;
-    const projects = hobbyProjectsData[currentLang] || hobbyProjectsData.en;
+    const allProjects = hobbyProjectsData[currentLang] || hobbyProjectsData.en;
+
+    const [activeCategory, setActiveCategory] = useState('all');
+
+    const filteredProjects = activeCategory === 'all'
+        ? allProjects
+        : allProjects.filter(project => project.category === activeCategory);
 
     return (
         <div className="section">
@@ -20,12 +29,25 @@ const HobbyProjects = () => {
                     transition={{ duration: 0.6 }}
                 >
                     <h1 className="section-title">{t('hobbyProjects.title')}</h1>
-                    <p style={{ textAlign: 'center', marginBottom: '3rem', color: 'var(--text-secondary)' }}>
+                    <p style={{ textAlign: 'center', marginBottom: '2rem', color: 'var(--text-secondary)' }}>
                         {t('hobbyProjects.description')}
                     </p>
 
+                    {/* Category Filter Tabs */}
+                    <div className="filter-tabs">
+                        {CATEGORIES.map(category => (
+                            <button
+                                key={category}
+                                className={`filter-tab ${activeCategory === category ? 'active' : ''}`}
+                                onClick={() => setActiveCategory(category)}
+                            >
+                                {t(`hobbyProjects.categories.${category}`)}
+                            </button>
+                        ))}
+                    </div>
+
                     <div className="grid grid-3">
-                        {projects.map((project, index) => (
+                        {filteredProjects.map((project, index) => (
                             <motion.div
                                 key={project.id}
                                 initial={{ opacity: 0, y: 20 }}

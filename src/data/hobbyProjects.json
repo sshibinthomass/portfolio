@@ -1,306 +1,340 @@
 {
     "en": [
         {
-            "id": 1,
-            "title": "AR Education Platform",
-            "description": "Augmented Reality app for interactive learning",
+            "id": 10,
+            "title": "Slug Flow Crystallization",
+            "description": "Data-based Modeling of Slug Flow Crystallization with Uncertainty Quantification",
+            "category": "agentic-llm",
             "images": [
-                "/portfolio/images/hobby-project.png"
+                "/portfolio/images/project/Slug_Flow_Crystallization1.jpeg"
             ],
             "youtubeLink": "",
-            "github": "",
+            "github": "https://github.com/sshibinthomass/MLME_SFC_13",
             "appLink": "",
-            "purpose": "",
-            "duration": "",
-            "date": "",
+            "purpose": "MLME Project",
+            "duration": "2 months",
+            "date": "July 2025",
             "technologies": [
-                "Unity",
-                "AR Foundation",
-                "C#",
-                "3D Modeling"
+                "NARX",
+                "CQR",
+                "Tensorflow",
+                "Data Preprocessing",
+                "Clustering",
+                "Time Series"
             ],
-            "detailedDescription": "Developed an Augmented Reality educational platform that helps learners enhance their understanding using 3D visuals and AR technology. The app transforms traditional learning materials into interactive 3D experiences, making complex concepts easier to grasp through immersive visualization."
+            "detailedDescription": "<h1>Data-based Modeling of Slug Flow Crystallization with Uncertainty Quantification</h1><p><strong>Authors:</strong></p><ul><li>Shibin Thomas Stanley Paul - 259782</li><li>Aadhithya Krishnakumar - 258741</li><li>Nishitkumar Karkar - 257529</li><li>Sankar Santhosh Nair - 258852</li></ul><h2>Abstract</h2><p>This report presents a machine learning framework for modeling slug flow crystallization processes with uncertainty quantification. The approach combines three core components:<ul><li>Unsupervised clustering to detect operational regimes</li><li>Nonlinear Autoregressive with Exogenous Inputs (NARX) neural networks for dynamic modeling</li><li>Conformalized Quantile Regression (CQR) for providing reliable prediction intervals</li></ul>Results demonstrate accurate regime separation, strong model generalization, and calibrated uncertainty estimates, facilitating robust control in pharmaceutical crystallization applications.</p><h2>I. Introduction</h2><p>Slug Flow Crystallization (SFC) is widely used in pharmaceutical manufacturing for its ability to produce consistent particle sizes. However, challenges arise due to the dynamic and nonlinear nature of crystallization, compounded by noise in particle size measurements such as d10, d50, and d90.</p><h2>II. Data Analysis and Clustering</h2><h3>A. Data Preprocessing and Quality Assessment</h3><p>The dataset comprises 98 time series files with process variable measurements. Seven files containing abnormal ranges in particle size values were excluded. For the remaining 91 files:</p><ul><li>Duplicates and empty entries were removed</li><li>Outliers were filtered using custom thresholding and Interquartile Range (IQR) methods</li><li>IQR-based filtering was selected due to better robustness</li></ul><h3>B. Clustering Analysis and Regime Identification</h3><p>K-means clustering with k equal to 2 identified two regimes. Metrics: Silhouette Score - 0.389, Calinski-Harabasz Score - 23.805, Davies-Bouldin Score - 1.459.</p><h2>III. NARX Model Development</h2><p>NARX models were developed separately for each cluster. The models use deep feedforward networks with six hidden layers: 1024 to 768 to 512 to 256 to 128 to 6. Activation: SELU. Regularization: dropout from 0.4 to 0.2 and L2 penalty.</p><h2>IV. Uncertainty Quantification</h2><p>Conformalized Quantile Regression with 90% coverage validated across all variables.</p><h2>V. Results</h2><p>Uncertainty coverage averaged 99.9% for closed loop and 97.2% for open loop cases, confirming reliability for real-world deployment.</p><h2>VI. Conclusion</h2><p>The proposed framework successfully integrates unsupervised clustering, deep temporal modeling, and predictive uncertainty quantification. It achieves strong generalization, reliable interval estimates, and operational regime separation, making it suitable for real-time process control in pharmaceutical crystallization.</p>"
         },
         {
-            "id": 2,
-            "title": "Crop Health Monitoring System",
-            "description": "CNN-based deep learning model for agriculture",
+            "id": 9,
+            "title": "Langgraph Core",
+            "description": "Open-source LangGraph implementation patterns and examples",
+            "category": "agentic-llm",
             "images": [
-                "/portfolio/images/hobby-project.png"
+                "/portfolio/images/project/Langgraph-Core1.jpeg"
             ],
             "youtubeLink": "",
-            "github": "",
+            "github": "https://github.com/sshibinthomass/Langgraph-Core",
             "appLink": "",
-            "purpose": "",
-            "duration": "",
-            "date": "",
+            "purpose": "Open Source Project",
+            "duration": "1 month",
+            "date": "May 2025",
             "technologies": [
-                "Python",
-                "TensorFlow",
-                "Keras",
-                "OpenCV",
-                "Remote Sensing"
+                "Open-AI",
+                "Groq",
+                "Gemini",
+                "Ollama",
+                "LLM",
+                "LangGraph",
+                "Streamlit"
             ],
-            "detailedDescription": "Created a CNN deep learning model for crop health monitoring using remote sensing data. The system analyzes satellite and drone imagery to detect plant diseases, nutrient deficiencies, and optimize irrigation schedules. Achieved 92% accuracy in disease detection across multiple crop types."
+            "detailedDescription": "<h2>LangGraph Core</h2><p>A comprehensive open-source project demonstrating LangGraph implementation patterns with multiple LLM providers.</p><h3>Features</h3><ul><li>Multi-provider LLM support (OpenAI, Groq, Gemini, Ollama)</li><li>Graph-based agent workflows</li><li>Streamlit UI for interactive demos</li><li>Educational examples and documentation</li><li>Production-ready patterns for building agentic applications</li></ul>"
         },
         {
-            "id": 3,
-            "title": "BIN Bot - COVID Safety Robot",
-            "description": "Autonomous robot for waste management and safety",
+            "id": 8,
+            "title": "Munich Sushi Chatbot",
+            "description": "AI chatbot for finding sushi restaurants in Munich with parking assistance",
+            "category": "agentic-llm",
             "images": [
-                "/portfolio/images/hobby-project.png"
+                "/portfolio/images/project/Munich-Sushi1.jpeg"
             ],
-            "youtubeLink": "",
-            "github": "",
+            "youtubeLink": "https://www.youtube.com/embed/8AhdfVI-oU8?si=_zJ6zAP9A762ZIFO",
+            "github": "https://github.com/sshibinthomass/Munich-sushi-Chatbot",
             "appLink": "",
-            "purpose": "",
-            "duration": "",
-            "date": "",
+            "purpose": "Personal Project",
+            "duration": "2 weeks",
+            "date": "June 2025",
             "technologies": [
-                "ROS",
-                "Python",
-                "Computer Vision",
-                "Arduino",
-                "Sensors"
+                "Open-AI",
+                "LLM",
+                "RAG",
+                "LangGraph",
+                "Streamlit",
+                "ChromaDB",
+                "MCP",
+                "Google Maps",
+                "Web RAG"
             ],
-            "detailedDescription": "Designed and built an autonomous robot aimed at reducing disease spread in institutions and workplaces. The BIN Bot incorporates computer vision for navigation, automatic waste collection capabilities, and COVID-19 safety protocol enforcement through contactless operations."
-        },
-        {
-            "id": 4,
-            "title": "Automatic Hose Cutting Machine",
-            "description": "Precision automated cutting system for industrial use",
-            "images": [
-                "/portfolio/images/hobby-project.png"
-            ],
-            "youtubeLink": "",
-            "github": "",
-            "appLink": "",
-            "purpose": "",
-            "duration": "",
-            "date": "",
-            "technologies": [
-                "PLC",
-                "HMI",
-                "Automation",
-                "Mechanical Design"
-            ],
-            "detailedDescription": "Designed and fabricated an automatic hose cutting machine that provides a solution to the time-consuming process of precise hose cutting in industrial settings. The system uses PLC programming for accurate length measurement and cutting, reducing waste and improving production efficiency by 60%."
-        },
-        {
-            "id": 5,
-            "title": "Egg Quality Detection Device",
-            "description": "IoT device for smart egg quality assessment",
-            "images": [
-                "/portfolio/images/hobby-project.png"
-            ],
-            "youtubeLink": "",
-            "github": "",
-            "appLink": "",
-            "purpose": "",
-            "duration": "",
-            "date": "",
-            "technologies": [
-                "Arduino",
-                "Sensors",
-                "IoT",
-                "Mobile App"
-            ],
-            "detailedDescription": "Invented a handheld device that forecasts and detects egg quality for consumers. The device measures weight and temperature, using these parameters to determine egg freshness and predict expiration dates. The accompanying mobile app displays quality scores and freshness indicators."
+            "detailedDescription": "<h2>Munich Sushi Chatbot</h2><p>An AI-powered chatbot that helps users discover sushi restaurants in Munich with integrated parking assistance.</p><h3>Features</h3><ul><li><strong>Sushi Restaurant Discovery:</strong> Find the best sushi places based on preferences, ratings, and location</li><li><strong>Parking Assistance:</strong> Get nearby parking information and availability</li><li><strong>Contextual Information:</strong> Reviews, hours, directions, and more</li></ul><h3>Technology Stack</h3><ul><li><strong>LangGraph:</strong> For workflow orchestration and agent logic</li><li><strong>ChromaDB:</strong> Vector store for semantic search</li><li><strong>MCP (Model Context Protocol):</strong> Modular tool servers</li><li><strong>Google Maps API:</strong> Location and parking data</li><li><strong>Streamlit:</strong> User interface</li><li><strong>OpenAI:</strong> Language model backbone</li></ul>"
         },
         {
             "id": 6,
-            "title": "Humanoid Employee Tracking Bot",
-            "description": "AI-powered robot for workplace automation",
+            "title": "NaviBot",
+            "description": "DRO-CO Bot - AI-powered Humanoid Robot for COVID SOP Compliance",
+            "category": "robotics-iot",
             "images": [
-                "/portfolio/images/hobby-project.png"
+                "/portfolio/images/project/NaviBot1.jpeg",
+                "/portfolio/images/project/NaviBot2.jpeg",
+                "/portfolio/images/project/NaviBot3.jpeg",
+                "/portfolio/images/project/NaviBot4.jpeg",
+                "/portfolio/images/project/NaviBot5.jpeg"
             ],
-            "youtubeLink": "",
+            "youtubeLink": "https://www.youtube.com/embed/QqrCg2vfLW0",
             "github": "",
             "appLink": "",
-            "purpose": "",
-            "duration": "",
-            "date": "",
+            "purpose": "College Final Project",
+            "duration": "1 Year",
+            "date": "1 March 2022",
             "technologies": [
-                "Python",
-                "Computer Vision",
                 "Deep Learning",
-                "ROS",
-                "Face Recognition"
+                "Machine Learning",
+                "Flask",
+                "Robotics",
+                "Django"
             ],
-            "detailedDescription": "Developed as a final year project at ELGI R&D, this humanoid bot automates employee tracking and ensures COVID SOP compliance. Implemented deep learning models for face recognition, social distancing detection, and mask detection with real-time alerts and reporting capabilities."
+            "detailedDescription": "<h3>Funding & Recognition</h3><p>  This project was officially  <strong>funded under the Student Projects Scheme (SPS)</strong> by the  <strong>Tamil Nadu State Council for Science and Technology (TANSCST)</strong>, an initiative under the Government of Tamil Nadu, during the academic year  2021–2022.</p><p>  The <strong>TANSCST Student Projects Scheme</strong> is a competitive funding  program that supports innovative and socially impactful final-year student  projects in science, engineering, and technology.</p><h3>Problem Statement</h3><p>  In response to the COVID-19 pandemic, there was an urgent requirement for  contactless systems to enforce Standard Operating Procedures (SOPs) like  temperature checks, mask compliance, and attendance in public environments.</p><h3>Project Summary</h3><p>  I conceptualized, designed, programmed, and fabricated a humanoid robot named  <strong>DRO-CO Bot</strong>, an AI-powered, IoT-integrated robotic assistant.  It can detect face masks, measure temperature without contact, recognize faces  for automatic attendance, and interact with users using speech recognition and  AI-driven responses.</p><h3>Features and Capabilities</h3><ul>  <li>Face mask detection using TensorFlow and MobileNetV2</li>  <li>Real-time face recognition using OpenCV and face_recognition library</li>  <li>Contactless temperature sensing using MLX90614 IR sensor</li>  <li>Speech recognition and voice response using Python, pyttsx3, and Google Speech API</li>  <li>AI-powered assistant with Wikipedia, WolframAlpha, and OpenWeather integrations</li>  <li>WhatsApp automation via Selenium for live reporting and alerts</li>  <li>Servo motor-based robotic arm with 3 DOF controlled by Arduino</li>  <li>Ultrasonic-based object detection and crowd monitoring</li>  <li>Real-time attendance and temperature data logging</li></ul><h3>Technical Implementation</h3><ul>  <li>Developed both forward and inverse kinematics for the robotic arm using D-H parameters</li>  <li>Calculated torque, stress, strain, buckling load for robot joints using PLA structural material</li>  <li>Designed and 3D printed all mechanical components using Fusion 360 and PLA filament</li>  <li>Established I2C communication between Raspberry Pi and Arduino for sensor control</li>  <li>Used servo motors (MG996R, RDS3115MG) for joint control with PID-based position feedback</li></ul><h3>Outcome</h3><ul>  <li>Successfully fabricated and tested a fully functional autonomous COVID-19 SOP enforcement robot</li>  <li>Recognized faces and recorded attendance with >95% accuracy</li>  <li>Detected mask violations in real-time and notified users via WhatsApp</li>  <li>Tested successfully in a live industrial environment</li></ul><h3>Project Budget</h3><p>Total Cost: ₹28,601 INR (Optimized through open-source tools and affordable components)</p>"
         },
         {
-            "id": 7,
-            "title": "AI Code Assistant",
-            "description": "LLM-powered coding companion",
+            "id": 4,
+            "title": "ARcadium",
+            "description": "IOTAR Application - AR and IoT for Enhanced Learning",
+            "category": "web-app",
             "images": [
-                "/portfolio/images/hobby-project.png"
+                "/portfolio/images/project/ARcadium1.jpeg",
+                "/portfolio/images/project/ARcadium2.jpeg",
+                "/portfolio/images/project/ARcadium3.jpeg"
+            ],
+            "youtubeLink": "https://www.youtube.com/embed/KQdLGSpzPxI",
+            "github": "",
+            "appLink": "",
+            "purpose": "NSTF Codissia",
+            "duration": "2 year",
+            "date": "4 March 2022",
+            "technologies": [
+                "Unity",
+                "Android App Dev",
+                "Augmented Reality"
+            ],
+            "detailedDescription": "<p align=\"justify\">&emsp;Augmented reality (AR) is a technology that overlays digital information such as sounds, videos, and graphics on top of the real-world environment. AR can enhance the learning experience by providing interactive and immersive content that can stimulate learners' motivation, attention, and understanding. Internet of things (IoT) is a technology that connects physical devices, such as sensors, cameras, and actuators, to the internet and enables data transmission and synchronization.<br><br>\n\n    &emsp;IOTAR is a term that combines AR and IoT to create a novel learning paradigm that leverages the advantages of both technologies. IOTAR can provide learners with contextualized and personalized learning content that is based on their location, preferences, and performance.<br><br>\n\n<b>Our application is developed using AR for employee and student learning using IOTAR. Our application has the following features and benefits:</b>\n<ul>\n<li>It uses AR to display 3D models of objects or concepts that are relevant to the learning objectives, such as anatomy, chemistry, physics, or engineering. Learners can explore the models from different angles and perspectives, zoom in and out, and rotate them.</li>\n<li>It uses IoT to collect data from sensors or devices to adjust the difficulty level, feedback, or content of the learning activities according to the learners' needs and preferences.</li>\n<li>It uses AR to create gamified learning experiences that can motivate and challenge learners with points, badges, leaderboards, or quests.</li>\n<li>It uses IoT to enable collaboration and communication among learners who are located in different places.</li>\n<li>It uses AR to create a magical feeling of a 3D object appearing on top of the physical world.</li>\n</ul><br>\n\n<b>Our application can be used for various purposes and contexts, such as:</b>\n<ul>\n<li>Employee training: Our application can help employees learn new skills or update their knowledge in a fun and engaging way.</li>\n<li>Student education: Our application can help students learn complex or abstract concepts in a visual and interactive way.</li>\n<li>Lifelong learning: Our application can help anyone who wants to learn something new or pursue their interests in a flexible and convenient way.</li>\n</ul>\n</p>"
+        },
+        {
+            "id": 3,
+            "title": "SubMerge",
+            "description": "Exploring the Aquatic Wonders - A Virtual Reality Underwater Museum",
+            "category": "web-app",
+            "images": [
+                "/portfolio/images/project/SubMerge1.jpeg",
+                "/portfolio/images/project/SubMerge2.jpeg"
+            ],
+            "youtubeLink": "https://www.youtube.com/embed/9ubWJePQCwg",
+            "github": "",
+            "appLink": "https://drive.google.com/file/d/1SkCRXHEn5xs_H8E9z1KcGtNdg5EASb57/view?usp=drive_link",
+            "purpose": "SIH (Software edition)",
+            "duration": "2 weeks",
+            "date": "6 March 2022",
+            "technologies": [
+                "Unity",
+                "Android App Dev",
+                "Virtual Reality"
+            ],
+            "detailedDescription": "<h1>VR Underwater Experience - Project Documentation</h1><h2>Overview</h2><p>  I developed an immersive Virtual Reality (VR) application designed for Android  devices using Unity and Google VR. This application provides users with an  interactive underwater experience, enabling them to explore four unique  environments: Tower, Ship, Dance, and Ride. The user interacts with the  virtual world through intuitive gaze-based navigation.</p><h2>Main Menu and Navigation</h2><p>  Upon launching the application, the Unity logo is displayed. After loading, the user is greeted with a main menu  offering the following options:</p><ul>  <li>Tower</li>  <li>Dance</li>  <li>Ship</li>  <li>Ride</li></ul><p>  The menu is controlled using gaze-based input. Users simply look at one of the  menu options to make a selection.</p><h2>Scenes and Features</h2><h3>Tower Section</h3><p>  Selecting the 'Tower' option transports the user to a serene underwater  environment situated on the seabed. The scene includes:</p><ul>  <li>Blue sharks swimming across the scene.</li>  <li>A central tower-like structure providing architectural depth.</li>  <li>Pink and light blue aquatic creatures adding vibrant marine life.</li>  <li>Realistic seabed details such as rocks, seaweed, and marine flora.</li>  <li>Darker colored sharks and white whales gliding through the water.</li>  <li>    A glowing green orb positioned near the ocean floor to create intrigue.  </li></ul><h3>Ship Section</h3><p>  The 'Ship' environment features a large, partially submerged ship, viewed from  various angles as the camera pans dynamically.</p><h3>Dance Section</h3><p>  In the 'Dance' section, I created a choreographed sequence where marine  animals move in synchronization, resembling a dance performance.</p><h3>Ride Section</h3><p>  Choosing 'Ride' offers users a guided boat-like journey through the underwater  world.</p><h2>Technology Stack</h2><ul>  <li>    <strong>Unity:</strong> Game engine used for developing the VR experience.  </li>  <li>    <strong>Google VR SDK:</strong> Integrated for enabling VR support on Android devices.  </li>  <li>    <strong>Blender:</strong> Used to model and animate 3D marine life.  </li>  <li>    <strong>C#:</strong> Programming language used within Unity for scripting.  </li></ul>"
+        },
+        {
+            "id": 2,
+            "title": "Spikora",
+            "description": "RosaryPlantHouse.com – E-commerce Web Application for Plant Lovers",
+            "category": "web-app",
+            "images": [
+                "/portfolio/images/project/Spikora1.jpeg",
+                "/portfolio/images/project/Spikora2.jpeg"
             ],
             "youtubeLink": "",
             "github": "",
-            "appLink": "",
-            "purpose": "",
-            "duration": "",
-            "date": "",
+            "appLink": "https://www.rosaryplanthouse.com",
+            "purpose": "Rosary Plant House",
+            "duration": "2 weeks",
+            "date": "7 March 2022",
             "technologies": [
-                "Python",
-                "GPT",
-                "VS Code Extension",
-                "TypeScript"
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "Ecommerce"
             ],
-            "detailedDescription": "Built an intelligent coding assistant that leverages LLMs to provide code suggestions, bug detection, and documentation generation. The tool integrates seamlessly with popular IDEs and supports multiple programming languages, helping developers write better code faster."
+            "detailedDescription": "<h2>RosaryPlantHouse.com – E-commerce Web Application</h2><p>  I developed <strong>RosaryPlantHouse.com</strong>, a static-first e-commerce  website specifically tailored for plant enthusiasts. This project represents a  complete end-to-end solution I created, encompassing everything from  architecture and data management to user experience and operational design.  The platform was designed for performance, simplicity, and minimal operational  overhead, and it showcases my skills in creative problem-solving, front-end  engineering, and strategic product thinking.</p><h3><strong>Executive Summary</strong></h3><p>  The Rosary Plant House application was engineered entirely as a static website  with client-side JavaScript powering all interactivity. This includes a  sophisticated product catalogue, cart management system, and a novel  WhatsApp-based checkout mechanism I designed as an innovative alternative to  traditional e-commerce infrastructure.</p><h3><strong>System Architecture and Technology Stack</strong></h3><h4><strong>'Static-First' E-Commerce Engine</strong></h4><p>  I built the site using a Jamstack approach, delivering pre-built HTML pages  such as <code>catalogue.html</code> and <code>restocked.html</code> for  performance and security. All cart, filtering, and UI logic is powered by  client-side JavaScript, removing the need for a backend server.</p><h4><strong>Performance, Security, and Operational Efficiency</strong></h4><ul>  <li><strong>Performance:</strong> Hosted on a CDN for fast load times.</li>  <li><strong>Security:</strong> No backend = minimal attack surface.</li>  <li>    <strong>Maintenance:</strong> No server or database to maintain,    dramatically lowering costs.  </li></ul><h4><strong>Technology Stack</strong></h4><ul>  <li><strong>HTML5, CSS:</strong> For structure and responsive design.</li>  <li>    <strong>JavaScript:</strong> For cart, filtering, and checkout integration.  </li>  <li>    <strong>Web Storage API (localStorage):</strong> To persist cart state    across sessions.  </li></ul><h4><strong>WhatsApp Checkout – 'Conversational Commerce'</strong></h4><p>  I built a unique client-side checkout that uses the WhatsApp API. Upon  clicking 'Place Order':</p><ol>  <li>JavaScript compiles the cart into a formatted message.</li>  <li>    It URL-encodes the message and redirects the user to WhatsApp via a    <code>https://wa.me</code> link.  </li>  <li>    The business receives the message directly and confirms the order manually.  </li></ol><h3><strong>Conclusion</strong></h3><p>  This project is a complete, real-world example of intelligent design under  tight constraints. It demonstrates my full-stack problem-solving ability, my  proficiency in static web development, and my creative use of existing tools  (like WhatsApp) to solve business challenges.</p>"
         }
     ],
     "de": [
         {
-            "id": 1,
-            "title": "AR-Bildungsplattform",
-            "description": "Augmented Reality App für interaktives Lernen",
+            "id": 10,
+            "title": "Slug Flow Crystallization",
+            "description": "Datenbasierte Modellierung der Slug-Flow-Kristallisation mit Unsicherheitsquantifizierung",
+            "category": "agentic-llm",
             "images": [
                 "/portfolio/images/hobby-project.png"
             ],
             "youtubeLink": "",
-            "github": "",
+            "github": "https://github.com/sshibinthomass/MLME_SFC_13",
             "appLink": "",
-            "purpose": "",
-            "duration": "",
-            "date": "",
+            "purpose": "MLME-Projekt",
+            "duration": "2 Monate",
+            "date": "Juli 2025",
             "technologies": [
-                "Unity",
-                "AR Foundation",
-                "C#",
-                "3D-Modellierung"
+                "NARX",
+                "CQR",
+                "Tensorflow",
+                "Datenvorverarbeitung",
+                "Clustering",
+                "Zeitreihen"
             ],
-            "detailedDescription": "Entwickelte eine Augmented Reality-Bildungsplattform, die Lernenden hilft, ihr Verständnis durch 3D-Visualisierungen und AR-Technologie zu verbessern. Die App verwandelt traditionelle Lernmaterialien in interaktive 3D-Erlebnisse und macht komplexe Konzepte durch immersive Visualisierung leichter verständlich."
+            "detailedDescription": "<p>Machine-Learning-Framework für pharmazeutische Kristallisationsprozesse mit NARX-Modellen und konformer Vorhersage.</p>"
         },
         {
-            "id": 2,
-            "title": "Pflanzengesundheits-Überwachungssystem",
-            "description": "CNN-basiertes Deep Learning-Modell für die Landwirtschaft",
+            "id": 9,
+            "title": "Langgraph Core",
+            "description": "Open-Source LangGraph-Implementierungsmuster und Beispiele",
+            "category": "agentic-llm",
             "images": [
                 "/portfolio/images/hobby-project.png"
             ],
             "youtubeLink": "",
-            "github": "",
+            "github": "https://github.com/sshibinthomass/Langgraph-Core",
             "appLink": "",
-            "purpose": "",
-            "duration": "",
-            "date": "",
+            "purpose": "Open Source Projekt",
+            "duration": "1 Monat",
+            "date": "Mai 2025",
             "technologies": [
-                "Python",
-                "TensorFlow",
-                "Keras",
-                "OpenCV",
-                "Fernerkundung"
+                "Open-AI",
+                "Groq",
+                "Gemini",
+                "Ollama",
+                "LLM",
+                "LangGraph",
+                "Streamlit"
             ],
-            "detailedDescription": "Erstellte ein CNN-Deep-Learning-Modell zur Überwachung der Pflanzengesundheit mithilfe von Fernerkundungsdaten. Das System analysiert Satelliten- und Drohnenbilder, um Pflanzenkrankheiten und Nährstoffmängel zu erkennen und Bewässerungspläne zu optimieren. Erreichte 92% Genauigkeit bei der Krankheitserkennung über mehrere Kultursorten hinweg."
+            "detailedDescription": "<p>Umfassendes Open-Source-Projekt mit LangGraph-Implementierungsmustern für mehrere LLM-Anbieter.</p>"
         },
         {
-            "id": 3,
-            "title": "BIN Bot - COVID-Sicherheitsroboter",
-            "description": "Autonomer Roboter für Abfallmanagement und Sicherheit",
+            "id": 8,
+            "title": "Munich Sushi Chatbot",
+            "description": "KI-Chatbot zum Finden von Sushi-Restaurants in München mit Parkunterstützung",
+            "category": "agentic-llm",
             "images": [
                 "/portfolio/images/hobby-project.png"
             ],
-            "youtubeLink": "",
-            "github": "",
+            "youtubeLink": "https://www.youtube.com/embed/8AhdfVI-oU8?si=_zJ6zAP9A762ZIFO",
+            "github": "https://github.com/sshibinthomass/Munich-sushi-Chatbot",
             "appLink": "",
-            "purpose": "",
-            "duration": "",
-            "date": "",
+            "purpose": "Persönliches Projekt",
+            "duration": "2 Wochen",
+            "date": "Juni 2025",
             "technologies": [
-                "ROS",
-                "Python",
-                "Computer Vision",
-                "Arduino",
-                "Sensoren"
+                "Open-AI",
+                "LLM",
+                "RAG",
+                "LangGraph",
+                "Streamlit",
+                "ChromaDB",
+                "MCP",
+                "Google Maps",
+                "Web RAG"
             ],
-            "detailedDescription": "Entwarf und baute einen autonomen Roboter, der darauf abzielt, die Krankheitsausbreitung in Institutionen und Arbeitsplätzen zu reduzieren. Der BIN Bot integriert Computer Vision für Navigation, automatische Abfallsammlungsfunktionen und COVID-19-Sicherheitsprotokoll-Durchsetzung durch kontaktlose Operationen."
-        },
-        {
-            "id": 4,
-            "title": "Automatische Schlauchschneidemaschine",
-            "description": "Präzisions-Automatisierungssystem für industriellen Einsatz",
-            "images": [
-                "/portfolio/images/hobby-project.png"
-            ],
-            "youtubeLink": "",
-            "github": "",
-            "appLink": "",
-            "purpose": "",
-            "duration": "",
-            "date": "",
-            "technologies": [
-                "SPS",
-                "HMI",
-                "Automatisierung",
-                "Mechanisches Design"
-            ],
-            "detailedDescription": "Entwarf und fertigte eine automatische Schlauchschneidemaschine, die eine Lösung für den zeitaufwändigen Prozess des präzisen Schlauchschneidens in industriellen Umgebungen bietet. Das System nutzt SPS-Programmierung für genaue Längenmessung und Schneiden, reduziert Abfall und verbessert die Produktionseffizienz um 60%."
-        },
-        {
-            "id": 5,
-            "title": "Eierqualitäts-Erkennungsgerät",
-            "description": "IoT-Gerät für intelligente Eierqualitätsbewertung",
-            "images": [
-                "/portfolio/images/hobby-project.png"
-            ],
-            "youtubeLink": "",
-            "github": "",
-            "appLink": "",
-            "purpose": "",
-            "duration": "",
-            "date": "",
-            "technologies": [
-                "Arduino",
-                "Sensoren",
-                "IoT",
-                "Mobile App"
-            ],
-            "detailedDescription": "Erfand ein Handgerät, das die Eierqualität für Verbraucher vorhersagt und erkennt. Das Gerät misst Gewicht und Temperatur und nutzt diese Parameter, um die Frische der Eier zu bestimmen und Verfallsdaten vorherzusagen. Die begleitende Mobile App zeigt Qualitätsbewertungen und Frischeindikatoren an."
+            "detailedDescription": "<p>KI-gesteuerter Chatbot für Sushi-Restaurant-Entdeckung in München mit Parkplatzunterstützung.</p>"
         },
         {
             "id": 6,
-            "title": "Humanoider Mitarbeiter-Tracking-Bot",
-            "description": "KI-gestützter Roboter für Arbeitsplatzautomatisierung",
+            "title": "NaviBot",
+            "description": "DRO-CO Bot - KI-gesteuerter humanoider Roboter für COVID SOP Compliance",
+            "category": "robotics-iot",
             "images": [
                 "/portfolio/images/hobby-project.png"
             ],
-            "youtubeLink": "",
+            "youtubeLink": "https://www.youtube.com/embed/QqrCg2vfLW0",
             "github": "",
             "appLink": "",
-            "purpose": "",
-            "duration": "",
-            "date": "",
+            "purpose": "College Abschlussprojekt",
+            "duration": "1 Jahr",
+            "date": "1. März 2022",
             "technologies": [
-                "Python",
-                "Computer Vision",
                 "Deep Learning",
-                "ROS",
-                "Gesichtserkennung"
+                "Machine Learning",
+                "Flask",
+                "Robotik",
+                "Django"
             ],
-            "detailedDescription": "Als Abschlussprojekt bei ELGI R&D entwickelt, automatisiert dieser humanoide Bot die Mitarbeiterverfolgung und gewährleistet die Einhaltung von COVID-SOP. Implementierte Deep Learning-Modelle für Gesichtserkennung, Social-Distancing-Erkennung und Maskenerkennung mit Echtzeitwarnungen und Berichtsfunktionen."
+            "detailedDescription": "<p>Von TANSCST finanzierter humanoider Roboter mit Gesichtserkennung, Temperaturmessung und Sprachassistent.</p>"
         },
         {
-            "id": 7,
-            "title": "KI-Code-Assistent",
-            "description": "LLM-gestützter Coding-Begleiter",
+            "id": 4,
+            "title": "ARcadium",
+            "description": "IOTAR-Anwendung - AR und IoT für verbessertes Lernen",
+            "category": "web-app",
+            "images": [
+                "/portfolio/images/hobby-project.png"
+            ],
+            "youtubeLink": "https://www.youtube.com/embed/KQdLGSpzPxI",
+            "github": "",
+            "appLink": "",
+            "purpose": "NSTF Codissia",
+            "duration": "2 Jahre",
+            "date": "4. März 2022",
+            "technologies": [
+                "Unity",
+                "Android App Dev",
+                "Augmented Reality"
+            ],
+            "detailedDescription": "<p>AR- und IoT-basierte Lernplattform für Mitarbeiter und Studenten.</p>"
+        },
+        {
+            "id": 3,
+            "title": "SubMerge",
+            "description": "VR Unterwasser-Museum - Virtuelle Realität Unterwassererlebnis",
+            "category": "web-app",
+            "images": [
+                "/portfolio/images/hobby-project.png"
+            ],
+            "youtubeLink": "https://www.youtube.com/embed/9ubWJePQCwg",
+            "github": "",
+            "appLink": "https://drive.google.com/file/d/1SkCRXHEn5xs_H8E9z1KcGtNdg5EASb57/view?usp=drive_link",
+            "purpose": "SIH (Software-Edition)",
+            "duration": "2 Wochen",
+            "date": "6. März 2022",
+            "technologies": [
+                "Unity",
+                "Android App Dev",
+                "Virtual Reality"
+            ],
+            "detailedDescription": "<p>Immersive VR-Anwendung für Android mit Unity und Google VR für interaktive Unterwassererlebnisse.</p>"
+        },
+        {
+            "id": 2,
+            "title": "Spikora",
+            "description": "RosaryPlantHouse.com – E-Commerce-Webanwendung für Pflanzenliebhaber",
+            "category": "web-app",
             "images": [
                 "/portfolio/images/hobby-project.png"
             ],
             "youtubeLink": "",
             "github": "",
-            "appLink": "",
-            "purpose": "",
-            "duration": "",
-            "date": "",
+            "appLink": "https://www.rosaryplanthouse.com",
+            "purpose": "Rosary Plant House",
+            "duration": "2 Wochen",
+            "date": "7. März 2022",
             "technologies": [
-                "Python",
-                "GPT",
-                "VS Code Extension",
-                "TypeScript"
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "E-Commerce"
             ],
-            "detailedDescription": "Baute einen intelligenten Coding-Assistenten, der LLMs nutzt, um Code-Vorschläge, Bug-Erkennung und Dokumentationsgenerierung bereitzustellen. Das Tool integriert sich nahtlos in beliebte IDEs und unterstützt mehrere Programmiersprachen, um Entwicklern zu helfen, schneller besseren Code zu schreiben."
+            "detailedDescription": "<p>Statische E-Commerce-Website für Pflanzenliebhaber mit WhatsApp-basiertem Checkout.</p>"
         }
     ]
 }

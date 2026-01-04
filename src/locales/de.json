@@ -48,7 +48,13 @@
     },
     "hobbyProjects": {
         "title": "Hobbyprojekte",
-        "description": "Persönliche Projekte, die ich zum Spaß und zum Lernen erstellt habe"
+        "description": "Persönliche Projekte, die ich zum Spaß und zum Lernen erstellt habe",
+        "categories": {
+            "all": "Alle",
+            "agentic-llm": "Agentic/LLM",
+            "robotics-iot": "Robotik/IOT",
+            "web-app": "Web/App"
+        }
     },
     "achievements": {
         "title": "Erfolge",

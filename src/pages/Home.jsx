@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link, useParams } from 'react-router-dom';
 import { motion } from 'framer-motion';
@@ -22,6 +22,8 @@ const Home = () => {
     const hobbyProjects = hobbyProjectsData[currentLang] || hobbyProjectsData.en;
     const achievements = achievementsData[currentLang] || achievementsData.en;
     const research = researchData[currentLang] || researchData.en;
+
+    const [hobbyCategory, setHobbyCategory] = useState('all');
 
     // Helper function to get project image with English fallback
     const getProjectImage = (project) => {
@@ -207,8 +209,22 @@ const Home = () => {
             <section className="section content-links" id="hobby-projects">
                 <div className="container">
                     <h2 className="section-title">{t('nav.hobbyProjects')}</h2>
+
+                    {/* Category Filter Tabs */}
+                    <div className="filter-tabs">
+                        {['all', 'agentic-llm', 'robotics-iot', 'web-app'].map(category => (
+                            <button
+                                key={category}
+                                className={`filter-tab ${hobbyCategory === category ? 'active' : ''}`}
+                                onClick={() => setHobbyCategory(category)}
+                            >
+                                {t(`hobbyProjects.categories.${category}`)}
+                            </button>
+                        ))}
+                    </div>
+
                     <div className="link-grid">
-                        {hobbyProjects.slice(0, 6).map((project) => (
+                        {(hobbyCategory === 'all' ? hobbyProjects : hobbyProjects.filter(p => p.category === hobbyCategory)).slice(0, 6).map((project) => (
                             <Link key={project.id} to={`/${lang}/hobby-projects/${project.id}`} className="link-card">
                                 <img
                                     src={(project.images && project.images.length > 0) ? project.images[0] : (hobbyProjectsData.en.find(p => p.id === project.id)?.images?.[0] || '')}
@@ -250,9 +266,8 @@ const Home = () => {
                     <div className="link-grid">
                         {research.map((paper) => (
                             <a key={paper.id} href={paper.link} target="_blank" rel="noopener noreferrer" className="link-card">
-                                <img src={paper.image} alt={paper.title} className="link-card-image" />
                                 <h4 className="link-card-title">{paper.title}</h4>
-                                <p className="link-card-desc">{paper.authors} ({paper.year})</p>
+                                <p className="link-card-desc">{paper.journal}</p>
                             </a>
                         ))}
                     </div>
