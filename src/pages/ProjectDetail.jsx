@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
 import ImageCarousel from '../components/ImageCarousel/ImageCarousel';
+import TechTag from '../components/TechTag/TechTag';
 import projectsData from '../data/projects.json';
 
 const ProjectDetail = () => {
@@ -133,22 +134,14 @@ const ProjectDetail = () => {
                         <h3 style={{ marginBottom: '1rem', color: 'var(--accent-primary)' }}>
                             {t('projects.technologies')}
                         </h3>
-                        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem' }}>
-                            {projectTechnologies.map((tech, i) => (
-                                <span
-                                    key={i}
-                                    style={{
-                                        padding: '0.5rem 1rem',
-                                        background: 'var(--accent-gradient)',
-                                        color: 'white',
-                                        borderRadius: '20px',
-                                        fontSize: '0.95rem',
-                                        fontWeight: '500'
-                                    }}
-                                >
-                                    {tech}
-                                </span>
-                            ))}
+                        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center', alignItems: 'center' }}>
+                            {projectTechnologies.map((tech, i) => {
+                                const name = typeof tech === 'string' ? tech : tech.name;
+                                const description = typeof tech === 'object' ? (tech.description || tech.version || '') : '';
+                                return (
+                                    <TechTag key={i} name={name} description={description} />
+                                );
+                            })}
                         </div>
                     </div>
 

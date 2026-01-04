@@ -27,9 +27,12 @@ const Card = ({ image, title, description, onClick, tags }) => {
                 <p className="card-description">{description}</p>
                 {tags && tags.length > 0 && (
                     <div className="card-tags">
-                        {tags.map((tag, index) => (
-                            <span key={index} className="card-tag">{tag}</span>
-                        ))}
+                        {tags.map((tag, index) => {
+                            const tagName = typeof tag === 'string' ? tag : tag.name;
+                            return (
+                                <span key={index} className="card-tag">{tagName}</span>
+                            );
+                        })}
                     </div>
                 )}
             </div>

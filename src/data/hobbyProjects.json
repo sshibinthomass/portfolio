@@ -1,6 +1,108 @@
 {
     "en": [
         {
+            "id": 13,
+            "title": "MediMind",
+            "description": "An AI-powered personal medical assistant that helps users track health metrics, manage medical information, and receive intelligent health guidance. Features dual modes for patients and healthcare providers, real-time health dashboard, and multi-LLM support",
+            "category": "agentic-llm",
+            "images": [
+                "/images/project/mediMind.jpg"
+            ],
+            "youtubeLink": "https://youtu.be/ALTnhbkpddc",
+            "github": "https://github.com/sshibinthomass/nucleate-hack-medi-minds",
+            "appLink": "",
+            "purpose": "Hackathon",
+            "duration": "",
+            "date": "November 2025",
+            "technologies": [
+                { "name": "React", "description": "Frontend library for building the interactive health dashboard UI" },
+                { "name": "Vite", "description": "Fast build tool and development server for the React frontend" },
+                { "name": "FastAPI", "description": "High-performance Python backend framework for REST API endpoints" },
+                { "name": "LangChain", "description": "Framework for building AI-powered applications with LLM orchestration" },
+                { "name": "LangGraph", "description": "Library for creating stateful, multi-actor AI agent workflows" },
+                { "name": "Groq", "description": "LLM provider integration for ultra-fast AI inference" },
+                { "name": "OpenAI", "description": "GPT model integration for intelligent medical assistance" },
+                { "name": "Google Gemini", "description": "Google's multimodal AI model for conversational intelligence" },
+                { "name": "Ollama", "description": "Local LLM support for running AI models offline" },
+                { "name": "MCP (Model Context Protocol)", "description": "Protocol for integrating external tools and data sources with AI agents" },
+                { "name": "Python", "description": "Backend programming language powering the API and AI logic" },
+                { "name": "Pandas", "description": "Data analysis library for health metrics processing" },
+                { "name": "Plotly", "description": "Interactive visualization library for health data charts" },
+                { "name": "scikit-learn", "description": "Machine learning library for health forecasting and predictions" },
+                { "name": "DuckDB", "description": "Embedded analytics database for efficient data querying" },
+                { "name": "Gmail API", "description": "Email integration for sending medical-related communications" }
+            ],
+            "detailedDescription": "<p><strong>Medi-Mind</strong> is a comprehensive AI-powered healthcare management platform built with React and FastAPI that bridges the gap between patients and healthcare providers. It features a <strong>personal medical assistant</strong> with real-time health tracking (steps, calories, heart rate, blood oxygen, water intake, mood, sleep, energy levels), interactive health metric visualization with Plotly charts, and intelligent AI-powered medical guidance. The platform supports <strong>multiple LLM providers</strong> including OpenAI GPT, Google Gemini, Groq, and local Ollama models, enabling flexible and context-aware medical conversations. It offers <strong>dual use cases</strong>: a Medical Assistant mode for patients to track and understand their health, and a Doctor Assistant mode for healthcare professionals with patient management, analytics, and age group demographics. Key features include <strong>MCP (Model Context Protocol)</strong> integration for external tool connectivity, <strong>Gmail integration</strong> for medical communications, weather and date context awareness, health alerts when metrics fall below recommended levels, and <strong>machine learning-based health forecasting</strong> using scikit-learn and statsmodels. Built using LangChain and LangGraph for sophisticated AI agent workflows, the system provides empathetic, professional, and data-driven health insights while maintaining a modern, responsive UI with animated health widgets and real-time data synchronization.</p>"
+        },
+            {
+            "id": 12,
+            "title": "GenDesign",
+            "description": "GenDesign is an intelligent structural engineering assistant that helps engineers design optimal beams through natural conversation in English and German. It combines advanced AI orchestration using LangGraph, physics-based calculations, machine learning models, and interactive 3D visualization to provide comprehensive beam analysis and optimization.",
+            "category": "agentic-llm",
+            "images": [
+                "/images/project/genDesign.jpg"
+            ],
+            "youtubeLink": "https://youtu.be/jf_8_DkVa8s",
+            "github": "https://github.com/sshibinthomass/BKW-Design-Agent",
+            "appLink": "",
+            "purpose": "Hackathon",
+            "duration": "",
+            "date": "October 2025",
+            "technologies": [
+                    { "name": "Python", "description": "Backend language for Flask app and AI orchestration" },
+                { "name": "Flask", "description": "Web framework for REST API and server logic" },
+                { "name": "Anthropic Claude", "description": "LLM for natural language conversation" },
+                { "name": "Google Gemini", "description": "AI model for enhanced conversations" },
+                { "name": "LangGraph", "description": "Agentic AI orchestration framework" },
+                { "name": "SciPy", "description": "Scientific computing for beam optimization" },
+                { "name": "scikit-learn", "description": "ML library for deflection prediction" },
+                { "name": "Pandas", "description": "Data manipulation and CSV handling" },
+                { "name": "NumPy", "description": "Numerical computing for calculations" },
+                { "name": "Plotly", "description": "Interactive 3D visualization library" },
+                { "name": "MCP Tools", "description": "Model Context Protocol integration" },
+                { "name": "JavaScript", "description": "Frontend scripting and UI interactions" },
+                { "name": "HTML5", "description": "Semantic markup and file uploads" },
+                { "name": "CSS3", "description": "Modern styling with Flexbox and Grid" }
+            ],
+            "detailedDescription": "<p><strong>GenDesign</strong> is an AI-powered structural engineering assistant that enables natural language beam design in <em>English and German</em>, combining <strong>LangGraph agentic AI orchestration</strong>, <strong>Anthropic Claude LLM</strong> for conversation management, <strong>Random Forest ML models</strong> for deflection prediction, <strong>SciPy-based optimization</strong> for volume minimization, and <strong>Plotly 3D visualization</strong> for interactive beam rendering, with support for <em>Steel (IPE profiles)</em>, <em>Wood</em>, and <em>Concrete</em> materials, plus intelligent task management with vacation approval logic and a historical database of 3000+ successful designs for pattern recognition and recommendations.</p>"
+        },
+        {
+            "id": 11,
+            "title": "AskLeo",
+            "description": "AskLeo is an AI-powered negotiation assistant that automates business negotiations with vendors using multi-agent conversations, voice interface, and integrated email/calendar automation.",
+            "category": "agentic-llm",
+            "images": [
+                "/images/project/askLeo.jpg"
+            ],
+            "youtubeLink": "https://youtu.be/YjnY0FsknZA",
+            "github": "https://github.com/sshibinthomass/Start-Munich-Hack-AskLeo",
+            "appLink": "",
+            "purpose": "Hackathon",
+            "duration": "",
+            "date": "November 2025",
+            "technologies": [
+                { "name": "React", "description": "Frontend UI framework" },
+                { "name": "Vite", "description": "Build tool & dev server" },
+                { "name": "Recharts", "description": "Data visualization charts" },
+                { "name": "CSS", "description": "Styling" },
+                { "name": "Python", "description": "Backend programming language" },
+                { "name": "FastAPI", "description": "REST API framework" },
+                { "name": "Uvicorn", "description": "ASGI server" },
+                { "name": "LangChain", "description": "LLM orchestration framework" },
+                { "name": "LangGraph", "description": "Multi-agent workflow engine" },
+                { "name": "OpenAI GPT-4", "description": "AI chat & reasoning" },
+                { "name": "OpenAI Whisper", "description": "Speech-to-text" },
+                { "name": "ElevenLabs", "description": "Text-to-speech" },
+                { "name": "Gmail API", "description": "Email automation" },
+                { "name": "Google Calendar API", "description": "Meeting scheduling" },
+                { "name": "Pandas", "description": "Data processing" },
+                { "name": "DuckDB", "description": "Embedded analytics database" },
+                { "name": "Tavily", "description": "Web search API" },
+                { "name": "MCP", "description": "Tool integration protocol" }
+            ],
+            "detailedDescription": "<p><strong>AskLeo</strong> is an intelligent AI negotiation assistant built for the Start Munich Hackathon. It automates business negotiations with vendors, manages communications via email and calendar, and provides a voice-enabled interface for seamless user interaction.</p><ul><li><strong>Automated Negotiation:</strong> AI agents negotiate with vendors using strategic conversation tactics</li><li><strong>Multi-Agent Communication:</strong> Two AI agents can negotiate with each other automatically</li><li><strong>Voice Interface:</strong> Speak with the AI using OpenAI Whisper and hear responses via ElevenLabs</li><li><strong>Email Integration:</strong> Sends confirmation emails after successful deals via Gmail API</li><li><strong>Calendar Scheduling:</strong> Automatically schedules follow-up meetings via Google Calendar</li><li><strong>Product Knowledge:</strong> Integrated product catalog for intelligent recommendations</li></ul>"
+        },
+        {
             "id": 10,
             "title": "Slug Flow Crystallization",
             "description": "Data-based Modeling of Slug Flow Crystallization with Uncertainty Quantification",

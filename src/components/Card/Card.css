@@ -91,6 +91,9 @@
     display: flex;
     flex-wrap: wrap;
     gap: 0.5rem;
+    max-height: 6.5rem; /* 3 full lines of tags */
+    overflow: hidden;
+    position: relative;
 }
 
 .card-tag {

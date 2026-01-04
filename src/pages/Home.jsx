@@ -198,7 +198,7 @@ const Home = () => {
                             <Link key={project.id} to={`/${lang}/projects/${project.id}`} className="link-card">
                                 <img src={getProjectImage(project)} alt={project.title} className="link-card-image" />
                                 <h4 className="link-card-title">{project.title}</h4>
-                                <p className="link-card-desc">{project.description}</p>
+                                <p className="link-card-desc" style={{ display: '-webkit-box', WebkitLineClamp: 3, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>{project.description}</p>
                             </Link>
                         ))}
                     </div>
@@ -232,7 +232,7 @@ const Home = () => {
                                     className="link-card-image"
                                 />
                                 <h4 className="link-card-title">{project.title}</h4>
-                                <p className="link-card-desc">{project.description}</p>
+                                <p className="link-card-desc" style={{ display: '-webkit-box', WebkitLineClamp: 3, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>{project.description}</p>
                             </Link>
                         ))}
                     </div>
@@ -252,7 +252,7 @@ const Home = () => {
                                     className="link-card-image"
                                 />
                                 <h4 className="link-card-title">{achievement.title}</h4>
-                                <p className="link-card-desc">{achievement.description}</p>
+                                <p className="link-card-desc" style={{ display: '-webkit-box', WebkitLineClamp: 3, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>{achievement.description}</p>
                             </Link>
                         ))}
                     </div>
