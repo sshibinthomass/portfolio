@@ -43,6 +43,38 @@ function App() {
           {/* Redirect root to /en */}
           <Route path="/" element={<Navigate to="/en" replace />} />
 
+          {/* Short URL redirects - English */}
+          <Route path="/bmwhack" element={<Navigate to="/en/achievements/8" replace />} />
+          <Route path="/bkwhack" element={<Navigate to="/en/achievements/7" replace />} />
+          <Route path="/aechack" element={<Navigate to="/en/achievements/9" replace />} />
+          <Route path="/tnscst" element={<Navigate to="/en/achievements/6" replace />} />
+          <Route path="/sihhack" element={<Navigate to="/en/achievements/5" replace />} />
+          <Route path="/saehack" element={<Navigate to="/en/achievements/2" replace />} />
+          <Route path="/skcetexpo" element={<Navigate to="/en/achievements/1" replace />} />
+          <Route path="/tcsxrhack" element={<Navigate to="/en/achievements/4" replace />} />
+          <Route path="/ifahack" element={<Navigate to="/en/achievements/3" replace />} />
+          <Route path="/gendesign" element={<Navigate to="/en/hobby-projects/12" replace />} />
+          <Route path="/askleo" element={<Navigate to="/en/hobby-projects/11" replace />} />
+          <Route path="/hybridrag" element={<Navigate to="/en/achievements/9" replace />} />
+          <Route path="/ecadstar" element={<Navigate to="/en/projects/1" replace />} />
+          <Route path="/medimind" element={<Navigate to="/en/hobby-projects/13" replace />} />
+
+          {/* Short URL redirects - German */}
+          <Route path="/de/bmwhack" element={<Navigate to="/de/achievements/8" replace />} />
+          <Route path="/de/bkwhack" element={<Navigate to="/de/achievements/7" replace />} />
+          <Route path="/de/aechack" element={<Navigate to="/de/achievements/9" replace />} />
+          <Route path="/de/tnscst" element={<Navigate to="/de/achievements/6" replace />} />
+          <Route path="/de/sihhack" element={<Navigate to="/de/achievements/5" replace />} />
+          <Route path="/de/saehack" element={<Navigate to="/de/achievements/2" replace />} />
+          <Route path="/de/skcetexpo" element={<Navigate to="/de/achievements/1" replace />} />
+          <Route path="/de/tcsxrhack" element={<Navigate to="/de/achievements/4" replace />} />
+          <Route path="/de/ifahack" element={<Navigate to="/de/achievements/3" replace />} />
+          <Route path="/de/gendesign" element={<Navigate to="/de/hobby-projects/12" replace />} />
+          <Route path="/de/askleo" element={<Navigate to="/de/hobby-projects/11" replace />} />
+          <Route path="/de/hybridrag" element={<Navigate to="/de/achievements/9" replace />} />
+          <Route path="/de/ecadstar" element={<Navigate to="/de/projects/1" replace />} />
+          <Route path="/de/medimind" element={<Navigate to="/de/hobby-projects/13" replace />} />
+
           {/* Home - includes Skills and Resume */}
           <Route path="/:lang" element={
             <LanguageWrapper>
