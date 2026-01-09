@@ -276,12 +276,114 @@
     ],
     "de": [
         {
+            "id": 13,
+            "title": "MediMind",
+            "description": "Ein KI-gestützter persönlicher medizinischer Assistent, der Benutzern hilft, Gesundheitsmetriken zu verfolgen, medizinische Informationen zu verwalten und intelligente Gesundheitsberatung zu erhalten. Bietet duale Modi für Patienten und Gesundheitsdienstleister, Echtzeit-Gesundheitsdashboard und Multi-LLM-Unterstützung",
+            "category": "agentic-llm",
+            "images": [
+                "/images/project/mediMind.jpg"
+            ],
+            "youtubeLink": "https://youtu.be/ALTnhbkpddc",
+            "github": "https://github.com/sshibinthomass/nucleate-hack-medi-minds",
+            "appLink": "",
+            "purpose": "Hackathon",
+            "duration": "",
+            "date": "November 2025",
+            "technologies": [
+                { "name": "React", "description": "Frontend-Bibliothek zum Erstellen des interaktiven Gesundheitsdashboard-UI" },
+                { "name": "Vite", "description": "Schnelles Build-Tool und Entwicklungsserver für das React-Frontend" },
+                { "name": "FastAPI", "description": "Hochperformantes Python-Backend-Framework für REST-API-Endpunkte" },
+                { "name": "LangChain", "description": "Framework zum Erstellen von KI-gestützten Anwendungen mit LLM-Orchestrierung" },
+                { "name": "LangGraph", "description": "Bibliothek zum Erstellen von zustandsbehafteten, Multi-Akteur-KI-Agenten-Workflows" },
+                { "name": "Groq", "description": "LLM-Anbieter-Integration für ultraschnelle KI-Inferenz" },
+                { "name": "OpenAI", "description": "GPT-Modell-Integration für intelligente medizinische Unterstützung" },
+                { "name": "Google Gemini", "description": "Googles multimodales KI-Modell für konversationelle Intelligenz" },
+                { "name": "Ollama", "description": "Lokale LLM-Unterstützung zum Offline-Ausführen von KI-Modellen" },
+                { "name": "MCP (Model Context Protocol)", "description": "Protokoll zur Integration externer Tools und Datenquellen mit KI-Agenten" },
+                { "name": "Python", "description": "Backend-Programmiersprache für die API und KI-Logik" },
+                { "name": "Pandas", "description": "Datenanalysebibliothek zur Verarbeitung von Gesundheitsmetriken" },
+                { "name": "Plotly", "description": "Interaktive Visualisierungsbibliothek für Gesundheitsdaten-Diagramme" },
+                { "name": "scikit-learn", "description": "Machine-Learning-Bibliothek für Gesundheitsprognosen und Vorhersagen" },
+                { "name": "DuckDB", "description": "Eingebettete Analytics-Datenbank für effiziente Datenabfragen" },
+                { "name": "Gmail API", "description": "E-Mail-Integration zum Senden medizinischer Kommunikation" }
+            ],
+            "detailedDescription": "<p><strong>Medi-Mind</strong> ist eine umfassende KI-gestützte Gesundheitsverwaltungsplattform, die mit React und FastAPI erstellt wurde und die Lücke zwischen Patienten und Gesundheitsdienstleistern schließt. Es bietet einen <strong>persönlichen medizinischen Assistenten</strong> mit Echtzeit-Gesundheitsverfolgung (Schritte, Kalorien, Herzfrequenz, Blutsauerstoff, Wasseraufnahme, Stimmung, Schlaf, Energieniveaus), interaktive Visualisierung von Gesundheitsmetriken mit Plotly-Diagrammen und intelligente KI-gestützte medizinische Beratung. Die Plattform unterstützt <strong>mehrere LLM-Anbieter</strong> einschließlich OpenAI GPT, Google Gemini, Groq und lokale Ollama-Modelle, was flexible und kontextbewusste medizinische Gespräche ermöglicht. Es bietet <strong>zwei Anwendungsfälle</strong>: einen Medizinischen Assistenten-Modus für Patienten zur Verfolgung und zum Verständnis ihrer Gesundheit und einen Arzt-Assistenten-Modus für Gesundheitsfachkräfte mit Patientenverwaltung, Analysen und Altersgruppen-Demografie. Zu den Hauptfunktionen gehören <strong>MCP (Model Context Protocol)</strong>-Integration für externe Tool-Konnektivität, <strong>Gmail-Integration</strong> für medizinische Kommunikation, Wetter- und Datumskontextbewusstsein, Gesundheitswarnungen, wenn Metriken unter empfohlene Werte fallen, und <strong>maschinelles Lernen-basierte Gesundheitsprognosen</strong> mit scikit-learn und statsmodels. Erstellt mit LangChain und LangGraph für ausgeklügelte KI-Agenten-Workflows, bietet das System empathische, professionelle und datengesteuerte Gesundheitseinblicke bei gleichzeitiger Beibehaltung einer modernen, responsiven Benutzeroberfläche mit animierten Gesundheits-Widgets und Echtzeit-Datensynchronisation.</p>"
+        },
+        {
+            "id": 12,
+            "title": "GenDesign",
+            "description": "GenDesign ist ein intelligenter Strukturingenieur-Assistent, der Ingenieuren hilft, optimale Träger durch natürliche Konversation auf Englisch und Deutsch zu entwerfen. Es kombiniert fortgeschrittene KI-Orchestrierung mit LangGraph, physikbasierte Berechnungen, Machine-Learning-Modelle und interaktive 3D-Visualisierung für umfassende Trägeranalyse und -optimierung.",
+            "category": "agentic-llm",
+            "images": [
+                "/images/project/genDesign.jpg"
+            ],
+            "youtubeLink": "https://youtu.be/jf_8_DkVa8s",
+            "github": "https://github.com/sshibinthomass/BKW-Design-Agent",
+            "appLink": "",
+            "purpose": "Hackathon",
+            "duration": "",
+            "date": "Oktober 2025",
+            "technologies": [
+                { "name": "Python", "description": "Backend-Sprache für Flask-App und KI-Orchestrierung" },
+                { "name": "Flask", "description": "Web-Framework für REST-API und Server-Logik" },
+                { "name": "Anthropic Claude", "description": "LLM für natürliche Sprachkonversation" },
+                { "name": "Google Gemini", "description": "KI-Modell für verbesserte Konversationen" },
+                { "name": "LangGraph", "description": "Agentic AI-Orchestrierungsframework" },
+                { "name": "SciPy", "description": "Wissenschaftliches Computing für Trägeroptimierung" },
+                { "name": "scikit-learn", "description": "ML-Bibliothek für Durchbiegungsvorhersage" },
+                { "name": "Pandas", "description": "Datenmanipulation und CSV-Verarbeitung" },
+                { "name": "NumPy", "description": "Numerisches Computing für Berechnungen" },
+                { "name": "Plotly", "description": "Interaktive 3D-Visualisierungsbibliothek" },
+                { "name": "MCP Tools", "description": "Model Context Protocol-Integration" },
+                { "name": "JavaScript", "description": "Frontend-Scripting und UI-Interaktionen" },
+                { "name": "HTML5", "description": "Semantisches Markup und Datei-Uploads" },
+                { "name": "CSS3", "description": "Modernes Styling mit Flexbox und Grid" }
+            ],
+            "detailedDescription": "<p><strong>GenDesign</strong> ist ein KI-gestützter Strukturingenieur-Assistent, der Trägerdesign in natürlicher Sprache auf <em>Englisch und Deutsch</em> ermöglicht und <strong>LangGraph agentic AI-Orchestrierung</strong>, <strong>Anthropic Claude LLM</strong> für Konversationsmanagement, <strong>Random Forest ML-Modelle</strong> für Durchbiegungsvorhersage, <strong>SciPy-basierte Optimierung</strong> zur Volumenminimierung und <strong>Plotly 3D-Visualisierung</strong> für interaktives Träger-Rendering kombiniert, mit Unterstützung für <em>Stahl (IPE-Profile)</em>, <em>Holz</em> und <em>Beton</em> Materialien, plus intelligentes Aufgabenmanagement mit Urlaubsgenehmigungslogik und einer historischen Datenbank mit über 3000 erfolgreichen Designs für Mustererkennung und Empfehlungen.</p>"
+        },
+        {
+            "id": 11,
+            "title": "AskLeo",
+            "description": "AskLeo ist ein KI-gestützter Verhandlungsassistent, der Geschäftsverhandlungen mit Lieferanten durch Multi-Agenten-Konversationen, Sprachschnittstelle und integrierte E-Mail/Kalender-Automatisierung automatisiert.",
+            "category": "agentic-llm",
+            "images": [
+                "/images/project/askLeo.jpg"
+            ],
+            "youtubeLink": "https://youtu.be/YjnY0FsknZA",
+            "github": "https://github.com/sshibinthomass/Start-Munich-Hack-AskLeo",
+            "appLink": "",
+            "purpose": "Hackathon",
+            "duration": "",
+            "date": "November 2025",
+            "technologies": [
+                { "name": "React", "description": "Frontend-UI-Framework" },
+                { "name": "Vite", "description": "Build-Tool & Dev-Server" },
+                { "name": "Recharts", "description": "Datenvisualisierungsdiagramme" },
+                { "name": "CSS", "description": "Styling" },
+                { "name": "Python", "description": "Backend-Programmiersprache" },
+                { "name": "FastAPI", "description": "REST-API-Framework" },
+                { "name": "Uvicorn", "description": "ASGI-Server" },
+                { "name": "LangChain", "description": "LLM-Orchestrierungsframework" },
+                { "name": "LangGraph", "description": "Multi-Agenten-Workflow-Engine" },
+                { "name": "OpenAI GPT-4", "description": "KI-Chat & Reasoning" },
+                { "name": "OpenAI Whisper", "description": "Sprach-zu-Text" },
+                { "name": "ElevenLabs", "description": "Text-zu-Sprache" },
+                { "name": "Gmail API", "description": "E-Mail-Automatisierung" },
+                { "name": "Google Calendar API", "description": "Meeting-Planung" },
+                { "name": "Pandas", "description": "Datenverarbeitung" },
+                { "name": "DuckDB", "description": "Eingebettete Analytics-Datenbank" },
+                { "name": "Tavily", "description": "Web-Such-API" },
+                { "name": "MCP", "description": "Tool-Integrationsprotokoll" }
+            ],
+            "detailedDescription": "<p><strong>AskLeo</strong> ist ein intelligenter KI-Verhandlungsassistent, der für den Start Munich Hackathon entwickelt wurde. Er automatisiert Geschäftsverhandlungen mit Lieferanten, verwaltet Kommunikation über E-Mail und Kalender und bietet eine sprachaktivierte Schnittstelle für nahtlose Benutzerinteraktion.</p><ul><li><strong>Automatisierte Verhandlung:</strong> KI-Agenten verhandeln mit Lieferanten unter Verwendung strategischer Gesprächstaktiken</li><li><strong>Multi-Agenten-Kommunikation:</strong> Zwei KI-Agenten können automatisch miteinander verhandeln</li><li><strong>Sprachschnittstelle:</strong> Sprechen Sie mit der KI über OpenAI Whisper und hören Sie Antworten über ElevenLabs</li><li><strong>E-Mail-Integration:</strong> Sendet Bestätigungs-E-Mails nach erfolgreichen Geschäften über Gmail API</li><li><strong>Kalender-Planung:</strong> Plant automatisch Follow-up-Meetings über Google Calendar</li><li><strong>Produktwissen:</strong> Integrierter Produktkatalog für intelligente Empfehlungen</li></ul>"
+        },
+        {
             "id": 10,
             "title": "Slug Flow Crystallization",
             "description": "Datenbasierte Modellierung der Slug-Flow-Kristallisation mit Unsicherheitsquantifizierung",
             "category": "agentic-llm",
             "images": [
-                "/images/hobby-project.png"
+                "/images/project/Slug_Flow_Crystallization1.jpeg"
             ],
             "youtubeLink": "",
             "github": "https://github.com/sshibinthomass/MLME_SFC_13",
@@ -297,7 +399,7 @@
                 "Clustering",
                 "Zeitreihen"
             ],
-            "detailedDescription": "<p>Machine-Learning-Framework für pharmazeutische Kristallisationsprozesse mit NARX-Modellen und konformer Vorhersage.</p>"
+            "detailedDescription": "<h1>Datenbasierte Modellierung der Slug-Flow-Kristallisation mit Unsicherheitsquantifizierung</h1><p><strong>Autoren:</strong></p><ul><li>Shibin Thomas Stanley Paul - 259782</li><li>Aadhithya Krishnakumar - 258741</li><li>Nishitkumar Karkar - 257529</li><li>Sankar Santhosh Nair - 258852</li></ul><h2>Zusammenfassung</h2><p>Dieser Bericht stellt ein Machine-Learning-Framework zur Modellierung von Slug-Flow-Kristallisationsprozessen mit Unsicherheitsquantifizierung vor. Der Ansatz kombiniert drei Kernkomponenten:<ul><li>Unüberwachtes Clustering zur Erkennung von Betriebsregimen</li><li>Nichtlineare autoregressive Modelle mit exogenen Eingaben (NARX) neuronale Netze für dynamische Modellierung</li><li>Konformierte Quantilsregression (CQR) zur Bereitstellung zuverlässiger Vorhersageintervalle</li></ul>Die Ergebnisse zeigen eine genaue Regimetrennung, starke Modellgeneralisierung und kalibrierte Unsicherheitsschätzungen, was eine robuste Steuerung in pharmazeutischen Kristallisationsanwendungen erleichtert.</p><h2>I. Einführung</h2><p>Slug Flow Crystallization (SFC) wird in der pharmazeutischen Herstellung häufig verwendet, da es konsistente Partikelgrößen erzeugen kann. Herausforderungen entstehen jedoch aufgrund der dynamischen und nichtlinearen Natur der Kristallisation, verstärkt durch Rauschen in Partikelgrößenmessungen wie d10, d50 und d90.</p><h2>II. Datenanalyse und Clustering</h2><h3>A. Datenvorverarbeitung und Qualitätsbewertung</h3><p>Der Datensatz umfasst 98 Zeitreihendateien mit Prozessvariablenmessungen. Sieben Dateien mit abnormalen Bereichen in Partikelgrößenwerten wurden ausgeschlossen. Für die verbleibenden 91 Dateien:</p><ul><li>Duplikate und leere Einträge wurden entfernt</li><li>Ausreißer wurden mit benutzerdefinierten Schwellenwerten und Interquartilsabstand (IQR) Methoden gefiltert</li><li>IQR-basierte Filterung wurde aufgrund besserer Robustheit ausgewählt</li></ul><h3>B. Clustering-Analyse und Regimeidentifikation</h3><p>K-Means-Clustering mit k gleich 2 identifizierte zwei Regime. Metriken: Silhouette Score - 0,389, Calinski-Harabasz Score - 23,805, Davies-Bouldin Score - 1,459.</p><h2>III. NARX-Modellentwicklung</h2><p>NARX-Modelle wurden separat für jeden Cluster entwickelt. Die Modelle verwenden tiefe Feedforward-Netze mit sechs versteckten Schichten: 1024 bis 768 bis 512 bis 256 bis 128 bis 6. Aktivierung: SELU. Regularisierung: Dropout von 0,4 bis 0,2 und L2-Strafe.</p><h2>IV. Unsicherheitsquantifizierung</h2><p>Konformierte Quantilsregression mit 90% Abdeckung validiert für alle Variablen.</p><h2>V. Ergebnisse</h2><p>Die Unsicherheitsabdeckung betrug durchschnittlich 99,9% für geschlossene Schleifen und 97,2% für offene Schleifen, was die Zuverlässigkeit für den Einsatz in der Praxis bestätigt.</p><h2>VI. Fazit</h2><p>Das vorgeschlagene Framework integriert erfolgreich unüberwachtes Clustering, tiefe zeitliche Modellierung und prädiktive Unsicherheitsquantifizierung. Es erreicht starke Generalisierung, zuverlässige Intervallschätzungen und operative Regimetrennung, was es für die Echtzeitprozesssteuerung in der pharmazeutischen Kristallisation geeignet macht.</p>"
         },
         {
             "id": 9,
@@ -305,7 +407,7 @@
             "description": "Open-Source LangGraph-Implementierungsmuster und Beispiele",
             "category": "agentic-llm",
             "images": [
-                "/images/hobby-project.png"
+                "/images/project/Langgraph-Core1.jpeg"
             ],
             "youtubeLink": "",
             "github": "https://github.com/sshibinthomass/Langgraph-Core",
@@ -322,7 +424,7 @@
                 "LangGraph",
                 "Streamlit"
             ],
-            "detailedDescription": "<p>Umfassendes Open-Source-Projekt mit LangGraph-Implementierungsmustern für mehrere LLM-Anbieter.</p>"
+            "detailedDescription": "<h2>LangGraph Core</h2><p>Ein umfassendes Open-Source-Projekt, das LangGraph-Implementierungsmuster mit mehreren LLM-Anbietern demonstriert.</p><h3>Funktionen</h3><ul><li>Multi-Provider-LLM-Unterstützung (OpenAI, Groq, Gemini, Ollama)</li><li>Graph-basierte Agenten-Workflows</li><li>Streamlit-UI für interaktive Demos</li><li>Bildungsbeispiele und Dokumentation</li><li>Produktionsreife Muster zum Erstellen von agentischen Anwendungen</li></ul>"
         },
         {
             "id": 8,
@@ -330,7 +432,7 @@
             "description": "KI-Chatbot zum Finden von Sushi-Restaurants in München mit Parkunterstützung",
             "category": "agentic-llm",
             "images": [
-                "/images/hobby-project.png"
+                "/images/project/Munich-Sushi1.jpeg"
             ],
             "youtubeLink": "https://www.youtube.com/embed/8AhdfVI-oU8?si=_zJ6zAP9A762ZIFO",
             "github": "https://github.com/sshibinthomass/Munich-sushi-Chatbot",
@@ -349,7 +451,7 @@
                 "Google Maps",
                 "Web RAG"
             ],
-            "detailedDescription": "<p>KI-gesteuerter Chatbot für Sushi-Restaurant-Entdeckung in München mit Parkplatzunterstützung.</p>"
+            "detailedDescription": "<h2>Munich Sushi Chatbot</h2><p>Ein KI-gestützter Chatbot, der Benutzern hilft, Sushi-Restaurants in München mit integrierter Parkunterstützung zu entdecken.</p><h3>Funktionen</h3><ul><li><strong>Sushi-Restaurant-Entdeckung:</strong> Finden Sie die besten Sushi-Plätze basierend auf Präferenzen, Bewertungen und Standort</li><li><strong>Parkunterstützung:</strong> Erhalten Sie Informationen zu nahegelegenen Parkplätzen und Verfügbarkeit</li><li><strong>Kontextuelle Informationen:</strong> Bewertungen, Öffnungszeiten, Wegbeschreibungen und mehr</li></ul><h3>Technologie-Stack</h3><ul><li><strong>LangGraph:</strong> Für Workflow-Orchestrierung und Agenten-Logik</li><li><strong>ChromaDB:</strong> Vektorspeicher für semantische Suche</li><li><strong>MCP (Model Context Protocol):</strong> Modulare Tool-Server</li><li><strong>Google Maps API:</strong> Standort- und Parkdaten</li><li><strong>Streamlit:</strong> Benutzeroberfläche</li><li><strong>OpenAI:</strong> Sprachmodell-Backbone</li></ul>"
         },
         {
             "id": 6,
@@ -357,7 +459,11 @@
             "description": "DRO-CO Bot - KI-gesteuerter humanoider Roboter für COVID SOP Compliance",
             "category": "robotics-iot",
             "images": [
-                "/images/hobby-project.png"
+                "/images/project/NaviBot1.jpeg",
+                "/images/project/NaviBot2.jpeg",
+                "/images/project/NaviBot3.jpeg",
+                "/images/project/NaviBot4.jpeg",
+                "/images/project/NaviBot5.jpeg"
             ],
             "youtubeLink": "https://www.youtube.com/embed/QqrCg2vfLW0",
             "github": "",
@@ -372,7 +478,7 @@
                 "Robotik",
                 "Django"
             ],
-            "detailedDescription": "<p>Von TANSCST finanzierter humanoider Roboter mit Gesichtserkennung, Temperaturmessung und Sprachassistent.</p>"
+            "detailedDescription": "<h3>Finanzierung & Anerkennung</h3><p>  Dieses Projekt wurde offiziell  <strong>unter dem Student Projects Scheme (SPS)</strong> vom  <strong>Tamil Nadu State Council for Science and Technology (TANSCST)</strong>, einer Initiative der Regierung von Tamil Nadu, während des akademischen Jahres  2021–2022 <strong>finanziert</strong>.</p><p>  Das <strong>TANSCST Student Projects Scheme</strong> ist ein wettbewerbsorientiertes Finanzierungsprogramm, das innovative und sozial wirkungsvolle Abschlussprojekte von Studenten in Wissenschaft, Ingenieurwesen und Technologie unterstützt.</p><h3>Problemstellung</h3><p>  Als Reaktion auf die COVID-19-Pandemie bestand ein dringender Bedarf an  berührungslosen Systemen zur Durchsetzung von Standardarbeitsverfahren (SOPs) wie  Temperaturprüfungen, Masken-Compliance und Anwesenheit in öffentlichen Umgebungen.</p><h3>Projektzusammenfassung</h3><p>  Ich konzipierte, entwarf, programmierte und fertigte einen humanoiden Roboter namens  <strong>DRO-CO Bot</strong>, einen KI-gestützten, IoT-integrierten Roboterassistenten.  Er kann Gesichtsmasken erkennen, Temperatur ohne Kontakt messen, Gesichter  zur automatischen Anwesenheitserfassung erkennen und mit Benutzern über Spracherkennung und  KI-gesteuerte Antworten interagieren.</p><h3>Funktionen und Fähigkeiten</h3><ul>  <li>Gesichtsmaskenerkennung mit TensorFlow und MobileNetV2</li>  <li>Echtzeit-Gesichtserkennung mit OpenCV und face_recognition-Bibliothek</li>  <li>Berührungslose Temperaturmessung mit MLX90614 IR-Sensor</li>  <li>Spracherkennung und Sprachantwort mit Python, pyttsx3 und Google Speech API</li>  <li>KI-gestützter Assistent mit Wikipedia, WolframAlpha und OpenWeather-Integrationen</li>  <li>WhatsApp-Automatisierung über Selenium für Live-Berichterstattung und Benachrichtigungen</li>  <li>Servomotor-basierter Roboterarm mit 3 DOF, gesteuert von Arduino</li>  <li>Ultraschall-basierte Objekterkennung und Menschenmengenüberwachung</li>  <li>Echtzeit-Anwesenheits- und Temperaturdatenprotokollierung</li></ul><h3>Technische Umsetzung</h3><ul>  <li>Entwicklung von Vorwärts- und Rückwärtskinematik für den Roboterarm mit D-H-Parametern</li>  <li>Berechnung von Drehmoment, Spannung, Dehnung, Knicklast für Roboter-Gelenke mit PLA-Strukturmaterial</li>  <li>Entwurf und 3D-Druck aller mechanischen Komponenten mit Fusion 360 und PLA-Filament</li>  <li>Etablierung von I2C-Kommunikation zwischen Raspberry Pi und Arduino zur Sensorsteuerung</li>  <li>Verwendung von Servomotoren (MG996R, RDS3115MG) zur Gelenksteuerung mit PID-basierter Positionsrückmeldung</li></ul><h3>Ergebnis</h3><ul>  <li>Erfolgreiche Fertigung und Tests eines voll funktionsfähigen autonomen COVID-19 SOP-Durchsetzungsroboters</li>  <li>Gesichtserkennung und Anwesenheitsaufzeichnung mit >95% Genauigkeit</li>  <li>Echtzeit-Erkennung von Maskenverstößen und Benachrichtigung von Benutzern über WhatsApp</li>  <li>Erfolgreich in einer Live-Industrieumgebung getestet</li></ul><h3>Projektbudget</h3><p>Gesamtkosten: ₹28.601 INR (Optimiert durch Open-Source-Tools und erschwingliche Komponenten)</p>"
         },
         {
             "id": 4,
@@ -380,7 +486,9 @@
             "description": "IOTAR-Anwendung - AR und IoT für verbessertes Lernen",
             "category": "web-app",
             "images": [
-                "/images/hobby-project.png"
+                "/images/project/ARcadium1.jpeg",
+                "/images/project/ARcadium2.jpeg",
+                "/images/project/ARcadium3.jpeg"
             ],
             "youtubeLink": "https://www.youtube.com/embed/KQdLGSpzPxI",
             "github": "",
@@ -393,7 +501,7 @@
                 "Android App Dev",
                 "Augmented Reality"
             ],
-            "detailedDescription": "<p>AR- und IoT-basierte Lernplattform für Mitarbeiter und Studenten.</p>"
+            "detailedDescription": "<p align=\"justify\">&emsp;Augmented Reality (AR) ist eine Technologie, die digitale Informationen wie Sounds, Videos und Grafiken über die reale Umgebung legt. AR kann das Lernerlebnis verbessern, indem es interaktive und immersive Inhalte bereitstellt, die die Motivation, Aufmerksamkeit und das Verständnis der Lernenden anregen können. Internet of Things (IoT) ist eine Technologie, die physische Geräte wie Sensoren, Kameras und Aktuatoren mit dem Internet verbindet und Datenübertragung und -synchronisierung ermöglicht.<br><br>\n\n    &emsp;IOTAR ist ein Begriff, der AR und IoT kombiniert, um ein neuartiges Lernparadigma zu schaffen, das die Vorteile beider Technologien nutzt. IOTAR kann Lernenden kontextualisierte und personalisierte Lerninhalte bereitstellen, die auf ihrem Standort, ihren Präferenzen und ihrer Leistung basieren.<br><br>\n\n<b>Unsere Anwendung wurde mit AR für Mitarbeiter- und Studentenlernen mit IOTAR entwickelt. Unsere Anwendung hat die folgenden Funktionen und Vorteile:</b>\n<ul>\n<li>Sie verwendet AR, um 3D-Modelle von Objekten oder Konzepten anzuzeigen, die für die Lernziele relevant sind, wie Anatomie, Chemie, Physik oder Ingenieurwesen. Lernende können die Modelle aus verschiedenen Blickwinkeln und Perspektiven erkunden, hinein- und herauszoomen und sie drehen.</li>\n<li>Sie verwendet IoT, um Daten von Sensoren oder Geräten zu sammeln, um den Schwierigkeitsgrad, das Feedback oder den Inhalt der Lernaktivitäten entsprechend den Bedürfnissen und Präferenzen der Lernenden anzupassen.</li>\n<li>Sie verwendet AR, um gamifizierte Lernerfahrungen zu schaffen, die Lernende mit Punkten, Abzeichen, Bestenlisten oder Quests motivieren und herausfordern können.</li>\n<li>Sie verwendet IoT, um Zusammenarbeit und Kommunikation zwischen Lernenden zu ermöglichen, die sich an verschiedenen Orten befinden.</li>\n<li>Sie verwendet AR, um ein magisches Gefühl zu erzeugen, dass ein 3D-Objekt über der physischen Welt erscheint.</li>\n</ul><br>\n\n<b>Unsere Anwendung kann für verschiedene Zwecke und Kontexte verwendet werden, wie z.B.:</b>\n<ul>\n<li>Mitarbeiterschulung: Unsere Anwendung kann Mitarbeitern helfen, neue Fähigkeiten zu erlernen oder ihr Wissen auf unterhaltsame und ansprechende Weise zu aktualisieren.</li>\n<li>Studentenausbildung: Unsere Anwendung kann Studenten helfen, komplexe oder abstrakte Konzepte auf visuelle und interaktive Weise zu erlernen.</li>\n<li>Lebenslanges Lernen: Unsere Anwendung kann jedem helfen, der etwas Neues lernen oder seine Interessen auf flexible und bequeme Weise verfolgen möchte.</li>\n</ul>\n</p>"
         },
         {
             "id": 3,
@@ -401,7 +509,8 @@
             "description": "VR Unterwasser-Museum - Virtuelle Realität Unterwassererlebnis",
             "category": "web-app",
             "images": [
-                "/images/hobby-project.png"
+                "/images/project/SubMerge1.jpeg",
+                "/images/project/SubMerge2.jpeg"
             ],
             "youtubeLink": "https://www.youtube.com/embed/9ubWJePQCwg",
             "github": "",
@@ -414,7 +523,7 @@
                 "Android App Dev",
                 "Virtual Reality"
             ],
-            "detailedDescription": "<p>Immersive VR-Anwendung für Android mit Unity und Google VR für interaktive Unterwassererlebnisse.</p>"
+            "detailedDescription": "<h1>VR Unterwassererlebnis - Projektdokumentation</h1><h2>Überblick</h2><p>  Ich entwickelte eine immersive Virtual Reality (VR) Anwendung für Android  Geräte mit Unity und Google VR. Diese Anwendung bietet Benutzern ein  interaktives Unterwassererlebnis und ermöglicht es ihnen, vier einzigartige  Umgebungen zu erkunden: Tower, Ship, Dance und Ride. Der Benutzer interagiert mit der  virtuellen Welt durch intuitive blickbasierte Navigation.</p><h2>Hauptmenü und Navigation</h2><p>  Beim Starten der Anwendung wird das Unity-Logo angezeigt. Nach dem Laden wird der Benutzer mit einem Hauptmenü begrüßt,  das die folgenden Optionen bietet:</p><ul>  <li>Tower</li>  <li>Dance</li>  <li>Ship</li>  <li>Ride</li></ul><p>  Das Menü wird mit blickbasierter Eingabe gesteuert. Benutzer schauen einfach auf eine der  Menüoptionen, um eine Auswahl zu treffen.</p><h2>Szenen und Funktionen</h2><h3>Tower-Bereich</h3><p>  Die Auswahl der Option 'Tower' versetzt den Benutzer in eine ruhige Unterwasser  Umgebung auf dem Meeresboden. Die Szene enthält:</p><ul>  <li>Blaue Haie, die durch die Szene schwimmen.</li>  <li>Eine zentrale turmartige Struktur, die architektonische Tiefe bietet.</li>  <li>Rosa und hellblaue Meerestiere, die lebendiges Meeresleben hinzufügen.</li>  <li>Realistische Meeresbodendetails wie Felsen, Seetang und Meeresflora.</li>  <li>Dunkler gefärbte Haie und weiße Wale, die durch das Wasser gleiten.</li>  <li>    Eine leuchtende grüne Kugel, die in der Nähe des Meeresbodens positioniert ist, um Neugier zu wecken.  </li></ul><h3>Ship-Bereich</h3><p>  Die 'Ship' Umgebung zeigt ein großes, teilweise versunkenes Schiff, das aus  verschiedenen Blickwinkeln betrachtet wird, während die Kamera dynamisch schwenkt.</p><h3>Dance-Bereich</h3><p>  Im 'Dance' Bereich habe ich eine choreografierte Sequenz erstellt, in der Meerestiere  sich synchron bewegen und einer Tanzaufführung ähneln.</p><h3>Ride-Bereich</h3><p>  Die Auswahl von 'Ride' bietet Benutzern eine geführte bootähnliche Reise durch die Unterwasserwelt.</p><h2>Technologie-Stack</h2><ul>  <li>    <strong>Unity:</strong> Spiel-Engine, die für die Entwicklung des VR-Erlebnisses verwendet wird.  </li>  <li>    <strong>Google VR SDK:</strong> Integriert zur Aktivierung von VR-Unterstützung auf Android-Geräten.  </li>  <li>    <strong>Blender:</strong> Verwendet zur Modellierung und Animation von 3D-Meereslebewesen.  </li>  <li>    <strong>C#:</strong> Programmiersprache, die innerhalb von Unity für Scripting verwendet wird.  </li></ul>"
         },
         {
             "id": 2,
@@ -422,7 +531,8 @@
             "description": "RosaryPlantHouse.com – E-Commerce-Webanwendung für Pflanzenliebhaber",
             "category": "web-app",
             "images": [
-                "/images/hobby-project.png"
+                "/images/project/Spikora1.jpeg",
+                "/images/project/Spikora2.jpeg"
             ],
             "youtubeLink": "",
             "github": "",
@@ -436,7 +546,7 @@
                 "JavaScript",
                 "E-Commerce"
             ],
-            "detailedDescription": "<p>Statische E-Commerce-Website für Pflanzenliebhaber mit WhatsApp-basiertem Checkout.</p>"
+            "detailedDescription": "<h2>RosaryPlantHouse.com – E-Commerce-Webanwendung</h2><p>  Ich entwickelte <strong>RosaryPlantHouse.com</strong>, eine statische E-Commerce  Website, die speziell für Pflanzenliebhaber entwickelt wurde. Dieses Projekt stellt eine  vollständige End-to-End-Lösung dar, die ich erstellt habe und die alles von  Architektur und Datenverwaltung bis hin zu Benutzererfahrung und operativem Design umfasst.  Die Plattform wurde für Leistung, Einfachheit und minimalen operativen  Overhead entwickelt und zeigt meine Fähigkeiten in kreativer Problemlösung, Front-End  Engineering und strategischem Produktdenken.</p><h3><strong>Executive Summary</strong></h3><p>  Die Rosary Plant House Anwendung wurde vollständig als statische Website  entwickelt, wobei clientseitiges JavaScript die gesamte Interaktivität antreibt. Dies umfasst ein  ausgeklügeltes Produktkatalog, Warenkorbverwaltungssystem und einen neuartigen  WhatsApp-basierten Checkout-Mechanismus, den ich als innovative Alternative zur  traditionellen E-Commerce-Infrastruktur entwickelt habe.</p><h3><strong>Systemarchitektur und Technologie-Stack</strong></h3><h4><strong>'Static-First' E-Commerce-Engine</strong></h4><p>  Ich baute die Website mit einem Jamstack-Ansatz, der vorgefertigte HTML-Seiten  wie <code>catalogue.html</code> und <code>restocked.html</code> für  Leistung und Sicherheit liefert. Die gesamte Warenkorb-, Filter- und UI-Logik wird von  clientseitigem JavaScript angetrieben, wodurch kein Backend-Server erforderlich ist.</p><h4><strong>Leistung, Sicherheit und operative Effizienz</strong></h4><ul>  <li><strong>Leistung:</strong> Gehostet auf einem CDN für schnelle Ladezeiten.</li>  <li><strong>Sicherheit:</strong> Kein Backend = minimale Angriffsfläche.</li>  <li>    <strong>Wartung:</strong> Kein Server oder Datenbank zu warten,    was die Kosten erheblich senkt.  </li></ul><h4><strong>Technologie-Stack</strong></h4><ul>  <li><strong>HTML5, CSS:</strong> Für Struktur und responsives Design.</li>  <li>    <strong>JavaScript:</strong> Für Warenkorb, Filterung und Checkout-Integration.  </li>  <li>    <strong>Web Storage API (localStorage):</strong> Zum Persistieren des Warenkorbzustands    über Sitzungen hinweg.  </li></ul><h4><strong>WhatsApp Checkout – 'Conversational Commerce'</strong></h4><p>  Ich entwickelte einen einzigartigen clientseitigen Checkout, der die WhatsApp API verwendet. Beim  Klicken auf 'Bestellung aufgeben':</p><ol>  <li>JavaScript kompiliert den Warenkorb in eine formatierte Nachricht.</li>  <li>    Es URL-kodiert die Nachricht und leitet den Benutzer über einen    <code>https://wa.me</code> Link zu WhatsApp weiter.  </li>  <li>    Das Unternehmen erhält die Nachricht direkt und bestätigt die Bestellung manuell.  </li></ol><h3><strong>Fazit</strong></h3><p>  Dieses Projekt ist ein vollständiges, reales Beispiel für intelligentes Design unter  engen Einschränkungen. Es zeigt meine Full-Stack-Problemlösungsfähigkeit, meine  Kompetenz in der statischen Webentwicklung und meine kreative Nutzung bestehender Tools  (wie WhatsApp), um Geschäftsherausforderungen zu lösen.</p>"
         }
     ]
 }
