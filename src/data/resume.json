@@ -22,9 +22,9 @@
                 "period": "June 2021 - October 2023",
                 "description": "Led AI automation projects and customer support AI solutions",
                 "achievements": [
-                    "Fine-tuned DialoGPT, improving customer query response speed reducing human intervention in support tickets from 70% to 35% and cutting response time by about 40%",
+                    " Built an NLP-based customer feedback classification system using TF-IDF and Logistic Regression to automate text categorization.",
                     "Collaborated with clients to gain understanding of products and improve their usability",
-                    "Led AI automation projects integrating Intelligent Document Processing (IDP), reducing manual form processing from 2 hours to 30 minutes",
+                    " Reduced manual review time by 40% and improved classification accuracy by 12% through preprocessing improvements and model tuning.",
                     "Achieved Spotlight of the Month (twice) for AI innovation"
                 ]
             },
