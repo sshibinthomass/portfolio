@@ -14,9 +14,14 @@
         "stampCollection": "Stamp Collection",
         "reading": "Reading",
         "gardening": "Gardening",
-        "travel": "Travel"
+        "travel": "Travel",
+        "inProgressTitle": "Section Under Development",
+        "inProgressText": "Please note that this hobbies section is currently a work-in-progress and not fully added. Some pages are still under construction as I compile my collections, travel logs, and photographs.",
+        "dummyDataTitle": "Dummy Data",
+        "dummyDataText": "The destinations, photos, and details shown below are placeholder/sample data. Real travel logs and personal photographs will be added soon."
     },
     "home": {
+        "welcome": "Welcome to my space",
         "title": "Hi, I'm",
         "subtitle": "AGI Aspiration & AI Enthusiast | Building new things every day",
         "about": "About Me",

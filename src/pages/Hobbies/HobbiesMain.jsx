@@ -26,6 +26,19 @@ const HobbiesMain = () => {
                 >
                     <h1 className="section-title">{t('nav.hobbies')}</h1>
 
+                    <motion.div
+                        className="hobbies-in-progress-banner"
+                        initial={{ opacity: 0, y: 10 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ duration: 0.5, delay: 0.2 }}
+                    >
+                        <div className="banner-icon">🚧</div>
+                        <div className="banner-content">
+                            <span className="banner-title">{t('hobbies.inProgressTitle')}</span>
+                            <span className="banner-text">{t('hobbies.inProgressText')}</span>
+                        </div>
+                    </motion.div>
+
                     <div className="hobbies-grid">
                         {hobbies.map((hobby, index) => (
                             <motion.div

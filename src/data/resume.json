@@ -3,10 +3,22 @@
         "experience": [
             {
                 "id": 1,
+                "title": "Gen AI in Cost Engineering (Master Thesis)",
+                "company": "BMW Group",
+                "location": "Munich, Germany",
+                "period": "April 2026 – Present",
+                "description": "Topic: Observable Agentic RAG for Cost Optimization in Unstructured Supplier Data Processing",
+                "achievements": [
+                    "Architected an observable Agentic Graph RAG pipeline that automated structured extraction from unstructured supplier data using adaptive retrieval, hybrid search, and GDPR-compliant web ingestion workflows.",
+                    "Designed a self-optimizing multi-agent LLMOps framework integrating evaluation pipelines, Human-in-the-Loop validation, guardrails, and AI tracing to improve extraction reliability, parameter identification, and hallucination mitigation at scale."
+                ]
+            },
+            {
+                "id": 2,
                 "title": "Generative AI Intern",
                 "company": "BMW Group",
                 "location": "Munich, Germany",
-                "period": "August 2025 - Present",
+                "period": "August 2025 - February 2026",
                 "description": "Part of Research team working on LLMs and AI Agents",
                 "achievements": [
                     "Optimized multi-turn and complex query handling with multi-tool interactions, cutting tool processing time by 50% for BMW infotainment systems",
@@ -15,7 +27,7 @@
                 ]
             },
             {
-                "id": 2,
+                "id": 3,
                 "title": "Associate Technical Consultant",
                 "company": "Vuram Technologies",
                 "location": "India",
@@ -29,7 +41,7 @@
                 ]
             },
             {
-                "id": 3,
+                "id": 4,
                 "title": "Machine Learning Intern",
                 "company": "DeepVisionTech.AI",
                 "location": "Bangalore, India",
@@ -65,10 +77,22 @@
         "experience": [
             {
                 "id": 1,
+                "title": "Gen AI in Cost Engineering (Masterarbeit)",
+                "company": "BMW Group",
+                "location": "München, Deutschland",
+                "period": "April 2026 – Heute",
+                "description": "Thema: Observable Agentic RAG zur Kostenoptimierung bei der Verarbeitung unstrukturierter Lieferantendaten",
+                "achievements": [
+                    "Architektur einer observierbaren Agentic Graph RAG-Pipeline zur automatisierten strukturierten Extraktion aus unstrukturierten Lieferantendaten mittels adaptivem Retrieval, Hybridsuche und DSGVO-konformen Web-Ingestion-Workflows.",
+                    "Entwurf eines selbstoptimierenden Multi-Agenten-LLMOps-Frameworks mit integrierten Evaluierungs-Pipelines, Human-in-the-Loop-Validierung, Guardrails und KI-Tracing zur Verbesserung der Extraktionszuverlässigkeit, Parameteridentifizierung und Halluzinationsminimierung im großen Maßstab."
+                ]
+            },
+            {
+                "id": 2,
                 "title": "Praktikant im Bereich Generative KI",
                 "company": "BMW Group",
                 "location": "München, Deutschland",
-                "period": "August 2025 - Heute",
+                "period": "August 2025 - Februar 2026",
                 "description": "Teil des Forschungsteams, das an LLMs und KI-Agenten arbeitet",
                 "achievements": [
                     "Optimierung der Multi-Turn- und komplexen Abfragebearbeitung mit Multi-Tool-Interaktionen, Reduzierung der Tool-Verarbeitungszeit um 50% für BMW-Infotainmentsysteme",
@@ -77,7 +101,7 @@
                 ]
             },
             {
-                "id": 2,
+                "id": 3,
                 "title": "Associate Technical Consultant",
                 "company": "Vuram Technologies",
                 "location": "Indien",
@@ -91,7 +115,7 @@
                 ]
             },
             {
-                "id": 3,
+                "id": 4,
                 "title": "Machine Learning Praktikant",
                 "company": "DeepVisionTech.AI",
                 "location": "Bangalore, Indien",

@@ -40,6 +40,10 @@ const Header = () => {
                 <div className="header-content">
                     <Link to={`/${currentLang}`} className="logo">
                         <span className="logo-text">Portfolio</span>
+                        <div className="status-beacon" title="Agent Status: Active">
+                            <span className="beacon-ping"></span>
+                            <span className="beacon-dot"></span>
+                        </div>
                     </Link>
 
                     <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>

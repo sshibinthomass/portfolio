@@ -2,80 +2,72 @@
     "en": {
         "skills": [
             {
-                "name": "Python",
+                "name": "Multi-Agent Architectures",
                 "percentage": 95
             },
             {
-                "name": "LLM Fine-Tuning",
-                "percentage": 70
+                "name": "Graph & Hybrid RAG",
+                "percentage": 92
             },
             {
-                "name": "RAG and Graph RAG",
-                "percentage": 80
-            },
-            {
-                "name": "ADKs (LangChain, LangGraph, Google ADK, Claude SDK)",
+                "name": "LLMOps & AI Observability",
                 "percentage": 90
             },
             {
-                "name": "Deep Learning, Neural Networks and NLP",
+                "name": "AI Evaluation Pipelines",
+                "percentage": 88
+            },
+            {
+                "name": "Scalable AI Systems",
+                "percentage": 85
+            },
+            {
+                "name": "Fine-Tuning LLMs",
+                "percentage": 80
+            },
+            {
+                "name": "Planning & Reasoning",
                 "percentage": 90
             },
             {
-                "name": "MCP, A2A, and Tools",
-                "percentage": 80
-            },
-            {
-                "name": "PyTorch / TensorFlow",
-                "percentage": 80
-            },
-            {
-                "name": "MLOps & LLMOps",
-                "percentage": 80
-            },
-            {
-                "name": "Agentic AI & AI Agents",
-                "percentage": 95
+                "name": "Multimodal AI",
+                "percentage": 85
             }
         ]
     },
     "de": {
         "skills": [
             {
-                "name": "Python",
+                "name": "Multi-Agenten-Architekturen",
                 "percentage": 95
             },
             {
-                "name": "LLM Fine-Tuning",
-                "percentage": 70
+                "name": "Graph & Hybrid RAG",
+                "percentage": 92
             },
             {
-                "name": "RAG and Graph RAG",
-                "percentage": 80
-            },
-            {
-                "name": "ADKs (LangChain, LangGraph, Google ADK, Claude SDK)",
+                "name": "LLMOps & KI-Observability",
                 "percentage": 90
             },
             {
-                "name": "Deep Learning, Neural Networks and NLP",
+                "name": "KI-Evaluierungspipelines",
+                "percentage": 88
+            },
+            {
+                "name": "Skalierbare KI-Systeme",
+                "percentage": 85
+            },
+            {
+                "name": "Fine-Tuning von LLMs",
+                "percentage": 80
+            },
+            {
+                "name": "Planung & Reasoning",
                 "percentage": 90
             },
             {
-                "name": "MCP, A2A, and Tools",
-                "percentage": 80
-            },
-            {
-                "name": "PyTorch / TensorFlow",
-                "percentage": 80
-            },
-            {
-                "name": "MLOps & LLMOps",
-                "percentage": 80
-            },
-            {
-                "name": "Agentic AI & AI Agents",
-                "percentage": 95
+                "name": "Multimodale KI",
+                "percentage": 85
             }
         ]
     }

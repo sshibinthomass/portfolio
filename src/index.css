@@ -1,51 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap');
 
 :root {
-  /* Light Mode Colors */
-  --bg-primary: #ffffff;
-  --bg-secondary: #f8f9fa;
-  --bg-tertiary: #e9ecef;
-  --text-primary: #1a1a2e;
-  --text-secondary: #4a4a68;
-  --text-tertiary: #6c757d;
-  --accent-primary: #6366f1;
-  --accent-secondary: #8b5cf6;
-  --accent-gradient: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+  /* Light Mode Colors - Futuristic Cyber Theme */
+  --bg-primary: #fcfdfe;
+  --bg-secondary: #f3f5fa;
+  --bg-tertiary: #e7ebf4;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-tertiary: #94a3b8;
+  --accent-primary: #4f46e5; /* Electric Indigo */
+  --accent-secondary: #06b6d4; /* Cyber Cyan */
+  --accent-gradient: linear-gradient(135deg, #4f46e5 0%, #06b6d4 100%);
   --success: #10b981;
   --warning: #f59e0b;
   --error: #ef4444;
-  --border-color: #e5e7eb;
+  --border-color: rgba(99, 102, 241, 0.1);
   --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
-  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  --blur-bg: rgba(255, 255, 255, 0.8);
+  --shadow-md: 0 4px 6px -1px rgba(99, 102, 241, 0.05), 0 2px 4px -1px rgba(99, 102, 241, 0.03);
+  --shadow-lg: 0 10px 15px -3px rgba(99, 102, 241, 0.08), 0 4px 6px -2px rgba(99, 102, 241, 0.04);
+  --shadow-xl: 0 20px 25px -5px rgba(99, 102, 241, 0.1), 0 10px 10px -5px rgba(99, 102, 241, 0.05);
+  --blur-bg: rgba(252, 253, 254, 0.75);
   --card-bg: #ffffff;
-  --card-hover-shadow: 0 20px 40px rgba(99, 102, 241, 0.15);
+  --card-hover-shadow: 0 20px 40px rgba(99, 102, 241, 0.1);
 }
 
 [data-theme='dark'] {
-  /* Dark Mode Colors */
-  --bg-primary: #0f172a;
-  --bg-secondary: #1e293b;
-  --bg-tertiary: #334155;
-  --text-primary: #f1f5f9;
-  --text-secondary: #cbd5e1;
-  --text-tertiary: #94a3b8;
-  --accent-primary: #818cf8;
-  --accent-secondary: #a78bfa;
-  --accent-gradient: linear-gradient(135deg, #818cf8 0%, #a78bfa 100%);
+  /* Dark Mode Colors - Deep Space AI Theme */
+  --bg-primary: #050814; /* Deep cyber black */
+  --bg-secondary: #090e1f; /* Deep cyber slate blue */
+  --bg-tertiary: #111a35;
+  --text-primary: #f8fafc;
+  --text-secondary: #94a3b8;
+  --text-tertiary: #475569;
+  --accent-primary: #818cf8; /* Light indigo */
+  --accent-secondary: #22d3ee; /* Neon Cyan */
+  --accent-gradient: linear-gradient(135deg, #818cf8 0%, #22d3ee 100%);
   --success: #34d399;
   --warning: #fbbf24;
   --error: #f87171;
-  --border-color: #334155;
+  --border-color: rgba(129, 140, 248, 0.16);
   --shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.3);
   --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.4), 0 4px 6px -2px rgba(0, 0, 0, 0.3);
-  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.5), 0 10px 10px -5px rgba(0, 0, 0, 0.4);
-  --blur-bg: rgba(15, 23, 42, 0.8);
-  --card-bg: #1e293b;
-  --card-hover-shadow: 0 20px 40px rgba(129, 140, 248, 0.2);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.45), 0 4px 6px -2px rgba(0, 0, 0, 0.3);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.55), 0 10px 10px -5px rgba(0, 0, 0, 0.4);
+  --blur-bg: rgba(5, 8, 20, 0.75);
+  --card-bg: #070c1a;
+  --card-hover-shadow: 0 20px 45px rgba(34, 211, 238, 0.15);
 }
 
 * {
@@ -59,14 +59,30 @@ html {
 }
 
 body {
-  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--bg-primary);
   color: var(--text-primary);
   line-height: 1.6;
   transition: background-color 0.3s ease, color 0.3s ease;
+  position: relative;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: 
+    linear-gradient(var(--border-color) 0.8px, transparent 0.8px),
+    linear-gradient(90deg, var(--border-color) 0.8px, transparent 0.8px);
+  background-size: 60px 60px;
+  opacity: 0.35;
+  z-index: -2;
+  pointer-events: none;
 }
 
 #root {
@@ -76,9 +92,11 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 600;
+  font-family: 'Space Grotesk', 'Inter', sans-serif;
+  font-weight: 700;
   line-height: 1.2;
   color: var(--text-primary);
+  letter-spacing: -0.01em;
 }
 
 h1 { font-size: 2.5rem; }
@@ -143,6 +161,15 @@ img {
   background: var(--accent-gradient);
   margin: 1rem auto 0;
   border-radius: 2px;
+}
+
+.section-tag {
+  font-family: 'Fira Code', monospace;
+  font-size: 1.1rem;
+  color: var(--accent-secondary);
+  margin-right: 0.5rem;
+  font-weight: 500;
+  opacity: 0.85;
 }
 
 .grid {

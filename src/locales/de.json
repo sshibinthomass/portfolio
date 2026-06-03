@@ -14,9 +14,14 @@
         "stampCollection": "Briefmarkensammlung",
         "reading": "Lesen",
         "gardening": "Gärtnern",
-        "travel": "Reisen"
+        "travel": "Reisen",
+        "inProgressTitle": "Bereich im Aufbau",
+        "inProgressText": "Bitte beachten Sie, dass dieser Hobbys-Bereich derzeit noch in Bearbeitung ist und noch nicht vollständig hinzugefügt wurde. Einige Seiten befinden sich noch in der Entwicklung, während ich meine Sammlungen, Reiseprotokolle und Fotos zusammenstelle.",
+        "dummyDataTitle": "Platzhalterdaten",
+        "dummyDataText": "Die unten gezeigten Reiseziele, Fotos und Details sind Platzhalter-/Beispieldaten. Echte Reiseprotokolle und persönliche Fotos werden in Kürze hinzugefügt."
     },
     "home": {
+        "welcome": "Willkommen in meinem Bereich",
         "title": "Hallo, ich bin",
         "subtitle": "AGI-Aspiration & KI-Enthusiast | Baue jeden Tag neue Dinge",
         "about": "Über mich",
@@ -26,7 +31,7 @@
     },
     "skills": {
         "title": "Meine Fähigkeiten",
-        "description": "Hier sind einige der Technologien und Tools, mit denen ich arbeite"
+        "description": "Hier sind einige der Technologien und tools, mit denen ich arbeite"
     },
     "resume": {
         "title": "Lebenslauf",
@@ -36,7 +41,7 @@
     },
     "projects": {
         "title": "Projekte",
-        "description": "Einige meiner neuesten Arbeiten",
+        "description": "Einige meiner jüngsten Arbeiten",
         "viewDetails": "Details anzeigen",
         "technologies": "Technologien",
         "sourceCode": "Quellcode",
@@ -48,11 +53,11 @@
     },
     "hobbyProjects": {
         "title": "Hobbyprojekte",
-        "description": "Persönliche Projekte, die ich zum Spaß und zum Lernen erstellt habe",
+        "description": "Persönliche Projekte, die ich zum Spaß und Lernen gebaut habe",
         "categories": {
             "all": "Alle",
-            "agentic-llm": "Agentic/LLM",
-            "robotics-iot": "Robotik/IOT",
+            "agentic-llm": "Agentik/LLM",
+            "robotics-iot": "Robotik/IoT",
             "web-app": "Web/App"
         }
     },
@@ -68,18 +73,18 @@
     },
     "research": {
         "title": "Forschung",
-        "description": "Meine Forschungsarbeit und Veröffentlichungen",
+        "description": "Meine Forschungsarbeit und Publikationen",
         "readMore": "Mehr lesen",
         "abstract": "Zusammenfassung"
     },
     "common": {
         "close": "Schließen",
         "learnMore": "Mehr erfahren",
-        "backToTop": "Nach oben",
-        "loading": "Laden..."
+        "backToTop": "Zurück nach oben",
+        "loading": "Wird geladen..."
     },
     "footer": {
         "rights": "Alle Rechte vorbehalten",
-        "followMe": "Folge mir auf"
+        "followMe": "Folgen Sie mir auf"
     }
 }

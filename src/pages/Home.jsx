@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { Link, useParams } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import SkillBar from '../components/SkillBar/SkillBar';
+import NeuralBackground from '../components/NeuralBackground/NeuralBackground';
 import skillsData from '../data/skills.json';
 import resumeData from '../data/resume.json';
 import projectsData from '../data/projects.json';
@@ -44,37 +45,129 @@ const Home = () => {
 
     return (
         <div className="home">
+            <NeuralBackground />
             {/* Hero Section */}
             <div className="hero">
+                {/* Background blobs for premium modern visual appeal */}
+                <motion.div 
+                    className="hero-blob blob-1"
+                    animate={{
+                        x: [0, 30, -20, 0],
+                        y: [0, -40, 20, 0],
+                        scale: [1, 1.1, 0.9, 1],
+                    }}
+                    transition={{
+                        duration: 8,
+                        repeat: Infinity,
+                        ease: "easeInOut",
+                    }}
+                />
+                <motion.div 
+                    className="hero-blob blob-2"
+                    animate={{
+                        x: [0, -40, 30, 0],
+                        y: [0, 30, -30, 0],
+                        scale: [1, 0.9, 1.1, 1],
+                    }}
+                    transition={{
+                        duration: 10,
+                        repeat: Infinity,
+                        ease: "easeInOut",
+                        delay: 1,
+                    }}
+                />
+                
                 <div className="container">
                     <div className="hero-content">
-                        <motion.div
-                            className="hero-text"
-                            initial={{ opacity: 0, y: 30 }}
-                            animate={{ opacity: 1, y: 0 }}
-                            transition={{ duration: 0.6 }}
-                        >
-                            <h1 className="hero-title">
+                        <div className="hero-text">
+                            <motion.div
+                                className="welcome-chip"
+                                initial={{ opacity: 0, y: 15 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.5, delay: 0.1 }}
+                            >
+                                <span className="welcome-wave">👋</span>
+                                <span>{t('home.welcome')}</span>
+                            </motion.div>
+                            
+                            <motion.h1 
+                                className="hero-title"
+                                initial={{ opacity: 0, y: 20 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.5, delay: 0.2 }}
+                            >
                                 {t('home.title')} <span className="gradient-text">Shibin Thomas</span>
-                            </h1>
-                            <p className="hero-subtitle">{t('home.subtitle')}</p>
-                            <div className="hero-buttons">
+                            </motion.h1>
+                            
+                            <motion.p 
+                                className="hero-subtitle"
+                                initial={{ opacity: 0, y: 20 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.5, delay: 0.3 }}
+                            >
+                                {t('home.subtitle')}
+                            </motion.p>
+                            
+                            <motion.div 
+                                className="hero-tech-pills"
+                                initial={{ opacity: 0, y: 20 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.5, delay: 0.4 }}
+                            >
+                                <span className="tech-pill">🤖 Multi-Agent Architectures</span>
+                                <span className="tech-pill">🧠 Graph & Hybrid RAG</span>
+                                <span className="tech-pill">🔍 LLMOps & AI Observability</span>
+                                <span className="tech-pill">🧪 AI Evaluation Pipelines</span>
+                                <span className="tech-pill">⚡ Scalable AI Systems</span>
+                                <span className="tech-pill">🎯 Fine-Tuning LLMs</span>
+                                <span className="tech-pill">🧩 Planning & Reasoning</span>
+                                <span className="tech-pill">🎨 Multimodal AI</span>
+                            </motion.div>
+                            
+                            <motion.div 
+                                className="hero-buttons"
+                                initial={{ opacity: 0, y: 20 }}
+                                animate={{ opacity: 1, y: 0 }}
+                                transition={{ duration: 0.5, delay: 0.5 }}
+                            >
                                 <a href="#projects" className="btn btn-primary">
                                     {t('nav.projects')}
                                 </a>
                                 <a href="#resume" className="btn btn-secondary">
                                     {t('home.viewResume')}
                                 </a>
-                            </div>
-                        </motion.div>
-                        <motion.div
-                            className="hero-image"
-                            initial={{ opacity: 0, scale: 0.9 }}
-                            animate={{ opacity: 1, scale: 1 }}
-                            transition={{ duration: 0.6, delay: 0.2 }}
-                        >
-                            <img src="/images/profile.jpg" alt="Profile" />
-                        </motion.div>
+                            </motion.div>
+                        </div>
+                        
+                        <div className="hero-image-container">
+                            <motion.div
+                                className="hero-image-wrapper"
+                                initial={{ opacity: 0, scale: 0.9 }}
+                                animate={{ opacity: 1, scale: 1 }}
+                                transition={{ duration: 0.6, delay: 0.3 }}
+                            >
+                                <img src="/images/profile.jpg" alt="Profile" />
+                                
+                                {/* Floating Badges */}
+                                <motion.div 
+                                    className="floating-badge badge-top-left"
+                                    animate={{ y: [0, -8, 0] }}
+                                    transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
+                                >
+                                    <span className="badge-icon">🤖</span>
+                                    <span className="badge-text">Agentic AI Engineer</span>
+                                </motion.div>
+                                
+                                <motion.div 
+                                    className="floating-badge badge-bottom-right"
+                                    animate={{ y: [0, 8, 0] }}
+                                    transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 1.5 }}
+                                >
+                                    <span className="badge-icon">🚀</span>
+                                    <span className="badge-text">AGI Enthusiast</span>
+                                </motion.div>
+                            </motion.div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -199,6 +292,14 @@ const Home = () => {
                                 <img src={getProjectImage(project)} alt={project.title} className="link-card-image" />
                                 <h4 className="link-card-title">{project.title}</h4>
                                 <p className="link-card-desc" style={{ display: '-webkit-box', WebkitLineClamp: 3, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>{project.description}</p>
+                                {project.technologies && (
+                                    <div className="link-card-tags">
+                                        {project.technologies.slice(0, 4).map((tech, i) => {
+                                            const techName = typeof tech === 'object' ? tech.name : tech;
+                                            return <span key={i} className="link-card-tag">{techName}</span>;
+                                        })}
+                                    </div>
+                                )}
                             </Link>
                         ))}
                     </div>
@@ -233,6 +334,14 @@ const Home = () => {
                                 />
                                 <h4 className="link-card-title">{project.title}</h4>
                                 <p className="link-card-desc" style={{ display: '-webkit-box', WebkitLineClamp: 3, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>{project.description}</p>
+                                {project.technologies && (
+                                    <div className="link-card-tags">
+                                        {project.technologies.slice(0, 4).map((tech, i) => {
+                                            const techName = typeof tech === 'object' ? tech.name : tech;
+                                            return <span key={i} className="link-card-tag">{techName}</span>;
+                                        })}
+                                    </div>
+                                )}
                             </Link>
                         ))}
                     </div>
