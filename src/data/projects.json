@@ -74,6 +74,121 @@
             "duration": "5 months",
             "date": "",
             "detailedDescription": "<h3>Introduction</h3><p>Yoga is an ancient practice aimed at harmonizing body, mind, and soul, offering benefits like flexibility, strength, and mental health. However, challenges like finding time, space, or instructors, and maintaining focus can hinder practice.</p><h3>Solution: YogaVision VR</h3><p>To address these challenges, we developed a smart, interactive VR device designed to enhance the yoga experience. Unlike standard headsets, it adapts to your needs and actively guides your journey.</p><h3>Key Features</h3><ul><li><strong>Lightweight & Durable Headset:</strong> Flexible material with cotton cushioning for pressure-free comfort.</li><li><strong>Next-Gen Lenses:</strong> Wide field of view with reduced glare for crystal-clear HD optics.</li><li><strong>LRPF Filters & IPD Adjuster:</strong> Blue light protection, contrast enhancement, and customizable lens distance.</li><li><strong>Inbuilt Spatial Audio:</strong> Integrated speakers providing immersive 3D soundscapes.</li><li><strong>Pulse Rate Monitoring:</strong> Real-time pulse and temperature sensors to track wellness and adjust intensity.</li><li><strong>Controller-less VR:</strong> Hands-free interaction using head movements, gaze, voice, and gestures.</li><li><strong>Interactive Virtual Tutor:</strong> Voice-responsive AI tutor providing personalized feedback, tips, and encouragement.</li><li><strong>Gaze Interaction:</strong> Navigate menus and change environments (e.g., Mountain to Beach) simply by looking at icons.</li><li><strong>Gyroscopic Walk:</strong> Explore 360-degree environments with a simple 30-degree head tilt—no controllers needed.</li><li><strong>3D Virtual Buttons:</strong> Intuitive controls for playback and settings within the VR space.</li><li><strong>Simple UI:</strong> User-friendly interface accessible for all ages.</li></ul><h3>Use Cases</h3><ul><li><strong>Employee Wellness:</strong> Reduces stress and burnout by offering an accessible escape and relaxation tool.</li><li><strong>Student Education:</strong> Interactive learning to develop concentration, memory, and physical health.</li><li><strong>Lifelong Learning:</strong> Personalized, adaptive yoga sessions for continuous self-improvement and well-being.</li></ul><h3>Conclusion</h3><p>We believe YogaVision can revolutionize yoga practice through innovation, inspiring learners of all backgrounds to achieve their physical and mental goals.</p>"
+        },
+        {
+            "id": 4,
+            "title": "WebXRify",
+            "subtitle": "Bridging Single-Image 3D Generation and Browser-Based AR",
+            "description": "Research-led camera-to-3D pipeline that turns a mobile image into a reusable GLB and places it through browser-based WebXR",
+            "images": [
+                "/images/project/WebXRify1.png",
+                "/images/project/WebXRify2.png",
+                "/images/project/WebXRify3.png",
+                "/images/project/WebXRify4.png"
+            ],
+            "technologies": [
+                "WebXR",
+                "Three.js",
+                "Grounding DINO",
+                "DETR",
+                "SAM2",
+                "Swin2SR",
+                "Image-to-3D",
+                "Blender",
+                "GLB / glTF",
+                "Cloudflare Workers",
+                "Cloudflare R2",
+                "TypeScript"
+            ],
+            "youtubeLink": "",
+            "github": "https://github.com/sshibinthomass/Web-AR",
+            "appLink": "",
+            "purpose": "Independent Research & Engineering",
+            "duration": "Ongoing",
+            "date": "July 2026",
+            "pipeline": [
+                {
+                    "stage": "01",
+                    "title": "Capture",
+                    "description": "Standardize a mobile photograph and retain the target phrase as part of the request."
+                },
+                {
+                    "stage": "02",
+                    "title": "Localize",
+                    "description": "Combine open-vocabulary Grounding DINO with a household-adapted DETR candidate path."
+                },
+                {
+                    "stage": "03",
+                    "title": "Prepare",
+                    "description": "Use box-prompted SAM2 and route the reference through source-derived preservation or disclosed recovery."
+                },
+                {
+                    "stage": "04",
+                    "title": "Generate",
+                    "description": "Submit the selected reference to an asynchronous image-to-3D job boundary."
+                },
+                {
+                    "stage": "05",
+                    "title": "Persist",
+                    "description": "Convert with fidelity-conscious Blender defaults and store a reusable GLB with provenance."
+                },
+                {
+                    "stage": "06",
+                    "title": "Place",
+                    "description": "Load with Three.js and place the asset on a detected surface in compatible Android WebXR."
+                }
+            ],
+            "metrics": [
+                {
+                    "label": "DETR mAP",
+                    "before": "0.2399",
+                    "after": "0.2490",
+                    "note": "603 images / 1,605 boxes"
+                },
+                {
+                    "label": "DETR mAR@100",
+                    "before": "0.4094",
+                    "after": "0.4313",
+                    "note": "Modest gain in object coverage"
+                },
+                {
+                    "label": "SAM2 selected IoU",
+                    "before": "0.7491",
+                    "after": "0.8006",
+                    "note": "895 held-out instances"
+                },
+                {
+                    "label": "SAM2 Dice",
+                    "before": "0.7556",
+                    "after": "0.8805",
+                    "note": "Higher overlap with broader masks"
+                }
+            ],
+            "highlights": [
+                {
+                    "title": "Source accountability",
+                    "text": "Every prepared reference records whether it came from source-derived segmentation and restoration or a synthesis-permitting recovery route.",
+                    "tone": "evidence"
+                },
+                {
+                    "title": "Evidence boundary",
+                    "text": "The measured gains apply to the reviewed DETR and SAM2 components. They do not yet prove better generated meshes, latency, reliability, or WebXR usability end to end.",
+                    "tone": "caution"
+                }
+            ],
+            "externalLinks": [
+                {
+                    "label": "WebXR & Image-to-3D Repository",
+                    "url": "https://github.com/sshibinthomass/Web-AR",
+                    "kind": "primary"
+                },
+                {
+                    "label": "Image-Target AR Repository",
+                    "url": "https://github.com/sshibinthomass/Mark-AR",
+                    "kind": "secondary"
+                }
+            ],
+            "detailedDescription": "<h3>Research Motivation</h3><p>WebXRify studies the complete path around single-image 3D generation. A plausible mesh is only one stage: a phone photograph can contain clutter, motion blur, truncation, a small target, or ambiguous identity; preprocessing can improve generation readiness while silently changing the object; and the result still has to survive asynchronous execution, conversion, storage, browser loading, and WebXR's user-activation boundary.</p><h3>Camera-to-WebXR Architecture</h3><p>The system is a distributed artifact pipeline rather than a new foundation model. Explicit contracts connect capture, prepared reference, generation job, GLB package, durable library entry, and the final XR scene. This separation makes failures recoverable and lets each stage be observed and evaluated independently.</p><h3>Mobile Capture</h3><p>The browser requests the rear camera at an ideal 1920×1080 resolution. After selection, the client caps the longest side at 1536 pixels, rounds dimensions to multiples of 16, encodes the frame as PNG, stops the camera tracks, and submits the target phrase with the image. These controls bound upload and inference cost while retaining an open-vocabulary request.</p><h3>Object Localization</h3><p>Grounding DINO supplies the primary text-conditioned detections. A fine-tuned DETR checkpoint can contribute a specialized candidate for explicitly mapped household labels. The adapted DETR was evaluated on 603 images containing 1,605 boxes: mAP increased from 0.239901 to 0.248998 and mAR@100 from 0.409370 to 0.431269. The gain is useful but modest, so DETR remains an additional candidate rather than replacing open-vocabulary localization.</p><h3>Segmentation and Fine-Tuning</h3><p>SAM2 receives the selected box and proposes three masks; the production path selects the mask with the highest predicted IoU. On 895 held-out object instances, the adapted decoder increased selected-mask IoU from 0.749078 to 0.800603 and Dice from 0.755608 to 0.880453. Recall rose from 0.640026 to 0.942619 while precision fell from 0.922136 to 0.825981, showing that masks became more complete but also more expansive.</p><h3>Quality-Routed Reference Preparation</h3><p>A deterministic quality router examines relative box area, crop resolution, sharpness, border clearance, mask fill, and semantic confidence. The <strong>Preserve</strong> route isolates the visible object and applies source-derived restoration. The <strong>Recover</strong> route permits a generative image editor when detection, segmentation, or validation is unsuitable. Route, producer, reason, reference mode, and whether image generation was used remain attached to the artifact so synthetic recovery is never presented as equivalent to the captured evidence.</p><h3>Image-to-3D Generation</h3><p>The selected reference enters a fixed image-to-3D service through an asynchronous job API. The browser receives HTTP 202 with a stable job ID and status URL instead of holding a long GPU request open. Pending indexes and scheduled recovery allow processing to complete after the originating tab closes. The current research snapshot treats the generator as a black box because its exact model architecture and weights are not identified; no generator-specific quality claim is made.</p><h3>Fidelity-Conscious GLB Preparation</h3><p>A background Blender process imports and validates the generated artifact, then exports GLB. Its defaults avoid mesh decimation, texture downscaling, material deletion, UV regeneration, object merging, rig removal, and animation removal. Optional front-surface projection applies the captured appearance only to high-confidence front-facing polygons. A survival manifest records byte, triangle, material, image, animation, and armature counts before and after conversion.</p><h3>Durable Cloud Delivery</h3><p>Cloudflare Workers coordinate job status and Cloudflare R2 stores source and prepared previews, per-job metadata, history indexes, and final GLBs. A completed asset can be reopened without repeating vision or generation, while provenance and conversion metadata stay beside the reusable object.</p><h3>Three.js and WebXR Placement</h3><p>The browser loads GLB assets with Three.js, normalizes only oversized models, centers them horizontally, places their floor at y=0, and retains available animation clips. A user gesture starts an immersive WebXR session with required hit testing and optional DOM overlay, anchors, plane detection, and light estimation. A reticle follows hit-test results and a tap copies its pose to the model wrapper. The supported claim is bounded to compatible Android devices and browsers exposing immersive WebXR.</p><h3>Verified Results and Interpretation</h3><table><thead><tr><th>Component</th><th>Base</th><th>Adapted</th><th>Interpretation</th></tr></thead><tbody><tr><td>DETR mAP</td><td>0.239901</td><td>0.248998</td><td>Positive but modest aggregate improvement</td></tr><tr><td>DETR mAR@100</td><td>0.409370</td><td>0.431269</td><td>Improved object coverage</td></tr><tr><td>SAM2 selected IoU</td><td>0.749078</td><td>0.800603</td><td>Closer mask overlap</td></tr><tr><td>SAM2 Dice</td><td>0.755608</td><td>0.880453</td><td>Higher overlap with lower pixel precision</td></tr></tbody></table><h3>Limitations and Next Evaluation</h3><p>The current evidence establishes component-level detection and segmentation results plus implementation contracts. It does not yet establish that routing selects the better 3D reference, generative recovery preserves identity, conversion improves perceptual fidelity, or WebXR placement is reliable across devices. The next evaluation freezes the generator and measures route risk–coverage, geometry and identity across capture conditions, GLB survival, latency, real-device behavior, and whether users understand when synthetic recovery was used.</p>"
         }
     ],
     "de": [
@@ -103,6 +218,121 @@
             "purpose": "SIH (Hardware edition)",
             "duration": "5 Monate",
             "date": ""
+        },
+        {
+            "id": 4,
+            "title": "WebXRify",
+            "subtitle": "Brücke zwischen Einzelbild-3D-Generierung und browserbasierter AR",
+            "description": "Forschungsbasierte Camera-to-3D-Pipeline, die ein mobiles Bild in ein wiederverwendbares GLB umwandelt und über WebXR im Browser platziert",
+            "images": [
+                "/images/project/WebXRify1.png",
+                "/images/project/WebXRify2.png",
+                "/images/project/WebXRify3.png",
+                "/images/project/WebXRify4.png"
+            ],
+            "technologies": [
+                "WebXR",
+                "Three.js",
+                "Grounding DINO",
+                "DETR",
+                "SAM2",
+                "Swin2SR",
+                "Image-to-3D",
+                "Blender",
+                "GLB / glTF",
+                "Cloudflare Workers",
+                "Cloudflare R2",
+                "TypeScript"
+            ],
+            "youtubeLink": "",
+            "github": "https://github.com/sshibinthomass/Web-AR",
+            "appLink": "",
+            "purpose": "Unabhängige Forschung & Entwicklung",
+            "duration": "Laufend",
+            "date": "Juli 2026",
+            "pipeline": [
+                {
+                    "stage": "01",
+                    "title": "Erfassen",
+                    "description": "Ein mobiles Foto standardisieren und den Zielbegriff als Teil der Anfrage bewahren."
+                },
+                {
+                    "stage": "02",
+                    "title": "Lokalisieren",
+                    "description": "Open-Vocabulary Grounding DINO mit einem haushaltsspezifisch adaptierten DETR-Kandidaten kombinieren."
+                },
+                {
+                    "stage": "03",
+                    "title": "Aufbereiten",
+                    "description": "Box-geführtes SAM2 nutzen und zwischen quellbasierter Bewahrung und offengelegter Rekonstruktion routen."
+                },
+                {
+                    "stage": "04",
+                    "title": "Generieren",
+                    "description": "Die ausgewählte Referenz an einen asynchronen Image-to-3D-Auftrag übergeben."
+                },
+                {
+                    "stage": "05",
+                    "title": "Speichern",
+                    "description": "Mit fidelity-bewussten Blender-Standards konvertieren und ein GLB samt Provenienz dauerhaft speichern."
+                },
+                {
+                    "stage": "06",
+                    "title": "Platzieren",
+                    "description": "Das Asset mit Three.js laden und in kompatiblem Android-WebXR auf einer erkannten Fläche platzieren."
+                }
+            ],
+            "metrics": [
+                {
+                    "label": "DETR mAP",
+                    "before": "0.2399",
+                    "after": "0.2490",
+                    "note": "603 Bilder / 1.605 Boxen"
+                },
+                {
+                    "label": "DETR mAR@100",
+                    "before": "0.4094",
+                    "after": "0.4313",
+                    "note": "Moderater Gewinn bei der Objektabdeckung"
+                },
+                {
+                    "label": "SAM2 Selected IoU",
+                    "before": "0.7491",
+                    "after": "0.8006",
+                    "note": "895 zurückgehaltene Instanzen"
+                },
+                {
+                    "label": "SAM2 Dice",
+                    "before": "0.7556",
+                    "after": "0.8805",
+                    "note": "Höhere Überlappung mit breiteren Masken"
+                }
+            ],
+            "highlights": [
+                {
+                    "title": "Nachvollziehbare Quelle",
+                    "text": "Jede aufbereitete Referenz dokumentiert, ob sie aus quellbasierter Segmentierung und Restaurierung oder aus einer generativen Rekonstruktionsroute stammt.",
+                    "tone": "evidence"
+                },
+                {
+                    "title": "Evidenzgrenze",
+                    "text": "Die gemessenen Verbesserungen gelten für die geprüften DETR- und SAM2-Komponenten. Sie belegen noch keine besseren Meshes, Latenz, Zuverlässigkeit oder WebXR-Benutzbarkeit der Gesamtkette.",
+                    "tone": "caution"
+                }
+            ],
+            "externalLinks": [
+                {
+                    "label": "WebXR- & Image-to-3D-Repository",
+                    "url": "https://github.com/sshibinthomass/Web-AR",
+                    "kind": "primary"
+                },
+                {
+                    "label": "Image-Target-AR-Repository",
+                    "url": "https://github.com/sshibinthomass/Mark-AR",
+                    "kind": "secondary"
+                }
+            ],
+            "detailedDescription": "<h3>Forschungsmotivation</h3><p>WebXRify untersucht die vollständige Prozesskette rund um die 3D-Generierung aus einem Einzelbild. Ein plausibles Mesh ist nur eine Stufe: Ein Smartphone-Foto kann Unordnung, Bewegungsunschärfe, abgeschnittene oder kleine Ziele und mehrdeutige Identitäten enthalten. Die Aufbereitung kann die Generierbarkeit verbessern und dabei unbemerkt das Objekt verändern. Das Ergebnis muss außerdem asynchrone Verarbeitung, Konvertierung, Speicherung, Browser-Laden und die WebXR-Aktivierungsgrenze überstehen.</p><h3>Camera-to-WebXR-Architektur</h3><p>Das System ist eine verteilte Artefakt-Pipeline und kein neues Foundation Model. Explizite Verträge verbinden Aufnahme, aufbereitete Referenz, Generierungsauftrag, GLB-Paket, dauerhaften Bibliothekseintrag und die finale XR-Szene. Dadurch werden Fehler wiederaufnehmbar und jede Stufe kann unabhängig beobachtet und bewertet werden.</p><h3>Mobile Aufnahme</h3><p>Der Browser fordert die Rückkamera idealerweise mit 1920×1080 an. Nach der Auswahl begrenzt der Client die längste Seite auf 1536 Pixel, rundet beide Dimensionen auf ein Vielfaches von 16, kodiert PNG, stoppt die Kameraspuren und sendet Zielbegriff und Bild gemeinsam. Das begrenzt Upload- und Inferenzkosten, ohne die Open-Vocabulary-Anfrage zu verlieren.</p><h3>Objektlokalisierung</h3><p>Grounding DINO liefert die primären textkonditionierten Detektionen. Ein feinabgestimmter DETR-Checkpoint kann für explizit zugeordnete Haushaltsbegriffe einen spezialisierten Kandidaten ergänzen. Auf 603 Bildern mit 1.605 Boxen stieg mAP von 0.239901 auf 0.248998 und mAR@100 von 0.409370 auf 0.431269. Der Gewinn ist positiv, aber moderat; DETR ergänzt daher die Open-Vocabulary-Lokalisierung, statt sie zu ersetzen.</p><h3>Segmentierung und Fine-Tuning</h3><p>SAM2 erhält die ausgewählte Box und erzeugt drei Masken; die Produktionsroute wählt die Maske mit der höchsten vorhergesagten IoU. Auf 895 zurückgehaltenen Objektinstanzen stieg die Selected-Mask-IoU von 0.749078 auf 0.800603 und Dice von 0.755608 auf 0.880453. Recall stieg von 0.640026 auf 0.942619, während Precision von 0.922136 auf 0.825981 sank: Die Masken wurden vollständiger, aber auch großzügiger.</p><h3>Qualitätsgeroutete Referenzaufbereitung</h3><p>Ein deterministischer Router prüft relative Boxfläche, Crop-Auflösung, Schärfe, Randabstand, Maskenfüllung und semantische Konfidenz. Die <strong>Preserve</strong>-Route isoliert das sichtbare Objekt und restauriert es quellenbasiert. Die <strong>Recover</strong>-Route erlaubt generative Bildbearbeitung, wenn Detektion, Segmentierung oder Validierung ungeeignet sind. Route, Produzent, Grund, Referenzmodus und der Einsatz von Bildgenerierung bleiben am Artefakt erhalten.</p><h3>Image-to-3D-Generierung</h3><p>Die ausgewählte Referenz gelangt über eine asynchrone Job-API zu einem festen Image-to-3D-Dienst. Der Browser erhält HTTP 202 mit stabiler Job-ID und Status-URL, statt eine lange GPU-Anfrage offen zu halten. Persistente Pending-Indizes und geplante Wiederaufnahme ermöglichen die Fertigstellung nach dem Schließen des Tabs. Da Architektur und Gewichte des Generators im Forschungsstand nicht identifiziert sind, wird er als Black Box behandelt.</p><h3>Fidelity-bewusste GLB-Aufbereitung</h3><p>Ein Blender-Hintergrundprozess importiert und validiert das generierte Artefakt und exportiert GLB. Standardmäßig werden Mesh-Decimation, Texturverkleinerung, Materiallöschung, UV-Neugenerierung, Objektzusammenführung sowie Rig- und Animationsentfernung vermieden. Eine optionale Frontprojektion überträgt die aufgenommene Erscheinung nur auf sichere, frontgerichtete Polygone. Ein Survival-Manifest erfasst Bytes, Dreiecke, Materialien, Bilder, Animationen und Armatures vor und nach der Konvertierung.</p><h3>Dauerhafte Cloud-Auslieferung</h3><p>Cloudflare Workers koordinieren den Jobstatus; Cloudflare R2 speichert Quell- und Referenzvorschauen, Jobmetadaten, Verlaufsindizes und finale GLBs. Ein fertiges Asset kann erneut geöffnet werden, ohne Vision oder Generierung zu wiederholen, während Provenienz und Konvertierungsdaten beim Objekt bleiben.</p><h3>Three.js und WebXR-Platzierung</h3><p>Der Browser lädt GLB-Assets mit Three.js, normalisiert nur übergroße Modelle, zentriert sie horizontal, setzt den Boden auf y=0 und erhält vorhandene Animationen. Eine Benutzeraktion startet eine immersive WebXR-Sitzung mit verpflichtendem Hit Testing und optionalem DOM Overlay, Anchors, Plane Detection und Light Estimation. Ein Reticle folgt den Treffern; ein Tippen überträgt dessen Pose auf das Modell. Die Unterstützung ist auf kompatible Android-Geräte und Browser mit immersive WebXR begrenzt.</p><h3>Verifizierte Ergebnisse und Interpretation</h3><table><thead><tr><th>Komponente</th><th>Basis</th><th>Adaptiert</th><th>Interpretation</th></tr></thead><tbody><tr><td>DETR mAP</td><td>0.239901</td><td>0.248998</td><td>Positiver, aber moderater Gesamtgewinn</td></tr><tr><td>DETR mAR@100</td><td>0.409370</td><td>0.431269</td><td>Bessere Objektabdeckung</td></tr><tr><td>SAM2 Selected IoU</td><td>0.749078</td><td>0.800603</td><td>Engere Maskenüberlappung</td></tr><tr><td>SAM2 Dice</td><td>0.755608</td><td>0.880453</td><td>Mehr Überlappung bei geringerer Pixelpräzision</td></tr></tbody></table><h3>Limitierungen und nächste Evaluation</h3><p>Die aktuelle Evidenz belegt Resultate der Detektions- und Segmentierungskomponenten sowie Implementierungsverträge. Sie belegt noch nicht, dass das Routing die bessere 3D-Referenz auswählt, generative Rekonstruktion die Identität bewahrt, die Konvertierung die wahrgenommene Qualität verbessert oder WebXR über Geräte hinweg zuverlässig ist. Als Nächstes werden bei fixiertem Generator Risk–Coverage, Geometrie und Identität unter verschiedenen Aufnahmebedingungen, GLB-Erhalt, Latenz, reale Geräte und das Verständnis synthetischer Rekonstruktion gemessen.</p>"
         }
     ]
 }

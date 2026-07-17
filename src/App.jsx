@@ -58,6 +58,7 @@ function App() {
           <Route path="/hybridrag" element={<Navigate to="/en/achievements/9" replace />} />
           <Route path="/ecadstar" element={<Navigate to="/en/projects/1" replace />} />
           <Route path="/medimind" element={<Navigate to="/en/hobby-projects/13" replace />} />
+          <Route path="/webxrify" element={<Navigate to="/en/projects/4" replace />} />
 
           {/* Short URL redirects - German */}
           <Route path="/de/bmwhack" element={<Navigate to="/de/achievements/8" replace />} />
@@ -74,6 +75,7 @@ function App() {
           <Route path="/de/hybridrag" element={<Navigate to="/de/achievements/9" replace />} />
           <Route path="/de/ecadstar" element={<Navigate to="/de/projects/1" replace />} />
           <Route path="/de/medimind" element={<Navigate to="/de/hobby-projects/13" replace />} />
+          <Route path="/de/webxrify" element={<Navigate to="/de/projects/4" replace />} />
 
           {/* Home - includes Skills and Resume */}
           <Route path="/:lang" element={
