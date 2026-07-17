@@ -1,0 +1,237 @@
+.venture-detail--botanical {
+  --venture-accent: #15803d;
+  --venture-surface: rgba(21, 128, 61, 0.08);
+}
+
+.venture-detail--spatial {
+  --venture-accent: var(--accent-primary);
+  --venture-surface: rgba(79, 70, 229, 0.08);
+}
+
+.venture-hero {
+  background: linear-gradient(135deg, var(--venture-surface), transparent);
+}
+
+.venture-hero__grid {
+  align-items: center;
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+}
+
+.venture-hero__content,
+.venture-hero__media {
+  min-width: 0;
+}
+
+.venture-back-link {
+  display: inline-flex;
+  margin-bottom: 2rem;
+}
+
+.venture-hero__category,
+.venture-section__label {
+  color: var(--venture-accent);
+  font-family: 'Fira Code', monospace;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.venture-hero h1 {
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  margin-bottom: 1rem;
+}
+
+.venture-hero__tagline {
+  font-size: 1.3rem;
+}
+
+.venture-hero__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin: 1.5rem 0;
+}
+
+.venture-hero__meta span,
+.venture-product__availability {
+  background: var(--venture-surface);
+  border: 1px solid var(--venture-accent);
+  border-radius: 999px;
+  color: var(--venture-accent);
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.4rem 0.75rem;
+}
+
+.venture-hero__mission {
+  font-size: 1.05rem;
+  max-width: 62ch;
+}
+
+.venture-hero__media {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 24px;
+  box-shadow: var(--shadow-xl);
+  overflow: hidden;
+}
+
+.venture-hero__media img {
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  width: 100%;
+}
+
+.venture-cta {
+  background: var(--venture-accent);
+  border-radius: 10px;
+  color: #fff;
+  display: inline-flex;
+  font-weight: 700;
+  overflow-wrap: anywhere;
+  padding: 0.8rem 1.1rem;
+}
+
+.venture-cta:hover {
+  color: #fff;
+  filter: brightness(1.08);
+}
+
+.venture-cta:focus-visible,
+.venture-back-link:focus-visible {
+  border-radius: 4px;
+  outline: 3px solid var(--venture-accent);
+  outline-offset: 4px;
+}
+
+.venture-section--tinted {
+  background: var(--venture-surface);
+}
+
+.venture-narrative-grid,
+.venture-product-grid,
+.venture-founder-grid,
+.venture-evidence-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.venture-panel,
+.venture-product {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 18px;
+  box-shadow: var(--shadow-md);
+  padding: 1.5rem;
+}
+
+.venture-section__title {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.venture-product h3 {
+  margin: 1.2rem 0 0.7rem;
+}
+
+.venture-responsibilities,
+.venture-highlights {
+  list-style: none;
+}
+
+.venture-responsibilities li,
+.venture-highlights li {
+  border-bottom: 1px solid var(--border-color);
+  padding: 0.8rem 0 0.8rem 1.5rem;
+  position: relative;
+}
+
+.venture-responsibilities li::before,
+.venture-highlights li::before {
+  color: var(--venture-accent);
+  content: '◆';
+  left: 0;
+  position: absolute;
+}
+
+.venture-timeline {
+  border-left: 2px solid var(--venture-accent);
+  list-style: none;
+  margin: 1.5rem 0 0 0.45rem;
+  padding-left: 1.5rem;
+}
+
+.venture-timeline li {
+  padding-bottom: 1.5rem;
+  position: relative;
+}
+
+.venture-timeline li::before {
+  background: var(--venture-accent);
+  border-radius: 50%;
+  content: '';
+  height: 0.75rem;
+  left: -1.94rem;
+  position: absolute;
+  top: 0.35rem;
+  width: 0.75rem;
+}
+
+.venture-timeline span {
+  color: var(--venture-accent);
+  font-family: 'Fira Code', monospace;
+  font-weight: 700;
+}
+
+.venture-direction,
+.venture-closing .container {
+  max-width: 760px;
+  text-align: center;
+}
+
+.venture-gallery {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.venture-gallery img {
+  aspect-ratio: 16 / 10;
+  border-radius: 16px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.venture-closing {
+  background: var(--venture-surface);
+  text-align: center;
+}
+
+.venture-not-found {
+  align-items: center;
+  display: flex;
+  min-height: 60vh;
+  text-align: center;
+}
+
+@media (max-width: 760px) {
+  .venture-hero__grid,
+  .venture-narrative-grid,
+  .venture-product-grid,
+  .venture-founder-grid,
+  .venture-evidence-grid,
+  .venture-gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .venture-hero__grid {
+    gap: 2rem;
+  }
+
+  .venture-hero__media {
+    order: -1;
+  }
+}

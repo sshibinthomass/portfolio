@@ -129,3 +129,42 @@ test('venture cards link internally and expose founder metadata', async () => {
   assert.match(card, /venture\.status/);
   assert.match(card, /venture\.heroAlt/);
 });
+
+test('detail renderer resolves the slug with English fallback', async () => {
+  const detail = await read('../src/pages/VentureDetail.jsx');
+  assert.match(detail, /const localizedVenture = venturesData\[currentLang\]/);
+  assert.match(detail, /venture\.slug === slug/);
+  assert.match(detail, /const englishVenture = venturesData\.en/);
+  assert.match(detail, /const venture = localizedVenture \|\| englishVenture/);
+});
+
+test('detail renderer covers every approved case-study section', async () => {
+  const detail = await read('../src/pages/VentureDetail.jsx');
+  for (const field of [
+    'mission',
+    'opportunity',
+    'solution',
+    'founderRole',
+    'products',
+    'milestones',
+    'highlights',
+    'currentDirection',
+    'gallery',
+  ]) {
+    assert.match(detail, new RegExp(`venture\\.${field}`));
+  }
+});
+
+test('official venture links use safe new-tab attributes', async () => {
+  const detail = await read('../src/pages/VentureDetail.jsx');
+  assert.match(detail, /href={venture\.website}/);
+  assert.match(detail, /target="_blank"/);
+  assert.match(detail, /rel="noopener noreferrer"/);
+});
+
+test('unknown venture slugs render a localized explicit error state', async () => {
+  const detail = await read('../src/pages/VentureDetail.jsx');
+  assert.match(detail, /entrepreneurship\.notFoundTitle/);
+  assert.match(detail, /entrepreneurship\.notFoundDescription/);
+  assert.match(detail, /entrepreneurship\.backToEntrepreneurship/);
+});
