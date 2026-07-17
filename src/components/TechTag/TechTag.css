@@ -1,8 +1,9 @@
 .tech-tag {
     position: relative;
     padding: 0.5rem 1rem;
-    background: var(--accent-gradient);
-    color: white;
+    background: var(--tag-bg);
+    border: 1px solid var(--tag-border);
+    color: var(--tag-text);
     border-radius: 25px;
     font-size: 0.95rem;
     font-weight: 500;

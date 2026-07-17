@@ -283,11 +283,6 @@
     left: -18%;
 }
 
-.badge-bottom-right {
-    bottom: 12%;
-    right: -18%;
-}
-
 .about {
     background-color: var(--bg-primary);
 }
@@ -594,8 +589,16 @@
 }
 
 .hobby-preview-card .hobby-icon {
-    font-size: 3rem;
     margin-bottom: 0.75rem;
+    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hobby-preview-card .hobby-icon-svg {
+    width: 3rem;
+    height: 3rem;
 }
 
 .hobby-preview-card h4 {

@@ -34,7 +34,7 @@
     "home": {
         "welcome": "Welcome to my space",
         "title": "Hi, I'm",
-        "subtitle": "AGI Aspiration & AI Enthusiast | Building new things every day",
+        "subtitle": "Building new things every day",
         "about": "About Me",
         "description": "Gen AI Engineer experienced in building end to end Agentic AI applications using LangGraph, LangChain, Google ADK, Claude Agent SDK, and also developing custom agents from scratch with pure Python. Strong expertise in Python for ML/LLM, parallelism, Pydantic, and CI/CD pipelines, with hands-on work across ReAct, planning, deep, sub, and orchestrator agents. Proven experience in RAG and Graph RAG architectures, MCP, Agent-to-Agent protocol, and tool integration, leveraging models from OpenAI (including GPT real-time), Gemini, Anthropic, Groq, Grok, Ollama, and Hugging Face. Skilled in deploying AI applications using Fast API, Flask, Streamlit, React and Gradio, with frontend capabilities in HTML, CSS, JavaScript.",
         "contact": "Get in Touch",

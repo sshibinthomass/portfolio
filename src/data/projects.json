@@ -81,7 +81,7 @@
             "subtitle": "Bridging Single-Image 3D Generation and Browser-Based AR",
             "description": "Research-led camera-to-3D pipeline that turns a mobile image into a reusable GLB and places it through browser-based WebXR",
             "images": [
-                "/images/project/WebXRify1.png",
+                "/images/project/WebXRify1.jpg",
                 "/images/project/WebXRify2.png",
                 "/images/project/WebXRify3.png",
                 "/images/project/WebXRify4.png"
@@ -225,7 +225,7 @@
             "subtitle": "Brücke zwischen Einzelbild-3D-Generierung und browserbasierter AR",
             "description": "Forschungsbasierte Camera-to-3D-Pipeline, die ein mobiles Bild in ein wiederverwendbares GLB umwandelt und über WebXR im Browser platziert",
             "images": [
-                "/images/project/WebXRify1.png",
+                "/images/project/WebXRify1.jpg",
                 "/images/project/WebXRify2.png",
                 "/images/project/WebXRify3.png",
                 "/images/project/WebXRify4.png"

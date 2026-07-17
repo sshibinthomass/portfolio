@@ -99,11 +99,12 @@
 .card-tag {
     display: inline-block;
     padding: 0.25rem 0.75rem;
-    background: var(--accent-gradient);
-    color: white;
+    background: var(--tag-bg);
+    border: 1px solid var(--tag-border);
+    color: var(--tag-text);
     font-size: 0.75rem;
     border-radius: 20px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 /* Mobile Responsive */

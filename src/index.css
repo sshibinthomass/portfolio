@@ -11,6 +11,9 @@
   --accent-primary: #4f46e5; /* Electric Indigo */
   --accent-secondary: #06b6d4; /* Cyber Cyan */
   --accent-gradient: linear-gradient(135deg, #4f46e5 0%, #06b6d4 100%);
+  --tag-bg: linear-gradient(135deg, rgba(79, 70, 229, 0.09), rgba(6, 182, 212, 0.12));
+  --tag-border: rgba(79, 70, 229, 0.16);
+  --tag-text: #3730a3;
   --success: #10b981;
   --warning: #f59e0b;
   --error: #ef4444;
@@ -35,6 +38,9 @@
   --accent-primary: #818cf8; /* Light indigo */
   --accent-secondary: #22d3ee; /* Neon Cyan */
   --accent-gradient: linear-gradient(135deg, #818cf8 0%, #22d3ee 100%);
+  --tag-bg: linear-gradient(135deg, rgba(129, 140, 248, 0.14), rgba(34, 211, 238, 0.12));
+  --tag-border: rgba(129, 140, 248, 0.24);
+  --tag-text: #c7d2fe;
   --success: #34d399;
   --warning: #fbbf24;
   --error: #f87171;

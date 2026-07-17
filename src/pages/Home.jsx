@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link, useParams } from 'react-router-dom';
-import { motion } from 'framer-motion';
+import { motion as Motion } from 'framer-motion';
 import SkillBar from '../components/SkillBar/SkillBar';
 import NeuralBackground from '../components/NeuralBackground/NeuralBackground';
+import HobbyIcon from '../components/HobbyIcon/HobbyIcon';
 import skillsData from '../data/skills.json';
 import resumeData from '../data/resume.json';
 import projectsData from '../data/projects.json';
@@ -49,7 +50,7 @@ const Home = () => {
             {/* Hero Section */}
             <div className="hero">
                 {/* Background blobs for premium modern visual appeal */}
-                <motion.div 
+                <Motion.div
                     className="hero-blob blob-1"
                     animate={{
                         x: [0, 30, -20, 0],
@@ -62,7 +63,7 @@ const Home = () => {
                         ease: "easeInOut",
                     }}
                 />
-                <motion.div 
+                <Motion.div
                     className="hero-blob blob-2"
                     animate={{
                         x: [0, -40, 30, 0],
@@ -80,7 +81,7 @@ const Home = () => {
                 <div className="container">
                     <div className="hero-content">
                         <div className="hero-text">
-                            <motion.div
+                            <Motion.div
                                 className="welcome-chip"
                                 initial={{ opacity: 0, y: 15 }}
                                 animate={{ opacity: 1, y: 0 }}
@@ -88,27 +89,27 @@ const Home = () => {
                             >
                                 <span className="welcome-wave">👋</span>
                                 <span>{t('home.welcome')}</span>
-                            </motion.div>
+                            </Motion.div>
                             
-                            <motion.h1 
+                            <Motion.h1
                                 className="hero-title"
                                 initial={{ opacity: 0, y: 20 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5, delay: 0.2 }}
                             >
                                 {t('home.title')} <span className="gradient-text">Shibin Thomas</span>
-                            </motion.h1>
+                            </Motion.h1>
                             
-                            <motion.p 
+                            <Motion.p
                                 className="hero-subtitle"
                                 initial={{ opacity: 0, y: 20 }}
                                 animate={{ opacity: 1, y: 0 }}
                                 transition={{ duration: 0.5, delay: 0.3 }}
                             >
                                 {t('home.subtitle')}
-                            </motion.p>
+                            </Motion.p>
                             
-                            <motion.div 
+                            <Motion.div
                                 className="hero-tech-pills"
                                 initial={{ opacity: 0, y: 20 }}
                                 animate={{ opacity: 1, y: 0 }}
@@ -122,9 +123,9 @@ const Home = () => {
                                 <span className="tech-pill">🎯 Fine-Tuning LLMs</span>
                                 <span className="tech-pill">🧩 Planning & Reasoning</span>
                                 <span className="tech-pill">🎨 Multimodal AI</span>
-                            </motion.div>
+                            </Motion.div>
                             
-                            <motion.div 
+                            <Motion.div
                                 className="hero-buttons"
                                 initial={{ opacity: 0, y: 20 }}
                                 animate={{ opacity: 1, y: 0 }}
@@ -136,11 +137,11 @@ const Home = () => {
                                 <a href="#resume" className="btn btn-secondary">
                                     {t('home.viewResume')}
                                 </a>
-                            </motion.div>
+                            </Motion.div>
                         </div>
                         
                         <div className="hero-image-container">
-                            <motion.div
+                            <Motion.div
                                 className="hero-image-wrapper"
                                 initial={{ opacity: 0, scale: 0.9 }}
                                 animate={{ opacity: 1, scale: 1 }}
@@ -149,24 +150,15 @@ const Home = () => {
                                 <img src="/images/profile.jpg" alt="Profile" />
                                 
                                 {/* Floating Badges */}
-                                <motion.div 
+                                <Motion.div
                                     className="floating-badge badge-top-left"
                                     animate={{ y: [0, -8, 0] }}
                                     transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
                                 >
                                     <span className="badge-icon">🤖</span>
                                     <span className="badge-text">Agentic AI Engineer</span>
-                                </motion.div>
-                                
-                                <motion.div 
-                                    className="floating-badge badge-bottom-right"
-                                    animate={{ y: [0, 8, 0] }}
-                                    transition={{ duration: 5, repeat: Infinity, ease: "easeInOut", delay: 1.5 }}
-                                >
-                                    <span className="badge-icon">🚀</span>
-                                    <span className="badge-text">AGI Enthusiast</span>
-                                </motion.div>
-                            </motion.div>
+                                </Motion.div>
+                            </Motion.div>
                         </div>
                     </div>
                 </div>
@@ -175,7 +167,7 @@ const Home = () => {
             {/* About Section */}
             <section className="about section" id="about">
                 <div className="container">
-                    <motion.div
+                    <Motion.div
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
@@ -183,14 +175,14 @@ const Home = () => {
                     >
                         <h2 className="section-title">{t('home.about')}</h2>
                         <p className="about-description">{t('home.description')}</p>
-                    </motion.div>
+                    </Motion.div>
                 </div>
             </section>
 
             {/* Skills Section */}
             <section className="section" id="skills" style={{ backgroundColor: 'var(--bg-secondary)' }}>
                 <div className="container">
-                    <motion.div
+                    <Motion.div
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
@@ -211,14 +203,14 @@ const Home = () => {
                                 />
                             ))}
                         </div>
-                    </motion.div>
+                    </Motion.div>
                 </div>
             </section>
 
             {/* Resume Section */}
             <section className="section" id="resume">
                 <div className="container">
-                    <motion.div
+                    <Motion.div
                         initial={{ opacity: 0, y: 20 }}
                         whileInView={{ opacity: 1, y: 0 }}
                         viewport={{ once: true }}
@@ -230,7 +222,7 @@ const Home = () => {
                             <h3 className="resume-section-title">{t('resume.experience')}</h3>
                             <div className="timeline">
                                 {resume.experience.map((job, index) => (
-                                    <motion.div
+                                    <Motion.div
                                         key={job.id}
                                         className="timeline-item"
                                         initial={{ opacity: 0, x: -20 }}
@@ -250,7 +242,7 @@ const Home = () => {
                                                 ))}
                                             </ul>
                                         </div>
-                                    </motion.div>
+                                    </Motion.div>
                                 ))}
                             </div>
                         </div>
@@ -259,7 +251,7 @@ const Home = () => {
                             <h3 className="resume-section-title">{t('resume.education')}</h3>
                             <div className="timeline">
                                 {resume.education.map((edu, index) => (
-                                    <motion.div
+                                    <Motion.div
                                         key={edu.id}
                                         className="timeline-item"
                                         initial={{ opacity: 0, x: -20 }}
@@ -274,11 +266,11 @@ const Home = () => {
                                             <p className="timeline-period">{edu.period}</p>
                                             <p className="timeline-description">{edu.description}</p>
                                         </div>
-                                    </motion.div>
+                                    </Motion.div>
                                 ))}
                             </div>
                         </div>
-                    </motion.div>
+                    </Motion.div>
                 </div>
             </section>
 
@@ -389,23 +381,23 @@ const Home = () => {
                     <h2 className="section-title">{t('nav.hobbies')}</h2>
                     <div className="hobbies-preview-grid">
                         <Link to={`/${lang}/hobbies/coin-collection`} className="hobby-preview-card">
-                            <div className="hobby-icon">🪙</div>
+                            <div className="hobby-icon"><HobbyIcon type="coin" /></div>
                             <h4>{t('hobbies.coinCollection')}</h4>
                         </Link>
                         <Link to={`/${lang}/hobbies/stamp-collection`} className="hobby-preview-card">
-                            <div className="hobby-icon">📮</div>
+                            <div className="hobby-icon"><HobbyIcon type="stamp" /></div>
                             <h4>{t('hobbies.stampCollection')}</h4>
                         </Link>
                         <Link to={`/${lang}/hobbies/reading`} className="hobby-preview-card">
-                            <div className="hobby-icon">📚</div>
+                            <div className="hobby-icon"><HobbyIcon type="reading" /></div>
                             <h4>{t('hobbies.reading')}</h4>
                         </Link>
                         <Link to={`/${lang}/hobbies/gardening`} className="hobby-preview-card">
-                            <div className="hobby-icon">🌱</div>
+                            <div className="hobby-icon"><HobbyIcon type="gardening" /></div>
                             <h4>{t('hobbies.gardening')}</h4>
                         </Link>
                         <Link to={`/${lang}/hobbies/travel`} className="hobby-preview-card">
-                            <div className="hobby-icon">✈️</div>
+                            <div className="hobby-icon"><HobbyIcon type="travel" /></div>
                             <h4>{t('hobbies.travel')}</h4>
                         </Link>
                     </div>
