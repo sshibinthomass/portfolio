@@ -112,3 +112,20 @@ test('Entrepreneurship interface copy is bilingual', async () => {
   assert.ok(en.entrepreneurship.notFoundTitle);
   assert.ok(de.entrepreneurship.notFoundTitle);
 });
+
+test('overview loads localized venture data and renders shared cards', async () => {
+  const overview = await read('../src/pages/Entrepreneurship.jsx');
+  assert.match(overview, /import venturesData from '\.\.\/data\/ventures\.json'/);
+  assert.match(overview, /venturesData\[currentLang\] \|\| venturesData\.en/);
+  assert.match(overview, /<VentureCard/);
+  assert.match(overview, /t\('entrepreneurship\.description'\)/);
+});
+
+test('venture cards link internally and expose founder metadata', async () => {
+  const card = await read('../src/components/VentureCard/VentureCard.jsx');
+  assert.match(card, /to={`\/\$\{lang\}\/entrepreneurship\/\$\{venture\.slug\}`}/);
+  assert.match(card, /venture\.role/);
+  assert.match(card, /venture\.founded/);
+  assert.match(card, /venture\.status/);
+  assert.match(card, /venture\.heroAlt/);
+});
