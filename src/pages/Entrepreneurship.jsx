@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { useParams } from 'react-router-dom';
-import { motion } from 'framer-motion';
+import { motion as Motion } from 'framer-motion';
 import VentureCard from '../components/VentureCard/VentureCard';
 import venturesData from '../data/ventures.json';
 import './Entrepreneurship.css';
@@ -13,9 +13,9 @@ const Entrepreneurship = () => {
   const ventures = venturesData[currentLang] || venturesData.en;
 
   return (
-    <main className="entrepreneurship section">
+    <div className="entrepreneurship section">
       <div className="container">
-        <motion.header
+        <Motion.header
           className="entrepreneurship__header"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -26,7 +26,7 @@ const Entrepreneurship = () => {
           <p className="entrepreneurship__intro">
             {t('entrepreneurship.description')}
           </p>
-        </motion.header>
+        </Motion.header>
 
         <div className="entrepreneurship__grid">
           {ventures.map((venture, index) => (
@@ -40,7 +40,7 @@ const Entrepreneurship = () => {
           ))}
         </div>
       </div>
-    </main>
+    </div>
   );
 };
 

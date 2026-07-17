@@ -121,6 +121,16 @@ test('overview loads localized venture data and renders shared cards', async () 
   assert.match(overview, /t\('entrepreneurship\.description'\)/);
 });
 
+test('venture pages rely on the shared layout main landmark', async () => {
+  const [overview, detail] = await Promise.all([
+    read('../src/pages/Entrepreneurship.jsx'),
+    read('../src/pages/VentureDetail.jsx'),
+  ]);
+
+  assert.doesNotMatch(overview, /<\/?main\b/);
+  assert.doesNotMatch(detail, /<\/?main\b/);
+});
+
 test('venture cards link internally and expose founder metadata', async () => {
   const card = await read('../src/components/VentureCard/VentureCard.jsx');
   assert.match(card, /to={`\/\$\{lang\}\/entrepreneurship\/\$\{venture\.slug\}`}/);

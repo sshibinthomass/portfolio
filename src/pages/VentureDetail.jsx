@@ -1,7 +1,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link, useParams } from 'react-router-dom';
-import { motion } from 'framer-motion';
+import { motion as Motion } from 'framer-motion';
 import venturesData from '../data/ventures.json';
 import './VentureDetail.css';
 
@@ -19,7 +19,7 @@ const VentureDetail = () => {
 
   if (!venture) {
     return (
-      <main className="venture-not-found section">
+      <div className="venture-not-found section">
         <div className="container">
           <h1>{t('entrepreneurship.notFoundTitle')}</h1>
           <p>{t('entrepreneurship.notFoundDescription')}</p>
@@ -27,15 +27,15 @@ const VentureDetail = () => {
             ← {t('entrepreneurship.backToEntrepreneurship')}
           </Link>
         </div>
-      </main>
+      </div>
     );
   }
 
   return (
-    <main className={`venture-detail venture-detail--${venture.accent}`}>
+    <div className={`venture-detail venture-detail--${venture.accent}`}>
       <section className="venture-hero section">
         <div className="container venture-hero__grid">
-          <motion.div
+          <Motion.div
             className="venture-hero__content"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -61,15 +61,15 @@ const VentureDetail = () => {
             >
               {t('entrepreneurship.visitWebsite')} ↗
             </a>
-          </motion.div>
-          <motion.div
+          </Motion.div>
+          <Motion.div
             className="venture-hero__media"
             initial={{ opacity: 0, scale: 0.96 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.55, delay: 0.1 }}
           >
             <img src={venture.heroImage} alt={venture.heroAlt} />
-          </motion.div>
+          </Motion.div>
         </div>
       </section>
 
@@ -172,7 +172,7 @@ const VentureDetail = () => {
           </a>
         </div>
       </section>
-    </main>
+    </div>
   );
 };
 

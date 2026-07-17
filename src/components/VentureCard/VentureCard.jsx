@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
+import { motion as Motion } from 'framer-motion';
 import './VentureCard.css';
 
 const VentureCard = ({ venture, lang, exploreLabel, index }) => (
-  <motion.article
+  <Motion.article
     className={`venture-card venture-card--${venture.accent}`}
     initial={{ opacity: 0, y: 24 }}
     animate={{ opacity: 1, y: 0 }}
@@ -30,7 +30,7 @@ const VentureCard = ({ venture, lang, exploreLabel, index }) => (
         {exploreLabel} <span aria-hidden="true">→</span>
       </Link>
     </div>
-  </motion.article>
+  </Motion.article>
 );
 
 export default VentureCard;
