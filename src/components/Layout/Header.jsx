@@ -28,6 +28,7 @@ const Header = () => {
     const navItems = [
         { key: 'home', path: '' },
         { key: 'projects', path: '/projects' },
+        { key: 'entrepreneurship', path: '/entrepreneurship' },
         { key: 'hobbyProjects', path: '/hobby-projects' },
         { key: 'achievements', path: '/achievements' },
         { key: 'research', path: '/research' },

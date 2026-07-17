@@ -4,6 +4,7 @@
         "skills": "Fähigkeiten",
         "resume": "Lebenslauf",
         "projects": "Projekte",
+        "entrepreneurship": "Unternehmertum",
         "hobbyProjects": "Hobbyprojekte",
         "achievements": "Erfolge",
         "research": "Forschung",
@@ -50,6 +51,21 @@
         "date": "Datum",
         "github": "GitHub",
         "appLink": "Live-App"
+    },
+    "entrepreneurship": {
+        "title": "Unternehmertum",
+        "description": "Von mir gegründete Unternehmen, die Fachwissen und neue Technologien in nützliche Produkte und Erlebnisse übersetzen.",
+        "exploreVenture": "Unternehmen entdecken",
+        "founder": "Gründer",
+        "founded": "Gegründet",
+        "status": "Status",
+        "products": "Produkte und Richtungen",
+        "highlights": "Höhepunkte",
+        "milestones": "Entwicklung und Meilensteine",
+        "visitWebsite": "Offizielle Website besuchen",
+        "backToEntrepreneurship": "Zurück zu Unternehmertum",
+        "notFoundTitle": "Unternehmen nicht gefunden",
+        "notFoundDescription": "Das angeforderte Unternehmen ist in diesem Portfolio nicht vorhanden."
     },
     "hobbyProjects": {
         "title": "Hobbyprojekte",

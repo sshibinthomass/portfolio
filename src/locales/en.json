@@ -4,6 +4,7 @@
         "skills": "Skills",
         "resume": "Resume",
         "projects": "Projects",
+        "entrepreneurship": "Entrepreneurship",
         "hobbyProjects": "Hobby Projects",
         "achievements": "Achievements",
         "research": "Research",
@@ -50,6 +51,21 @@
         "date": "Date",
         "github": "GitHub",
         "appLink": "Live App"
+    },
+    "entrepreneurship": {
+        "title": "Entrepreneurship",
+        "description": "Ventures I founded to turn specialist knowledge and emerging technology into useful products and experiences.",
+        "exploreVenture": "Explore venture",
+        "founder": "Founder",
+        "founded": "Founded",
+        "status": "Status",
+        "products": "Products and directions",
+        "highlights": "Highlights",
+        "milestones": "Journey and milestones",
+        "visitWebsite": "Visit official website",
+        "backToEntrepreneurship": "Back to Entrepreneurship",
+        "notFoundTitle": "Venture not found",
+        "notFoundDescription": "The requested venture does not exist in this portfolio."
     },
     "hobbyProjects": {
         "title": "Hobby Projects",

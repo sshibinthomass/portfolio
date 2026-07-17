@@ -6,6 +6,8 @@ import Layout from './components/Layout/Layout';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
 import ProjectDetail from './pages/ProjectDetail';
+import Entrepreneurship from './pages/Entrepreneurship';
+import VentureDetail from './pages/VentureDetail';
 import HobbyProjects from './pages/HobbyProjects';
 import HobbyProjectDetail from './pages/HobbyProjectDetail';
 import Achievements from './pages/Achievements';
@@ -99,6 +101,22 @@ function App() {
             <LanguageWrapper>
               <Layout>
                 <ProjectDetail />
+              </Layout>
+            </LanguageWrapper>
+          } />
+
+          <Route path="/:lang/entrepreneurship" element={
+            <LanguageWrapper>
+              <Layout>
+                <Entrepreneurship />
+              </Layout>
+            </LanguageWrapper>
+          } />
+
+          <Route path="/:lang/entrepreneurship/:slug" element={
+            <LanguageWrapper>
+              <Layout>
+                <VentureDetail />
               </Layout>
             </LanguageWrapper>
           } />

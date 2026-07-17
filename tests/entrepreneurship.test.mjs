@@ -77,3 +77,38 @@ test('venture hero media is local and non-empty', async () => {
     assert.ok(image.size > 1_000, `${venture.heroImage} is unexpectedly small`);
   }
 });
+
+test('Entrepreneurship is registered after Projects in navigation', async () => {
+  const header = await read('../src/components/Layout/Header.jsx');
+  assert.match(
+    header,
+    /key: 'projects'[\s\S]*key: 'entrepreneurship'[\s\S]*key: 'hobbyProjects'/,
+  );
+});
+
+test('overview and stable venture slug routes are registered', async () => {
+  const app = await read('../src/App.jsx');
+  assert.match(app, /path="\/:lang\/entrepreneurship"/);
+  assert.match(app, /path="\/:lang\/entrepreneurship\/:slug"/);
+  assert.match(app, /import Entrepreneurship from '\.\/pages\/Entrepreneurship'/);
+  assert.match(app, /import VentureDetail from '\.\/pages\/VentureDetail'/);
+});
+
+test('Entrepreneurship interface copy is bilingual', async () => {
+  const [en, de] = await Promise.all([
+    read('../src/locales/en.json').then(JSON.parse),
+    read('../src/locales/de.json').then(JSON.parse),
+  ]);
+
+  assert.equal(en.nav.entrepreneurship, 'Entrepreneurship');
+  assert.equal(de.nav.entrepreneurship, 'Unternehmertum');
+  assert.equal(en.entrepreneurship.exploreVenture, 'Explore venture');
+  assert.equal(de.entrepreneurship.exploreVenture, 'Unternehmen entdecken');
+  assert.equal(
+    de.entrepreneurship.description,
+    'Von mir gegründete Unternehmen, die Fachwissen und neue Technologien in nützliche Produkte und Erlebnisse übersetzen.',
+  );
+  assert.equal(de.entrepreneurship.founder, 'Gründer');
+  assert.ok(en.entrepreneurship.notFoundTitle);
+  assert.ok(de.entrepreneurship.notFoundTitle);
+});
