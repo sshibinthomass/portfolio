@@ -8,6 +8,25 @@ const ventures = JSON.parse(await read('../src/data/ventures.json'));
 const bySlug = (language, slug) =>
   ventures[language].find((venture) => venture.slug === slug);
 
+const relativeLuminance = (hex) => {
+  const channels = hex.match(/[0-9a-f]{2}/gi).map((channel) => {
+    const value = Number.parseInt(channel, 16) / 255;
+    return value <= 0.03928
+      ? value / 12.92
+      : ((value + 0.055) / 1.055) ** 2.4;
+  });
+
+  return (0.2126 * channels[0]) + (0.7152 * channels[1]) + (0.0722 * channels[2]);
+};
+
+const contrastRatio = (foreground, background) => {
+  const foregroundLuminance = relativeLuminance(foreground);
+  const backgroundLuminance = relativeLuminance(background);
+
+  return (Math.max(foregroundLuminance, backgroundLuminance) + 0.05)
+    / (Math.min(foregroundLuminance, backgroundLuminance) + 0.05);
+};
+
 test('venture data has matching bilingual records and confirmed founder facts', () => {
   assert.deepEqual(
     ventures.en.map(({ slug }) => slug),
@@ -122,13 +141,52 @@ test('overview loads localized venture data and renders shared cards', async () 
 });
 
 test('venture pages rely on the shared layout main landmark', async () => {
-  const [overview, detail] = await Promise.all([
+  const [layout, overview, detail] = await Promise.all([
+    read('../src/components/Layout/Layout.jsx'),
     read('../src/pages/Entrepreneurship.jsx'),
     read('../src/pages/VentureDetail.jsx'),
   ]);
 
+  assert.match(layout, /<main\b[\s\S]*<\/main>/);
   assert.doesNotMatch(overview, /<\/?main\b/);
   assert.doesNotMatch(detail, /<\/?main\b/);
+});
+
+test('venture accent tokens retain at least 4.5 to 1 text contrast', async () => {
+  const [overviewCss, cardCss, detailCss] = await Promise.all([
+    read('../src/pages/Entrepreneurship.css'),
+    read('../src/components/VentureCard/VentureCard.css'),
+    read('../src/pages/VentureDetail.css'),
+  ]);
+
+  assert.match(overviewCss, /--entrepreneurship-kicker: #0e7490/);
+  assert.match(cardCss, /--venture-accent-text: #4ade80/);
+  assert.match(detailCss, /--venture-on-accent: #111827/);
+  assert.match(detailCss, /color: var\(--venture-on-accent\)/);
+
+  for (const [name, foreground, background] of [
+    ['light overview kicker', '#0e7490', '#fcfdfe'],
+    ['dark Arvenilo CTA', '#111827', '#818cf8'],
+    ['dark botanical accent text', '#4ade80', '#070c1a'],
+  ]) {
+    assert.ok(
+      contrastRatio(foreground, background) >= 4.5,
+      `${name} does not meet 4.5:1 contrast`,
+    );
+  }
+});
+
+test('closed mobile navigation is removed from sequential focus', async () => {
+  const headerCss = await read('../src/components/Layout/Header.css');
+
+  assert.match(
+    headerCss,
+    /@media \(max-width: 968px\)[\s\S]*?\.nav \{[\s\S]*?visibility: hidden;[\s\S]*?transition:[^;]*visibility 0s linear 0\.3s;/,
+  );
+  assert.match(
+    headerCss,
+    /\.nav-open \{[\s\S]*?visibility: visible;[\s\S]*?transition-delay: 0s;/,
+  );
 });
 
 test('venture cards link internally and expose founder metadata', async () => {

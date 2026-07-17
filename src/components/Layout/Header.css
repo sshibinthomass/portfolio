@@ -186,7 +186,8 @@
         transform: translateY(-100%);
         opacity: 0;
         pointer-events: none;
-        transition: all 0.3s ease;
+        visibility: hidden;
+        transition: transform 0.3s ease, opacity 0.3s ease, visibility 0s linear 0.3s;
         gap: 0;
     }
 
@@ -194,6 +195,8 @@
         transform: translateY(0);
         opacity: 1;
         pointer-events: all;
+        visibility: visible;
+        transition-delay: 0s;
     }
 
     .nav-link {

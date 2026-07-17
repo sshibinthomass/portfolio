@@ -1,11 +1,23 @@
 .venture-detail--botanical {
   --venture-accent: #15803d;
+  --venture-accent-text: #15803d;
+  --venture-on-accent: #fff;
   --venture-surface: rgba(21, 128, 61, 0.08);
 }
 
 .venture-detail--spatial {
   --venture-accent: var(--accent-primary);
+  --venture-accent-text: var(--accent-primary);
+  --venture-on-accent: #fff;
   --venture-surface: rgba(79, 70, 229, 0.08);
+}
+
+[data-theme='dark'] .venture-detail--botanical {
+  --venture-accent-text: #4ade80;
+}
+
+[data-theme='dark'] .venture-detail--spatial {
+  --venture-on-accent: #111827;
 }
 
 .venture-hero {
@@ -31,7 +43,7 @@
 
 .venture-hero__category,
 .venture-section__label {
-  color: var(--venture-accent);
+  color: var(--venture-accent-text);
   font-family: 'Fira Code', monospace;
   font-weight: 700;
   letter-spacing: 0.06em;
@@ -59,7 +71,7 @@
   background: var(--venture-surface);
   border: 1px solid var(--venture-accent);
   border-radius: 999px;
-  color: var(--venture-accent);
+  color: var(--venture-accent-text);
   font-size: 0.8rem;
   font-weight: 700;
   padding: 0.4rem 0.75rem;
@@ -87,7 +99,7 @@
 .venture-cta {
   background: var(--venture-accent);
   border-radius: 10px;
-  color: #fff;
+  color: var(--venture-on-accent);
   display: inline-flex;
   font-weight: 700;
   overflow-wrap: anywhere;
@@ -95,14 +107,14 @@
 }
 
 .venture-cta:hover {
-  color: #fff;
+  color: var(--venture-on-accent);
   filter: brightness(1.08);
 }
 
 .venture-cta:focus-visible,
 .venture-back-link:focus-visible {
   border-radius: 4px;
-  outline: 3px solid var(--venture-accent);
+  outline: 3px solid var(--venture-accent-text);
   outline-offset: 4px;
 }
 
@@ -151,7 +163,7 @@
 
 .venture-responsibilities li::before,
 .venture-highlights li::before {
-  color: var(--venture-accent);
+  color: var(--venture-accent-text);
   content: '◆';
   left: 0;
   position: absolute;
@@ -181,7 +193,7 @@
 }
 
 .venture-timeline span {
-  color: var(--venture-accent);
+  color: var(--venture-accent-text);
   font-family: 'Fira Code', monospace;
   font-weight: 700;
 }

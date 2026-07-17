@@ -1,5 +1,10 @@
 .entrepreneurship {
+  --entrepreneurship-kicker: #0e7490;
   min-height: 70vh;
+}
+
+[data-theme='dark'] .entrepreneurship {
+  --entrepreneurship-kicker: var(--accent-secondary);
 }
 
 .entrepreneurship__header {
@@ -9,7 +14,7 @@
 }
 
 .entrepreneurship__kicker {
-  color: var(--accent-secondary);
+  color: var(--entrepreneurship-kicker);
   font-family: 'Fira Code', monospace;
   letter-spacing: 0.08em;
   text-transform: uppercase;
