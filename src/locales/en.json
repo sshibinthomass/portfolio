@@ -10,6 +10,16 @@
         "research": "Research",
         "hobbies": "Hobbies"
     },
+    "header": {
+        "switchLanguage": "Switch language",
+        "switchToGerman": "Switch to German",
+        "switchToEnglish": "Switch to English",
+        "switchTheme": "Switch theme",
+        "switchToDark": "Switch to dark mode",
+        "switchToLight": "Switch to light mode",
+        "openMenu": "Open navigation menu",
+        "closeMenu": "Close navigation menu"
+    },
     "hobbies": {
         "coinCollection": "Coin Collection",
         "stampCollection": "Stamp Collection",
@@ -53,6 +63,7 @@
         "appLink": "Live App"
     },
     "entrepreneurship": {
+        "kicker": "Founder portfolio",
         "title": "Entrepreneurship",
         "description": "Ventures I founded to turn specialist knowledge and emerging technology into useful products and experiences.",
         "exploreVenture": "Explore venture",

@@ -43,6 +43,16 @@
   width: 100%;
 }
 
+.venture-card--spatial .venture-card__media {
+  background: #f8fafc;
+}
+
+.venture-card--spatial .venture-card__media img {
+  box-sizing: border-box;
+  object-fit: contain;
+  padding: clamp(1.5rem, 6vw, 3.5rem);
+}
+
 .venture-card__status {
   background: var(--card-bg);
   border: 1px solid var(--venture-accent);

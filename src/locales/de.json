@@ -10,6 +10,16 @@
         "research": "Forschung",
         "hobbies": "Hobbys"
     },
+    "header": {
+        "switchLanguage": "Sprache wechseln",
+        "switchToGerman": "Zu Deutsch wechseln",
+        "switchToEnglish": "Zu Englisch wechseln",
+        "switchTheme": "Farbschema wechseln",
+        "switchToDark": "Zum dunklen Modus wechseln",
+        "switchToLight": "Zum hellen Modus wechseln",
+        "openMenu": "Navigationsmenü öffnen",
+        "closeMenu": "Navigationsmenü schließen"
+    },
     "hobbies": {
         "coinCollection": "Münzsammlung",
         "stampCollection": "Briefmarkensammlung",
@@ -53,6 +63,7 @@
         "appLink": "Live-App"
     },
     "entrepreneurship": {
+        "kicker": "Gründerportfolio",
         "title": "Unternehmertum",
         "description": "Von mir gegründete Unternehmen, die Fachwissen und neue Technologien in nützliche Produkte und Erlebnisse übersetzen.",
         "exploreVenture": "Unternehmen entdecken",
@@ -63,7 +74,7 @@
         "highlights": "Höhepunkte",
         "milestones": "Entwicklung und Meilensteine",
         "visitWebsite": "Offizielle Website besuchen",
-        "backToEntrepreneurship": "Zurück zu Unternehmertum",
+        "backToEntrepreneurship": "Zurück zum Unternehmertum",
         "notFoundTitle": "Unternehmen nicht gefunden",
         "notFoundDescription": "Das angeforderte Unternehmen ist in diesem Portfolio nicht vorhanden."
     },

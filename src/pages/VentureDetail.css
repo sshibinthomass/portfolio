@@ -96,6 +96,16 @@
   width: 100%;
 }
 
+.venture-detail--spatial .venture-hero__media {
+  background: #f8fafc;
+}
+
+.venture-detail--spatial .venture-hero__media img {
+  box-sizing: border-box;
+  object-fit: contain;
+  padding: clamp(1.5rem, 5vw, 4rem);
+}
+
 .venture-cta {
   background: var(--venture-accent);
   border-radius: 10px;
@@ -108,7 +118,7 @@
 
 .venture-cta:hover {
   color: var(--venture-on-accent);
-  filter: brightness(1.08);
+  box-shadow: var(--shadow-md);
 }
 
 .venture-cta:focus-visible,

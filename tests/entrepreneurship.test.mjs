@@ -135,7 +135,10 @@ test('Entrepreneurship interface copy is bilingual', async () => {
 test('overview loads localized venture data and renders shared cards', async () => {
   const overview = await read('../src/pages/Entrepreneurship.jsx');
   assert.match(overview, /import venturesData from '\.\.\/data\/ventures\.json'/);
-  assert.match(overview, /venturesData\[currentLang\] \|\| venturesData\.en/);
+  assert.match(
+    overview,
+    /resolveLocalizedVentures\(venturesData, currentLang\)/,
+  );
   assert.match(overview, /<VentureCard/);
   assert.match(overview, /t\('entrepreneurship\.description'\)/);
 });
@@ -200,10 +203,10 @@ test('venture cards link internally and expose founder metadata', async () => {
 
 test('detail renderer resolves the slug with English fallback', async () => {
   const detail = await read('../src/pages/VentureDetail.jsx');
-  assert.match(detail, /const localizedVenture = venturesData\[currentLang\]/);
-  assert.match(detail, /venture\.slug === slug/);
-  assert.match(detail, /const englishVenture = venturesData\.en/);
-  assert.match(detail, /const venture = localizedVenture \|\| englishVenture/);
+  assert.match(
+    detail,
+    /resolveLocalizedVenture\(venturesData, currentLang, slug\)/,
+  );
 });
 
 test('detail renderer covers every approved case-study section', async () => {

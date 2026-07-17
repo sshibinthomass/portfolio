@@ -144,6 +144,12 @@
     transform: scale(1.05);
 }
 
+.icon-button:focus-visible,
+.hamburger:focus-visible {
+    outline: 3px solid var(--accent-primary);
+    outline-offset: 3px;
+}
+
 .language-label {
     font-weight: 600;
     font-size: 0.85rem;

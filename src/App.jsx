@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter, Routes, Route, Navigate, useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
+import { MotionConfig } from 'framer-motion';
 import { ThemeProvider } from './contexts/ThemeContext';
 import Layout from './components/Layout/Layout';
 import Home from './pages/Home';
@@ -24,12 +25,12 @@ import './i18n';
 const LanguageWrapper = ({ children }) => {
   const { lang } = useParams();
   const { i18n } = useTranslation();
+  const validatedLang = lang === 'de' ? 'de' : 'en';
 
   useEffect(() => {
-    if (lang && (lang === 'en' || lang === 'de')) {
-      i18n.changeLanguage(lang);
-    }
-  }, [lang, i18n]);
+    i18n.changeLanguage(validatedLang);
+    document.documentElement.lang = validatedLang;
+  }, [validatedLang, i18n]);
 
   return children;
 };
@@ -38,8 +39,9 @@ import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
-    <ThemeProvider>
-      <BrowserRouter basename="/">
+    <MotionConfig reducedMotion="user">
+      <ThemeProvider>
+        <BrowserRouter basename="/">
         <ScrollToTop />
         <Routes>
           {/* Redirect root to /en */}
@@ -216,8 +218,9 @@ function App() {
           {/* Catch-all redirect to home */}
           <Route path="*" element={<Navigate to="/en" replace />} />
         </Routes>
-      </BrowserRouter>
-    </ThemeProvider>
+        </BrowserRouter>
+      </ThemeProvider>
+    </MotionConfig>
   );
 }
 

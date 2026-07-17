@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { Link, useParams, useNavigate } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import { useTheme } from '../../contexts/ThemeContext';
@@ -10,8 +10,15 @@ const Header = () => {
     const { lang } = useParams();
     const navigate = useNavigate();
     const [isMenuOpen, setIsMenuOpen] = useState(false);
+    const firstMenuLinkRef = useRef(null);
 
-    const currentLang = lang || 'en';
+    const currentLang = lang === 'de' ? 'de' : 'en';
+
+    useEffect(() => {
+        if (isMenuOpen) {
+            firstMenuLinkRef.current?.focus();
+        }
+    }, [isMenuOpen]);
 
     const toggleLanguage = () => {
         const newLang = currentLang === 'en' ? 'de' : 'en';
@@ -47,10 +54,14 @@ const Header = () => {
                         </div>
                     </Link>
 
-                    <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>
-                        {navItems.map((item) => (
+                    <nav
+                        id="primary-navigation"
+                        className={`nav ${isMenuOpen ? 'nav-open' : ''}`}
+                    >
+                        {navItems.map((item, index) => (
                             <Link
                                 key={item.key}
+                                ref={index === 0 ? firstMenuLinkRef : undefined}
                                 to={`/${currentLang}${item.path}`}
                                 className="nav-link"
                                 onClick={() => setIsMenuOpen(false)}
@@ -64,8 +75,10 @@ const Header = () => {
                         <button
                             className="icon-button"
                             onClick={toggleLanguage}
-                            aria-label="Toggle language"
-                            title={currentLang === 'en' ? 'Switch to German' : 'Zu Englisch wechseln'}
+                            aria-label={t('header.switchLanguage')}
+                            title={currentLang === 'en'
+                                ? t('header.switchToGerman')
+                                : t('header.switchToEnglish')}
                         >
                             <span className="language-label">{currentLang.toUpperCase()}</span>
                         </button>
@@ -73,8 +86,10 @@ const Header = () => {
                         <button
                             className="icon-button"
                             onClick={toggleTheme}
-                            aria-label="Toggle theme"
-                            title={theme === 'light' ? 'Switch to dark mode' : 'Switch to light mode'}
+                            aria-label={t('header.switchTheme')}
+                            title={theme === 'light'
+                                ? t('header.switchToDark')
+                                : t('header.switchToLight')}
                         >
                             {theme === 'light' ? (
                                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -98,7 +113,9 @@ const Header = () => {
                         <button
                             className="hamburger"
                             onClick={() => setIsMenuOpen(!isMenuOpen)}
-                            aria-label="Toggle menu"
+                            aria-label={t(isMenuOpen ? 'header.closeMenu' : 'header.openMenu')}
+                            aria-expanded={isMenuOpen}
+                            aria-controls="primary-navigation"
                         >
                             <span></span>
                             <span></span>

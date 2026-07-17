@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion as Motion } from 'framer-motion';
+import SafeImage from '../SafeImage/SafeImage';
 import './VentureCard.css';
 
 const VentureCard = ({ venture, lang, exploreLabel, index }) => (
@@ -11,8 +12,10 @@ const VentureCard = ({ venture, lang, exploreLabel, index }) => (
     transition={{ duration: 0.5, delay: index * 0.1 }}
   >
     <div className="venture-card__media">
-      <img src={venture.heroImage} alt={venture.heroAlt} />
-      <span className="venture-card__status">{venture.status}</span>
+      <SafeImage src={venture.heroImage} alt={venture.heroAlt} />
+      {venture.status && (
+        <span className="venture-card__status">{venture.status}</span>
+      )}
     </div>
     <div className="venture-card__body">
       <div className="venture-card__eyebrow">
@@ -22,7 +25,7 @@ const VentureCard = ({ venture, lang, exploreLabel, index }) => (
       </div>
       <h2>{venture.name}</h2>
       <p className="venture-card__category">{venture.category}</p>
-      <p>{venture.description}</p>
+      {venture.description && <p>{venture.description}</p>}
       <Link
         className="venture-card__link"
         to={`/${lang}/entrepreneurship/${venture.slug}`}
