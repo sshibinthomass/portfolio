@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { readFile } from 'node:fs/promises';
+import { readFile, stat } from 'node:fs/promises';
 import test from 'node:test';
 
 const projects = JSON.parse(await readFile(new URL('../src/data/projects.json', import.meta.url), 'utf8'));
@@ -75,4 +75,14 @@ test('the shared detail renderer supports optional research case-study sections'
   assert.match(projectDetailSource, /className="project-external-links"/);
   assert.match(projectDetailSource, /target="_blank"/);
   assert.match(projectDetailSource, /rel="noopener noreferrer"/);
+});
+
+test('every WebXRify carousel image is a non-empty portfolio-owned asset', async () => {
+  const english = getWebXRify('en');
+
+  for (const imagePath of english.images) {
+    const image = await stat(new URL(`../public${imagePath}`, import.meta.url));
+    assert.ok(image.isFile());
+    assert.ok(image.size > 1_000, `${imagePath} is unexpectedly small`);
+  }
 });
