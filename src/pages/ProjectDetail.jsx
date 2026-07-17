@@ -1,33 +1,65 @@
-import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { motion } from 'framer-motion';
+import { motion as Motion } from 'framer-motion';
 import ImageCarousel from '../components/ImageCarousel/ImageCarousel';
 import TechTag from '../components/TechTag/TechTag';
 import projectsData from '../data/projects.json';
+import './ProjectDetail.css';
+
+const copy = {
+    en: {
+        home: 'Home',
+        pipeline: 'Camera to WebXR',
+        pipelineIntro: 'Six recoverable artifact boundaries connect one photograph to a browser-placed 3D object.',
+        evidence: 'Verified component evidence',
+        before: 'Base',
+        after: 'Adapted',
+        links: 'Explore the work',
+        demo: 'Demo Video'
+    },
+    de: {
+        home: 'Startseite',
+        pipeline: 'Von der Kamera zu WebXR',
+        pipelineIntro: 'Sechs wiederaufnehmbare Artefaktgrenzen verbinden ein Foto mit einem im Browser platzierten 3D-Objekt.',
+        evidence: 'Verifizierte Komponentenevidenz',
+        before: 'Basis',
+        after: 'Adaptiert',
+        links: 'Projekt ansehen',
+        demo: 'Demo-Video'
+    }
+};
 
 const ProjectDetail = () => {
     const { lang, id } = useParams();
     const { t, i18n } = useTranslation();
     const currentLang = i18n.language;
+    const languageCopy = copy[currentLang?.startsWith('de') ? 'de' : 'en'];
 
     const projects = projectsData[currentLang] || projectsData.en;
-    const project = projects.find(p => p.id === parseInt(id));
+    const projectId = Number.parseInt(id, 10);
+    const project = projects.find((item) => item.id === projectId);
+    const enProject = projectsData.en.find((item) => item.id === projectId);
 
-    // Fallback to English project for images, link, and technologies
-    const enProject = projectsData.en.find(p => p.id === parseInt(id));
     const projectImages = project?.images || enProject?.images || ['/images/project.png'];
     const projectTechnologies = project?.technologies || enProject?.technologies || [];
-
-    // New metadata fields with fallback
     const projectYoutubeLink = project?.youtubeLink || enProject?.youtubeLink || '';
     const projectPurpose = project?.purpose || enProject?.purpose || '';
     const projectDuration = project?.duration || enProject?.duration || '';
     const projectDate = project?.date || enProject?.date || '';
-    const projectGithub = project?.github || enProject?.github || '';
-    const projectAppLink = project?.appLink || enProject?.appLink || '';
+    const projectSubtitle = project?.subtitle || enProject?.subtitle || '';
+    const projectPipeline = project?.pipeline?.length ? project.pipeline : enProject?.pipeline || [];
+    const projectMetrics = project?.metrics?.length ? project.metrics : enProject?.metrics || [];
+    const projectHighlights = project?.highlights?.length ? project.highlights : enProject?.highlights || [];
+    const legacyGithub = project?.github || enProject?.github || '';
+    const legacyAppLink = project?.appLink || enProject?.appLink || '';
+    const configuredLinks = project?.externalLinks?.length ? project.externalLinks : enProject?.externalLinks || [];
+    const projectExternalLinks = configuredLinks.length
+        ? configuredLinks
+        : [
+            legacyAppLink && { label: t('projects.appLink'), url: legacyAppLink, kind: 'primary' },
+            legacyGithub && { label: t('projects.github'), url: legacyGithub, kind: 'secondary' }
+        ].filter(Boolean);
 
-    // Helper to extract YouTube ID
     const getYoutubeId = (url) => {
         if (!url) return null;
         const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/;
@@ -49,167 +81,163 @@ const ProjectDetail = () => {
     }
 
     return (
-        <div className="section">
+        <div className="section project-detail-page">
             <div className="container">
-                <motion.div
+                <Motion.article
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.6 }}
-                    style={{ maxWidth: '900px', margin: '0 auto' }}
+                    className="project-detail"
                 >
-                    {/* Breadcrumb Navigation */}
-                    <div style={{
-                        display: 'flex',
-                        alignItems: 'center',
-                        gap: '0.5rem',
-                        marginBottom: '2rem',
-                        fontSize: '0.95rem',
-                        flexWrap: 'wrap'
-                    }}>
-                        <Link to={`/${lang}`} style={{
-                            color: 'var(--accent-primary)',
-                            textDecoration: 'none'
-                        }}>
-                            Home
-                        </Link>
-                        <span style={{ color: 'var(--text-tertiary)' }}>→</span>
-                        <Link to={`/${lang}/projects`} style={{
-                            color: 'var(--accent-primary)',
-                            textDecoration: 'none'
-                        }}>
-                            {t('nav.projects')}
-                        </Link>
-                        <span style={{ color: 'var(--text-tertiary)' }}>→</span>
-                        <span style={{ color: 'var(--text-secondary)' }}>{project.title}</span>
-                    </div>
+                    <nav className="project-breadcrumb" aria-label="Breadcrumb">
+                        <Link to={`/${lang}`}>{languageCopy.home}</Link>
+                        <span aria-hidden="true">→</span>
+                        <Link to={`/${lang}/projects`}>{t('nav.projects')}</Link>
+                        <span aria-hidden="true">→</span>
+                        <span>{project.title}</span>
+                    </nav>
 
-                    <ImageCarousel
-                        images={projectImages}
-                        alt={project.title}
-                    />
+                    <ImageCarousel images={projectImages} alt={project.title} />
 
-                    <h1 className="section-title">{project.title}</h1>
+                    <header className="project-heading">
+                        <p className="project-heading-kicker">{projectPurpose}</p>
+                        <h1 className="section-title">{project.title}</h1>
+                        {projectSubtitle && <p className="project-subtitle">{projectSubtitle}</p>}
+                    </header>
 
-                    {/* Project Metadata Section */}
-                    <div style={{
-                        display: 'grid',
-                        gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
-                        gap: '1.5rem',
-                        marginBottom: '2rem',
-                        padding: '1.5rem',
-                        background: 'rgba(255, 255, 255, 0.03)',
-                        borderRadius: '12px',
-                        border: '1px solid rgba(255, 255, 255, 0.05)'
-                    }}>
+                    {projectPipeline.length > 0 && (
+                        <section className="project-pipeline" aria-labelledby="project-pipeline-title">
+                            <div className="project-section-heading">
+                                <p className="project-section-kicker">Artifact journey</p>
+                                <h2 id="project-pipeline-title">{languageCopy.pipeline}</h2>
+                                <p>{languageCopy.pipelineIntro}</p>
+                            </div>
+                            <ol className="project-pipeline-list">
+                                {projectPipeline.map((step) => (
+                                    <li key={step.stage}>
+                                        <span className="project-pipeline-stage">{step.stage}</span>
+                                        <h3>{step.title}</h3>
+                                        <p>{step.description}</p>
+                                    </li>
+                                ))}
+                            </ol>
+                        </section>
+                    )}
+
+                    <dl className="project-meta">
                         {projectPurpose && (
                             <div>
-                                <h4 style={{ color: 'var(--accent-primary)', marginBottom: '0.5rem', fontSize: '0.9rem' }}>{t('projects.purpose')}</h4>
-                                <p style={{ margin: 0, color: 'var(--text-secondary)', fontSize: '0.95rem' }}>{projectPurpose}</p>
+                                <dt>{t('projects.purpose')}</dt>
+                                <dd>{projectPurpose}</dd>
                             </div>
                         )}
                         {projectDuration && (
                             <div>
-                                <h4 style={{ color: 'var(--accent-primary)', marginBottom: '0.5rem', fontSize: '0.9rem' }}>{t('projects.duration')}</h4>
-                                <p style={{ margin: 0, color: 'var(--text-secondary)', fontSize: '0.95rem' }}>{projectDuration}</p>
+                                <dt>{t('projects.duration')}</dt>
+                                <dd>{projectDuration}</dd>
                             </div>
                         )}
                         {projectDate && (
                             <div>
-                                <h4 style={{ color: 'var(--accent-primary)', marginBottom: '0.5rem', fontSize: '0.9rem' }}>{t('projects.date')}</h4>
-                                <p style={{ margin: 0, color: 'var(--text-secondary)', fontSize: '0.95rem' }}>{projectDate}</p>
+                                <dt>{t('projects.date')}</dt>
+                                <dd>{projectDate}</dd>
                             </div>
                         )}
-                    </div>
+                    </dl>
 
-                    <div style={{
-                        fontSize: '1.125rem',
-                        lineHeight: '1.8',
-                        color: 'var(--text-secondary)',
-                        marginBottom: '2rem'
-                    }}
+                    <div
+                        className="project-narrative"
                         dangerouslySetInnerHTML={{ __html: project.detailedDescription }}
                     />
 
-                    <div style={{ marginBottom: '2rem' }}>
-                        <h3 style={{ marginBottom: '1rem', color: 'var(--accent-primary)' }}>
-                            {t('projects.technologies')}
-                        </h3>
-                        <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', justifyContent: 'center', alignItems: 'center' }}>
-                            {projectTechnologies.map((tech, i) => {
+                    {projectMetrics.length > 0 && (
+                        <section className="project-evidence" aria-labelledby="project-evidence-title">
+                            <div className="project-section-heading">
+                                <p className="project-section-kicker">Measured, not inferred</p>
+                                <h2 id="project-evidence-title">{languageCopy.evidence}</h2>
+                            </div>
+                            <div className="project-metrics">
+                                {projectMetrics.map((metric) => (
+                                    <article key={metric.label} className="project-metric">
+                                        <p className="project-metric-label">{metric.label}</p>
+                                        <div className="project-metric-values">
+                                            <span>
+                                                <small>{languageCopy.before}</small>
+                                                {metric.before}
+                                            </span>
+                                            <i aria-hidden="true">→</i>
+                                            <span>
+                                                <small>{languageCopy.after}</small>
+                                                {metric.after}
+                                            </span>
+                                        </div>
+                                        <p className="project-metric-note">{metric.note}</p>
+                                    </article>
+                                ))}
+                            </div>
+                        </section>
+                    )}
+
+                    {projectHighlights.length > 0 && (
+                        <aside className="project-highlights" aria-label="Research notes">
+                            {projectHighlights.map((highlight) => (
+                                <div
+                                    key={highlight.title}
+                                    className={`project-highlight project-highlight--${highlight.tone || 'evidence'}`}
+                                >
+                                    <h3>{highlight.title}</h3>
+                                    <p>{highlight.text}</p>
+                                </div>
+                            ))}
+                        </aside>
+                    )}
+
+                    <section className="project-technologies">
+                        <h2>{t('projects.technologies')}</h2>
+                        <div className="project-technology-list">
+                            {projectTechnologies.map((tech, index) => {
                                 const name = typeof tech === 'string' ? tech : tech.name;
                                 const description = typeof tech === 'object' ? (tech.description || tech.version || '') : '';
-                                return (
-                                    <TechTag key={i} name={name} description={description} />
-                                );
+                                return <TechTag key={`${name}-${index}`} name={name} description={description} />;
                             })}
                         </div>
-                    </div>
+                    </section>
 
-                    <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', marginBottom: '3rem' }}>
-                        {projectAppLink && (
-                            <a
-                                href={projectAppLink}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="btn btn-primary"
-                                style={{ background: 'var(--accent-secondary)' }}
-                            >
-                                {t('projects.appLink')}
-                            </a>
-                        )}
+                    {projectExternalLinks.length > 0 && (
+                        <section className="project-link-section">
+                            <h2>{languageCopy.links}</h2>
+                            <div className="project-external-links">
+                                {projectExternalLinks.map((link) => (
+                                    <a
+                                        key={`${link.label}-${link.url}`}
+                                        href={link.url}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className={`project-external-link project-external-link--${link.kind || 'secondary'}`}
+                                    >
+                                        <span>{link.label}</span>
+                                        <span aria-hidden="true">↗</span>
+                                    </a>
+                                ))}
+                            </div>
+                        </section>
+                    )}
 
-                        {projectGithub && (
-                            <a
-                                href={projectGithub}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="btn btn-outline"
-                                style={{
-                                    border: '1px solid var(--accent-primary)',
-                                    color: 'var(--accent-primary)',
-                                    padding: '0.8rem 2rem',
-                                    borderRadius: '50px',
-                                    textDecoration: 'none',
-                                    fontWeight: '500',
-                                    transition: 'all 0.3s ease'
-                                }}
-                            >
-                                {t('projects.github')}
-                            </a>
-                        )}
-                    </div>
-
-                    {/* YouTube Video Embed */}
                     {projectYoutubeLink && getYoutubeId(projectYoutubeLink) && (
-                        <div style={{ marginTop: '2rem', marginBottom: '2rem' }}>
-                            <h3 style={{ marginBottom: '1rem', color: 'var(--accent-primary)' }}>Demo Video</h3>
-                            <div style={{
-                                position: 'relative',
-                                paddingBottom: '56.25%', /* 16:9 Aspect Ratio */
-                                height: 0,
-                                overflow: 'hidden',
-                                borderRadius: '12px',
-                                border: '1px solid rgba(255, 255, 255, 0.1)',
-                                boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)'
-                            }}>
+                        <section className="project-video">
+                            <h2>{languageCopy.demo}</h2>
+                            <div className="project-video-frame">
                                 <iframe
                                     src={`https://www.youtube.com/embed/${getYoutubeId(projectYoutubeLink)}`}
-                                    title="YouTube video player"
+                                    title={languageCopy.demo}
                                     frameBorder="0"
                                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                     allowFullScreen
-                                    style={{
-                                        position: 'absolute',
-                                        top: 0,
-                                        left: 0,
-                                        width: '100%',
-                                        height: '100%'
-                                    }}
-                                ></iframe>
+                                />
                             </div>
-                        </div>
+                        </section>
                     )}
-                </motion.div>
+                </Motion.article>
             </div>
         </div>
     );

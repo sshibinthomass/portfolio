@@ -4,6 +4,7 @@ import test from 'node:test';
 
 const projects = JSON.parse(await readFile(new URL('../src/data/projects.json', import.meta.url), 'utf8'));
 const appSource = await readFile(new URL('../src/App.jsx', import.meta.url), 'utf8');
+const projectDetailSource = await readFile(new URL('../src/pages/ProjectDetail.jsx', import.meta.url), 'utf8');
 
 const getWebXRify = (language) => projects[language].find((project) => project.id === 4);
 
@@ -64,4 +65,14 @@ test('WebXRify exposes both public source repositories and stable short routes',
   );
   assert.match(appSource, /path="\/webxrify"[^\n]+\/en\/projects\/4/);
   assert.match(appSource, /path="\/de\/webxrify"[^\n]+\/de\/projects\/4/);
+});
+
+test('the shared detail renderer supports optional research case-study sections', () => {
+  assert.match(projectDetailSource, /className="project-subtitle"/);
+  assert.match(projectDetailSource, /className="project-pipeline"/);
+  assert.match(projectDetailSource, /className="project-metrics"/);
+  assert.match(projectDetailSource, /className={`project-highlight/);
+  assert.match(projectDetailSource, /className="project-external-links"/);
+  assert.match(projectDetailSource, /target="_blank"/);
+  assert.match(projectDetailSource, /rel="noopener noreferrer"/);
 });
