@@ -153,14 +153,30 @@ test('Arvenilo media is contained on a light surface while Rosary retains cover 
   assert.match(detailCss, /\.venture-hero__media img[\s\S]*object-fit: cover/);
 });
 
-test('Rosary reach stays within verified regions and botanical CTA hover does not alter brightness', async () => {
+test('Rosary bilingual reach stays within verified regions and botanical CTA hover does not alter brightness', async () => {
   const [ventures, detailCss] = await Promise.all([
     read('../src/data/ventures.json').then(JSON.parse),
     read('../src/pages/VentureDetail.css'),
   ]);
-  const rosary = ventures.en.find(({ slug }) => slug === 'rosary-plant-house');
+  const englishRosary = ventures.en.find(
+    ({ slug }) => slug === 'rosary-plant-house',
+  );
+  const germanRosary = ventures.de.find(
+    ({ slug }) => slug === 'rosary-plant-house',
+  );
 
-  assert.doesNotMatch(rosary.description, /customers across India/i);
-  assert.match(rosary.description, /South India and major (?:cities in )?North India/i);
+  assert.doesNotMatch(englishRosary.description, /customers across India/i);
+  assert.match(
+    englishRosary.description,
+    /South India and major (?:cities in )?North India/i,
+  );
+  assert.doesNotMatch(
+    germanRosary.description,
+    /f\u00fcr Kundinnen und Kunden in Indien/i,
+  );
+  assert.match(
+    germanRosary.description,
+    /S\u00fcdindien und wichtigen St\u00e4dten Nordindiens/i,
+  );
   assert.doesNotMatch(detailCss, /\.venture-cta:hover\s*\{[^}]*filter:\s*brightness/s);
 });
