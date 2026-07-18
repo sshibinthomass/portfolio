@@ -63,6 +63,7 @@ function App() {
           <Route path="/ecadstar" element={<Navigate to="/en/projects/1" replace />} />
           <Route path="/medimind" element={<Navigate to="/en/hobby-projects/13" replace />} />
           <Route path="/webxrify" element={<Navigate to="/en/projects/4" replace />} />
+          <Route path="/yogavison" element={<Navigate to="/en/projects/3" replace />} />
 
           {/* Short URL redirects - German */}
           <Route path="/de/bmwhack" element={<Navigate to="/de/achievements/8" replace />} />
