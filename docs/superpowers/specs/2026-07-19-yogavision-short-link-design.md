@@ -2,7 +2,7 @@
 
 ## Goal
 
-Visiting `/yogavison` redirects to the English YogaVision project page at `/en/projects/3`.
+Visiting `/yogavision` redirects to the English YogaVision project page at `/en/projects/3`.
 
 ## Approach
 
@@ -12,11 +12,12 @@ This remains a client-side redirect because the portfolio is a Vite single-page 
 
 ## Scope
 
-- Add only the `/yogavison` English short URL requested.
-- Preserve the spelling `yogavison` exactly as supplied.
+- Add only the `/yogavision` English short URL requested.
+- Use the correct project spelling `yogavision`.
+- Do not retain the misspelled `/yogavison` alias.
 - Do not add an unrequested German alias or change other routes.
 - Replace the history entry so the browser Back button does not return to the alias.
 
 ## Verification
 
-Add a focused Node test that reads `src/App.jsx` and asserts that `/yogavison` maps exactly to `/en/projects/3` with replacement navigation. Run the test first to confirm it fails before changing the route, then run the complete test, lint, and production build checks.
+Add a focused Node test that reads `src/App.jsx`, asserts that `/yogavision` maps exactly to `/en/projects/3` with replacement navigation, and rejects the misspelled `/yogavison` alias. Run the test first to confirm it fails before changing the route, then run the complete test, lint, and production build checks.
