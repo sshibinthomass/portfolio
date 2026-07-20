@@ -4,6 +4,7 @@ import { motion as Motion } from 'framer-motion';
 import ImageCarousel from '../components/ImageCarousel/ImageCarousel';
 import TechTag from '../components/TechTag/TechTag';
 import projectsData from '../data/projects.json';
+import { getYoutubeId } from '../utils/media';
 import './ProjectDetail.css';
 
 const copy = {
@@ -59,13 +60,6 @@ const ProjectDetail = () => {
             legacyAppLink && { label: t('projects.appLink'), url: legacyAppLink, kind: 'primary' },
             legacyGithub && { label: t('projects.github'), url: legacyGithub, kind: 'secondary' }
         ].filter(Boolean);
-
-    const getYoutubeId = (url) => {
-        if (!url) return null;
-        const regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|&v=)([^#&?]*).*/;
-        const match = url.match(regExp);
-        return (match && match[2].length === 11) ? match[2] : null;
-    };
 
     if (!project) {
         return (

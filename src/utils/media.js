@@ -5,3 +5,13 @@ export const resolveImageSource = (source) => (
     ? source
     : FALLBACK_IMAGE
 );
+
+export const getYoutubeId = (url) => {
+  if (!url) return null;
+
+  const match = String(url).match(
+    /^.*(?:youtu\.be\/|v\/|u\/\w\/|embed\/|shorts\/|watch\?v=|&v=)([^#&?]*).*/,
+  );
+
+  return match?.[1]?.length === 11 ? match[1] : null;
+};

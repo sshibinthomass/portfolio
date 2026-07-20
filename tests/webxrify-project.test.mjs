@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import { readFile, stat } from 'node:fs/promises';
 import test from 'node:test';
+import { getYoutubeId } from '../src/utils/media.js';
 
 const projects = JSON.parse(await readFile(new URL('../src/data/projects.json', import.meta.url), 'utf8'));
 const appSource = await readFile(new URL('../src/App.jsx', import.meta.url), 'utf8');
@@ -56,6 +57,8 @@ test('WebXRify documents the full camera-to-WebXR evidence path', () => {
 test('WebXRify exposes both public source repositories and stable short routes', () => {
   const english = getWebXRify('en');
 
+  assert.equal(english.youtubeLink, 'https://youtube.com/shorts/GReSt-9uSL0?feature=share');
+  assert.equal(getWebXRify('de').youtubeLink, english.youtubeLink);
   assert.deepEqual(
     english.externalLinks.map(({ url }) => url),
     [
@@ -65,6 +68,18 @@ test('WebXRify exposes both public source repositories and stable short routes',
   );
   assert.match(appSource, /path="\/webxrify"[^\n]+\/en\/projects\/4/);
   assert.match(appSource, /path="\/de\/webxrify"[^\n]+\/de\/projects\/4/);
+});
+
+test('WebXRify YouTube Short renders through the final inline video section', () => {
+  const youtubeId = getYoutubeId(getWebXRify('en').youtubeLink);
+
+  assert.equal(youtubeId, 'GReSt-9uSL0');
+  assert.match(projectDetailSource, /https:\/\/www\.youtube\.com\/embed\/\$\{getYoutubeId\(projectYoutubeLink\)\}/);
+  assert.ok(
+    projectDetailSource.indexOf('className="project-video"')
+      > projectDetailSource.indexOf('className="project-link-section"'),
+    'the inline demo must remain after the project links',
+  );
 });
 
 test('the shared detail renderer supports optional research case-study sections', () => {
